@@ -11,10 +11,10 @@ Created on Nov 12, 2017
 
 import xml.etree.ElementTree as ET  # Use cElementTree or lxml if too slow
 
-OSM_FILE = "../SW_WestVirginia.osm"  # Replace this with your osm file
-SAMPLE_FILE = "../data_sample.osm"
+OSM_FILE = "../SW_WestVirginia.osm"
+SAMPLE_FILE = "../SW_WestVirginia_unicode.osm"
 
-k = 1000 # Parameter: take every k-th top level element
+k = 1 # Parameter: take every k-th top level element
 
 def get_element(osm_file, tags=('node', 'way', 'relation')):
     """Yield element if it is the right type of tag
