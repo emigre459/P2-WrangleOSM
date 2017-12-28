@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm>
+  <node changeset="213066" id="75411942" lat="37.683732" lon="-80.292258" timestamp="2007-10-16T16:18:13Z" uid="16669" user="Ted Mielczarek (borders upload)" version="1">
+		<tag k="source" v="tiger:boundaries" />
+	</node>
+	<node changeset="2296393" id="154838479" lat="38.731279" lon="-81.029252" timestamp="2009-08-29T01:28:18Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="2832637" id="155003023" lat="38.137742" lon="-80.957522" timestamp="2009-10-13T07:34:00Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="6029788" id="155319340" lat="38.4018689" lon="-81.7870637" timestamp="2010-10-13T15:01:49Z" uid="135163" user="MikeN" version="3" />
+	<node changeset="2978682" id="155461472" lat="37.334217" lon="-81.401113" timestamp="2009-10-29T05:24:56Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="41811229" id="155697562" lat="37.6268814" lon="-80.4678561" timestamp="2016-08-30T19:55:55Z" uid="1240849" user="ediyes" version="3" />
+	<node changeset="45098147" id="155988671" lat="37.719206" lon="-81.163014" timestamp="2017-01-12T08:46:45Z" uid="2209894" user="Spanholz" version="3" />
+	<node changeset="2962564" id="156184122" lat="38.569353" lon="-80.303029" timestamp="2009-10-27T04:20:56Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="3070374" id="166759931" lat="37.928453" lon="-82.53825" timestamp="2009-11-09T02:45:22Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="2659949" id="197410594" lat="38.851142" lon="-82.348264" timestamp="2009-09-28T02:27:15Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="3088233" id="198148696" lat="38.467391" lon="-82.538935" timestamp="2009-11-11T08:59:12Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="2390746" id="207887172" lat="37.214435" lon="-82.162409" timestamp="2009-09-06T14:05:39Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="3320191" id="208314751" lat="37.179782" lon="-81.928323" timestamp="2009-12-07T22:41:55Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="2748210" id="209816070" lat="37.356883" lon="-80.289767" timestamp="2009-10-05T11:55:16Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="3374217" id="213974595" lat="37.327503" lon="-80.711947" timestamp="2009-12-14T19:55:10Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="2375945" id="220749672" lat="37.261441" lon="-81.309903" timestamp="2009-09-05T02:25:13Z" uid="147510" user="woodpeck_fixbot" version="2" />
+	<node changeset="2433377" id="492049800" lat="37.747405" lon="-81.222038" timestamp="2009-09-10T08:49:51Z" uid="120146" user="TIGERcnl" version="1" />
+	<node changeset="6888327" id="689793308" lat="37.2243885" lon="-80.4490135" timestamp="2011-01-06T23:17:52Z" uid="99367" user="mutantmonkey" version="2" />
+	<node changeset="4897577" id="763686362" lat="37.1979219" lon="-82.5896092" timestamp="2010-06-04T02:24:22Z" uid="99367" user="mutantmonkey" version="1" />
+	<node changeset="13706955" id="1991825710" lat="37.7305813" lon="-80.6441304" timestamp="2012-11-01T04:48:22Z" uid="168517" user="Milo" version="1" />
+	<node changeset="21247073" id="2734234708" lat="38.7329441" lon="-81.2815205" timestamp="2014-03-22T16:23:07Z" uid="554234" user="TheHammer" version="1" />
+	<node changeset="27598343" id="3245257571" lat="38.287242" lon="-81.4029462" timestamp="2014-12-20T22:29:47Z" uid="1108251" user="Nate_Wessel" version="1" />
+	<node changeset="30108041" id="3447794710" lat="37.8533569" lon="-80.3830711" timestamp="2015-04-10T02:34:59Z" uid="371121" user="AndrewSnow" version="1" />
+	<node changeset="35870214" id="3886332942" lat="37.3880002" lon="-81.11963" timestamp="2015-12-10T17:34:45Z" uid="3151684" user="Yoshinion" version="1" />
+	<node changeset="41584310" id="4359432939" lat="37.7074571" lon="-82.1364763" timestamp="2016-08-20T22:52:57Z" uid="33757" user="Minh Nguyen" version="1" />
+	<node changeset="46654759" id="4722283368" lat="38.8617958" lon="-80.6562857" timestamp="2017-03-07T15:18:45Z" uid="2209894" user="Spanholz" version="1" />
+	<way changeset="175897" id="15617177" timestamp="2007-12-08T02:09:24Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155715906" />
+		<nd ref="155715908" />
+		<nd ref="155715909" />
+		<nd ref="155715910" />
+		<nd ref="155715911" />
+		<nd ref="155715913" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="50030184" />
+		<tag k="tiger:county" v="Nicholas, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-e0de079b-95e2-44a9-babc-21fee03bafaf" />
+	</way>
+	<way changeset="34861619" id="376840595" timestamp="2015-10-25T15:29:09Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3802216736" />
+		<nd ref="3802216743" />
+		<nd ref="3802216729" />
+		<nd ref="3802216720" />
+		<nd ref="3802216736" />
+		<tag k="building" v="yes" />
+	</way>
+	</osm>

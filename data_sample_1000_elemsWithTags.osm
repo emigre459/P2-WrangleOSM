@@ -1,0 +1,4582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm>
+  <node changeset="213066" id="75411942" lat="37.683732" lon="-80.292258" timestamp="2007-10-16T16:18:13Z" uid="16669" user="Ted Mielczarek (borders upload)" version="1">
+		<tag k="source" v="tiger:boundaries" />
+	</node>
+	<node changeset="213066" id="75418726" lat="38.1204063" lon="-82.6133013" timestamp="2007-10-16T16:24:36Z" uid="16669" user="Ted Mielczarek (borders upload)" version="1">
+		<tag k="source" v="tiger:boundaries" />
+	</node>
+	<node changeset="52069151" id="153939356" lat="37.8892797" lon="-81.1609347" timestamp="2017-09-15T13:23:03Z" uid="364" user="Edward" version="3">
+		<tag k="ele" v="542" />
+		<tag k="gnis:Class" v="Populated Place" />
+		<tag k="gnis:County" v="Fayette" />
+		<tag k="gnis:County_num" v="019" />
+		<tag k="gnis:id" v="1542662" />
+		<tag k="gnis:ST_alpha" v="WV" />
+		<tag k="gnis:ST_num" v="54" />
+		<tag k="import_uuid" v="bb7269ee-502a-5391-8056-e3ce0e66489c" />
+		<tag k="is_in" v="Fayette,West Virginia,W.Va.,WV,USA" />
+		<tag k="name" v="Macdonald" />
+		<tag k="place" v="hamlet" />
+		<tag k="wikidata" v="Q6721808" />
+	</node>
+	<node changeset="196981" id="154113280" lat="38.4181407" lon="-82.3093152" timestamp="2008-12-06T19:20:17Z" uid="3582" user="davidearl" version="2">
+		<tag k="ele" v="193" />
+		<tag k="name" v="East Pea Ridge" />
+		<tag k="is_in" v="Cabell,West Virginia,W.Va.,WV,USA" />
+		<tag k="place" v="hamlet" />
+		<tag k="gnis:id" v="1554354" />
+		<tag k="gnis:Class" v="Populated Place" />
+		<tag k="gnis:County" v="Cabell" />
+		<tag k="gnis:ST_num" v="54" />
+		<tag k="import_uuid" v="bb7269ee-502a-5391-8056-e3ce0e66489c" />
+		<tag k="gnis:ST_alpha" v="WV" />
+		<tag k="gnis:County_num" v="011" />
+	</node>
+	<node changeset="52404743" id="154349019" lat="37.2898274" lon="-82.5998771" timestamp="2017-09-27T07:00:50Z" uid="364" user="Edward" version="3">
+		<tag k="ele" v="293" />
+		<tag k="gnis:Class" v="Populated Place" />
+		<tag k="gnis:County" v="Pike" />
+		<tag k="gnis:County_num" v="195" />
+		<tag k="gnis:id" v="508667" />
+		<tag k="gnis:ST_alpha" v="KY" />
+		<tag k="gnis:ST_num" v="21" />
+		<tag k="import_uuid" v="bb7269ee-502a-5391-8056-e3ce0e66489c" />
+		<tag k="is_in" v="Pike,Kentucky,Ky.,KY,USA" />
+		<tag k="name" v="Myra" />
+		<tag k="place" v="hamlet" />
+		<tag k="wikidata" v="Q6948079" />
+	</node>
+	<node changeset="13793601" id="155164322" lat="38.902363" lon="-81.6324296" timestamp="2012-11-08T06:11:24Z" uid="121241" user="zephyr" version="3">
+		<tag k="power" v="tower" />
+		<tag k="design" v="guyed_v-frame" />
+		<tag k="structure" v="lattice" />
+	</node>
+	<node changeset="11784562" id="155579571" lat="37.3620513" lon="-81.0564977" timestamp="2012-06-03T10:04:02Z" uid="252811" user="rickmastfan67" version="3">
+		<tag k="highway" v="traffic_signals" />
+	</node>
+	<node changeset="27489204" id="162140322" lat="38.478097" lon="-82.638428" timestamp="2014-12-15T19:12:36Z" uid="305985" user="ingalls" version="3">
+		<tag k="highway" v="traffic_signals" />
+	</node>
+	<node changeset="398436" id="263592548" lat="38.924717" lon="-81.48204" timestamp="2008-05-11T04:48:22Z" uid="4732" user="iandees" version="1">
+		<tag k="source" v="county_import_v0.1" />
+		<tag k="attribution" v="USGS 2001 County Boundary" />
+	</node>
+	<node changeset="403728" id="263666031" lat="37.400108" lon="-82.612167" timestamp="2008-05-11T07:26:28Z" uid="4732" user="iandees" version="1">
+		<tag k="source" v="county_import_v0.1" />
+		<tag k="attribution" v="USGS 2001 County Boundary" />
+	</node>
+	<node changeset="747176" id="356516595" lat="38.8117545" lon="-81.2581735" timestamp="2009-03-07T01:27:31Z" uid="4732" user="iandees" version="1">
+		<tag k="ele" v="324" />
+		<tag k="name" v="Egypt School (historical)" />
+		<tag k="amenity" v="school" />
+		<tag k="gnis:created" v="06/27/1980" />
+		<tag k="gnis:state_id" v="54" />
+		<tag k="gnis:county_id" v="087" />
+		<tag k="gnis:feature_id" v="1538576" />
+	</node>
+	<node changeset="747176" id="356518715" lat="37.6964968" lon="-81.8687296" timestamp="2009-03-07T01:34:22Z" uid="4732" user="iandees" version="1">
+		<tag k="ele" v="251" />
+		<tag k="name" v="McDonald Cemetery" />
+		<tag k="amenity" v="grave_yard" />
+		<tag k="gnis:created" v="06/27/1980" />
+		<tag k="gnis:state_id" v="54" />
+		<tag k="gnis:county_id" v="045" />
+		<tag k="gnis:feature_id" v="1542986" />
+	</node>
+	<node changeset="39947758" id="356521856" lat="38.1378772" lon="-82.0421113" timestamp="2016-06-11T08:13:07Z" uid="165" user="Richard" version="2">
+		<tag k="ele" v="245" />
+		<tag k="name" v="Spurlockville School (historical)" />
+		<tag k="amenity" v="school" />
+		<tag k="gnis:created" v="06/27/1980" />
+		<tag k="gnis:state_id" v="54" />
+		<tag k="gnis:county_id" v="043" />
+		<tag k="gnis:feature_id" v="1547289" />
+	</node>
+	<node changeset="52074629" id="356524976" lat="38.6034278" lon="-81.309563" timestamp="2017-09-15T16:57:03Z" uid="364" user="Edward" version="2">
+		<tag k="ele" v="393" />
+		<tag k="gnis:county_id" v="087" />
+		<tag k="gnis:created" v="06/27/1980" />
+		<tag k="gnis:feature_id" v="1554791" />
+		<tag k="gnis:state_id" v="54" />
+		<tag k="name" v="Jackson Rocks" />
+		<tag k="natural" v="peak" />
+		<tag k="wikidata" v="Q31717436" />
+	</node>
+	<node changeset="747176" id="356528646" lat="37.3934521" lon="-81.0498117" timestamp="2009-03-07T01:58:56Z" uid="4732" user="iandees" version="1">
+		<tag k="ele" v="773" />
+		<tag k="name" v="Daves Fork-Christians Fork Structure One Dam" />
+		<tag k="waterway" v="dam" />
+		<tag k="gnis:created" v="09/01/1992" />
+		<tag k="gnis:state_id" v="54" />
+		<tag k="gnis:county_id" v="055" />
+		<tag k="gnis:feature_id" v="1559064" />
+	</node>
+	<node changeset="747176" id="356536316" lat="37.7676013" lon="-82.1901356" timestamp="2009-03-07T02:16:40Z" uid="4732" user="iandees" version="1">
+		<tag k="ele" v="220" />
+		<tag k="name" v="Myrtle Elementary School (historical)" />
+		<tag k="amenity" v="school" />
+		<tag k="gnis:created" v="03/11/1997" />
+		<tag k="gnis:state_id" v="54" />
+		<tag k="gnis:county_id" v="059" />
+		<tag k="gnis:feature_id" v="1728819" />
+	</node>
+	<node changeset="747176" id="356538260" lat="37.6823386" lon="-81.1242633" timestamp="2009-03-07T02:22:11Z" uid="4732" user="iandees" version="1">
+		<tag k="ele" v="784" />
+		<tag k="name" v="Phillips School (historical)" />
+		<tag k="amenity" v="school" />
+		<tag k="gnis:created" v="05/20/1997" />
+		<tag k="gnis:state_id" v="54" />
+		<tag k="gnis:county_id" v="081" />
+		<tag k="gnis:feature_id" v="1742897" />
+	</node>
+	<node changeset="756644" id="357386712" lat="38.9522966" lon="-82.6312754" timestamp="2009-03-08T18:02:46Z" uid="4732" user="iandees" version="1">
+		<tag k="ele" v="250" />
+		<tag k="name" v="Antioch Cemetery" />
+		<tag k="amenity" v="grave_yard" />
+		<tag k="gnis:created" v="07/12/1979" />
+		<tag k="gnis:state_id" v="39" />
+		<tag k="gnis:county_id" v="079" />
+		<tag k="gnis:feature_id" v="1037440" />
+	</node>
+	<node changeset="3796373" id="358590486" lat="37.3856595" lon="-82.4901518" timestamp="2010-02-05T10:44:16Z" uid="51045" user="Geogast" version="2">
+		<tag k="ele" v="357" />
+		<tag k="name" v="Greasy Creek Church" />
+		<tag k="amenity" v="place_of_worship" />
+		<tag k="religion" v="christian" />
+		<tag k="gnis:created" v="09/20/1979" />
+		<tag k="gnis:state_id" v="21" />
+		<tag k="gnis:county_id" v="195" />
+		<tag k="gnis:feature_id" v="493241" />
+	</node>
+	<node changeset="872400" id="367985728" lat="37.3447222" lon="-82.4861111" timestamp="2009-03-31T20:42:30Z" uid="28145" user="amillar" version="1">
+		<tag k="ele" v="457" />
+		<tag k="name" v="Haysi Volunteer Rescue Squad" />
+		<tag k="source" v="USGS Geonames" />
+		<tag k="amenity" v="fire_station" />
+		<tag k="addr:state" v="VA" />
+		<tag k="gnis:reviewed" v="no" />
+		<tag k="gnis:feature_id" v="2086312" />
+		<tag k="gnis:county_name" v="Dickenson" />
+		<tag k="gnis:import_uuid" v="57871b70-0100-4405-bb30-88b2e001a944" />
+	</node>
+	<node changeset="4665552" id="726762675" lat="37.2260052" lon="-80.4227812" timestamp="2010-05-11T05:10:46Z" uid="99367" user="mutantmonkey" version="2">
+		<tag k="highway" v="crossing" />
+		<tag k="crossing" v="uncontrolled" />
+	</node>
+	<node changeset="51674865" id="936999541" lat="37.2394321" lon="-80.4165515" timestamp="2017-09-02T17:08:07Z" uid="360392" user="maxerickson" version="2">
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="139" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Lucas Drive" />
+	</node>
+	<node changeset="51730976" id="937016454" lat="37.2471536" lon="-80.4118807" timestamp="2017-09-04T20:38:15Z" uid="360392" user="maxerickson" version="2">
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="183" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Clover Valley Circle" />
+	</node>
+	<node changeset="51698672" id="937028335" lat="37.2453274" lon="-80.4230862" timestamp="2017-09-03T17:50:21Z" uid="360392" user="maxerickson" version="3">
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:flats" v="4600H" />
+		<tag k="addr:housenumber" v="304" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Hunt Club Road" />
+	</node>
+	<node changeset="51548057" id="937034790" lat="37.2158763" lon="-80.4494468" timestamp="2017-08-29T15:49:24Z" uid="360392" user="maxerickson" version="2">
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="4400" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Richmond Lane" />
+		<tag k="addr:unit" v="L" />
+	</node>
+	<node changeset="51548057" id="937047337" lat="37.2124262" lon="-80.4449951" timestamp="2017-08-29T15:49:41Z" uid="360392" user="maxerickson" version="2">
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="14105" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Stroubles Creek Road" />
+	</node>
+	<node changeset="51448861" id="937067811" lat="37.2131135" lon="-80.3946017" timestamp="2017-08-26T03:20:43Z" uid="360392" user="maxerickson" version="2">
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="403" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Marlington Street" />
+		<tag k="addr:unit" v="B" />
+	</node>
+	<node changeset="51674865" id="937091296" lat="37.2389531" lon="-80.4175" timestamp="2017-09-02T17:08:56Z" uid="360392" user="maxerickson" version="2">
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:flats" v="H" />
+		<tag k="addr:housenumber" v="117" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Hearthstone Drive" />
+	</node>
+	<node changeset="51382930" id="937107099" lat="37.2013118" lon="-80.4032326" timestamp="2017-08-23T17:43:53Z" uid="360392" user="maxerickson" version="2">
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="301" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="North Knollwood Drive" />
+		<tag k="addr:unit" v="7302" />
+	</node>
+	<node changeset="51632170" id="937128116" lat="37.2001992" lon="-80.3995404" timestamp="2017-09-01T03:51:21Z" uid="360392" user="maxerickson" version="2">
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="2401" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="South Main Street" />
+		<tag k="addr:unit" v="J" />
+		<tag k="name" v="Akke'S Yoga Place" />
+	</node>
+	<node changeset="51729696" id="937140073" lat="37.2523442" lon="-80.4124718" timestamp="2017-09-04T19:47:28Z" uid="360392" user="maxerickson" version="2">
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="1606" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Whipple Drive" />
+	</node>
+	<node changeset="51698672" id="937146136" lat="37.2420256" lon="-80.4263555" timestamp="2017-09-03T17:51:37Z" uid="360392" user="maxerickson" version="3">
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:flats" v="34C" />
+		<tag k="addr:housenumber" v="507" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Hunt Club Road" />
+	</node>
+	<node changeset="36544413" id="945036685" lat="38.8214213" lon="-81.7283891" timestamp="2016-01-13T08:16:24Z" uid="1408522" user="Omnific" version="2">
+		<tag k="highway" v="give_way" />
+	</node>
+	<node changeset="9177198" id="1417483948" lat="37.2427395" lon="-80.4306398" timestamp="2011-08-31T15:24:32Z" uid="99367" user="mutantmonkey" version="2">
+		<tag k="bus" v="yes" />
+		<tag k="ref" v="1321" />
+		<tag k="name" v="University City/Falcon Eastbound" />
+		<tag k="highway" v="bus_stop" />
+		<tag k="operator" v="Blacksburg Transit" />
+		<tag k="bburg:dataset" v="bt_gtfs_stops" />
+		<tag k="bburg:bt_stopid" v="2f05cd44-654b-4288-9bd7-97cff0a4fd55" />
+		<tag k="public_transport" v="stop_position" />
+	</node>
+	<node changeset="10726219" id="1638556488" lat="38.3155009" lon="-81.98883" timestamp="2012-02-19T02:45:50Z" uid="160651" user="dcat" version="1">
+		<tag k="power" v="tower" />
+	</node>
+	<node changeset="11629770" id="1756615917" lat="38.2560343" lon="-81.5680539" timestamp="2012-05-18T06:12:11Z" uid="207745" user="NE2" version="3">
+		<tag k="ref" v="02" />
+		<tag k="name" v="Marmet Lock and Dam" />
+		<tag k="website" v="http://www.lrh.usace.army.mil/projects/locks/mar/" />
+		<tag k="waterway" v="lock_gate" />
+	</node>
+	<node changeset="16815514" id="2372855255" lat="38.3955675" lon="-82.4121008" timestamp="2013-07-04T02:59:49Z" uid="1610027" user="DocScotty77" version="1">
+		<tag k="name" v="Fast Lanes" />
+		<tag k="amenity" v="fuel" />
+	</node>
+	<node changeset="24943348" id="3035767351" lat="37.3333076" lon="-81.481033" timestamp="2014-08-22T21:27:37Z" uid="360392" user="maxerickson" version="1">
+		<tag k="amenity" v="parking" />
+	</node>
+	<node changeset="29757002" id="3419883608" lat="38.3500059" lon="-81.6328736" timestamp="2015-03-26T15:57:12Z" uid="1408522" user="Omnific" version="1">
+		<tag k="atm" v="yes" />
+		<tag k="name" v="Huntington Bank" />
+		<tag k="amenity" v="bank" />
+	</node>
+	<node changeset="35161243" id="3823681967" lat="38.3592816" lon="-81.7169112" timestamp="2015-11-08T01:13:30Z" uid="1408522" user="Omnific" version="1">
+		<tag k="highway" v="traffic_signals" />
+	</node>
+	<node changeset="39086186" id="4164288308" lat="37.2235187" lon="-80.4220862" timestamp="2016-05-04T03:43:02Z" uid="451067" user="Evanator" version="1">
+		<tag k="amenity" v="bicycle_parking" />
+		<tag k="natural" v="tree" />
+		<tag k="operator" v="Virginia Tech" />
+	</node>
+	<node changeset="41995844" id="4391411386" lat="37.9480694" lon="-81.7062297" timestamp="2016-09-08T07:16:02Z" uid="33757" user="Minh Nguyen" version="1">
+		<tag k="power" v="tower" />
+	</node>
+	<node changeset="46900340" id="4738179361" lat="38.9876895" lon="-80.6030926" timestamp="2017-03-16T14:56:07Z" uid="28378" user="PHerison" version="1">
+		<tag k="power" v="tower" />
+		<tag k="source" v="bing" />
+	</node>
+	<way changeset="156357" id="15504388" timestamp="2007-12-07T11:30:55Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="154585036" />
+		<nd ref="154585037" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="78553817" />
+		<tag k="tiger:county" v="Boone, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-4a4be087-b7de-467f-a67d-2e4d33934958" />
+	</way>
+	<way changeset="156621" id="15506606" timestamp="2007-12-07T11:55:43Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="154617369" />
+		<nd ref="154617371" />
+		<nd ref="154617372" />
+		<nd ref="154617373" />
+		<nd ref="154617374" />
+		<tag k="name" v="County Highway 14/02" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="78545614:78545615" />
+		<tag k="tiger:county" v="Boone, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="County Highway 14/02" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-4a4be087-b7de-467f-a67d-2e4d33934958" />
+	</way>
+	<way changeset="157193" id="15508849" timestamp="2007-12-07T12:16:36Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="154644627" />
+		<nd ref="154644629" />
+		<nd ref="154644630" />
+		<nd ref="154644631" />
+		<nd ref="154644632" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="48834155" />
+		<tag k="tiger:county" v="Braxton, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-dc954c8c-d2d3-4b86-8e51-5f73b741e029" />
+	</way>
+	<way changeset="14960567" id="15511444" timestamp="2013-02-08T21:20:47Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="154686366" />
+		<nd ref="154686368" />
+		<nd ref="154686370" />
+		<nd ref="154686373" />
+		<nd ref="154686375" />
+		<nd ref="154686377" />
+		<nd ref="154686379" />
+		<nd ref="154686381" />
+		<nd ref="154686383" />
+		<nd ref="154686385" />
+		<nd ref="154686389" />
+		<nd ref="154686392" />
+		<nd ref="154686394" />
+		<nd ref="154686398" />
+		<nd ref="154686400" />
+		<nd ref="154686402" />
+		<nd ref="154686403" />
+		<nd ref="154686405" />
+		<nd ref="154686407" />
+		<nd ref="154686408" />
+		<nd ref="154686410" />
+		<nd ref="154686412" />
+		<nd ref="154686414" />
+		<nd ref="154634516" />
+		<nd ref="154686416" />
+		<nd ref="154658571" />
+		<tag k="name" v="County Route 4/11" />
+		<tag k="name_1" v="Right Fork-Big Knawl Road" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Braxton, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="County Route 4/11" />
+		<tag k="tiger:name_base_1" v="Right Fork-Big Knawl" />
+		<tag k="tiger:name_type_1" v="Rd" />
+	</way>
+	<way changeset="157970" id="15516513" timestamp="2007-12-07T13:54:09Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="154774591" />
+		<nd ref="154774593" />
+		<nd ref="154774594" />
+		<nd ref="154774595" />
+		<nd ref="154774596" />
+		<nd ref="154774598" />
+		<nd ref="154774600" />
+		<nd ref="154774602" />
+		<nd ref="154774604" />
+		<nd ref="154774605" />
+		<nd ref="154774606" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="101330120" />
+		<tag k="tiger:county" v="Cabell, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-ddff1da1-5eea-4772-864b-f421658e8f1d" />
+	</way>
+	<way changeset="47762141" id="15518294" timestamp="2017-04-14T01:50:22Z" uid="104962" user="techlady" version="4">
+		<nd ref="154809465" />
+		<nd ref="154809467" />
+		<nd ref="154809469" />
+		<nd ref="154809472" />
+		<nd ref="154809476" />
+		<nd ref="154809478" />
+		<nd ref="154809481" />
+		<nd ref="154809483" />
+		<nd ref="154809485" />
+		<nd ref="154809487" />
+		<nd ref="154809489" />
+		<nd ref="154809491" />
+		<nd ref="154809493" />
+		<nd ref="154809495" />
+		<nd ref="154809499" />
+		<nd ref="154809501" />
+		<nd ref="154809503" />
+		<nd ref="154809505" />
+		<nd ref="154809507" />
+		<nd ref="154809509" />
+		<nd ref="154809511" />
+		<nd ref="154809512" />
+		<nd ref="154809513" />
+		<nd ref="154809514" />
+		<nd ref="154809515" />
+		<nd ref="154809517" />
+		<nd ref="154809518" />
+		<nd ref="154809519" />
+		<nd ref="154809520" />
+		<nd ref="154809521" />
+		<nd ref="154809522" />
+		<nd ref="154809523" />
+		<nd ref="154809524" />
+		<nd ref="154809525" />
+		<nd ref="154809526" />
+		<nd ref="154809527" />
+		<nd ref="154809529" />
+		<nd ref="154809530" />
+		<nd ref="154809533" />
+		<nd ref="154809535" />
+		<nd ref="154809537" />
+		<nd ref="154809539" />
+		<nd ref="154809541" />
+		<nd ref="154809543" />
+		<nd ref="154809545" />
+		<nd ref="154809546" />
+		<nd ref="154809547" />
+		<tag k="name" v="Lower Trace Creek Road" />
+		<tag k="name_1" v="County Road 31/4" />
+		<tag k="highway" v="track" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Cabell, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="25559" />
+		<tag k="tiger:name_base" v="Lower Trace Creek" />
+		<tag k="tiger:name_type" v="Rd" />
+		<tag k="tiger:zip_right" v="25559" />
+		<tag k="tiger:name_base_1" v="County Road 31/4" />
+	</way>
+	<way changeset="158308" id="15519484" timestamp="2007-12-07T14:31:43Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="154827675" />
+		<nd ref="154827677" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="49927956" />
+		<tag k="tiger:county" v="Calhoun, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-733f5144-85dc-415d-bcee-b031c440d114" />
+	</way>
+	<way changeset="14960567" id="15520678" timestamp="2013-02-08T21:36:52Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="154802606" />
+		<nd ref="154848604" />
+		<nd ref="154848609" />
+		<tag k="name" v="4th Street" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Cabell, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="25510" />
+		<tag k="tiger:name_base" v="4th" />
+		<tag k="tiger:name_type" v="St" />
+		<tag k="tiger:zip_right" v="25510" />
+	</way>
+	<way changeset="158632" id="15522225" timestamp="2007-12-07T14:59:20Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="154867462" />
+		<nd ref="154867464" />
+		<nd ref="154867466" />
+		<nd ref="154867468" />
+		<nd ref="154867470" />
+		<nd ref="154867472" />
+		<tag k="highway" v="track" />
+		<tag k="tiger:cfcc" v="A51" />
+		<tag k="tiger:tlid" v="49948951" />
+		<tag k="tiger:county" v="Clay, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-95dfe9c3-5c95-4ec0-9985-9cc7af4c9ac0" />
+	</way>
+	<way changeset="159000" id="15524743" timestamp="2007-12-07T15:20:10Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="154897268" />
+		<nd ref="154897269" />
+		<nd ref="154897270" />
+		<nd ref="154897271" />
+		<nd ref="154897272" />
+		<nd ref="154897273" />
+		<nd ref="154897275" />
+		<nd ref="154897277" />
+		<nd ref="154897280" />
+		<nd ref="154897219" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="75065318" />
+		<tag k="tiger:county" v="Fayette, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-20cb36ea-7b14-4d99-a6e4-3593934d7f74" />
+	</way>
+	<way changeset="159000" id="15526495" timestamp="2007-12-07T15:34:41Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="154892022" />
+		<nd ref="154917242" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="75077383" />
+		<tag k="tiger:county" v="Fayette, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-20cb36ea-7b14-4d99-a6e4-3593934d7f74" />
+	</way>
+	<way changeset="159000" id="15527975" timestamp="2007-12-07T15:46:04Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="154931134" />
+		<nd ref="154931176" />
+		<nd ref="154931178" />
+		<nd ref="154931180" />
+		<nd ref="154931182" />
+		<nd ref="154931184" />
+		<nd ref="154931186" />
+		<nd ref="154931188" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="75070268" />
+		<tag k="tiger:county" v="Fayette, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-20cb36ea-7b14-4d99-a6e4-3593934d7f74" />
+	</way>
+	<way changeset="29076744" id="15530050" timestamp="2015-02-24T19:58:57Z" uid="2377377" user="abel801" version="4">
+		<nd ref="1014772192" />
+		<nd ref="1014772396" />
+		<nd ref="1014771786" />
+		<nd ref="1014771972" />
+		<nd ref="1014771642" />
+		<nd ref="1014771872" />
+		<nd ref="154958323" />
+		<nd ref="154958325" />
+		<nd ref="154958327" />
+		<nd ref="154958329" />
+		<nd ref="154958331" />
+		<nd ref="154958333" />
+		<nd ref="154958335" />
+		<nd ref="154958337" />
+		<nd ref="154958340" />
+		<nd ref="154958342" />
+		<nd ref="1014772298" />
+		<nd ref="1014771958" />
+		<nd ref="1014772045" />
+		<nd ref="1014772167" />
+		<nd ref="1014771259" />
+		<nd ref="154958344" />
+		<nd ref="154958346" />
+		<nd ref="154958348" />
+		<nd ref="154935539" />
+		<nd ref="1014771535" />
+		<nd ref="154958350" />
+		<nd ref="154958352" />
+		<nd ref="154958354" />
+		<nd ref="154958356" />
+		<nd ref="154958358" />
+		<nd ref="154958361" />
+		<nd ref="154958363" />
+		<nd ref="154958365" />
+		<nd ref="154958368" />
+		<nd ref="154958370" />
+		<nd ref="154958371" />
+		<nd ref="154958372" />
+		<nd ref="154958374" />
+		<nd ref="154958375" />
+		<nd ref="154958376" />
+		<nd ref="154958377" />
+		<nd ref="154958380" />
+		<nd ref="154958381" />
+		<nd ref="154958385" />
+		<nd ref="154958392" />
+		<nd ref="154958396" />
+		<nd ref="154958400" />
+		<nd ref="154920835" />
+		<nd ref="154958402" />
+		<nd ref="154958404" />
+		<nd ref="154958406" />
+		<nd ref="154958408" />
+		<nd ref="154958410" />
+		<nd ref="154958412" />
+		<nd ref="154931832" />
+		<nd ref="154902149" />
+		<nd ref="154958414" />
+		<nd ref="154958416" />
+		<nd ref="154958418" />
+		<nd ref="154958420" />
+		<nd ref="154902066" />
+		<nd ref="154958422" />
+		<nd ref="154902082" />
+		<nd ref="154958424" />
+		<nd ref="154958426" />
+		<nd ref="154958429" />
+		<nd ref="154958430" />
+		<nd ref="154958431" />
+		<nd ref="154958432" />
+		<nd ref="154931748" />
+		<nd ref="154958433" />
+		<nd ref="154958435" />
+		<nd ref="154958437" />
+		<nd ref="154928857" />
+		<nd ref="154958439" />
+		<nd ref="154958441" />
+		<nd ref="154958443" />
+		<nd ref="154931734" />
+		<nd ref="154958446" />
+		<nd ref="154958450" />
+		<nd ref="154958451" />
+		<nd ref="154907808" />
+		<nd ref="154958452" />
+		<nd ref="154958453" />
+		<nd ref="154905915" />
+		<nd ref="154958455" />
+		<nd ref="154958457" />
+		<nd ref="154958459" />
+		<nd ref="154958461" />
+		<nd ref="154958463" />
+		<nd ref="154958464" />
+		<nd ref="3370756570" />
+		<nd ref="154958465" />
+		<nd ref="3370756569" />
+		<nd ref="154958467" />
+		<tag k="name" v="County Route 4" />
+		<tag k="name_1" v="Sunday Road" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Fayette, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="County Route 4" />
+		<tag k="tiger:name_base_1" v="Sunday" />
+		<tag k="tiger:name_type_1" v="Rd" />
+	</way>
+	<way changeset="14459624" id="15532685" timestamp="2012-12-30T04:43:26Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="154989829" />
+		<nd ref="154945449" />
+		<tag k="name" v="County Route 41/32" />
+		<tag k="name_1" v="Osborne Road" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Fayette, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="County Route 41/32" />
+		<tag k="tiger:name_base_1" v="Osborne" />
+		<tag k="tiger:name_type_1" v="Rd" />
+	</way>
+	<way changeset="14961012" id="15534073" timestamp="2013-02-08T21:46:29Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="155008888" />
+		<nd ref="155008890" />
+		<nd ref="155008894" />
+		<nd ref="155008895" />
+		<nd ref="155008896" />
+		<nd ref="155008897" />
+		<nd ref="155008898" />
+		<nd ref="154968628" />
+		<nd ref="155008900" />
+		<tag k="name" v="County Route 60/25" />
+		<tag k="name_1" v="Bolen Road" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Fayette, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="County Route 60/25" />
+		<tag k="tiger:name_base_1" v="Bolen" />
+		<tag k="tiger:name_type_1" v="Rd" />
+	</way>
+	<way changeset="159657" id="15537021" timestamp="2007-12-07T16:58:57Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155036769" />
+		<nd ref="155036771" />
+		<nd ref="155036774" />
+		<nd ref="155036776" />
+		<nd ref="155036778" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="74719700" />
+		<tag k="tiger:county" v="Greenbrier, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-ee947cd0-539e-4408-9a8e-7e1138448ab6" />
+	</way>
+	<way changeset="23401297" id="15540627" timestamp="2014-06-30T21:58:09Z" uid="451067" user="Evanator" version="3">
+		<nd ref="2941177376" />
+		<nd ref="2941177378" />
+		<tag k="name" v="County Route 2" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Greenbrier, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="County Route 2" />
+	</way>
+	<way changeset="46779547" id="15543254" timestamp="2017-03-12T08:17:30Z" uid="1408522" user="Omnific" version="2">
+		<nd ref="155092781" />
+		<nd ref="4730219406" />
+		<nd ref="155033643" />
+		<nd ref="155092866" />
+		<nd ref="4730219408" />
+		<nd ref="4730219409" />
+		<nd ref="155092868" />
+		<nd ref="4730219410" />
+		<nd ref="155092872" />
+		<nd ref="4730219414" />
+		<nd ref="4730219416" />
+		<nd ref="155092874" />
+		<nd ref="155084710" />
+		<tag k="name" v="County Route 2/7" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Greenbrier, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="County Route 2/7" />
+	</way>
+	<way changeset="160656" id="15553684" timestamp="2007-12-07T18:51:10Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155188310" />
+		<nd ref="155180201" />
+		<tag k="name" v="County Route 20" />
+		<tag k="name_1" v="Wv 87-Ripley Landing" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="130473777" />
+		<tag k="tiger:county" v="Jackson, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="County Route 20" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:name_base_1" v="Wv 87-Ripley Landing" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-394b5577-cac8-4355-8117-ff0d0479ab8c" />
+	</way>
+	<way changeset="5271861" id="15558626" timestamp="2010-07-20T15:55:46Z" uid="84681" user="SK53" version="2">
+		<nd ref="155229945" />
+		<nd ref="154887255" />
+		<tag k="name" v="County Route 4/1" />
+		<tag k="name_1" v="Porters Creek" />
+		<tag k="highway" v="track" />
+		<tag k="tiger:cfcc" v="A51" />
+		<tag k="tiger:tlid" v="78602926" />
+		<tag k="tiger:county" v="Kanawha, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="County Route 4/1" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:name_base_1" v="Porters Creek" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-d03d713e-792d-4535-937c-7a8069c06fe5" />
+	</way>
+	<way changeset="161691" id="15562380" timestamp="2007-12-07T19:45:16Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155255040" />
+		<nd ref="155255042" />
+		<nd ref="155255044" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="78613428" />
+		<tag k="tiger:county" v="Kanawha, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-d03d713e-792d-4535-937c-7a8069c06fe5" />
+	</way>
+	<way changeset="45056906" id="15565739" timestamp="2017-01-10T17:42:37Z" uid="2209894" user="Spanholz" version="3">
+		<nd ref="155399309" />
+		<nd ref="155316385" />
+		<nd ref="155277379" />
+		<nd ref="155277381" />
+		<nd ref="155277383" />
+		<nd ref="155277385" />
+		<nd ref="155277387" />
+		<nd ref="155277389" />
+		<nd ref="155277391" />
+		<nd ref="155277393" />
+		<nd ref="155277395" />
+		<nd ref="155277397" />
+		<nd ref="155277399" />
+		<nd ref="4600152465" />
+		<nd ref="4600152466" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Kanawha, WV" />
+		<tag k="tiger:reviewed" v="no" />
+	</way><way changeset="162091" id="15567858" timestamp="2007-12-07T20:14:29Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155292007" />
+		<nd ref="155292009" />
+		<nd ref="155292010" />
+		<nd ref="155292012" />
+		<nd ref="155292014" />
+		<nd ref="155292017" />
+		<nd ref="155292019" />
+		<nd ref="155292021" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="49993215" />
+		<tag k="tiger:county" v="Lewis, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-7f894399-8a33-4d32-b935-71e3702fd95f" />
+	</way>
+	<way changeset="20705734" id="15569318" timestamp="2014-02-22T01:30:28Z" uid="436419" user="wvdp" version="5">
+		<nd ref="539818040" />
+		<nd ref="155308079" />
+		<nd ref="155308082" />
+		<nd ref="155308084" />
+		<nd ref="155308086" />
+		<nd ref="155308088" />
+		<nd ref="155308090" />
+		<nd ref="155308091" />
+		<nd ref="155308093" />
+		<nd ref="155308095" />
+		<nd ref="155308096" />
+		<nd ref="539818056" />
+		<nd ref="539818060" />
+		<nd ref="539818064" />
+		<nd ref="539818068" />
+		<nd ref="541992104" />
+		<tag k="name" v="Cannady Drive" />
+		<tag k="highway" v="unclassified" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Kanawha, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Cannady" />
+		<tag k="tiger:name_type" v="Dr" />
+	</way>
+	<way changeset="14464139" id="15570768" timestamp="2012-12-30T14:08:55Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="155324255" />
+		<nd ref="155324257" />
+		<tag k="name" v="Kingswood Lane" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Kanawha, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="25313" />
+		<tag k="tiger:name_base" v="Kingswood" />
+		<tag k="tiger:name_type" v="Ln" />
+		<tag k="tiger:zip_right" v="25313" />
+	</way>
+	<way changeset="14496417" id="15572065" timestamp="2013-01-02T09:08:08Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="155289943" />
+		<nd ref="155333554" />
+		<tag k="name" v="27th Street" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Kanawha, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="25143" />
+		<tag k="tiger:name_base" v="27th" />
+		<tag k="tiger:name_type" v="St" />
+		<tag k="tiger:zip_right" v="25143" />
+	</way>
+	<way changeset="29036995" id="15573356" timestamp="2015-02-23T06:18:09Z" uid="115918" user="Timothy Smith" version="3">
+		<nd ref="155303970" />
+		<nd ref="155345082" />
+		<nd ref="155345083" />
+		<nd ref="155345084" />
+		<nd ref="155345086" />
+		<nd ref="155252109" />
+		<nd ref="155229496" />
+		<nd ref="155252107" />
+		<nd ref="155277369" />
+		<nd ref="155345088" />
+		<nd ref="155298307" />
+		<nd ref="155345090" />
+		<nd ref="155345091" />
+		<nd ref="155345094" />
+		<nd ref="155345096" />
+		<nd ref="155345098" />
+		<nd ref="155345100" />
+		<nd ref="155345102" />
+		<tag k="name" v="Turner Road" />
+		<tag k="name_1" v="County Route 47/9" />
+		<tag k="name_2" v="County Route 47/5" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Kanawha, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="25071" />
+		<tag k="tiger:name_base" v="Turner" />
+		<tag k="tiger:name_type" v="Rd" />
+		<tag k="tiger:zip_right" v="25071" />
+		<tag k="tiger:name_base_1" v="County Route 47/9" />
+		<tag k="tiger:name_base_2" v="County Route 47/5" />
+	</way>
+	<way changeset="35231230" id="15574589" timestamp="2015-11-11T03:19:12Z" uid="1408522" user="Omnific" version="4">
+		<nd ref="155339157" />
+		<nd ref="2068425171" />
+		<nd ref="3830178019" />
+		<nd ref="2068425178" />
+		<nd ref="2068425186" />
+		<nd ref="155332971" />
+		<tag k="name" v="Thorne Road" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Kanawha, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="25303" />
+		<tag k="tiger:name_base" v="Thorne" />
+		<tag k="tiger:name_type" v="Rd" />
+		<tag k="tiger:zip_right" v="25303" />
+	</way>
+	<way changeset="44942264" id="15575814" timestamp="2017-01-06T03:08:08Z" uid="360392" user="maxerickson" version="5">
+		<nd ref="155291500" />
+		<nd ref="2625158750" />
+		<nd ref="4591901243" />
+		<nd ref="155333503" />
+		<nd ref="2625158753" />
+		<nd ref="2625158755" />
+		<nd ref="2625158781" />
+		<nd ref="3596488615" />
+		<nd ref="155341254" />
+		<nd ref="2625158790" />
+		<nd ref="4591901241" />
+		<nd ref="155305723" />
+		<nd ref="155343022" />
+		<nd ref="155334903" />
+		<nd ref="2625158760" />
+		<nd ref="2625158762" />
+		<tag k="name" v="County Route 60/6" />
+		<tag k="name_1" v="Malden Drive" />
+		<tag k="highway" v="tertiary" />
+		<tag k="surface" v="asphalt" />
+	</way>
+	<way changeset="162461" id="15577253" timestamp="2007-12-07T21:23:00Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155385506" />
+		<nd ref="155385526" />
+		<nd ref="155385527" />
+		<nd ref="155385528" />
+		<nd ref="155385529" />
+		<nd ref="155385530" />
+		<nd ref="155385531" />
+		<nd ref="155385513" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="78774743" />
+		<tag k="tiger:county" v="Logan, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-2df1638a-ae09-42b7-93b5-fcec47ece4ce" />
+	</way>
+	<way changeset="23070607" id="15578803" timestamp="2014-06-21T21:07:20Z" uid="371121" user="AndrewSnow" version="4">
+		<nd ref="155397706" />
+		<nd ref="2926566748" />
+		<nd ref="155396043" />
+		<nd ref="155357779" />
+		<nd ref="1645209329" />
+		<nd ref="1645209606" />
+		<nd ref="1645209561" />
+		<nd ref="2926566758" />
+		<nd ref="1645209559" />
+		<nd ref="1645209577" />
+		<nd ref="2926566763" />
+		<nd ref="2926566771" />
+		<nd ref="155296567" />
+		<tag k="name" v="Red Oak Street" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Kanawha, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="25302" />
+		<tag k="tiger:name_base" v="Red Oak" />
+		<tag k="tiger:name_type" v="St" />
+		<tag k="tiger:zip_right" v="25302" />
+	</way>
+	<way changeset="162940" id="15580437" timestamp="2007-12-07T21:45:59Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155411314" />
+		<nd ref="155411315" />
+		<nd ref="155411317" />
+		<nd ref="155411319" />
+		<nd ref="155411321" />
+		<nd ref="155411323" />
+		<nd ref="155411325" />
+		<nd ref="155411327" />
+		<nd ref="155411329" />
+		<nd ref="155411330" />
+		<nd ref="155411332" />
+		<nd ref="155411334" />
+		<nd ref="155411336" />
+		<nd ref="155411338" />
+		<nd ref="155411339" />
+		<nd ref="155411341" />
+		<nd ref="155411344" />
+		<nd ref="155411347" />
+		<nd ref="155411349" />
+		<nd ref="155411352" />
+		<nd ref="155411355" />
+		<nd ref="155411358" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="74259293:74259294:74249196" />
+		<tag k="tiger:county" v="McDowell, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-c0e8a62a-f4e0-4ce3-85a1-0a3f0a3ef202" />
+	</way>
+	<way changeset="162940" id="15582123" timestamp="2007-12-07T21:57:57Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155427918" />
+		<nd ref="155427920" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="74258763" />
+		<tag k="tiger:county" v="McDowell, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-c0e8a62a-f4e0-4ce3-85a1-0a3f0a3ef202" />
+	</way>
+	<way changeset="162940" id="15583501" timestamp="2007-12-07T22:06:55Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155439646" />
+		<nd ref="155439648" />
+		<nd ref="155439650" />
+		<nd ref="155439652" />
+		<nd ref="155439654" />
+		<nd ref="155439656" />
+		<nd ref="155439658" />
+		<nd ref="155439660" />
+		<nd ref="155439662" />
+		<nd ref="155439664" />
+		<nd ref="155439665" />
+		<nd ref="155439666" />
+		<nd ref="155439667" />
+		<nd ref="155439668" />
+		<nd ref="155439669" />
+		<nd ref="155439670" />
+		<nd ref="155439671" />
+		<nd ref="155439672" />
+		<nd ref="155439673" />
+		<nd ref="155439674" />
+		<nd ref="155439675" />
+		<nd ref="155439676" />
+		<nd ref="155439677" />
+		<nd ref="155439678" />
+		<nd ref="155439680" />
+		<nd ref="155420821" />
+		<nd ref="155439682" />
+		<nd ref="155439684" />
+		<nd ref="155439687" />
+		<nd ref="155439689" />
+		<nd ref="155439692" />
+		<nd ref="155439694" />
+		<nd ref="155439697" />
+		<nd ref="155439699" />
+		<nd ref="155439700" />
+		<nd ref="155439702" />
+		<nd ref="155439703" />
+		<nd ref="155439706" />
+		<nd ref="155439709" />
+		<nd ref="155439711" />
+		<nd ref="155439714" />
+		<nd ref="155439716" />
+		<nd ref="155439719" />
+		<nd ref="155439721" />
+		<nd ref="155439723" />
+		<nd ref="155439725" />
+		<nd ref="155439726" />
+		<nd ref="155439728" />
+		<nd ref="155439731" />
+		<nd ref="155439733" />
+		<nd ref="155439735" />
+		<nd ref="155439736" />
+		<nd ref="155439738" />
+		<nd ref="155439740" />
+		<nd ref="155439745" />
+		<nd ref="155439748" />
+		<nd ref="155439750" />
+		<nd ref="155439752" />
+		<nd ref="155439754" />
+		<nd ref="155439756" />
+		<nd ref="155439758" />
+		<nd ref="155439760" />
+		<nd ref="155439762" />
+		<nd ref="155439764" />
+		<nd ref="155439766" />
+		<nd ref="155439768" />
+		<nd ref="155439770" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="74251576:74251582:74251579" />
+		<tag k="tiger:county" v="McDowell, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-c0e8a62a-f4e0-4ce3-85a1-0a3f0a3ef202" />
+	</way>
+	<way changeset="22705082" id="15586240" timestamp="2014-06-03T00:35:04Z" uid="135163" user="MikeN" version="4">
+		<nd ref="155463290" />
+		<nd ref="2639151894" />
+		<nd ref="155463292" />
+		<nd ref="2639151893" />
+		<nd ref="155463294" />
+		<nd ref="155463296" />
+		<nd ref="155463298" />
+		<nd ref="155442971" />
+		<nd ref="2639151895" />
+		<nd ref="155463300" />
+		<nd ref="155463302" />
+		<nd ref="2639151882" />
+		<nd ref="2896395789" />
+		<nd ref="2896395790" />
+		<nd ref="155463304" />
+		<nd ref="2896395791" />
+		<nd ref="155463306" />
+		<nd ref="155463308" />
+		<nd ref="2896395781" />
+		<nd ref="2896395780" />
+		<nd ref="2896395782" />
+		<nd ref="2896395784" />
+		<nd ref="2896395788" />
+		<tag k="name" v="New Camp Road" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="McDowell, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="24801" />
+		<tag k="tiger:name_base" v="New Camp" />
+		<tag k="tiger:name_type" v="Rd" />
+	</way>
+	<way changeset="163884" id="15593188" timestamp="2007-12-07T23:17:57Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155525325" />
+		<nd ref="155525329" />
+		<nd ref="155525332" />
+		<nd ref="155525335" />
+		<nd ref="155525337" />
+		<nd ref="155525339" />
+		<nd ref="155525341" />
+		<nd ref="155525344" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="101814648" />
+		<tag k="tiger:county" v="Mason, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-53817288-08f7-4ba4-b7b3-4bd868f1f651" />
+	</way>
+	<way changeset="163884" id="15594519" timestamp="2007-12-07T23:25:44Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155539365" />
+		<nd ref="155539367" />
+		<nd ref="155539370" />
+		<nd ref="155539373" />
+		<nd ref="155539374" />
+		<nd ref="155539377" />
+		<nd ref="155539379" />
+		<nd ref="155539384" />
+		<nd ref="155539387" />
+		<nd ref="155539390" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="101811116:101811117" />
+		<tag k="tiger:county" v="Mason, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-53817288-08f7-4ba4-b7b3-4bd868f1f651" />
+	</way>
+	<way changeset="175107" id="15595793" timestamp="2007-12-07T23:32:55Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155549077" />
+		<nd ref="155549079" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="47700372" />
+		<tag k="tiger:county" v="Mercer, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-785fdcd5-f868-4f7e-adf5-befc5823a870" />
+	</way>
+	<way changeset="175107" id="15596987" timestamp="2007-12-07T23:40:09Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155558353" />
+		<nd ref="155558355" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="47694399" />
+		<tag k="tiger:county" v="Mercer, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-785fdcd5-f868-4f7e-adf5-befc5823a870" />
+	</way>
+	<way changeset="175107" id="15598184" timestamp="2007-12-07T23:46:42Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155566663" />
+		<nd ref="155566664" />
+		<nd ref="155566665" />
+		<nd ref="155566666" />
+		<nd ref="155566667" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="47692308" />
+		<tag k="tiger:county" v="Mercer, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-785fdcd5-f868-4f7e-adf5-befc5823a870" />
+	</way>
+	<way changeset="41679392" id="15600371" timestamp="2016-08-25T06:03:55Z" uid="153669" user="dchiles" version="3">
+		<nd ref="4365830900" />
+		<nd ref="155584966" />
+		<tag k="name" v="White Birch Lane" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Mercer, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="White Birch" />
+		<tag k="tiger:name_type" v="Ln" />
+	</way>
+	<way changeset="14961925" id="15602973" timestamp="2013-02-08T23:34:46Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="155604144" />
+		<nd ref="155604156" />
+		<tag k="name" v="Paynes Fork Road" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Mercer, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Paynes Fork" />
+		<tag k="tiger:name_type" v="Rd" />
+	</way>
+	<way changeset="175345" id="15605484" timestamp="2007-12-08T00:56:18Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155619478" />
+		<nd ref="155623948" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="57137658" />
+		<tag k="tiger:county" v="Mingo, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-68d3980e-3fd9-4b27-a4eb-19abf606ecba" />
+	</way>
+	<way changeset="9992978" id="15609683" timestamp="2011-11-29T22:00:29Z" uid="207745" user="NE2" version="7">
+		<nd ref="155650724" />
+		<nd ref="155651294" />
+		<nd ref="155651295" />
+		<nd ref="155651296" />
+		<nd ref="155651297" />
+		<nd ref="155651298" />
+		<nd ref="155651300" />
+		<nd ref="155651302" />
+		<nd ref="155651304" />
+		<nd ref="155651305" />
+		<nd ref="155651306" />
+		<nd ref="155648063" />
+		<tag k="NHS" v="yes" />
+		<tag k="hgv" v="yes" />
+		<tag k="ref" v="US 52" />
+		<tag k="lanes" v="2" />
+		<tag k="highway" v="primary" />
+		<tag k="tiger:cfcc" v="A21" />
+		<tag k="tiger:tlid" v="57129761:57129636:57129694:57129616" />
+		<tag k="tiger:county" v="Mingo, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="United States Route 52" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-68d3980e-3fd9-4b27-a4eb-19abf606ecba" />
+	</way>
+	<way changeset="175650" id="15612260" timestamp="2007-12-08T01:37:31Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155675242" />
+		<nd ref="155675244" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="73672284" />
+		<tag k="tiger:county" v="Monroe, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-135b2d84-f606-428a-992a-7fdd3d759bcc" />
+	</way>
+	<way changeset="21408625" id="15615096" timestamp="2014-03-30T20:56:42Z" uid="1424765" user="Korzun" version="3">
+		<nd ref="155681607" />
+		<nd ref="155697952" />
+		<nd ref="155697953" />
+		<nd ref="155697954" />
+		<nd ref="155697955" />
+		<nd ref="155697957" />
+		<nd ref="155697959" />
+		<nd ref="155697960" />
+		<nd ref="155697961" />
+		<nd ref="155697963" />
+		<nd ref="155697965" />
+		<nd ref="155697966" />
+		<nd ref="155697967" />
+		<nd ref="155679053" />
+		<nd ref="155697969" />
+		<nd ref="155697971" />
+		<nd ref="155677990" />
+		<nd ref="155697973" />
+		<nd ref="155697975" />
+		<nd ref="155697978" />
+		<nd ref="155697980" />
+		<nd ref="155697981" />
+		<nd ref="155697982" />
+		<nd ref="155697983" />
+		<nd ref="155697985" />
+		<nd ref="155681075" />
+		<nd ref="155697987" />
+		<nd ref="155697989" />
+		<nd ref="155697991" />
+		<nd ref="155697993" />
+		<nd ref="155697995" />
+		<nd ref="155697997" />
+		<nd ref="155677356" />
+		<nd ref="155697999" />
+		<nd ref="155698001" />
+		<nd ref="155698003" />
+		<nd ref="155698005" />
+		<nd ref="155698007" />
+		<nd ref="155698009" />
+		<nd ref="155698011" />
+		<nd ref="155698013" />
+		<nd ref="155698015" />
+		<nd ref="155677115" />
+		<nd ref="155698017" />
+		<nd ref="155698020" />
+		<nd ref="155698021" />
+		<nd ref="155698022" />
+		<nd ref="155698023" />
+		<nd ref="155698024" />
+		<nd ref="155698025" />
+		<nd ref="2754812892" />
+		<nd ref="2754812894" />
+		<nd ref="2754812887" />
+		<nd ref="2754812888" />
+		<nd ref="2754812890" />
+		<nd ref="2754812881" />
+		<nd ref="155698026" />
+		<tag k="name" v="County Route 219/7" />
+		<tag k="name_1" v="Lilly Dale Road" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Monroe, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="County Route 219/7" />
+		<tag k="tiger:name_base_1" v="Lilly Dale" />
+		<tag k="tiger:name_type_1" v="Rd" />
+	</way>
+	<way changeset="175897" id="15618597" timestamp="2007-12-08T02:18:50Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155728798" />
+		<nd ref="155728800" />
+		<nd ref="155728802" />
+		<nd ref="155728805" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="50038738" />
+		<tag k="tiger:county" v="Nicholas, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-e0de079b-95e2-44a9-babc-21fee03bafaf" />
+	</way>
+	<way changeset="176131" id="15621620" timestamp="2007-12-08T02:36:02Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155753297" />
+		<nd ref="155750015" />
+		<tag k="name" v="Jacobs Hollow" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="50025571" />
+		<tag k="tiger:county" v="Nicholas, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Jacobs Hollow" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-e0de079b-95e2-44a9-babc-21fee03bafaf" />
+	</way>
+	<way changeset="176870" id="15628304" timestamp="2007-12-08T03:25:54Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155828104" />
+		<nd ref="155828106" />
+		<nd ref="155828108" />
+		<nd ref="155828110" />
+		<nd ref="155828112" />
+		<nd ref="155828114" />
+		<nd ref="155828116" />
+		<nd ref="155828118" />
+		<nd ref="155828122" />
+		<nd ref="155828124" />
+		<nd ref="155828125" />
+		<nd ref="155828127" />
+		<nd ref="155828129" />
+		<nd ref="155828131" />
+		<nd ref="155828133" />
+		<nd ref="155828135" />
+		<nd ref="155828137" />
+		<nd ref="155828139" />
+		<nd ref="155828141" />
+		<nd ref="155828143" />
+		<nd ref="155828145" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="75129764" />
+		<tag k="tiger:county" v="Pocahontas, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-0752dc2f-554b-474a-9f08-e20e2083a681" />
+	</way>
+	<way changeset="177077" id="15632932" timestamp="2007-12-08T04:23:55Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155875121" />
+		<nd ref="155875123" />
+		<nd ref="155875124" />
+		<nd ref="155875125" />
+		<nd ref="155875126" />
+		<nd ref="155875128" />
+		<nd ref="155875130" />
+		<nd ref="155875131" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="130508133" />
+		<tag k="tiger:county" v="Putnam, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-0f637598-0e7a-408c-995e-bf7d6f3b2e6c" />
+	</way>
+	<way changeset="177077" id="15634823" timestamp="2007-12-08T04:38:38Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155894569" />
+		<nd ref="155894570" />
+		<nd ref="155894571" />
+		<nd ref="155894573" />
+		<nd ref="155894575" />
+		<nd ref="155894577" />
+		<nd ref="155894579" />
+		<nd ref="155894582" />
+		<nd ref="155894585" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="78814825" />
+		<tag k="tiger:county" v="Raleigh, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-6cd1a034-5666-428b-86a2-add8ae214d63" />
+	</way>
+	<way changeset="177077" id="15636166" timestamp="2007-12-08T04:47:02Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="155904863" />
+		<nd ref="155904865" />
+		<nd ref="155904866" />
+		<nd ref="155904867" />
+		<nd ref="155904868" />
+		<nd ref="155904870" />
+		<nd ref="155904873" />
+		<nd ref="155904874" />
+		<nd ref="155904875" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="78835603" />
+		<tag k="tiger:county" v="Raleigh, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-6cd1a034-5666-428b-86a2-add8ae214d63" />
+	</way>
+	<way changeset="40621931" id="15637777" timestamp="2016-07-10T01:28:45Z" uid="371121" user="AndrewSnow" version="2">
+		<nd ref="155917252" />
+		<nd ref="155917254" />
+		<nd ref="155917256" />
+		<nd ref="155917257" />
+		<nd ref="155917258" />
+		<nd ref="155917260" />
+		<nd ref="155917262" />
+		<tag k="lanes" v="1" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="service" v="driveway" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Raleigh, WV" />
+		<tag k="tiger:reviewed" v="no" />
+	</way>
+	<way changeset="14517033" id="15639916" timestamp="2013-01-03T19:22:08Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="155940927" />
+		<nd ref="155940929" />
+		<nd ref="155940931" />
+		<nd ref="155940933" />
+		<tag k="name" v="Nelson Court" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Raleigh, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Nelson" />
+		<tag k="tiger:name_type" v="Ct" />
+	</way>
+	<way changeset="14961925" id="15642170" timestamp="2013-02-09T00:01:53Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="155963111" />
+		<nd ref="155895832" />
+		<nd ref="155963114" />
+		<tag k="name" v="Osborne Lane" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Raleigh, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="25918" />
+		<tag k="tiger:name_base" v="Osborne" />
+		<tag k="tiger:name_type" v="Ln" />
+	</way>
+	<way changeset="14961925" id="15644035" timestamp="2013-02-09T00:05:10Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="155946615" />
+		<nd ref="155943537" />
+		<tag k="name" v="Daniels Street" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Raleigh, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Daniels" />
+		<tag k="tiger:name_type" v="St" />
+	</way>
+	<way changeset="13058365" id="15646711" timestamp="2012-09-10T15:31:08Z" uid="169004" user="oldtopos" version="2">
+		<nd ref="154917617" />
+		<nd ref="156010678" />
+		<nd ref="156010680" />
+		<nd ref="156010681" />
+		<nd ref="156010682" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="55277065" />
+		<tag k="tiger:county" v="Ritchie, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-ec6c37bb-724d-47b3-b068-c88abeb4e730" />
+	</way>
+	<way changeset="177692" id="15648891" timestamp="2007-12-08T06:31:20Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="156040161" />
+		<nd ref="156040163" />
+		<nd ref="156040165" />
+		<nd ref="156040168" />
+		<nd ref="156040170" />
+		<nd ref="156040172" />
+		<nd ref="156040174" />
+		<nd ref="156040176" />
+		<nd ref="156040178" />
+		<nd ref="156040180" />
+		<nd ref="156040182" />
+		<nd ref="156040184" />
+		<nd ref="156040186" />
+		<nd ref="156040188" />
+		<nd ref="156040190" />
+		<nd ref="156040192" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="75168197:75167829" />
+		<tag k="tiger:county" v="Summers, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-fb309ed2-80ac-4cd1-8219-89762bf27f70" />
+	</way>
+	<way changeset="177903" id="15650304" timestamp="2007-12-08T06:42:37Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="156055401" />
+		<nd ref="156055402" />
+		<nd ref="156055404" />
+		<nd ref="156055407" />
+		<nd ref="156055411" />
+		<nd ref="156055413" />
+		<nd ref="156055415" />
+		<nd ref="156055417" />
+		<nd ref="156055418" />
+		<nd ref="156055419" />
+		<nd ref="156055421" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="75171825:75169087" />
+		<tag k="tiger:county" v="Summers, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-fb309ed2-80ac-4cd1-8219-89762bf27f70" />
+	</way>
+	<way changeset="178178" id="15655824" timestamp="2007-12-08T07:23:04Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="156108639" />
+		<nd ref="156108641" />
+		<nd ref="156108643" />
+		<nd ref="156108645" />
+		<nd ref="156108647" />
+		<nd ref="156108649" />
+		<nd ref="156108653" />
+		<nd ref="156108655" />
+		<tag k="name" v="County Route 5/3" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="53446751" />
+		<tag k="tiger:county" v="Upshur, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="County Route 5/3" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-2d21d9e8-f14a-4efe-b9c4-a5ff07a1f9ad" />
+	</way>
+	<way changeset="178178" id="15657721" timestamp="2007-12-08T07:34:22Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="156124360" />
+		<nd ref="156124363" />
+		<nd ref="156124364" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="53453141" />
+		<tag k="tiger:county" v="Upshur, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-2d21d9e8-f14a-4efe-b9c4-a5ff07a1f9ad" />
+	</way>
+	<way changeset="20276989" id="15659527" timestamp="2014-01-30T04:13:14Z" uid="1408522" user="Omnific" version="3">
+		<nd ref="156135765" />
+		<nd ref="156137288" />
+		<nd ref="156137290" />
+		<nd ref="156137292" />
+		<nd ref="156137293" />
+		<nd ref="156136040" />
+		<nd ref="156126718" />
+		<nd ref="156133193" />
+		<nd ref="156137294" />
+		<nd ref="156110881" />
+		<nd ref="156137295" />
+		<nd ref="2643114722" />
+		<nd ref="156137296" />
+		<nd ref="2643114725" />
+		<nd ref="2643114726" />
+		<tag k="name" v="Fayette Street" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Upshur, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="26201" />
+		<tag k="tiger:name_base" v="Fayette" />
+		<tag k="tiger:name_type" v="St" />
+		<tag k="tiger:zip_right" v="26201" />
+	</way>
+	<way changeset="45112498" id="15661042" timestamp="2017-01-12T18:33:37Z" uid="4210803" user="elkueb" version="5">
+		<nd ref="156146169" />
+		<nd ref="156153317" />
+		<nd ref="3760971293" />
+		<nd ref="3760971291" />
+		<nd ref="3760971289" />
+		<nd ref="3760971286" />
+		<nd ref="3760971281" />
+		<nd ref="3760971277" />
+		<nd ref="156118559" />
+		<nd ref="156153318" />
+		<nd ref="3760971267" />
+		<nd ref="3760971261" />
+		<nd ref="3760971258" />
+		<nd ref="3760971263" />
+		<nd ref="3760971265" />
+		<nd ref="156153320" />
+		<nd ref="156153322" />
+		<nd ref="4604252041" />
+		<nd ref="4604252040" />
+		<nd ref="156153324" />
+		<nd ref="156153326" />
+		<nd ref="156153327" />
+		<nd ref="156153328" />
+		<nd ref="156141048" />
+		<nd ref="156118551" />
+		<nd ref="4604252047" />
+		<nd ref="156119526" />
+		<nd ref="156153329" />
+		<nd ref="4604252034" />
+		<nd ref="156153330" />
+		<nd ref="156153332" />
+		<nd ref="4604252033" />
+		<nd ref="4604252032" />
+		<nd ref="156128634" />
+		<nd ref="156153333" />
+		<nd ref="4604252031" />
+		<nd ref="156153335" />
+		<nd ref="4604252030" />
+		<nd ref="156153337" />
+		<nd ref="4604252029" />
+		<nd ref="156130593" />
+		<nd ref="4604252021" />
+		<nd ref="156153339" />
+		<nd ref="4604252020" />
+		<nd ref="4604252019" />
+		<nd ref="4604252018" />
+		<nd ref="156153341" />
+		<nd ref="156153343" />
+		<nd ref="4604252017" />
+		<nd ref="156153345" />
+		<nd ref="4604252016" />
+		<nd ref="156153347" />
+		<nd ref="4604252015" />
+		<nd ref="4604252014" />
+		<nd ref="4604252013" />
+		<nd ref="156142148" />
+		<tag k="ref" v="CR 11" />
+		<tag k="name" v="Frenchton Road" />
+		<tag k="highway" v="tertiary" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Upshur, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="County Route 11" />
+		<tag k="tiger:name_base_1" v="Frenchton" />
+		<tag k="tiger:name_type_1" v="Rd" />
+	</way>
+	<way changeset="14962126" id="15662310" timestamp="2013-02-09T00:18:17Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="156171822" />
+		<nd ref="156167333" />
+		<tag k="name" v="Smith Street" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Wayne, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Smith" />
+		<tag k="tiger:name_type" v="St" />
+	</way>
+	<way changeset="28597321" id="15664384" timestamp="2015-02-03T20:04:35Z" uid="1829683" user="Luis36995" version="3">
+		<nd ref="156194824" />
+		<nd ref="3328975743" />
+		<nd ref="156194826" />
+		<nd ref="156159906" />
+		<tag k="name" v="Virginia Street" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Webster, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Virginia" />
+		<tag k="tiger:name_type" v="St" />
+	</way>
+	<way changeset="13108099" id="15669085" timestamp="2012-09-14T14:44:13Z" uid="169004" user="oldtopos" version="2">
+		<nd ref="155406750" />
+		<nd ref="156244320" />
+		<nd ref="156244323" />
+		<nd ref="156244325" />
+		<nd ref="155411051" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="78880911" />
+		<tag k="tiger:county" v="Wyoming, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-6dd90ef7-24e2-4dee-af4c-ea4178f27bb3" />
+	</way>
+	<way changeset="44986714" id="15672386" timestamp="2017-01-07T19:35:40Z" uid="4210803" user="elkueb" version="6">
+		<nd ref="3110214367" />
+		<nd ref="156276329" />
+		<nd ref="156276332" />
+		<nd ref="156267041" />
+		<nd ref="4595021967" />
+		<nd ref="4595021966" />
+		<nd ref="156276333" />
+		<nd ref="4595021965" />
+		<nd ref="4039692798" />
+		<nd ref="4595021964" />
+		<nd ref="156276334" />
+		<nd ref="156256366" />
+		<nd ref="156276335" />
+		<nd ref="4595021968" />
+		<nd ref="156276337" />
+		<nd ref="156259267" />
+		<tag k="name" v="Barkers Ridge Sand Gap Road" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Wyoming, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Barkers Ridge Sand Gap" />
+		<tag k="tiger:name_type" v="Rd" />
+	</way>
+	<way changeset="254564" id="16100206" timestamp="2007-12-11T15:28:28Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="162131021" />
+		<nd ref="162131507" />
+		<nd ref="162131510" />
+		<nd ref="162131512" />
+		<tag k="name" v="Ashland Cemetery" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="151059359" />
+		<tag k="tiger:county" v="Boyd, KY" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070812" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Ashland Cemetery" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-eee26359-252b-41a7-905f-b297c554be7c" />
+	</way>
+	<way changeset="14375174" id="16168392" timestamp="2012-12-23T08:59:23Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="163553936" />
+		<nd ref="163553938" />
+		<nd ref="163553942" />
+		<nd ref="163553945" />
+		<nd ref="163553947" />
+		<nd ref="163553949" />
+		<nd ref="163553952" />
+		<nd ref="163553956" />
+		<nd ref="163553958" />
+		<nd ref="163553961" />
+		<nd ref="163516390" />
+		<nd ref="163553964" />
+		<nd ref="163553967" />
+		<nd ref="163553970" />
+		<tag k="name" v="Mat Hamilton Hollow Road" />
+		<tag k="name_1" v="Cr-1753" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Floyd, KY" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Mat Hamilton Hollow" />
+		<tag k="tiger:name_type" v="Rd" />
+		<tag k="tiger:name_base_1" v="Cr-1753" />
+	</way>
+	<way changeset="14437660" id="16269400" timestamp="2012-12-28T12:10:20Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="165780289" />
+		<nd ref="165780293" />
+		<nd ref="165780296" />
+		<nd ref="165780298" />
+		<nd ref="165780300" />
+		<nd ref="165780302" />
+		<nd ref="165780304" />
+		<nd ref="165780306" />
+		<nd ref="165780308" />
+		<tag k="name" v="Walbridge Road" />
+		<tag k="name_1" v="County Road 1110" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Lawrence, KY" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Walbridge" />
+		<tag k="tiger:name_type" v="Rd" />
+		<tag k="tiger:name_base_1" v="County Road 1110" />
+	</way>
+	<way changeset="14967835" id="16304063" timestamp="2013-02-09T14:39:31Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="166756561" />
+		<nd ref="166756562" />
+		<nd ref="166756564" />
+		<nd ref="166756566" />
+		<nd ref="166756568" />
+		<nd ref="166756570" />
+		<nd ref="166747467" />
+		<nd ref="166756572" />
+		<nd ref="166756574" />
+		<nd ref="166756576" />
+		<nd ref="166756578" />
+		<nd ref="166756581" />
+		<nd ref="166745091" />
+		<nd ref="166756583" />
+		<nd ref="166756585" />
+		<tag k="name" v="Gordon Hollow Road" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Martin, KY" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Gordon Hollow" />
+		<tag k="tiger:name_type" v="Rd" />
+	</way>
+	<way changeset="292861" id="16336386" timestamp="2007-12-14T05:03:49Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="167730616" />
+		<nd ref="167730619" />
+		<nd ref="167730622" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="40392365" />
+		<tag k="tiger:county" v="Pike, KY" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070813" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-816eff81-42e7-415b-9e5b-7fbb406eef98" />
+	</way>
+	<way changeset="15013595" id="16338565" timestamp="2013-02-13T03:11:32Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="167750392" />
+		<nd ref="167770259" />
+		<nd ref="167770261" />
+		<nd ref="167770263" />
+		<nd ref="167770267" />
+		<nd ref="167770270" />
+		<nd ref="167770273" />
+		<nd ref="167770279" />
+		<nd ref="167770282" />
+		<nd ref="167750385" />
+		<tag k="name" v="First Hill Road" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Pike, KY" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="41562" />
+		<tag k="tiger:name_base" v="First Hill" />
+		<tag k="tiger:name_type" v="Rd" />
+		<tag k="tiger:zip_right" v="41562" />
+	</way>
+	<way changeset="15013595" id="16341724" timestamp="2013-02-13T03:14:08Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="167753392" />
+		<nd ref="167818343" />
+		<tag k="name" v="Lynn Lane" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Pike, KY" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Lynn" />
+		<tag k="tiger:name_type" v="Ln" />
+	</way>
+	<way changeset="39030471" id="17483799" timestamp="2016-05-02T06:09:47Z" uid="402624" user="bdiscoe" version="4">
+		<nd ref="181003395" />
+		<nd ref="181003399" />
+		<nd ref="181003406" />
+		<nd ref="181003410" />
+		<nd ref="181003420" />
+		<nd ref="181003428" />
+		<nd ref="181003433" />
+		<nd ref="181003438" />
+		<nd ref="181003448" />
+		<nd ref="181003452" />
+		<nd ref="181003463" />
+		<nd ref="181003473" />
+		<nd ref="181003480" />
+		<nd ref="181003484" />
+		<nd ref="181003492" />
+		<nd ref="181003498" />
+		<nd ref="181003502" />
+		<nd ref="181003507" />
+		<nd ref="181003511" />
+		<nd ref="181003518" />
+		<nd ref="181003531" />
+		<nd ref="181003544" />
+		<nd ref="181003561" />
+		<nd ref="181003567" />
+		<nd ref="181003576" />
+		<nd ref="181003585" />
+		<nd ref="181003592" />
+		<nd ref="181003594" />
+		<nd ref="181003600" />
+		<nd ref="181003604" />
+		<nd ref="181003607" />
+		<nd ref="181003618" />
+		<nd ref="181003622" />
+		<nd ref="181003627" />
+		<nd ref="181003630" />
+		<nd ref="181003632" />
+		<nd ref="181003644" />
+		<nd ref="181003647" />
+		<nd ref="181003650" />
+		<nd ref="181003658" />
+		<nd ref="181003664" />
+		<nd ref="181003674" />
+		<nd ref="181003675" />
+		<nd ref="181003678" />
+		<nd ref="181003696" />
+		<nd ref="181003704" />
+		<nd ref="181003708" />
+		<nd ref="181003712" />
+		<nd ref="181003714" />
+		<nd ref="181003718" />
+		<nd ref="181003730" />
+		<nd ref="181003732" />
+		<nd ref="181003741" />
+		<nd ref="181003744" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Dickenson, VA" />
+		<tag k="tiger:reviewed" v="no" />
+	</way>
+	<way changeset="14519949" id="19052463" timestamp="2013-01-03T22:55:17Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="197418729" />
+		<nd ref="197418731" />
+		<nd ref="197418732" />
+		<nd ref="197418733" />
+		<nd ref="197418734" />
+		<nd ref="197418735" />
+		<nd ref="197418736" />
+		<nd ref="197418738" />
+		<nd ref="197418740" />
+		<nd ref="197418742" />
+		<nd ref="197418744" />
+		<nd ref="197418747" />
+		<nd ref="197418750" />
+		<nd ref="197418752" />
+		<nd ref="197418753" />
+		<nd ref="197418754" />
+		<nd ref="197418755" />
+		<nd ref="197418756" />
+		<nd ref="197418758" />
+		<nd ref="197418760" />
+		<nd ref="197418762" />
+		<nd ref="197418764" />
+		<nd ref="197418766" />
+		<nd ref="197418768" />
+		<nd ref="197418770" />
+		<nd ref="197418772" />
+		<nd ref="197418774" />
+		<nd ref="197418776" />
+		<nd ref="197418778" />
+		<nd ref="197418780" />
+		<nd ref="197418782" />
+		<nd ref="197418783" />
+		<nd ref="197418784" />
+		<nd ref="197418785" />
+		<nd ref="197418786" />
+		<nd ref="197418787" />
+		<nd ref="197418788" />
+		<nd ref="197418789" />
+		<nd ref="197418790" />
+		<nd ref="197418792" />
+		<nd ref="197418794" />
+		<nd ref="197418796" />
+		<nd ref="197418798" />
+		<nd ref="197418800" />
+		<nd ref="197418802" />
+		<nd ref="197418803" />
+		<nd ref="197418804" />
+		<nd ref="197418805" />
+		<nd ref="197418806" />
+		<nd ref="197418808" />
+		<nd ref="197418810" />
+		<nd ref="197418812" />
+		<nd ref="197418814" />
+		<nd ref="197418816" />
+		<nd ref="197418818" />
+		<nd ref="197418820" />
+		<nd ref="197418822" />
+		<nd ref="197418824" />
+		<nd ref="197418826" />
+		<nd ref="197418828" />
+		<nd ref="197418830" />
+		<nd ref="197418831" />
+		<nd ref="197418833" />
+		<nd ref="197418835" />
+		<nd ref="197418836" />
+		<nd ref="197418837" />
+		<nd ref="197418838" />
+		<nd ref="197418839" />
+		<nd ref="197418840" />
+		<nd ref="197418842" />
+		<nd ref="197418844" />
+		<nd ref="197418846" />
+		<nd ref="197418849" />
+		<nd ref="197418854" />
+		<nd ref="197418855" />
+		<nd ref="197418856" />
+		<nd ref="197418858" />
+		<nd ref="197418860" />
+		<nd ref="197418862" />
+		<nd ref="197418864" />
+		<nd ref="197418866" />
+		<nd ref="197418868" />
+		<nd ref="197418870" />
+		<nd ref="197418871" />
+		<nd ref="197418873" />
+		<nd ref="197418874" />
+		<nd ref="197418875" />
+		<nd ref="197418876" />
+		<nd ref="197418877" />
+		<nd ref="197418878" />
+		<nd ref="197418880" />
+		<nd ref="197418882" />
+		<nd ref="197418884" />
+		<nd ref="197418886" />
+		<nd ref="197418888" />
+		<nd ref="197418890" />
+		<nd ref="197418892" />
+		<nd ref="197418894" />
+		<nd ref="197418896" />
+		<nd ref="197418898" />
+		<nd ref="197418900" />
+		<tag k="name" v="Marabel Road" />
+		<tag k="name_1" v="Township Highway 654" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Gallia, OH" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="45623" />
+		<tag k="tiger:name_base" v="Marabel" />
+		<tag k="tiger:name_type" v="Rd" />
+		<tag k="tiger:zip_right" v="45623" />
+		<tag k="tiger:name_base_1" v="Township Highway 654" />
+	</way>
+	<way changeset="477602" id="19089154" timestamp="2007-12-30T18:18:31Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="197870551" />
+		<nd ref="197870552" />
+		<nd ref="197870554" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="54785124:54785125" />
+		<tag k="tiger:county" v="Jackson, OH" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070829" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-f334f92c-bc5f-4aff-aab6-467b88f03ac5" />
+	</way>
+	<way changeset="478632" id="19104708" timestamp="2007-12-30T20:37:15Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="198063211" />
+		<nd ref="198063213" />
+		<nd ref="198063215" />
+		<nd ref="198063217" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="55023333" />
+		<tag k="tiger:county" v="Lawrence, OH" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070829" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-b3ca7872-ef7e-4a0c-af20-ef30e972751b" />
+	</way>
+	<way changeset="15849378" id="19107966" timestamp="2013-04-24T14:30:35Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="198078063" />
+		<nd ref="198093453" />
+		<nd ref="198093455" />
+		<nd ref="198093458" />
+		<nd ref="198093460" />
+		<nd ref="198093461" />
+		<nd ref="198093463" />
+		<nd ref="198093465" />
+		<nd ref="198093467" />
+		<tag k="name" v="Honey Suckle Lane East" />
+		<tag k="name_1" v="Honeysuckle Lane" />
+		<tag k="name_2" v="Township Road 187 East" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Lawrence, OH" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="45619" />
+		<tag k="tiger:name_base" v="Honey Suckle" />
+		<tag k="tiger:name_type" v="Ln" />
+		<tag k="tiger:zip_right" v="45619" />
+		<tag k="tiger:name_base_1" v="Honeysuckle" />
+		<tag k="tiger:name_base_2" v="Township Road 187" />
+		<tag k="tiger:name_type_1" v="Ln" />
+		<tag k="tiger:name_direction_suffix" v="E" />
+		<tag k="tiger:name_direction_suffix_2" v="E" />
+	</way>
+	<way changeset="22557473" id="19113132" timestamp="2014-05-26T07:51:53Z" uid="33757" user="Minh Nguyen" version="3">
+		<nd ref="198143847" />
+		<nd ref="198112541" />
+		<nd ref="198088627" />
+		<tag k="ref" v="TR 1087" />
+		<tag k="name" v="Gardner Lane" />
+		<tag k="highway" v="residential" />
+		<tag k="alt_name" v="Township Road 1087" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Lawrence, OH" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="45669" />
+		<tag k="tiger:name_base" v="Township Road 1087" />
+		<tag k="tiger:zip_right" v="45669" />
+		<tag k="tiger:name_base_1" v="Gardner" />
+		<tag k="tiger:name_type_1" v="Ln" />
+	</way>
+	<way changeset="485355" id="19154719" timestamp="2007-12-31T07:34:04Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="198666749" />
+		<nd ref="198666750" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="101278855" />
+		<tag k="tiger:county" v="Meigs, OH" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070829" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-3eec6877-81ac-45f6-a471-77e8d2222101" />
+	</way>
+	<way changeset="550036" id="19809352" timestamp="2008-01-06T05:07:08Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="206527183" />
+		<nd ref="206527189" />
+		<nd ref="206527196" />
+		<nd ref="206527202" />
+		<nd ref="206527209" />
+		<nd ref="206527218" />
+		<nd ref="206527221" />
+		<nd ref="206527224" />
+		<nd ref="206527227" />
+		<nd ref="206527230" />
+		<nd ref="206527232" />
+		<nd ref="206527234" />
+		<nd ref="206527236" />
+		<nd ref="206527238" />
+		<nd ref="206527240" />
+		<nd ref="206527242" />
+		<nd ref="206527244" />
+		<nd ref="206527245" />
+		<nd ref="206527246" />
+		<nd ref="206527247" />
+		<nd ref="206527249" />
+		<nd ref="206527251" />
+		<nd ref="206527253" />
+		<nd ref="206527255" />
+		<nd ref="206521729" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="224821625" />
+		<tag k="tiger:county" v="Bland, VA" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070830" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-ea999361-e6a8-4097-aac0-fcfc59649c76" />
+	</way>
+	<way changeset="561359" id="19856905" timestamp="2008-01-07T06:27:18Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="207787574" />
+		<nd ref="207787577" />
+		<nd ref="207787580" />
+		<nd ref="207787581" />
+		<nd ref="207787584" />
+		<nd ref="207787588" />
+		<nd ref="207787592" />
+		<nd ref="207787595" />
+		<nd ref="207787596" />
+		<nd ref="207787599" />
+		<nd ref="207787602" />
+		<nd ref="207787606" />
+		<nd ref="207787610" />
+		<nd ref="207787612" />
+		<nd ref="207787615" />
+		<nd ref="207787618" />
+		<nd ref="207787621" />
+		<nd ref="207787625" />
+		<nd ref="207787628" />
+		<nd ref="207787629" />
+		<nd ref="207787632" />
+		<nd ref="207787636" />
+		<nd ref="207787639" />
+		<nd ref="207787642" />
+		<nd ref="207787645" />
+		<nd ref="207787646" />
+		<nd ref="207787649" />
+		<nd ref="207787652" />
+		<nd ref="207787653" />
+		<nd ref="207787656" />
+		<nd ref="207787657" />
+		<nd ref="207787659" />
+		<nd ref="207787661" />
+		<nd ref="207787664" />
+		<nd ref="207787666" />
+		<nd ref="207787668" />
+		<nd ref="207787670" />
+		<nd ref="207787672" />
+		<nd ref="207787674" />
+		<nd ref="207787676" />
+		<nd ref="207787679" />
+		<nd ref="207787680" />
+		<nd ref="207787683" />
+		<nd ref="207787686" />
+		<nd ref="207787689" />
+		<nd ref="207787690" />
+		<nd ref="207787694" />
+		<nd ref="207787695" />
+		<nd ref="207787698" />
+		<nd ref="207787701" />
+		<nd ref="207787702" />
+		<nd ref="207787705" />
+		<nd ref="207787708" />
+		<nd ref="207787711" />
+		<nd ref="207787713" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="74099178:74059150:74059298" />
+		<tag k="tiger:county" v="Buchanan, VA" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070830" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-6d937ee5-5862-41f3-9d06-b48e89919c4f" />
+	</way>
+	<way changeset="561750" id="19864361" timestamp="2008-01-07T08:23:52Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="208011482" />
+		<nd ref="208011484" />
+		<nd ref="208011486" />
+		<nd ref="208011488" />
+		<nd ref="208011490" />
+		<nd ref="208011492" />
+		<nd ref="208011495" />
+		<nd ref="208011498" />
+		<nd ref="208011501" />
+		<nd ref="208011505" />
+		<nd ref="208011508" />
+		<nd ref="208011511" />
+		<nd ref="208011513" />
+		<nd ref="208011515" />
+		<nd ref="208011517" />
+		<nd ref="208011522" />
+		<nd ref="208011525" />
+		<nd ref="208011528" />
+		<nd ref="208011532" />
+		<nd ref="208011535" />
+		<nd ref="208011538" />
+		<nd ref="208011541" />
+		<nd ref="208011544" />
+		<nd ref="208011548" />
+		<nd ref="208011551" />
+		<nd ref="208011555" />
+		<nd ref="208011558" />
+		<nd ref="208011562" />
+		<nd ref="208011567" />
+		<nd ref="208011572" />
+		<nd ref="208011576" />
+		<nd ref="208011579" />
+		<nd ref="208011582" />
+		<nd ref="208011585" />
+		<nd ref="208011587" />
+		<nd ref="208011591" />
+		<nd ref="208011597" />
+		<nd ref="208011600" />
+		<nd ref="208011603" />
+		<nd ref="208011605" />
+		<nd ref="208011607" />
+		<nd ref="208011610" />
+		<nd ref="208011614" />
+		<nd ref="208011617" />
+		<nd ref="208011620" />
+		<nd ref="208011623" />
+		<nd ref="208011625" />
+		<nd ref="208011628" />
+		<nd ref="208011631" />
+		<nd ref="208011634" />
+		<nd ref="208011637" />
+		<nd ref="208011641" />
+		<nd ref="208011643" />
+		<nd ref="208011645" />
+		<nd ref="208011647" />
+		<nd ref="208011651" />
+		<nd ref="208011653" />
+		<nd ref="208011655" />
+		<nd ref="208011658" />
+		<nd ref="208011664" />
+		<nd ref="208011667" />
+		<nd ref="208011670" />
+		<nd ref="208011672" />
+		<nd ref="208011675" />
+		<nd ref="208011677" />
+		<nd ref="208011680" />
+		<nd ref="208011682" />
+		<nd ref="208011684" />
+		<nd ref="208011686" />
+		<nd ref="208011689" />
+		<nd ref="208011691" />
+		<nd ref="208011695" />
+		<nd ref="208011699" />
+		<nd ref="208011703" />
+		<nd ref="208011705" />
+		<nd ref="208011707" />
+		<nd ref="208011709" />
+		<nd ref="208011713" />
+		<nd ref="208011716" />
+		<nd ref="208011719" />
+		<nd ref="208011722" />
+		<nd ref="208011725" />
+		<nd ref="208011728" />
+		<nd ref="208011732" />
+		<nd ref="208011735" />
+		<nd ref="208011737" />
+		<nd ref="208011740" />
+		<nd ref="208011742" />
+		<nd ref="208011745" />
+		<nd ref="208011746" />
+		<nd ref="208011749" />
+		<nd ref="208011750" />
+		<nd ref="208011754" />
+		<nd ref="208011757" />
+		<nd ref="208011759" />
+		<nd ref="208011762" />
+		<nd ref="208011765" />
+		<nd ref="208011766" />
+		<nd ref="208011768" />
+		<nd ref="208011770" />
+		<tag k="highway" v="track" />
+		<tag k="tiger:cfcc" v="A51" />
+		<tag k="tiger:tlid" v="74091443" />
+		<tag k="tiger:county" v="Buchanan, VA" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070830" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-6d937ee5-5862-41f3-9d06-b48e89919c4f" />
+	</way>
+	<way changeset="562175" id="19873509" timestamp="2008-01-07T10:46:18Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="208234314" />
+		<nd ref="208236781" />
+		<nd ref="208236786" />
+		<nd ref="208236789" />
+		<nd ref="208236792" />
+		<nd ref="208236795" />
+		<nd ref="208236797" />
+		<nd ref="208236800" />
+		<nd ref="208236804" />
+		<nd ref="208236807" />
+		<nd ref="208236810" />
+		<nd ref="208236812" />
+		<nd ref="208236815" />
+		<nd ref="208236819" />
+		<nd ref="208236823" />
+		<nd ref="208236827" />
+		<nd ref="208236831" />
+		<nd ref="208236837" />
+		<nd ref="208236841" />
+		<nd ref="208236844" />
+		<nd ref="208236846" />
+		<nd ref="208236850" />
+		<nd ref="208236853" />
+		<nd ref="208236856" />
+		<nd ref="208236860" />
+		<nd ref="208236864" />
+		<nd ref="208236867" />
+		<nd ref="208236870" />
+		<nd ref="208236872" />
+		<nd ref="208236874" />
+		<nd ref="208236876" />
+		<nd ref="208236878" />
+		<nd ref="208236880" />
+		<nd ref="208236883" />
+		<nd ref="208236887" />
+		<nd ref="208236891" />
+		<nd ref="208236894" />
+		<nd ref="208236897" />
+		<nd ref="208236900" />
+		<nd ref="208236904" />
+		<nd ref="208236909" />
+		<nd ref="208236913" />
+		<nd ref="208236916" />
+		<nd ref="208236919" />
+		<nd ref="208236922" />
+		<nd ref="208236924" />
+		<nd ref="208236928" />
+		<nd ref="208236931" />
+		<nd ref="208236934" />
+		<nd ref="208236936" />
+		<nd ref="208236937" />
+		<nd ref="208236939" />
+		<nd ref="208236941" />
+		<nd ref="208236942" />
+		<nd ref="208236943" />
+		<nd ref="208236944" />
+		<nd ref="208236946" />
+		<nd ref="208236951" />
+		<nd ref="208236954" />
+		<nd ref="208236957" />
+		<nd ref="208236960" />
+		<nd ref="208236963" />
+		<nd ref="208236966" />
+		<nd ref="208236969" />
+		<nd ref="208236974" />
+		<nd ref="208236978" />
+		<nd ref="208236982" />
+		<nd ref="208236986" />
+		<nd ref="208236989" />
+		<nd ref="208236992" />
+		<nd ref="208236995" />
+		<nd ref="208236998" />
+		<nd ref="208237001" />
+		<nd ref="208237004" />
+		<nd ref="208237007" />
+		<nd ref="208237010" />
+		<nd ref="208237013" />
+		<nd ref="208237015" />
+		<nd ref="208237018" />
+		<nd ref="208237021" />
+		<nd ref="208237024" />
+		<nd ref="208237027" />
+		<nd ref="208237030" />
+		<nd ref="208237033" />
+		<nd ref="208237036" />
+		<nd ref="208237040" />
+		<nd ref="208237043" />
+		<nd ref="208237048" />
+		<nd ref="208237053" />
+		<nd ref="208237055" />
+		<nd ref="208237058" />
+		<nd ref="208237061" />
+		<nd ref="208237064" />
+		<nd ref="208237067" />
+		<nd ref="208237071" />
+		<nd ref="208237073" />
+		<nd ref="208237075" />
+		<nd ref="208237077" />
+		<nd ref="208237079" />
+		<nd ref="208237081" />
+		<nd ref="208237083" />
+		<nd ref="208237086" />
+		<nd ref="208237088" />
+		<nd ref="208237091" />
+		<nd ref="208237093" />
+		<nd ref="208237095" />
+		<nd ref="208237097" />
+		<nd ref="208237099" />
+		<nd ref="208237102" />
+		<nd ref="208237105" />
+		<nd ref="208237108" />
+		<nd ref="208237111" />
+		<nd ref="208237114" />
+		<nd ref="208237117" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="74086662:74077535:74086679:74077538" />
+		<tag k="tiger:county" v="Buchanan, VA" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070830" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-6d937ee5-5862-41f3-9d06-b48e89919c4f" />
+	</way>
+	<way changeset="562450" id="19877409" timestamp="2008-01-07T12:03:28Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="208222204" />
+		<nd ref="208377209" />
+		<nd ref="208377211" />
+		<nd ref="208377213" />
+		<nd ref="208377215" />
+		<nd ref="208377219" />
+		<nd ref="208377221" />
+		<nd ref="208377223" />
+		<nd ref="208377225" />
+		<nd ref="208377227" />
+		<nd ref="208377229" />
+		<nd ref="208377231" />
+		<nd ref="208377233" />
+		<nd ref="208377235" />
+		<nd ref="208377237" />
+		<nd ref="208377239" />
+		<nd ref="208377241" />
+		<nd ref="208377243" />
+		<nd ref="208377245" />
+		<nd ref="208377247" />
+		<nd ref="208377250" />
+		<nd ref="208377253" />
+		<nd ref="208377255" />
+		<nd ref="208377258" />
+		<nd ref="208377260" />
+		<nd ref="208377262" />
+		<nd ref="208377264" />
+		<nd ref="208377266" />
+		<nd ref="208377268" />
+		<nd ref="208377270" />
+		<nd ref="208377272" />
+		<nd ref="208377274" />
+		<nd ref="208377276" />
+		<nd ref="208377278" />
+		<nd ref="208377280" />
+		<nd ref="208377282" />
+		<nd ref="208377284" />
+		<nd ref="208377286" />
+		<nd ref="208377288" />
+		<nd ref="208377290" />
+		<nd ref="208377292" />
+		<nd ref="208377294" />
+		<nd ref="208377296" />
+		<nd ref="208377298" />
+		<nd ref="208377300" />
+		<nd ref="208377303" />
+		<nd ref="208377305" />
+		<nd ref="208377308" />
+		<nd ref="208377310" />
+		<nd ref="208377317" />
+		<nd ref="208377324" />
+		<nd ref="208377331" />
+		<nd ref="208377338" />
+		<nd ref="208377344" />
+		<nd ref="208377351" />
+		<nd ref="208377359" />
+		<nd ref="208377365" />
+		<nd ref="208377371" />
+		<tag k="highway" v="track" />
+		<tag k="tiger:cfcc" v="A51" />
+		<tag k="tiger:tlid" v="74085841" />
+		<tag k="tiger:county" v="Buchanan, VA" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070830" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-6d937ee5-5862-41f3-9d06-b48e89919c4f" />
+	</way>
+	<way changeset="563526" id="19880626" timestamp="2008-01-07T13:37:29Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="208479809" />
+		<nd ref="208504341" />
+		<nd ref="208504342" />
+		<nd ref="208504343" />
+		<nd ref="208504345" />
+		<nd ref="208504346" />
+		<nd ref="208504347" />
+		<nd ref="208504348" />
+		<nd ref="207872112" />
+		<nd ref="208504349" />
+		<nd ref="208504350" />
+		<nd ref="208504351" />
+		<nd ref="208504352" />
+		<nd ref="208338986" />
+		<nd ref="208504354" />
+		<nd ref="208504355" />
+		<nd ref="208504356" />
+		<nd ref="208504357" />
+		<nd ref="208504358" />
+		<nd ref="208504359" />
+		<nd ref="208504360" />
+		<nd ref="208504361" />
+		<nd ref="208355226" />
+		<nd ref="208504362" />
+		<nd ref="208504363" />
+		<nd ref="208504365" />
+		<nd ref="207872072" />
+		<nd ref="208504366" />
+		<nd ref="208504367" />
+		<nd ref="208504368" />
+		<nd ref="208504369" />
+		<nd ref="208504370" />
+		<nd ref="208504371" />
+		<nd ref="208504372" />
+		<nd ref="208504373" />
+		<nd ref="208190206" />
+		<nd ref="208504374" />
+		<nd ref="208504375" />
+		<nd ref="208190829" />
+		<nd ref="208504377" />
+		<nd ref="208504378" />
+		<nd ref="208190381" />
+		<nd ref="208504379" />
+		<nd ref="208504380" />
+		<nd ref="208504381" />
+		<nd ref="208504382" />
+		<nd ref="208355055" />
+		<nd ref="208504384" />
+		<nd ref="208504389" />
+		<nd ref="208504393" />
+		<nd ref="208504394" />
+		<nd ref="208504395" />
+		<nd ref="207871478" />
+		<nd ref="208504396" />
+		<nd ref="208504397" />
+		<nd ref="208504399" />
+		<nd ref="208504400" />
+		<nd ref="208504401" />
+		<nd ref="208504402" />
+		<nd ref="208504403" />
+		<nd ref="208504404" />
+		<nd ref="208504405" />
+		<nd ref="208504406" />
+		<nd ref="208504407" />
+		<nd ref="208504408" />
+		<nd ref="208504410" />
+		<nd ref="208504411" />
+		<nd ref="208504412" />
+		<nd ref="208504413" />
+		<nd ref="208504414" />
+		<nd ref="208504415" />
+		<nd ref="208504416" />
+		<nd ref="208504417" />
+		<nd ref="208504419" />
+		<nd ref="208504420" />
+		<nd ref="208504421" />
+		<nd ref="208504422" />
+		<nd ref="208504423" />
+		<nd ref="208504424" />
+		<nd ref="208504425" />
+		<nd ref="208504426" />
+		<nd ref="208504427" />
+		<nd ref="208504428" />
+		<nd ref="208504429" />
+		<nd ref="208504430" />
+		<nd ref="208504431" />
+		<nd ref="208504432" />
+		<nd ref="208504433" />
+		<nd ref="208504434" />
+		<nd ref="208504435" />
+		<nd ref="208504436" />
+		<nd ref="208504438" />
+		<nd ref="208504439" />
+		<nd ref="208504440" />
+		<nd ref="207753805" />
+		<nd ref="208504441" />
+		<nd ref="208504442" />
+		<nd ref="208504443" />
+		<nd ref="208504444" />
+		<nd ref="208504445" />
+		<nd ref="208504446" />
+		<nd ref="208504447" />
+		<nd ref="208504448" />
+		<nd ref="208504449" />
+		<nd ref="208504451" />
+		<nd ref="208504452" />
+		<nd ref="208504453" />
+		<nd ref="208504454" />
+		<nd ref="208504455" />
+		<nd ref="208504456" />
+		<nd ref="208504457" />
+		<nd ref="208504458" />
+		<nd ref="208504459" />
+		<nd ref="208504460" />
+		<nd ref="208504461" />
+		<nd ref="208504462" />
+		<nd ref="208504464" />
+		<nd ref="208504465" />
+		<nd ref="208504466" />
+		<nd ref="208504467" />
+		<nd ref="208504468" />
+		<nd ref="208504469" />
+		<nd ref="208504470" />
+		<nd ref="208504471" />
+		<nd ref="207753077" />
+		<nd ref="208504472" />
+		<nd ref="208504473" />
+		<nd ref="208504474" />
+		<nd ref="208495652" />
+		<nd ref="208504476" />
+		<nd ref="208504477" />
+		<nd ref="208504478" />
+		<nd ref="208504479" />
+		<nd ref="208504480" />
+		<nd ref="208504481" />
+		<nd ref="208504482" />
+		<nd ref="208504483" />
+		<nd ref="208504484" />
+		<nd ref="208504485" />
+		<nd ref="208504486" />
+		<nd ref="208504488" />
+		<nd ref="208504489" />
+		<nd ref="208504490" />
+		<nd ref="208504491" />
+		<nd ref="208504493" />
+		<nd ref="208504494" />
+		<nd ref="208504495" />
+		<nd ref="208504496" />
+		<nd ref="208504497" />
+		<nd ref="208504498" />
+		<nd ref="208504499" />
+		<nd ref="208504500" />
+		<nd ref="208504501" />
+		<nd ref="208504502" />
+		<nd ref="208504503" />
+		<nd ref="208504504" />
+		<nd ref="208504506" />
+		<nd ref="208504507" />
+		<nd ref="208504508" />
+		<nd ref="208504509" />
+		<nd ref="208504510" />
+		<nd ref="208504511" />
+		<nd ref="208504512" />
+		<nd ref="208504513" />
+		<nd ref="208504514" />
+		<nd ref="208504516" />
+		<nd ref="208504517" />
+		<nd ref="208504518" />
+		<nd ref="208504519" />
+		<nd ref="208504520" />
+		<nd ref="208504521" />
+		<nd ref="208504522" />
+		<nd ref="208504523" />
+		<nd ref="208504524" />
+		<nd ref="208504525" />
+		<nd ref="208504527" />
+		<nd ref="208504528" />
+		<nd ref="208504529" />
+		<nd ref="208504530" />
+		<nd ref="208504531" />
+		<nd ref="208504532" />
+		<nd ref="208504533" />
+		<nd ref="208504534" />
+		<nd ref="208504535" />
+		<nd ref="208504536" />
+		<nd ref="208504537" />
+		<nd ref="208504538" />
+		<nd ref="208504540" />
+		<nd ref="208504541" />
+		<nd ref="208504542" />
+		<nd ref="208504543" />
+		<nd ref="208504544" />
+		<nd ref="208504545" />
+		<nd ref="208504546" />
+		<nd ref="208504547" />
+		<nd ref="208504548" />
+		<nd ref="208504549" />
+		<nd ref="208504550" />
+		<nd ref="208504551" />
+		<nd ref="208504552" />
+		<nd ref="208504553" />
+		<nd ref="208504554" />
+		<nd ref="208504555" />
+		<nd ref="208504556" />
+		<nd ref="208504557" />
+		<nd ref="208504558" />
+		<nd ref="208504559" />
+		<nd ref="208504560" />
+		<nd ref="208504561" />
+		<nd ref="208504562" />
+		<nd ref="208504564" />
+		<nd ref="208504565" />
+		<nd ref="208504566" />
+		<nd ref="208504567" />
+		<nd ref="208504568" />
+		<nd ref="208504569" />
+		<nd ref="208504571" />
+		<nd ref="208504572" />
+		<nd ref="208504573" />
+		<nd ref="208504574" />
+		<nd ref="208504575" />
+		<nd ref="208504576" />
+		<nd ref="208504577" />
+		<nd ref="208504578" />
+		<nd ref="208504579" />
+		<nd ref="208504580" />
+		<nd ref="208504581" />
+		<nd ref="208504583" />
+		<nd ref="208504584" />
+		<nd ref="208504585" />
+		<nd ref="208504586" />
+		<nd ref="208504587" />
+		<nd ref="208504588" />
+		<nd ref="208504589" />
+		<nd ref="208504590" />
+		<nd ref="208504591" />
+		<nd ref="208504592" />
+		<nd ref="208504594" />
+		<nd ref="208504595" />
+		<nd ref="208504596" />
+		<nd ref="208504597" />
+		<nd ref="208504598" />
+		<nd ref="208504599" />
+		<nd ref="208504600" />
+		<nd ref="208504601" />
+		<nd ref="208504602" />
+		<nd ref="208504603" />
+		<nd ref="208504604" />
+		<nd ref="208504606" />
+		<nd ref="208331216" />
+		<nd ref="208504607" />
+		<nd ref="208504608" />
+		<nd ref="208504609" />
+		<nd ref="208504610" />
+		<nd ref="208504612" />
+		<nd ref="208504613" />
+		<nd ref="208504614" />
+		<nd ref="208504615" />
+		<nd ref="208504616" />
+		<nd ref="208504617" />
+		<nd ref="208504618" />
+		<nd ref="208504619" />
+		<nd ref="208504620" />
+		<nd ref="208504621" />
+		<nd ref="208504623" />
+		<nd ref="208504624" />
+		<nd ref="208504625" />
+		<nd ref="208504626" />
+		<nd ref="208504627" />
+		<nd ref="208504628" />
+		<nd ref="208504629" />
+		<nd ref="208504631" />
+		<nd ref="208504632" />
+		<nd ref="208172485" />
+		<nd ref="208504633" />
+		<nd ref="208504634" />
+		<nd ref="208504637" />
+		<nd ref="208504638" />
+		<nd ref="208504639" />
+		<nd ref="208504641" />
+		<nd ref="208504642" />
+		<nd ref="208504643" />
+		<nd ref="208504645" />
+		<nd ref="208504646" />
+		<nd ref="208504647" />
+		<nd ref="208504648" />
+		<nd ref="208504649" />
+		<nd ref="208504650" />
+		<nd ref="208504652" />
+		<nd ref="208504653" />
+		<nd ref="208504654" />
+		<nd ref="208504655" />
+		<nd ref="208504656" />
+		<nd ref="208504657" />
+		<nd ref="208504658" />
+		<nd ref="208504659" />
+		<nd ref="208504660" />
+		<nd ref="207845735" />
+		<nd ref="208504662" />
+		<nd ref="208504663" />
+		<nd ref="208504664" />
+		<nd ref="208504665" />
+		<nd ref="208504666" />
+		<nd ref="208504667" />
+		<nd ref="208504668" />
+		<nd ref="208504669" />
+		<nd ref="208504670" />
+		<nd ref="208504671" />
+		<nd ref="208504672" />
+		<nd ref="208504674" />
+		<nd ref="208504675" />
+		<nd ref="208504676" />
+		<nd ref="208504677" />
+		<nd ref="208504678" />
+		<nd ref="208504679" />
+		<nd ref="208504680" />
+		<nd ref="208504681" />
+		<nd ref="208504682" />
+		<nd ref="208504683" />
+		<nd ref="208504684" />
+		<nd ref="208504685" />
+		<nd ref="208504687" />
+		<nd ref="208504688" />
+		<nd ref="208504689" />
+		<nd ref="208504690" />
+		<nd ref="208504691" />
+		<nd ref="208504692" />
+		<nd ref="208504693" />
+		<nd ref="208504694" />
+		<nd ref="208504695" />
+		<nd ref="208504696" />
+		<nd ref="208504697" />
+		<nd ref="208504698" />
+		<nd ref="208504699" />
+		<nd ref="208504700" />
+		<nd ref="208504702" />
+		<nd ref="208504703" />
+		<nd ref="208504704" />
+		<nd ref="208504705" />
+		<nd ref="208504706" />
+		<nd ref="208504707" />
+		<nd ref="208504708" />
+		<nd ref="208504709" />
+		<nd ref="208504710" />
+		<nd ref="208504711" />
+		<nd ref="208504712" />
+		<nd ref="208504714" />
+		<nd ref="208504715" />
+		<nd ref="208504716" />
+		<nd ref="208504717" />
+		<nd ref="208504718" />
+		<nd ref="208504719" />
+		<nd ref="208504720" />
+		<nd ref="208504721" />
+		<nd ref="208504722" />
+		<nd ref="208504723" />
+		<nd ref="208504724" />
+		<nd ref="208504725" />
+		<nd ref="208481960" />
+		<tag k="name" v="State Route 628" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="74079566:74079595:74079596:74076764:74076293:74076295:74067003:74066999:74067005:74067006:74098709:74056970:74099242:74058073:74058854:74058080:74056986" />
+		<tag k="tiger:county" v="Buchanan, VA" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070830" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="State Route 628" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-6d937ee5-5862-41f3-9d06-b48e89919c4f" />
+	</way>
+	<way changeset="43670901" id="19958528" timestamp="2016-11-15T13:33:57Z" uid="2443590" user="Boon Booni" version="5">
+		<nd ref="209899305" />
+		<nd ref="209899308" />
+		<nd ref="209899311" />
+		<nd ref="209899314" />
+		<nd ref="209899317" />
+		<nd ref="209899321" />
+		<nd ref="209899324" />
+		<nd ref="209899326" />
+		<nd ref="209899329" />
+		<nd ref="209899332" />
+		<nd ref="209899334" />
+		<nd ref="209899336" />
+		<nd ref="209899338" />
+		<nd ref="209899341" />
+		<nd ref="209899343" />
+		<nd ref="209899344" />
+		<nd ref="209899347" />
+		<nd ref="209899349" />
+		<nd ref="209899352" />
+		<nd ref="209899355" />
+		<nd ref="209899358" />
+		<nd ref="209899360" />
+		<nd ref="209899363" />
+		<nd ref="209899365" />
+		<nd ref="209899368" />
+		<nd ref="209899371" />
+		<nd ref="209899373" />
+		<nd ref="209899375" />
+		<nd ref="209899377" />
+		<nd ref="209899379" />
+		<nd ref="209899382" />
+		<nd ref="209899387" />
+		<nd ref="209899390" />
+		<nd ref="209899393" />
+		<nd ref="209899396" />
+		<nd ref="209899402" />
+		<nd ref="209899405" />
+		<nd ref="209899408" />
+		<nd ref="209899410" />
+		<nd ref="209899413" />
+		<nd ref="209899416" />
+		<nd ref="209899419" />
+		<nd ref="209899422" />
+		<nd ref="209899423" />
+		<nd ref="209899425" />
+		<nd ref="209899428" />
+		<nd ref="209899430" />
+		<nd ref="209899433" />
+		<nd ref="209899437" />
+		<nd ref="209899440" />
+		<nd ref="209899443" />
+		<nd ref="209899446" />
+		<nd ref="209899449" />
+		<nd ref="209899452" />
+		<nd ref="209899456" />
+		<nd ref="209899458" />
+		<nd ref="209899463" />
+		<nd ref="209899466" />
+		<nd ref="209899468" />
+		<nd ref="209899470" />
+		<nd ref="209899472" />
+		<nd ref="209899475" />
+		<nd ref="209899478" />
+		<nd ref="209899482" />
+		<nd ref="209899485" />
+		<nd ref="209899487" />
+		<nd ref="209899489" />
+		<nd ref="209899491" />
+		<nd ref="209899493" />
+		<nd ref="209899496" />
+		<nd ref="209899499" />
+		<nd ref="209899504" />
+		<nd ref="209899506" />
+		<nd ref="209899508" />
+		<nd ref="209899510" />
+		<nd ref="209899514" />
+		<nd ref="209899516" />
+		<nd ref="209899521" />
+		<nd ref="209899524" />
+		<nd ref="209899528" />
+		<nd ref="209899531" />
+		<nd ref="209899534" />
+		<nd ref="209899536" />
+		<nd ref="209899538" />
+		<nd ref="209899540" />
+		<nd ref="209899542" />
+		<nd ref="209899544" />
+		<nd ref="209899546" />
+		<nd ref="209899550" />
+		<nd ref="209899553" />
+		<nd ref="209899556" />
+		<nd ref="209899559" />
+		<nd ref="209899562" />
+		<nd ref="209899565" />
+		<nd ref="209899568" />
+		<nd ref="209899575" />
+		<nd ref="209899578" />
+		<nd ref="209899581" />
+		<nd ref="209899584" />
+		<nd ref="209899587" />
+		<nd ref="209899590" />
+		<nd ref="209899593" />
+		<nd ref="209899596" />
+		<nd ref="209899599" />
+		<nd ref="209899601" />
+		<nd ref="209899604" />
+		<nd ref="209899607" />
+		<nd ref="209899610" />
+		<nd ref="209899613" />
+		<nd ref="209899615" />
+		<nd ref="209899617" />
+		<nd ref="209899620" />
+		<nd ref="209899623" />
+		<nd ref="209899624" />
+		<nd ref="209899625" />
+		<nd ref="209899626" />
+		<nd ref="209899627" />
+		<nd ref="209899629" />
+		<nd ref="209899631" />
+		<nd ref="209899633" />
+		<nd ref="209899635" />
+		<nd ref="209899637" />
+		<nd ref="209899638" />
+		<nd ref="209899641" />
+		<nd ref="209899643" />
+		<nd ref="209899646" />
+		<nd ref="209899648" />
+		<nd ref="209899650" />
+		<nd ref="209899652" />
+		<nd ref="209899657" />
+		<nd ref="209899658" />
+		<nd ref="209899661" />
+		<nd ref="209899664" />
+		<tag k="name" v="Potts Mountain Road" />
+		<tag k="highway" v="unclassified" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Craig, VA" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Potts Mountain" />
+		<tag k="tiger:name_type" v="Rd" />
+	</way>
+	<way changeset="584228" id="20216112" timestamp="2008-01-09T22:41:30Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="213805971" />
+		<nd ref="213805973" />
+		<nd ref="213805975" />
+		<nd ref="213805977" />
+		<nd ref="213805979" />
+		<nd ref="213805983" />
+		<nd ref="213805986" />
+		<nd ref="213805989" />
+		<nd ref="213805992" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="47000634" />
+		<tag k="tiger:county" v="Giles, VA" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070830" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-72053047-5fd9-41b3-b21a-f699c7b81e10" />
+	</way>
+	<way changeset="584369" id="20222064" timestamp="2008-01-09T23:27:59Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="213715080" />
+		<nd ref="213884835" />
+		<nd ref="213884838" />
+		<nd ref="213884844" />
+		<nd ref="213884849" />
+		<nd ref="213884854" />
+		<nd ref="213884858" />
+		<nd ref="213884861" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:tlid" v="47000716" />
+		<tag k="tiger:county" v="Giles, VA" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070830" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:separated" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-72053047-5fd9-41b3-b21a-f699c7b81e10" />
+	</way>
+	<way changeset="14531776" id="20233614" timestamp="2013-01-04T22:21:39Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="214053848" />
+		<nd ref="213929037" />
+		<nd ref="214053851" />
+		<nd ref="214053855" />
+		<nd ref="214053858" />
+		<nd ref="214053862" />
+		<nd ref="214053865" />
+		<nd ref="214053868" />
+		<nd ref="214053871" />
+		<nd ref="214053874" />
+		<nd ref="214053877" />
+		<nd ref="214053879" />
+		<tag k="name" v="Richards Street" />
+		<tag k="name_1" v="State Route 812" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Giles, VA" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="24128" />
+		<tag k="tiger:name_base" v="Richards" />
+		<tag k="tiger:name_type" v="St" />
+		<tag k="tiger:zip_right" v="24128" />
+		<tag k="tiger:name_base_1" v="State Route 812" />
+	</way>
+	<way changeset="14390911" id="20365380" timestamp="2012-12-24T14:17:51Z" uid="451693" user="bot-mode" version="2">
+		<nd ref="216500463" />
+		<nd ref="216506684" />
+		<tag k="name" v="Surface View Circle" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Montgomery, VA" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Surface View" />
+		<tag k="tiger:name_type" v="Cir" />
+	</way>
+	<way changeset="46775093" id="20540204" timestamp="2017-03-12T00:06:18Z" uid="1408522" user="Omnific" version="3">
+		<nd ref="220221417" />
+		<nd ref="220221421" />
+		<nd ref="220221427" />
+		<nd ref="220221432" />
+		<nd ref="220221439" />
+		<nd ref="220221444" />
+		<nd ref="220221448" />
+		<nd ref="220221452" />
+		<nd ref="220221456" />
+		<nd ref="220221458" />
+		<nd ref="220221462" />
+		<tag k="name" v="Taft Lane" />
+		<tag k="oneway" v="no" />
+		<tag k="highway" v="residential" />
+		<tag k="maxspeed" v="25 mph" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Tazewell, VA" />
+		<tag k="tiger:reviewed" v="no" />
+	</way>
+	<way changeset="46772199" id="20557446" timestamp="2017-03-11T21:18:17Z" uid="1408522" user="Omnific" version="2">
+		<nd ref="220580229" />
+		<nd ref="220580231" />
+		<nd ref="220580235" />
+		<nd ref="220580239" />
+		<nd ref="220580244" />
+		<nd ref="220580249" />
+		<nd ref="220580252" />
+		<nd ref="220580255" />
+		<nd ref="220580258" />
+		<nd ref="220580260" />
+		<nd ref="220580263" />
+		<nd ref="220580270" />
+		<nd ref="220580275" />
+		<nd ref="220580279" />
+		<nd ref="220580284" />
+		<nd ref="220580287" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="service" v="driveway" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Tazewell, VA" />
+		<tag k="tiger:reviewed" v="no" />
+	</way>
+	<way changeset="9678562" id="33743512" timestamp="2011-10-28T17:38:52Z" uid="70696" user="xybot" version="5">
+		<nd ref="1403946595" />
+		<nd ref="1403946603" />
+		<nd ref="1403946597" />
+		<nd ref="1403946605" />
+		<nd ref="1403946595" />
+		<tag k="name" v="Worsham Field" />
+		<tag k="sport" v="american_football" />
+		<tag k="leisure" v="pitch" />
+	</way>
+	<way changeset="38825961" id="39602388" timestamp="2016-04-24T05:18:34Z" uid="402624" user="bdiscoe" version="3">
+		<nd ref="474707632" />
+		<nd ref="474707633" />
+		<nd ref="474707634" />
+		<nd ref="474707635" />
+		<nd ref="472777431" />
+		<nd ref="474707637" />
+		<nd ref="474707638" />
+		<nd ref="474707639" />
+		<nd ref="474707632" />
+		<tag k="source" v="NHD" />
+		<tag k="natural" v="water" />
+		<tag k="NHD:ComID" v="44346236" />
+		<tag k="NHD:FCode" v="39004" />
+		<tag k="NHD:FDate" v="2002/07/02" />
+		<tag k="NHD:FTYPE" v="LakePond" />
+		<tag k="NHD:ReachCode" v="03010101009821" />
+		<tag k="NHD:RESOLUTION" v="High" />
+	</way>
+	<way changeset="15144485" id="43227000" timestamp="2013-02-24T08:12:34Z" uid="155066" user="HokiePilot" version="3">
+		<nd ref="542062078" />
+		<nd ref="542062083" />
+		<nd ref="542062088" />
+		<nd ref="542062092" />
+		<nd ref="542062097" />
+		<nd ref="542062105" />
+		<nd ref="542062111" />
+		<nd ref="542062118" />
+		<nd ref="542062123" />
+		<nd ref="542062130" />
+		<nd ref="542062134" />
+		<nd ref="542062141" />
+		<nd ref="542062143" />
+		<nd ref="542062150" />
+		<nd ref="542062156" />
+		<nd ref="542062162" />
+		<nd ref="542062169" />
+		<nd ref="542062176" />
+		<nd ref="542062181" />
+		<nd ref="542062187" />
+		<nd ref="542062193" />
+		<nd ref="542062198" />
+		<nd ref="542062204" />
+		<nd ref="542062210" />
+		<nd ref="542062216" />
+		<nd ref="542062222" />
+		<nd ref="542062262" />
+		<nd ref="542062267" />
+		<nd ref="542062274" />
+		<nd ref="2170768591" />
+		<nd ref="542062278" />
+		<nd ref="542062285" />
+		<nd ref="542062293" />
+		<nd ref="542062296" />
+		<nd ref="1618346914" />
+		<nd ref="1618346912" />
+		<nd ref="1618346909" />
+		<nd ref="1618346907" />
+		<nd ref="1618346905" />
+		<nd ref="1618346904" />
+		<nd ref="1618346902" />
+		<nd ref="1618346903" />
+		<nd ref="1618346906" />
+		<nd ref="1618346908" />
+		<nd ref="1618346911" />
+		<nd ref="1618346913" />
+		<nd ref="1618346915" />
+		<nd ref="1618346918" />
+		<nd ref="1618346917" />
+		<nd ref="1618346916" />
+		<nd ref="1618346919" />
+		<nd ref="1618346920" />
+		<nd ref="1618346922" />
+		<nd ref="1618346923" />
+		<nd ref="1618346924" />
+		<nd ref="1618346925" />
+		<nd ref="1618346926" />
+		<nd ref="1618346927" />
+		<tag k="name" v="Back Creek" />
+		<tag k="source" v="NHD_import_v0.3_20091026193629" />
+		<tag k="waterway" v="stream" />
+		<tag k="NHD:ComID" v="49078544" />
+		<tag k="NHD:FCode" v="46006" />
+		<tag k="NHD:FType" v="StreamRiver" />
+		<tag k="NHD:way_id" v="49078544" />
+		<tag k="attribution" v="NHD" />
+		<tag k="NHD:ReachCode" v="5050001000003" />
+		<tag k="NHD:RESOLUTION" v="High" />
+		<tag k="gnis:feature_id" v="01481369" />
+	</way>
+	<way changeset="14373990" id="50235724" timestamp="2012-12-23T06:10:36Z" uid="451693" user="bot-mode" version="3">
+		<nd ref="162135899" />
+		<nd ref="162135901" />
+		<nd ref="162135903" />
+		<tag k="name" v="Broadway Street" />
+		<tag k="highway" v="secondary" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Boyd, KY" />
+		<tag k="unsigned_ref" v="KY 2537" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="41129" />
+		<tag k="tiger:name_base" v="Broadway" />
+		<tag k="tiger:name_type" v="St" />
+		<tag k="tiger:zip_right" v="41129" />
+	</way>
+	<way changeset="51548057" id="54782630" timestamp="2017-08-29T15:51:54Z" uid="360392" user="maxerickson" version="5">
+		<nd ref="689787945" />
+		<nd ref="1177775001" />
+		<nd ref="689787949" />
+		<nd ref="689787948" />
+		<nd ref="689787495" />
+		<nd ref="689788107" />
+		<nd ref="689787952" />
+		<nd ref="689787953" />
+		<nd ref="689787950" />
+		<nd ref="689787951" />
+		<nd ref="689787954" />
+		<nd ref="689787946" />
+		<nd ref="689787947" />
+		<nd ref="689787945" />
+		<tag k="building" v="apartments" />
+	</way>
+	<way changeset="51704906" id="54783682" timestamp="2017-09-04T00:25:12Z" uid="360392" user="maxerickson" version="3">
+		<nd ref="689796203" />
+		<nd ref="689796202" />
+		<nd ref="689796212" />
+		<nd ref="689796214" />
+		<nd ref="689796213" />
+		<nd ref="689796210" />
+		<nd ref="689796211" />
+		<nd ref="689796217" />
+		<nd ref="689796218" />
+		<nd ref="689796215" />
+		<nd ref="689796216" />
+		<nd ref="689796219" />
+		<nd ref="689796201" />
+		<nd ref="689796200" />
+		<nd ref="689796203" />
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="1401" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Gladewood Drive" />
+		<tag k="building" v="detached" />
+	</way>
+	<way changeset="51698672" id="54784769" timestamp="2017-09-03T17:52:10Z" uid="360392" user="maxerickson" version="3">
+		<nd ref="689807432" />
+		<nd ref="689807467" />
+		<nd ref="689807466" />
+		<nd ref="689807465" />
+		<nd ref="689807462" />
+		<nd ref="689807463" />
+		<nd ref="689807464" />
+		<nd ref="689807469" />
+		<nd ref="689807468" />
+		<nd ref="689807605" />
+		<nd ref="689807474" />
+		<nd ref="689807475" />
+		<nd ref="689807606" />
+		<nd ref="689807604" />
+		<nd ref="689807471" />
+		<nd ref="689807472" />
+		<nd ref="689807473" />
+		<nd ref="689807470" />
+		<nd ref="689807601" />
+		<nd ref="689807602" />
+		<nd ref="689807603" />
+		<nd ref="689807871" />
+		<nd ref="689807870" />
+		<nd ref="689807873" />
+		<nd ref="689807872" />
+		<nd ref="689807867" />
+		<nd ref="689807866" />
+		<nd ref="689807869" />
+		<nd ref="689807868" />
+		<nd ref="689807863" />
+		<nd ref="689807862" />
+		<nd ref="689807865" />
+		<nd ref="689807864" />
+		<nd ref="689807608" />
+		<nd ref="689807607" />
+		<nd ref="689807610" />
+		<nd ref="689807609" />
+		<nd ref="689807597" />
+		<nd ref="689807598" />
+		<nd ref="689807595" />
+		<nd ref="689807596" />
+		<nd ref="689807599" />
+		<nd ref="689807600" />
+		<nd ref="689807594" />
+		<nd ref="689807592" />
+		<nd ref="689807593" />
+		<nd ref="689807589" />
+		<nd ref="689807590" />
+		<nd ref="689807587" />
+		<nd ref="689807588" />
+		<nd ref="689807591" />
+		<nd ref="689807580" />
+		<nd ref="689807578" />
+		<nd ref="689807579" />
+		<nd ref="689807584" />
+		<nd ref="689807583" />
+		<nd ref="689807582" />
+		<nd ref="689807581" />
+		<nd ref="689807585" />
+		<nd ref="689807586" />
+		<nd ref="689807431" />
+		<nd ref="689807430" />
+		<nd ref="689807429" />
+		<nd ref="689807433" />
+		<nd ref="689807432" />
+		<tag k="building" v="apartments" />
+	</way>
+	<way changeset="4370079" id="54785816" timestamp="2010-04-09T07:14:27Z" uid="99367" user="mutantmonkey" version="2">
+		<nd ref="689818184" />
+		<nd ref="689818183" />
+		<nd ref="689818182" />
+		<nd ref="689818181" />
+		<nd ref="689818184" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="51659287" id="54787682" timestamp="2017-09-02T03:18:19Z" uid="360392" user="maxerickson" version="3">
+		<nd ref="689828854" />
+		<nd ref="689828853" />
+		<nd ref="689828852" />
+		<nd ref="689828851" />
+		<nd ref="689828856" />
+		<nd ref="689828855" />
+		<nd ref="689828854" />
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="510" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Fairview Avenue" />
+		<tag k="building" v="detached" />
+	</way>
+	<way changeset="51632549" id="54788772" timestamp="2017-09-01T04:34:11Z" uid="360392" user="maxerickson" version="3">
+		<nd ref="689838309" />
+		<nd ref="689838307" />
+		<nd ref="689838306" />
+		<nd ref="689838308" />
+		<nd ref="689838311" />
+		<nd ref="689838310" />
+		<nd ref="689838309" />
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="509" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Cranwell Circle" />
+		<tag k="building" v="detached" />
+	</way>
+	<way changeset="51659287" id="54789812" timestamp="2017-09-02T03:19:31Z" uid="360392" user="maxerickson" version="3">
+		<nd ref="689848324" />
+		<nd ref="689848328" />
+		<nd ref="689848327" />
+		<nd ref="689848326" />
+		<nd ref="689847944" />
+		<nd ref="689848325" />
+		<nd ref="689848324" />
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="403" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Willard Drive" />
+		<tag k="building" v="detached" />
+	</way>
+	<way changeset="51674865" id="54790887" timestamp="2017-09-02T17:10:16Z" uid="360392" user="maxerickson" version="2">
+		<nd ref="689856634" />
+		<nd ref="689856636" />
+		<nd ref="689856635" />
+		<nd ref="689856648" />
+		<nd ref="689856646" />
+		<nd ref="689856647" />
+		<nd ref="689856644" />
+		<nd ref="689856645" />
+		<nd ref="689856640" />
+		<nd ref="689856641" />
+		<nd ref="689856642" />
+		<nd ref="689856638" />
+		<nd ref="689856643" />
+		<nd ref="689856633" />
+		<nd ref="689856634" />
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="901" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Myers Place" />
+		<tag k="building" v="detached" />
+	</way>
+	<way changeset="51522789" id="54792667" timestamp="2017-08-28T21:50:38Z" uid="360392" user="maxerickson" version="2">
+		<nd ref="689866127" />
+		<nd ref="689866122" />
+		<nd ref="689866121" />
+		<nd ref="689866124" />
+		<nd ref="689866123" />
+		<nd ref="689866130" />
+		<nd ref="689866131" />
+		<nd ref="689866142" />
+		<nd ref="689866143" />
+		<nd ref="689866140" />
+		<nd ref="689866141" />
+		<nd ref="689866138" />
+		<nd ref="689866139" />
+		<nd ref="689866136" />
+		<nd ref="689866137" />
+		<nd ref="689866170" />
+		<nd ref="689866171" />
+		<nd ref="689866169" />
+		<nd ref="689866173" />
+		<nd ref="689866165" />
+		<nd ref="689866166" />
+		<nd ref="689866164" />
+		<nd ref="689866163" />
+		<nd ref="689866162" />
+		<nd ref="689866161" />
+		<nd ref="689866160" />
+		<nd ref="689866159" />
+		<nd ref="689866158" />
+		<nd ref="689866157" />
+		<nd ref="689866156" />
+		<nd ref="689866155" />
+		<nd ref="689866154" />
+		<nd ref="689866153" />
+		<nd ref="689866152" />
+		<nd ref="689866151" />
+		<nd ref="689866150" />
+		<nd ref="689866149" />
+		<nd ref="689866148" />
+		<nd ref="689866144" />
+		<nd ref="689866145" />
+		<nd ref="689866146" />
+		<nd ref="689866147" />
+		<nd ref="689866126" />
+		<nd ref="689866125" />
+		<nd ref="689866129" />
+		<nd ref="689866128" />
+		<nd ref="689866127" />
+		<tag k="building" v="apartments" />
+	</way>
+	<way changeset="51706387" id="54793714" timestamp="2017-09-04T04:15:02Z" uid="360392" user="maxerickson" version="3">
+		<nd ref="689878648" />
+		<nd ref="689878649" />
+		<nd ref="689878646" />
+		<nd ref="689878647" />
+		<nd ref="689878650" />
+		<nd ref="689878651" />
+		<nd ref="689878593" />
+		<nd ref="689878607" />
+		<nd ref="689878595" />
+		<nd ref="689878645" />
+		<nd ref="689878643" />
+		<nd ref="689878644" />
+		<nd ref="689878648" />
+		<tag k="addr:city" v="Blacksburg" />
+		<tag k="addr:country" v="US" />
+		<tag k="addr:housenumber" v="412" />
+		<tag k="addr:state" v="VA" />
+		<tag k="addr:street" v="Vinyard Avenue" />
+		<tag k="building" v="detached" />
+	</way>
+	<way changeset="12708411" id="57578156" timestamp="2012-08-13T00:19:56Z" uid="207745" user="NE2" version="2">
+		<nd ref="155308661" />
+		<nd ref="714638884" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+	</way>
+	<way changeset="7844807" id="72301776" timestamp="2011-04-12T17:44:00Z" uid="111209" user="cov" version="2">
+		<nd ref="546956639" />
+		<nd ref="859037694" />
+		<nd ref="859037595" />
+		<nd ref="859037259" />
+		<nd ref="859037802" />
+		<nd ref="859037397" />
+		<nd ref="859037324" />
+		<tag k="foot" v="yes" />
+		<tag k="bicycle" v="yes" />
+		<tag k="highway" v="path" />
+		<tag k="surface" v="concrete" />
+	</way>
+	<way changeset="24275493" id="81192162" timestamp="2014-07-21T15:13:06Z" uid="2077000" user="Kirbert" version="3">
+		<nd ref="946027763" />
+		<nd ref="2404451404" />
+		<nd ref="946027676" />
+		<nd ref="946027681" />
+		<nd ref="946027703" />
+		<nd ref="946027748" />
+		<nd ref="946027665" />
+		<nd ref="946027670" />
+		<nd ref="2404451398" />
+		<nd ref="155959557" />
+		<nd ref="946027684" />
+		<nd ref="946027708" />
+		<nd ref="946027715" />
+		<nd ref="946027742" />
+		<nd ref="946027673" />
+		<nd ref="946027690" />
+		<nd ref="475431403" />
+		<tag k="oneway" v="yes" />
+		<tag k="highway" v="motorway_link" />
+	</way>
+	<way changeset="6953072" id="94835974" timestamp="2011-01-12T23:43:19Z" uid="99367" user="mutantmonkey" version="1">
+		<nd ref="1100877942" />
+		<nd ref="1100877752" />
+		<nd ref="1100878316" />
+		<nd ref="1100878161" />
+		<nd ref="1100877806" />
+		<nd ref="1100878235" />
+		<nd ref="1100878199" />
+		<nd ref="1100877804" />
+		<tag k="oneway" v="yes" />
+		<tag k="highway" v="service" />
+		<tag k="service" v="parking_aisle" />
+	</way>
+	<way changeset="46027638" id="110348442" timestamp="2017-02-12T18:51:08Z" uid="2209894" user="Spanholz" version="3">
+		<nd ref="1260361005" />
+		<nd ref="4682210423" />
+		<nd ref="4682210422" />
+		<nd ref="167778466" />
+		<nd ref="4682210482" />
+		<nd ref="167778470" />
+		<nd ref="4682210472" />
+		<nd ref="167778473" />
+		<nd ref="167778476" />
+		<nd ref="167778479" />
+		<nd ref="4682210471" />
+		<nd ref="167778482" />
+		<nd ref="4682210470" />
+		<nd ref="167778485" />
+		<nd ref="4682210469" />
+		<nd ref="167778491" />
+		<nd ref="4682210498" />
+		<nd ref="167778494" />
+		<nd ref="4682210539" />
+		<nd ref="167778497" />
+		<tag k="name" v="Fishtrap Road" />
+		<tag k="highway" v="unclassified" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Pike, KY" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="41562" />
+		<tag k="tiger:name_base" v="Fishtrap" />
+		<tag k="tiger:name_type" v="Rd" />
+		<tag k="tiger:zip_right" v="41562" />
+		<tag k="tiger:name_base_1" v="State Highway 1789" />
+	</way>
+	<way changeset="13119406" id="134473443" timestamp="2012-09-15T15:35:34Z" uid="169004" user="oldtopos" version="2">
+		<nd ref="1478363105" />
+		<nd ref="155362106" />
+		<tag k="highway" v="residential" />
+	</way>
+	<way changeset="10915570" id="154078229" timestamp="2012-03-09T01:53:25Z" uid="160651" user="dcat" version="1">
+		<nd ref="1666745025" />
+		<nd ref="1666745024" />
+		<nd ref="1666745023" />
+		<nd ref="1666745021" />
+		<nd ref="1666745014" />
+		<nd ref="1666745013" />
+		<nd ref="1666745012" />
+		<nd ref="1666745011" />
+		<nd ref="1666745010" />
+		<nd ref="1666745009" />
+		<nd ref="1666745008" />
+		<nd ref="1666745007" />
+		<nd ref="1666745006" />
+		<nd ref="1666745005" />
+		<nd ref="1666745004" />
+		<nd ref="1666745003" />
+		<nd ref="1666745002" />
+		<nd ref="1666745001" />
+		<nd ref="1666745000" />
+		<nd ref="1666744999" />
+		<nd ref="1666744998" />
+		<nd ref="1666744997" />
+		<nd ref="1666744996" />
+		<nd ref="1666744995" />
+		<nd ref="1666744994" />
+		<nd ref="1666744993" />
+		<nd ref="1666744992" />
+		<nd ref="1666744991" />
+		<nd ref="1666744990" />
+		<nd ref="1666744989" />
+		<nd ref="1666744988" />
+		<nd ref="1666744987" />
+		<nd ref="1666744986" />
+		<nd ref="1666744985" />
+		<nd ref="1666744984" />
+		<nd ref="1666744979" />
+		<nd ref="1666744975" />
+		<nd ref="1666744974" />
+		<nd ref="1666744973" />
+		<nd ref="1666744971" />
+		<nd ref="1666744981" />
+		<tag k="power" v="line" />
+		<tag k="voltage" v="138000" />
+	</way>
+	<way changeset="20705734" id="174122622" timestamp="2014-02-22T01:35:10Z" uid="436419" user="wvdp" version="2">
+		<nd ref="1848475022" />
+		<nd ref="1848475087" />
+		<nd ref="1848475302" />
+		<nd ref="1848475131" />
+		<nd ref="1848475104" />
+		<nd ref="1848475336" />
+		<tag k="highway" v="unclassified" />
+	</way>
+	<way changeset="28165557" id="206772543" timestamp="2015-01-15T15:29:18Z" uid="1012362" user="Pnrrth" version="2">
+		<nd ref="213979218" />
+		<nd ref="213979215" />
+		<tag k="name" v="Christiansburg District" />
+		<tag k="gauge" v="1435" />
+		<tag k="usage" v="main" />
+		<tag k="railway" v="rail" />
+		<tag k="operator" v="NS" />
+		<tag k="tiger:cfcc" v="B11:B13:B21" />
+		<tag k="electrified" v="no" />
+		<tag k="tiger:county" v="Giles, VA:Mercer, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Norfolk Southern Railway:Norfolk and Western Railway" />
+		<tag k="old_railway_operator" v="N&amp;W" />
+	</way>
+	<way changeset="41419663" id="220733063" timestamp="2016-08-12T22:02:55Z" uid="3783613" user="81firearms" version="4">
+		<nd ref="2298254941" />
+		<nd ref="2298254940" />
+		<nd ref="2298254968" />
+		<nd ref="2298254956" />
+		<nd ref="2298254958" />
+		<nd ref="2298254946" />
+		<nd ref="2298254955" />
+		<nd ref="2298254959" />
+		<nd ref="2298254964" />
+		<nd ref="2298254947" />
+		<nd ref="2298254969" />
+		<nd ref="2298254943" />
+		<nd ref="2298254941" />
+		<tag k="name" v="Pilot Travel Plaza" />
+		<tag k="shop" v="convenience" />
+		<tag k="source" v="http://www.pilotflyingj.com/view-location?id=474" />
+		<tag k="amenity" v="fuel" />
+		<tag k="tourism" v="motel" />
+		<tag k="addr:city" v="Sutton" />
+		<tag k="amenity_1" v="restaurant" />
+		<tag k="amenity_2" v="atm" />
+		<tag k="amenity_3" v="toilet" />
+		<tag k="amenity_4" v="shower" />
+		<tag k="addr:state" v="wv" />
+		<tag k="addr:street" v="Scott Fork Road" />
+		<tag k="addr:postcode" v="26601" />
+	</way>
+	<way changeset="16581875" id="225996273" timestamp="2013-06-16T21:02:21Z" uid="1534670" user="Ron Perrone" version="1">
+		<nd ref="2348390380" />
+		<nd ref="2348390362" />
+		<tag k="highway" v="track" />
+	</way>
+	<way changeset="19137625" id="248607063" timestamp="2013-11-27T02:12:48Z" uid="371121" user="AndrewSnow" version="1">
+		<nd ref="2553703715" />
+		<nd ref="2553703716" />
+		<nd ref="2553703717" />
+		<nd ref="2553703718" />
+		<nd ref="2553703719" />
+		<nd ref="2553703714" />
+		<tag k="highway" v="service" />
+		<tag k="service" v="parking_aisle" />
+	</way>
+	<way changeset="20027840" id="256800096" timestamp="2014-01-16T05:48:43Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="2624346307" />
+		<nd ref="2624346309" />
+		<nd ref="2624346310" />
+		<nd ref="2624346312" />
+		<nd ref="2624346314" />
+		<nd ref="2624346307" />
+		<tag k="amenity" v="parking" />
+	</way>
+	<way changeset="20136852" id="257731698" timestamp="2014-01-22T08:03:46Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="2632041897" />
+		<nd ref="2632041898" />
+		<nd ref="2632041899" />
+		<nd ref="2632041900" />
+		<tag k="highway" v="residential" />
+	</way>
+	<way changeset="45834113" id="258550051" timestamp="2017-02-05T16:56:20Z" uid="1408522" user="Omnific" version="2">
+		<nd ref="2638858206" />
+		<nd ref="2638858207" />
+		<nd ref="2638858208" />
+		<nd ref="2638858218" />
+		<nd ref="2638858219" />
+		<nd ref="2638858220" />
+		<nd ref="2638858221" />
+		<nd ref="2638858222" />
+		<tag k="name" v="Pine Acres Road" />
+		<tag k="highway" v="residential" />
+	</way>
+	<way changeset="20742243" id="263138164" timestamp="2014-02-23T22:43:03Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="2687627533" />
+		<nd ref="2687627518" />
+		<nd ref="155441778" />
+		<tag k="highway" v="service" />
+	</way>
+	<way changeset="22686876" id="285854333" timestamp="2014-06-02T06:01:21Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="167753160" />
+		<nd ref="167753164" />
+		<nd ref="167753168" />
+		<nd ref="167753171" />
+		<nd ref="2811391124" />
+		<nd ref="167753179" />
+		<nd ref="167753184" />
+		<nd ref="167753187" />
+		<tag k="name" v="Mayfork Hollow" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Pike, KY" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Mayfork Hollow" />
+	</way>
+	<way changeset="24916367" id="299335559" timestamp="2014-08-21T18:47:12Z" uid="360392" user="maxerickson" version="1">
+		<nd ref="3033225126" />
+		<nd ref="3033225097" />
+		<tag k="man_made" v="pier" />
+	</way>
+	<way changeset="26701827" id="312155822" timestamp="2014-11-11T01:33:36Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3179956069" />
+		<nd ref="3179956070" />
+		<nd ref="3179956071" />
+		<tag k="name" v="Covenant Way" />
+		<tag k="highway" v="residential" />
+	</way>
+	<way changeset="27209596" id="315678999" timestamp="2014-12-03T21:53:30Z" uid="305985" user="ingalls" version="1">
+		<nd ref="3218107273" />
+		<nd ref="3218107312" />
+		<nd ref="3218107301" />
+		<nd ref="3218107292" />
+		<nd ref="3218107244" />
+		<nd ref="3218107273" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="45476591" id="320611810" timestamp="2017-01-25T13:56:32Z" uid="4210803" user="elkueb" version="2">
+		<nd ref="3272089422" />
+		<nd ref="3272089431" />
+		<nd ref="3272089425" />
+		<nd ref="3272089423" />
+		<nd ref="3272089419" />
+		<nd ref="3272089416" />
+		<nd ref="3272089422" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="28331666" id="323672050" timestamp="2015-01-22T17:12:06Z" uid="2511706" user="calfarome" version="1">
+		<nd ref="3304434655" />
+		<nd ref="3304458967" />
+		<nd ref="3304458965" />
+		<nd ref="3304458963" />
+		<nd ref="3304458964" />
+		<nd ref="3304458966" />
+		<nd ref="3304458968" />
+		<nd ref="3304458969" />
+		<nd ref="3304458970" />
+		<tag k="highway" v="service" />
+	</way>
+	<way changeset="29280531" id="331465856" timestamp="2015-03-06T01:45:08Z" uid="371121" user="AndrewSnow" version="1">
+		<nd ref="155355710" />
+		<nd ref="3385417177" />
+		<nd ref="3385417173" />
+		<nd ref="3385417176" />
+		<nd ref="3385417175" />
+		<nd ref="3385417172" />
+		<nd ref="3385417169" />
+		<nd ref="3385417165" />
+		<tag k="name" v="Willow Street" />
+		<tag k="highway" v="service" />
+		<tag k="surface" v="unpaved" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Kanawha, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:zip_left" v="25071" />
+		<tag k="tiger:name_base" v="Willow" />
+		<tag k="tiger:name_type" v="St" />
+		<tag k="tiger:zip_right" v="25071" />
+	</way>
+	<way changeset="30177442" id="334627788" timestamp="2015-04-13T02:28:53Z" uid="1408522" user="Omnific" version="2">
+		<nd ref="3453160543" />
+		<nd ref="3453160544" />
+		<nd ref="3416885610" />
+		<nd ref="3416885622" />
+		<nd ref="3416885631" />
+		<nd ref="3416885690" />
+		<nd ref="3416885693" />
+		<nd ref="3416885694" />
+		<nd ref="3416885697" />
+		<nd ref="3416885702" />
+		<nd ref="3416885711" />
+		<nd ref="3416885720" />
+		<nd ref="3416885729" />
+		<nd ref="3416885732" />
+		<tag k="highway" v="service" />
+	</way>
+	<way changeset="29741621" id="334779543" timestamp="2015-03-25T23:36:50Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3418540884" />
+		<nd ref="3418542016" />
+		<tag k="highway" v="service" />
+	</way>
+	<way changeset="29879891" id="335762488" timestamp="2015-03-31T15:31:26Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3428735713" />
+		<nd ref="3428735712" />
+		<nd ref="3428735716" />
+		<nd ref="3428735686" />
+		<nd ref="3428735678" />
+		<nd ref="3428735676" />
+		<nd ref="3428735670" />
+		<nd ref="3428735674" />
+		<nd ref="3428735666" />
+		<nd ref="3428735696" />
+		<nd ref="3428735706" />
+		<nd ref="3428735709" />
+		<nd ref="3428735713" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="29882747" id="335776700" timestamp="2015-03-31T17:15:56Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3428895922" />
+		<nd ref="3428895942" />
+		<nd ref="3428895933" />
+		<nd ref="3428895911" />
+		<nd ref="3428895922" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="29891560" id="335824388" timestamp="2015-03-31T21:21:14Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3429406104" />
+		<nd ref="3429406122" />
+		<nd ref="3429406118" />
+		<nd ref="3429406125" />
+		<nd ref="3429406114" />
+		<nd ref="3429406115" />
+		<nd ref="3429406107" />
+		<nd ref="3429406094" />
+		<nd ref="3429406104" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="29918808" id="336014338" timestamp="2015-04-02T02:05:37Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3431014033" />
+		<nd ref="3431014040" />
+		<nd ref="3431014037" />
+		<nd ref="3431014028" />
+		<nd ref="3431014033" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="29942773" id="336178357" timestamp="2015-04-03T03:50:06Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3432549844" />
+		<nd ref="3432549851" />
+		<nd ref="3432549823" />
+		<nd ref="3432549814" />
+		<nd ref="3432549844" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="46201449" id="338390689" timestamp="2017-02-18T20:31:41Z" uid="360392" user="maxerickson" version="2">
+		<nd ref="3454691822" />
+		<nd ref="3454691830" />
+		<nd ref="3454691542" />
+		<nd ref="3454691539" />
+		<nd ref="3454691581" />
+		<nd ref="3454691822" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="30947052" id="343974876" timestamp="2015-05-09T20:19:17Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3507553295" />
+		<nd ref="3507553294" />
+		<nd ref="3507553292" />
+		<nd ref="3507553282" />
+		<tag k="highway" v="service" />
+	</way>
+	<way changeset="31729782" id="351504285" timestamp="2015-06-04T20:01:54Z" uid="2748195" user="karitotp" version="1">
+		<nd ref="3572953604" />
+		<nd ref="3572953603" />
+		<nd ref="3572953601" />
+		<nd ref="3572953602" />
+		<tag k="name" v="Meadowview Lane" />
+		<tag k="highway" v="service" />
+	</way>
+	<way changeset="33426556" id="366386279" timestamp="2015-08-18T21:03:07Z" uid="2377377" user="abel801" version="1">
+		<nd ref="3703632763" />
+		<nd ref="3703632764" />
+		<nd ref="3703632765" />
+		<nd ref="3703632766" />
+		<nd ref="3703632767" />
+		<tag k="highway" v="service" />
+		<tag k="service" v="driveway" />
+	</way>
+	<way changeset="33558217" id="367333187" timestamp="2015-08-24T21:12:58Z" uid="2511706" user="calfarome" version="1">
+		<nd ref="3712698522" />
+		<nd ref="3712698542" />
+		<nd ref="3712698546" />
+		<nd ref="3712698547" />
+		<nd ref="3712698548" />
+		<nd ref="3712698549" />
+		<nd ref="3712698552" />
+		<nd ref="3712698560" />
+		<nd ref="3712698565" />
+		<nd ref="3712698567" />
+		<nd ref="3712698566" />
+		<nd ref="3712698564" />
+		<nd ref="3712698562" />
+		<tag k="highway" v="service" />
+		<tag k="service" v="driveway" />
+	</way>
+	<way changeset="34482210" id="374198812" timestamp="2015-10-07T02:17:15Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3775894610" />
+		<nd ref="3775894611" />
+		<nd ref="3775894603" />
+		<nd ref="3775894600" />
+		<nd ref="3775894610" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="34790836" id="376318804" timestamp="2015-10-22T02:08:59Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3797616796" />
+		<nd ref="3797616784" />
+		<nd ref="3797616778" />
+		<nd ref="3797616777" />
+		<nd ref="3797616771" />
+		<nd ref="3797616776" />
+		<nd ref="3797616780" />
+		<nd ref="3797616782" />
+		<nd ref="3797616787" />
+		<nd ref="3797616788" />
+		<nd ref="3797616793" />
+		<nd ref="3797616791" />
+		<nd ref="3797616796" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="34941615" id="377421935" timestamp="2015-10-29T06:11:59Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3807908768" />
+		<nd ref="3807908813" />
+		<nd ref="3807908802" />
+		<nd ref="3807908757" />
+		<nd ref="3807908768" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="35003665" id="377805115" timestamp="2015-11-01T00:53:13Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3812033277" />
+		<nd ref="3812033260" />
+		<nd ref="3812033253" />
+		<nd ref="3812033226" />
+		<nd ref="3812033230" />
+		<nd ref="3812033149" />
+		<nd ref="3812033148" />
+		<nd ref="3812033176" />
+		<nd ref="3812033206" />
+		<nd ref="3812033199" />
+		<nd ref="3812033205" />
+		<nd ref="3812033207" />
+		<nd ref="3812033198" />
+		<nd ref="3812033171" />
+		<nd ref="3812033153" />
+		<nd ref="3812033156" />
+		<nd ref="3812033186" />
+		<nd ref="3812033210" />
+		<nd ref="3812033238" />
+		<nd ref="3812033239" />
+		<nd ref="3812033247" />
+		<nd ref="3812033273" />
+		<nd ref="3812033277" />
+		<tag k="name" v="The Crossing" />
+		<tag k="landuse" v="retail" />
+	</way>
+	<way changeset="35178283" id="379187737" timestamp="2015-11-08T20:28:38Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3825234312" />
+		<nd ref="3825234336" />
+		<nd ref="3825234326" />
+		<nd ref="3825234303" />
+		<nd ref="3825234312" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="35229703" id="379682294" timestamp="2015-11-11T00:37:59Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3830107851" />
+		<nd ref="3830107820" />
+		<nd ref="3830108045" />
+		<nd ref="3830108071" />
+		<nd ref="3830107851" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="35231169" id="379689282" timestamp="2015-11-11T03:09:59Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3830176562" />
+		<nd ref="3830176560" />
+		<nd ref="3830176559" />
+		<nd ref="3830176558" />
+		<nd ref="3830176557" />
+		<nd ref="3830176563" />
+		<nd ref="3830176564" />
+		<nd ref="3830176561" />
+		<nd ref="3830176562" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="35479275" id="381669034" timestamp="2015-11-21T02:19:53Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3848338938" />
+		<nd ref="3848338946" />
+		<nd ref="3848338936" />
+		<nd ref="3848338922" />
+		<nd ref="3848338938" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="36287921" id="388928437" timestamp="2015-12-31T18:27:02Z" uid="2557227" user="WVangler" version="1">
+		<nd ref="3921048064" />
+		<nd ref="3921060737" />
+		<nd ref="3921060736" />
+		<nd ref="3921060735" />
+		<nd ref="3921060734" />
+		<nd ref="3921060733" />
+		<nd ref="3921060732" />
+		<nd ref="3921060731" />
+		<nd ref="3921060730" />
+		<nd ref="3921060729" />
+		<nd ref="3921060728" />
+		<nd ref="3921060727" />
+		<nd ref="3921060726" />
+		<nd ref="3921060725" />
+		<nd ref="3921060724" />
+		<nd ref="3921060723" />
+		<nd ref="3921060741" />
+		<nd ref="3921060740" />
+		<nd ref="3921060739" />
+		<nd ref="3921060738" />
+		<nd ref="3921060743" />
+		<nd ref="3921060742" />
+		<nd ref="3921060744" />
+		<nd ref="3921060745" />
+		<nd ref="3921060746" />
+		<nd ref="3921060747" />
+		<nd ref="3921060748" />
+		<nd ref="3921060722" />
+		<nd ref="3921060753" />
+		<nd ref="3921060754" />
+		<nd ref="3921060755" />
+		<nd ref="3921060752" />
+		<nd ref="3921060751" />
+		<nd ref="3921060750" />
+		<nd ref="3921060749" />
+		<nd ref="3921060756" />
+		<nd ref="3921060757" />
+		<nd ref="3921060758" />
+		<nd ref="3921060759" />
+		<nd ref="3921060760" />
+		<nd ref="3921060761" />
+		<nd ref="3921060762" />
+		<nd ref="3921060763" />
+		<nd ref="3921060764" />
+		<nd ref="3921060765" />
+		<nd ref="3921060766" />
+		<nd ref="3921060767" />
+		<nd ref="3921060768" />
+		<nd ref="3921060769" />
+		<nd ref="3921060770" />
+		<nd ref="3921060771" />
+		<nd ref="3921060772" />
+		<nd ref="3921060773" />
+		<nd ref="3921060774" />
+		<nd ref="3921060775" />
+		<nd ref="3921060776" />
+		<nd ref="3921060777" />
+		<nd ref="3921060778" />
+		<nd ref="3921060779" />
+		<nd ref="3921060780" />
+		<nd ref="3921060721" />
+		<nd ref="3921060781" />
+		<nd ref="3921060782" />
+		<nd ref="3921060783" />
+		<nd ref="3921060784" />
+		<nd ref="3921060785" />
+		<nd ref="3921060786" />
+		<nd ref="3921060787" />
+		<nd ref="3921060788" />
+		<nd ref="3921060789" />
+		<nd ref="3921060790" />
+		<nd ref="3921060791" />
+		<nd ref="3921060792" />
+		<nd ref="3921060793" />
+		<nd ref="3921060794" />
+		<nd ref="3921060795" />
+		<nd ref="3921060796" />
+		<nd ref="3921060797" />
+		<nd ref="3921060798" />
+		<nd ref="3921060799" />
+		<nd ref="3921060800" />
+		<nd ref="3921060801" />
+		<nd ref="3921060802" />
+		<nd ref="3921060720" />
+		<nd ref="3921060803" />
+		<nd ref="3921060804" />
+		<nd ref="3921060805" />
+		<nd ref="3921060806" />
+		<nd ref="3921060807" />
+		<nd ref="3921060808" />
+		<nd ref="3921060809" />
+		<nd ref="3921060810" />
+		<nd ref="3921060811" />
+		<nd ref="3921060812" />
+		<nd ref="3921060719" />
+		<tag k="lit" v="no" />
+		<tag k="name" v="New California Trail" />
+		<tag k="horse" v="no" />
+		<tag k="bicycle" v="yes" />
+		<tag k="highway" v="footway" />
+		<tag k="surface" v="dirt" />
+		<tag k="motor_vehicle" v="no" />
+	</way>
+	<way changeset="36544413" id="391140660" timestamp="2016-01-13T08:15:51Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3942996681" />
+		<nd ref="3942996710" />
+		<nd ref="3942996709" />
+		<nd ref="3942996680" />
+		<nd ref="3942996681" />
+		<tag k="layer" v="1" />
+		<tag k="building" v="roof" />
+	</way>
+	<way changeset="36672091" id="392191259" timestamp="2016-01-19T04:25:59Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3954535641" />
+		<nd ref="3954535633" />
+		<nd ref="3954535625" />
+		<nd ref="3954535617" />
+		<nd ref="3954535614" />
+		<nd ref="3954535605" />
+		<nd ref="3954535578" />
+		<nd ref="3954535518" />
+		<nd ref="3954535495" />
+		<nd ref="3954535486" />
+		<nd ref="3954535483" />
+		<nd ref="3954535474" />
+		<nd ref="3954535471" />
+		<tag k="railway" v="rail" />
+		<tag k="service" v="spur" />
+	</way>
+	<way changeset="36849217" id="394243260" timestamp="2016-01-28T02:06:43Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="3972609755" />
+		<nd ref="3972610562" />
+		<nd ref="3972610578" />
+		<nd ref="3972610572" />
+		<nd ref="3972609755" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="37578063" id="401316922" timestamp="2016-03-03T02:34:49Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="4037607751" />
+		<nd ref="4037607757" />
+		<nd ref="4037607756" />
+		<nd ref="4037607748" />
+		<nd ref="4037607751" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="39356069" id="418608585" timestamp="2016-05-16T15:56:56Z" uid="3968804" user="ncoker" version="1">
+		<nd ref="4189933789" />
+		<nd ref="4189933790" />
+		<tag k="name" v="Driveway for 421 Hopkins Street" />
+		<tag k="oneway" v="no" />
+		<tag k="highway" v="service" />
+		<tag k="service" v="driveway" />
+	</way>
+	<way changeset="40626921" id="430158345" timestamp="2016-07-10T09:57:27Z" uid="3934069" user="Mrnprabhat" version="1">
+		<nd ref="4294262354" />
+		<nd ref="4294262351" />
+		<nd ref="4294262353" />
+		<nd ref="4294262357" />
+		<nd ref="4294262354" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="41022033" id="433140648" timestamp="2016-07-25T20:27:57Z" uid="354343" user="Arlas" version="1">
+		<nd ref="4320168937" />
+		<nd ref="4320168949" />
+		<nd ref="4320168954" />
+		<nd ref="4320168967" />
+		<nd ref="4320168993" />
+		<nd ref="4320169000" />
+		<nd ref="4320168999" />
+		<nd ref="4320169005" />
+		<nd ref="4320169004" />
+		<nd ref="4320169010" />
+		<nd ref="4320169008" />
+		<nd ref="4320169006" />
+		<nd ref="4320169001" />
+		<nd ref="4320168989" />
+		<nd ref="4320168979" />
+		<nd ref="4320168969" />
+		<nd ref="4320168965" />
+		<nd ref="4320168968" />
+		<nd ref="4320168970" />
+		<nd ref="4320168978" />
+		<nd ref="4320168990" />
+		<nd ref="4320168997" />
+		<nd ref="4320169009" />
+		<nd ref="4320169020" />
+		<nd ref="4320169023" />
+		<nd ref="4320169025" />
+		<nd ref="4320169026" />
+		<nd ref="4320169028" />
+		<nd ref="4320169029" />
+		<nd ref="4320169030" />
+		<nd ref="4320169031" />
+		<nd ref="4320169034" />
+		<nd ref="4320169036" />
+		<nd ref="4320169041" />
+		<nd ref="4320169046" />
+		<nd ref="4320169053" />
+		<nd ref="4320169054" />
+		<nd ref="4320169061" />
+		<nd ref="4320169063" />
+		<nd ref="4320169065" />
+		<nd ref="4320169064" />
+		<nd ref="4320169062" />
+		<nd ref="4320169058" />
+		<nd ref="4320169057" />
+		<nd ref="4320169056" />
+		<nd ref="4320169059" />
+		<nd ref="4320169060" />
+		<nd ref="4320169079" />
+		<nd ref="4320169082" />
+		<nd ref="4320169087" />
+		<nd ref="4320169088" />
+		<nd ref="4320169086" />
+		<nd ref="4320169080" />
+		<nd ref="4320169075" />
+		<nd ref="4320169072" />
+		<nd ref="4320169070" />
+		<nd ref="4320169073" />
+		<nd ref="4320169077" />
+		<nd ref="4320169084" />
+		<nd ref="4320169090" />
+		<nd ref="4320169091" />
+		<nd ref="4320169092" />
+		<nd ref="4320169093" />
+		<nd ref="4320169096" />
+		<nd ref="4320169100" />
+		<nd ref="4320169101" />
+		<nd ref="4320169107" />
+		<nd ref="4320169109" />
+		<nd ref="4320169110" />
+		<nd ref="4320169112" />
+		<nd ref="4320169119" />
+		<nd ref="4320169122" />
+		<nd ref="4320169134" />
+		<nd ref="4320169136" />
+		<nd ref="4320169139" />
+		<nd ref="4320169141" />
+		<nd ref="4320169144" />
+		<nd ref="4320169146" />
+		<nd ref="4320169147" />
+		<nd ref="4320169149" />
+		<nd ref="4320169150" />
+		<nd ref="4320169151" />
+		<nd ref="4320169152" />
+		<nd ref="4320169153" />
+		<nd ref="4320169154" />
+		<nd ref="4320169155" />
+		<nd ref="4320169156" />
+		<nd ref="4320169157" />
+		<nd ref="4320169158" />
+		<nd ref="4320169160" />
+		<nd ref="4320169161" />
+		<nd ref="4320169162" />
+		<nd ref="4320169163" />
+		<nd ref="4320169164" />
+		<nd ref="4320169165" />
+		<nd ref="4320169166" />
+		<nd ref="4320169167" />
+		<nd ref="4320169168" />
+		<nd ref="4320169169" />
+		<nd ref="4320169170" />
+		<nd ref="4320169171" />
+		<nd ref="4320169172" />
+		<nd ref="4320169173" />
+		<nd ref="4320169174" />
+		<nd ref="4320169175" />
+		<nd ref="4320169176" />
+		<nd ref="4320169177" />
+		<nd ref="4320169178" />
+		<nd ref="4320169191" />
+		<nd ref="4320169193" />
+		<nd ref="4320169195" />
+		<nd ref="4320169198" />
+		<nd ref="4320169197" />
+		<nd ref="4320169194" />
+		<nd ref="4320169192" />
+		<nd ref="4320169189" />
+		<nd ref="4320169186" />
+		<nd ref="4320169184" />
+		<nd ref="4320169182" />
+		<nd ref="4320169180" />
+		<nd ref="4320169179" />
+		<nd ref="4320169181" />
+		<nd ref="4320169183" />
+		<nd ref="4320169185" />
+		<nd ref="4320169188" />
+		<nd ref="4320169190" />
+		<nd ref="4320169196" />
+		<nd ref="4320169200" />
+		<nd ref="4320169201" />
+		<nd ref="4320169203" />
+		<nd ref="4320169207" />
+		<nd ref="4320169212" />
+		<nd ref="4320169213" />
+		<nd ref="4320169214" />
+		<nd ref="4320169215" />
+		<nd ref="4320169217" />
+		<nd ref="4320168835" />
+		<nd ref="4320168837" />
+		<nd ref="4320168838" />
+		<nd ref="4320168840" />
+		<nd ref="4320168842" />
+		<nd ref="4320168843" />
+		<nd ref="4320168844" />
+		<nd ref="4320168845" />
+		<nd ref="4320168847" />
+		<nd ref="4320168848" />
+		<nd ref="4320168849" />
+		<nd ref="4320168851" />
+		<nd ref="4320168852" />
+		<nd ref="4320168854" />
+		<nd ref="4320168855" />
+		<nd ref="156036422" />
+		<tag k="highway" v="track" />
+	</way>
+	<way changeset="46740757" id="438947490" timestamp="2017-03-10T14:50:04Z" uid="168517" user="Milo" version="2">
+		<nd ref="155602301" />
+		<nd ref="155602303" />
+		<tag k="name" v="Morgan Road" />
+		<tag k="layer" v="1" />
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Mercer, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="Morgan" />
+		<tag k="tiger:name_type" v="Rd" />
+	</way>
+	<way changeset="43208076" id="449628704" timestamp="2016-10-27T04:23:01Z" uid="4783167" user="wgatens" version="1">
+		<nd ref="4465753694" />
+		<nd ref="4465753695" />
+		<nd ref="4465753696" />
+		<nd ref="4465753697" />
+		<nd ref="4465753698" />
+		<nd ref="4465753699" />
+		<nd ref="4465753694" />
+		<tag k="name" v="Fruth Pharmacy" />
+		<tag k="shop" v="chemist" />
+		<tag k="building" v="yes" />
+		<tag k="addr:city" v="Eleanor" />
+		<tag k="addr:state" v="WV" />
+		<tag k="addr:street" v="Roosevelt Boulevard" />
+		<tag k="addr:postcode" v="25070" />
+		<tag k="opening_hours" v="9 AM - 9 PM" />
+		<tag k="addr:housenumber" v="501" />
+	</way>
+	<way changeset="44913804" id="463779047" timestamp="2017-01-05T01:49:24Z" uid="360392" user="maxerickson" version="1">
+		<nd ref="4590096015" />
+		<nd ref="4590096016" />
+		<nd ref="4590096017" />
+		<nd ref="4590096018" />
+		<nd ref="4590096019" />
+		<nd ref="156069705" />
+		<nd ref="156069707" />
+		<nd ref="156069709" />
+		<nd ref="156069711" />
+		<nd ref="156059592" />
+		<tag k="highway" v="service" />
+		<tag k="surface" v="asphalt" />
+	</way>
+	<way changeset="45088580" id="465282103" timestamp="2017-01-11T21:56:22Z" uid="2209894" user="Spanholz" version="1">
+		<nd ref="155083205" />
+		<nd ref="4602698611" />
+		<tag k="name" v="4-H Camp" />
+		<tag k="bridge" v="yes" />
+		<tag k="highway" v="residential" />
+		<tag k="tiger:cfcc" v="A41" />
+		<tag k="tiger:county" v="Greenbrier, WV" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:name_base" v="4-H Camp" />
+	</way>
+	<way changeset="45475969" id="468736010" timestamp="2017-01-25T13:37:18Z" uid="4210803" user="elkueb" version="1">
+		<nd ref="4632100056" />
+		<nd ref="4632100059" />
+		<nd ref="1015918504" />
+		<nd ref="4632100058" />
+		<nd ref="4632100057" />
+		<nd ref="4632100069" />
+		<nd ref="4632100068" />
+		<nd ref="4632100067" />
+		<nd ref="4632100066" />
+		<nd ref="4632100065" />
+		<nd ref="4632100064" />
+		<nd ref="4632100056" />
+		<tag k="name" v="KMart" />
+		<tag k="shop" v="convenience" />
+		<tag k="building" v="yes" />
+		<tag k="addr:street" v="Mall Road" />
+		<tag k="addr:postcode" v="25901" />
+	</way>
+	<way changeset="46330727" id="476542356" timestamp="2017-02-23T08:55:44Z" uid="1408522" user="Omnific" version="1">
+		<nd ref="4700852954" />
+		<nd ref="356516638" />
+		<nd ref="4700852948" />
+		<nd ref="4700852949" />
+		<nd ref="4700852950" />
+		<nd ref="4700852951" />
+		<nd ref="4700852952" />
+		<nd ref="4700852953" />
+		<nd ref="4700852954" />
+		<tag k="ele" v="195" />
+		<tag k="name" v="Elmwood Cemetery" />
+		<tag k="amenity" v="grave_yard" />
+		<tag k="landuse" v="cemetery" />
+		<tag k="gnis:created" v="06/27/1980" />
+		<tag k="gnis:state_id" v="54" />
+		<tag k="gnis:county_id" v="099" />
+		<tag k="gnis:feature_id" v="1538693" />
+	</way>
+	<way changeset="46558781" id="478342271" timestamp="2017-03-03T20:56:23Z" uid="3673755" user="cartasaurus" version="1">
+		<nd ref="4715690393" />
+		<nd ref="4715690394" />
+		<nd ref="4715690395" />
+		<nd ref="4715690396" />
+		<nd ref="4715690393" />
+		<tag k="building" v="house" />
+	</way>
+	<way changeset="47096118" id="482239985" timestamp="2017-03-23T12:43:08Z" uid="5452037" user="Matt Buchwald" version="1">
+		<nd ref="1727245730" />
+		<nd ref="4750850021" />
+		<nd ref="4750850022" />
+		<nd ref="4750850040" />
+		<nd ref="4750850023" />
+		<nd ref="4750850024" />
+		<nd ref="4750850025" />
+		<nd ref="4750850026" />
+		<nd ref="4750850027" />
+		<nd ref="4750850028" />
+		<nd ref="4750850029" />
+		<nd ref="4750850030" />
+		<nd ref="4750850031" />
+		<nd ref="4750850032" />
+		<nd ref="4750850033" />
+		<nd ref="4750850034" />
+		<nd ref="4750850035" />
+		<nd ref="4750850036" />
+		<nd ref="4750850037" />
+		<nd ref="4750850038" />
+		<nd ref="4750850039" />
+		<tag k="highway" v="service" />
+		<tag k="surface" v="gravel" />
+	</way>
+	<way changeset="48915978" id="495464180" timestamp="2017-05-23T12:31:32Z" uid="1820939" user="Jonah Adkins" version="1">
+		<nd ref="4872056029" />
+		<nd ref="4872056030" />
+		<tag k="highway" v="service" />
+		<tag k="service" v="driveway" />
+	</way>
+	<way changeset="51696963" id="521049810" timestamp="2017-09-03T16:33:43Z" uid="5046269" user="Rich1234" version="1">
+		<nd ref="5077373225" />
+		<nd ref="5077373226" />
+		<nd ref="5077373227" />
+		<nd ref="5077373228" />
+		<nd ref="5077373225" />
+		<tag k="building" v="yes" />
+	</way>
+	<way changeset="52396241" id="527943484" timestamp="2017-09-26T20:02:35Z" uid="230942" user="dkiselev" version="1">
+		<nd ref="5131623698" />
+		<nd ref="5131623692" />
+		<nd ref="5131623691" />
+		<nd ref="5131623695" />
+		<nd ref="5131623696" />
+		<nd ref="5131623693" />
+		<nd ref="5131623694" />
+		<nd ref="5131623697" />
+		<nd ref="5131623698" />
+		<tag k="building" v="yes" />
+	</way>
+	<relation changeset="11984725" id="2246709" timestamp="2012-06-23T01:20:44Z" uid="207745" user="NE2" version="1">
+		<member ref="168661943" role="" type="way" />
+		<tag k="name" v="Barrett Industrial Track" />
+		<tag k="type" v="route" />
+		<tag k="FIXME" v="verify south end" />
+		<tag k="route" v="railway" />
+		<tag k="operator" v="CSX" />
+	</relation>
+	</osm>

@@ -11,10 +11,10 @@ Created on Nov 12, 2017
 
 import xml.etree.ElementTree as ET  # Use cElementTree or lxml if too slow
 
-OSM_FILE = "../SW_WestVirginia.osm"
-SAMPLE_FILE = "../SW_WestVirginia_unicode.osm"
+k = 1000 # Parameter: take every k-th top level element
 
-k = 1 # Parameter: take every k-th top level element
+OSM_FILE = "../SW_WestVirginia.osm"
+SAMPLE_FILE = "../data_sample_"+ str(k) + "_elemsWithTags.osm"
 
 def get_element(osm_file, tags=('node', 'way', 'relation')):
     """Yield element if it is the right type of tag
@@ -25,7 +25,9 @@ def get_element(osm_file, tags=('node', 'way', 'relation')):
     context = iter(ET.iterparse(osm_file, events=('start', 'end')))
     _, root = next(context)
     for event, elem in context:
-        if event == 'end' and elem.tag in tags:
+        if event == 'end' and elem.tag in tags and list(elem.iter(tag = "tag")) != []:
+            #the last piece of the preceding conditional filters out any nodes/ways/relations 
+            #that don't have any children of 'tag' type, for clarity of reading the sampled data
             yield elem
             root.clear()
 

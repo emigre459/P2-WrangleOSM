@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm>
+  <node changeset="213066" id="75411942" lat="37.683732" lon="-80.292258" timestamp="2007-10-16T16:18:13Z" uid="16669" user="Ted Mielczarek (borders upload)" version="1">
+		<tag k="source" v="tiger:boundaries" />
+	</node>
+	<way changeset="177692" id="15648891" timestamp="2007-12-08T06:31:20Z" uid="7168" user="DaveHansenTiger" version="1">
+		<nd ref="156040161" />
+		<nd ref="156040163" />
+		<nd ref="156040165" />
+		<nd ref="156040168" />
+		<nd ref="156040170" />
+		<nd ref="156040172" />
+		<nd ref="156040174" />
+		<nd ref="156040176" />
+		<nd ref="156040178" />
+		<nd ref="156040180" />
+		<nd ref="156040182" />
+		<nd ref="156040184" />
+		<nd ref="156040186" />
+		<nd ref="156040188" />
+		<nd ref="156040190" />
+		<nd ref="156040192" />
+		<tag k="access" v="private" />
+		<tag k="highway" v="service" />
+		<tag k="tiger:cfcc" v="A74" />
+		<tag k="tiger:tlid" v="75168197:75167829" />
+		<tag k="tiger:county" v="Summers, WV" />
+		<tag k="tiger:source" v="tiger_import_dch_v0.6_20070828" />
+		<tag k="tiger:reviewed" v="no" />
+		<tag k="tiger:upload_uuid" v="bulk_upload.pl-fb309ed2-80ac-4cd1-8219-89762bf27f70" />
+	</way>
+	<way changeset="40626921" id="430158345" timestamp="2016-07-10T09:57:27Z" uid="3934069" user="Mrnprabhat" version="1">
+		<nd ref="4294262354" />
+		<nd ref="4294262351" />
+		<nd ref="4294262353" />
+		<nd ref="4294262357" />
+		<nd ref="4294262354" />
+		<tag k="building" v="yes" />
+	</way>
+	</osm>

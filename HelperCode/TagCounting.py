@@ -13,7 +13,7 @@ import pprint
 def count_tags(filename):
     tag_dict = {}
     osm_file = open(filename, "r")
-    for event, elem in ET.iterparse(osm_file):
+    for _, elem in ET.iterparse(osm_file):
         if elem.tag not in tag_dict.keys():
             tag_dict[elem.tag] = 1
         else:
@@ -21,5 +21,5 @@ def count_tags(filename):
     
     return tag_dict
 
-tags = count_tags("../data_sample.osm")
+tags = count_tags("../data_sample_1000_elemsWithTags.osm")
 pprint.pprint(tags)
