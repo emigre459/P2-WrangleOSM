@@ -72,6 +72,7 @@ def audit_street_type(street_types, street_name):
         #Look to see if the street type string identified by the regex is non-ideal
         #Basically this just ignores any street names that are already idealized
         if street_type not in expected:
+            print("Found one!")
             street_types[street_type].add(street_name)
             mapping_check(to_be_mapped, street_type)
 
@@ -101,7 +102,7 @@ def audit(osmfile):
     street_types = defaultdict(set)
     
     #parses through the XML file provided and pulls out the tags iteratively
-    for event, elem in ET.iterparse(osm_file, events=("start",)):
+    for _, elem in ET.iterparse(osm_file, events=("start",)):
         #elem.iter("tag") here parses through the child-level tags of elem and builds an iterable out of those of
             #'tag' type, if the parent tag is 'node' or 'way' type and audits that child tag if it is a street name
         if elem.tag == "node" or elem.tag == "way":
@@ -157,5 +158,6 @@ for st_type, st_names in st_types.items():
             better_name = update_name(name, mapping)
 
 #TODO: make sure that the street types don't have extraneous trailing spaces
+#TODO: WHY AM I NOT ABLE TO READ ANYTHING FROM THE OSM FILE?
 
 
