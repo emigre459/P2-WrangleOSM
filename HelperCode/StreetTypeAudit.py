@@ -143,9 +143,11 @@ def update_name(name, mapping, printUpdate = True):
     return newName
 
 
-#This section of code goes through the OSM file, audits it, provides the dict of street types which we need to
-#check for any non-ideal street types not already captured by our mapping variable, then updates the names it
-#can, using the existing mapping variable
+
+''''This section of code goes through the OSM file, audits it, provides the dict of street types which we need to
+check for any non-ideal street types not already captured by our mapping variable, then updates the names it
+can, using the existing mapping variable'''
+
 
 #Building the street_types dict and checking it out
 st_types = audit(OSMFILE)
@@ -157,7 +159,6 @@ for st_type, st_names in st_types.items():
         for name in st_names:
             better_name = update_name(name, mapping)
 
-#TODO: make sure that the street types don't have extraneous trailing spaces
-#TODO: WHY AM I NOT ABLE TO READ ANYTHING FROM THE OSM FILE?
+
 
 

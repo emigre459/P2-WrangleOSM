@@ -11,7 +11,7 @@ Created on Nov 12, 2017
 
 import xml.etree.ElementTree as ET  # Use cElementTree or lxml if too slow
 
-k = 1000 # Parameter: take every k-th top level element
+k = 100 # Parameter: take every k-th top level element
 
 OSM_FILE = "../SW_WestVirginia.osm"
 SAMPLE_FILE = "../data_sample_"+ str(k) + "_elemsWithTags.osm"
@@ -39,6 +39,6 @@ with open(SAMPLE_FILE, 'w') as output:
     # Write every kth top level element
     for i, element in enumerate(get_element(OSM_FILE)):
         if i % k == 0:
-            output.write(ET.tostring(element, encoding='unicode'))
+            output.write(ET.tostring(element, encoding='utf-8'))
 
     output.write('</osm>')
