@@ -18,14 +18,14 @@ from collections import defaultdict
 import re
 import pprint
 
-OSMFILE = "../data_sample_1000_elemsWithTags.osm"
+OSMFILE = "../data_sample_100_elemsWithTags.osm"
 #comment code at end of next line needed to ignore false Eclipse Undefined Variable error for re.IGNORECASE
 street_type_re = re.compile(r'\b\S+\.?$', re.IGNORECASE)  # @UndefinedVariable
 
 
 #This is the list of street type words we DO want to end up with everywhere
 expected = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Place", "Square", "Lane", "Road", 
-            "Trail", "Parkway", "Commons", "Circle"]
+            "Trail", "Parkway", "Commons", "Circle", "Terrace"]
 
 # This is the list of non-ideal street type words that we want to map to the ideal, expected types,
 # generated iteratively by running this code and updating this list (manually) until no new versions are discovered
