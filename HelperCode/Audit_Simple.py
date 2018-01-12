@@ -10,30 +10,44 @@ import xml.etree.cElementTree as ET
 import pprint
 import re
 
-OSMFILE = "../data_sample_1000_elemsWithTags.osm"
+OSMFILE = "../data_sample_100_elemsWithTags.osm"
 
 
-def audit(osmfile):
+def audit(osmfile, options=None):
     '''
     Audits the OSM file using the different audit functions defined herein.
     
     osm_file: str. Filepath to the OSM file being audited
+    options: 
     
     Returns: 
     '''
-    osm_file = open(osmfile, "r")
-    tag_counts = {}
     
-    zipLength = 5
-    zipDict = {zipLength:0, "Non-number": 0}
-    
-    for _, elem in ET.iterparse(osm_file):
-        tag_counts = count_tags(elem, tag_counts)
-        zipDict = zipCheck(elem, zipDict, digits=zipLength)
+    with open(osmfile, "r") as fileIn:
+        if options:
+            #Setting up the necessary beginning parameters for each function
+            if 'counting' in options:
+                tag_counts = {}
+            if 'zips' in options:
+                zipLength = 5
+                zipDict = {zipLength:0, "Non-number": 0}
+            
+            for _, elem in ET.iterparse(fileIn):
+                if 'counting' in options:
+                    tag_counts = count_tags(elem, tag_counts)
+                
+                if 'zips' in options:
+                    zipDict = zipCheck(elem, zipDict, digits=zipLength)
         
-    osm_file.close()
-    pprint.pprint(tag_counts)
-    pprint.pprint(zipDict)
+            #print everything once done iterating
+            if 'counting' in options:
+                print("Tags Found")
+                pprint.pprint(tag_counts)
+            if 'zips' in options:
+                print("\nZips")
+                pprint.pprint(zipDict) 
+    
+    
     
     
 
@@ -90,4 +104,4 @@ def zipCheck(elem, zip_dict, digits = 5):
 
     return zip_dict 
 
-audit(OSMFILE)
+audit(OSMFILE, options=['counting', 'zips'])

@@ -33,12 +33,21 @@ def get_element(osm_file, tags=('node', 'way', 'relation')):
 
 
 with open(SAMPLE_FILE, 'w') as output:
-    output.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+    output.write('<?xml version="1.0" encoding="us-ascii"?>\n')
     output.write('<osm>\n  ')
 
+    
     # Write every kth top level element
     for i, element in enumerate(get_element(OSM_FILE)):
         if i % k == 0:
-            output.write(ET.tostring(element, encoding='utf-8'))
+            
+            ''''NOTE: I was receiving an encoding error regarding unrecognized symbols when trying to 
+            use the ET.tostring() method, so the only way I could find to fix it is by encoding in ascii
+            and then decoding with the 'ignore' option to ignore any characters that aren't included in the codec
+            This is not ideal, as some information is likely lost in doing so, but it is likely not a big loss as
+            the map data are for the United States, so there should be no meaningful data represented by non-ascii
+            characters'''
+            encoded_str = ET.tostring(element, encoding="us-ascii").decode('ascii', 'ignore')          
+            output.write(encoded_str)
 
     output.write('</osm>')
