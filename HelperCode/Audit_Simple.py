@@ -24,6 +24,7 @@ def audit(osmfile, options=None):
                         'zips'
                         'county/state counting'
                         'lat/long'
+                        'amenities'
     
     '''
     
@@ -41,6 +42,8 @@ def audit(osmfile, options=None):
                 state_tags = {}
             if 'lat/long' in options:
                 badNodes = defaultdict(list) #ensures that each new key will automatically have an empty list value
+            if 'amenities' in options:
+                known_amenities=defaultdict(set)
                 
     #----------------------------------------------------------------------
             #Iterating through the XML file
@@ -56,6 +59,9 @@ def audit(osmfile, options=None):
                     
                 if 'lat/long' in options:
                     badNodes = lat_long_checker(elem, badNodes)
+                    
+                if 'amenities' in options:
+                    known_amenities = amenityFinder(elem, known_amenities)
     
     #----------------------------------------------------------------------    
             #printing everything once done iterating
@@ -75,6 +81,9 @@ def audit(osmfile, options=None):
             if 'lat/long' in options:
                 print("\nNodes with Incorrect Latitudes and/or Longitudes")
                 pprint.pprint(badNodes)
+            if 'amenities' in options:
+                print("\nUnique Amenity and Shop Types Identified")
+                pprint.pprint(known_amenities)
     
     
     
@@ -100,7 +109,7 @@ def count_tags(elem, tag_dict):
     return tag_dict
 
 
-def zipCheck(elem, zip_length_dict, knownZips, digits = 5):
+def zipCheck(elem, zip_length_dict={}, knownZips=set(), digits = 5):
     '''
     Checks all of the zip/postal codes contained in an OSM file and counts how many digits are included 
     in each code and then compares that count to a predefined number of digits. Returns the different lengths
@@ -170,7 +179,7 @@ def countyStateTypeCounter(elem, county_types={}, state_types={}):
     return county_types, state_types
 
 
-def lat_long_checker(elem, badNodes, targetLatRange=[37.15,39.10], targetLongRange=[-82.68,-80.20]):
+def lat_long_checker(elem, badNodes=defaultdict(list), targetLatRange=[37.15,39.05], targetLongRange=[-82.67,-80.20]):
     '''
     Checks that the latitude and longitude of all nodes in the OSM file are within the bounds 
     expected for the region of interest. Returns a dict wherein the keys are node IDs and the value for each key
@@ -188,6 +197,7 @@ def lat_long_checker(elem, badNodes, targetLatRange=[37.15,39.10], targetLongRan
     if elem.tag == "node":
         if float(elem.attrib['lat']) < targetLatRange[0] or float(elem.attrib['lat']) > targetLatRange[1]:
             badNodes[elem.attrib['id']].append("Bad lat")
+            
         
         if float(elem.attrib['lon']) < targetLongRange[0] or float(elem.attrib['lon']) > targetLongRange[1]:
             badNodes[elem.attrib['id']].append("Bad lon")
@@ -195,15 +205,32 @@ def lat_long_checker(elem, badNodes, targetLatRange=[37.15,39.10], targetLongRan
     return badNodes
     
 
-def amenityFinder(elem, amenitySet=set()):
+def amenityFinder(elem, amenities=defaultdict(set)):
     '''
-    Checks the element for the presence of an amenity and returns the input set + any new amenity types identified
+    Checks the element for the presence of an amenity, shop, or healthcare tag and returns 
+    the input set + any new amenity types identified
+    
+    elem: ET element.
+    amenities: dict with an empty set as the default value for each new key.
+                Each key is a str describing a tag key type (e.g. 'amenity' or 'shop') 
+                and each value is a list of the type that that key describes (e.g. 'amenity': set(graveyard, 
+                cafe, etc.))
     '''
+    
+    allowed_tag_keys = ['amenity', 'shop', 'healthcare']
+    
+    if elem.tag == "node" or elem.tag == "way":
+        for tag in elem.iter("tag"):
+            if tag.attrib['k'] in allowed_tag_keys:
+                amenities[tag.attrib['k']].add(tag.attrib['v'])
+                
+    return amenities
 
 #---------------------------------------------
 #Main code execution space
 
-audit(OSMFILE, options=['counting', 'zips', 'county/state counting', 'lat/long'])
+audit(OSMFILE, options=['counting', 'zips', 'county/state counting', 'lat/long', 'amenities'])
 
-'''TODO: for data correction algorithm(s), make something to correct the state and county names/IDs. This 
-correction algorithm will be in a separe Py module from this auditing work'''
+'''TODO: for data correction algorithm(s), make something to correct the state and county names/IDs while they're
+being ported over to the SQL database. This correction algorithm will be in a separate Py module from this auditing
+ work'''
