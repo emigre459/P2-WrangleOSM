@@ -25,6 +25,8 @@ def audit(osmfile, options=None):
                         'county/state counting'
                         'lat/long'
                         'amenities'
+                        'property types'
+                        'property type counts'
     
     '''
     
@@ -44,6 +46,42 @@ def audit(osmfile, options=None):
                 badNodes = defaultdict(list) #ensures that each new key will automatically have an empty list value
             if 'amenities' in options:
                 known_amenities=defaultdict(set)
+            if 'property types' in options:
+                propTypes = defaultdict(set)
+            if 'property type counts' in options:
+                propRecords = defaultdict(int)
+                allowed_propTypes = {'landuse': ['residential',
+                                                 'village_green',
+                                                 'recreation_ground',
+                                                 'allotments',
+                                                 'commercial',
+                                                 'depot',
+                                                 'industrial',
+                                                 'landfill',
+                                                 'orchard',
+                                                 'plant_nursery',
+                                                 'port',
+                                                 'quarry',
+                                                 'retail'],
+                                     'building': ['apartments',
+                                                  'farm',
+                                                  'house',
+                                                  'detached',
+                                                  'residential',
+                                                  'dormitory',
+                                                  'houseboat',
+                                                  'bungalow',
+                                                  'static_caravan',
+                                                  'cabin',
+                                                  'hotel',
+                                                  'commercial',
+                                                  'industrial',
+                                                  'retail',
+                                                  'warehouse',
+                                                  'kiosk',
+                                                  'hospital',
+                                                  'stadium']
+                                     }
                 
     #----------------------------------------------------------------------
             #Iterating through the XML file
@@ -62,6 +100,12 @@ def audit(osmfile, options=None):
                     
                 if 'amenities' in options:
                     known_amenities = amenityFinder(elem, known_amenities)
+                    
+                if 'property types' in options:
+                    propTypes = propertyType(elem, propTypes)
+                
+                if 'property type counts' in options:
+                    propRecords = propertyCounter(elem, allowed_propTypes, propRecords)
     
     #----------------------------------------------------------------------    
             #printing everything once done iterating
@@ -84,7 +128,12 @@ def audit(osmfile, options=None):
             if 'amenities' in options:
                 print("\nUnique Amenity and Shop Types Identified")
                 pprint.pprint(known_amenities)
-    
+            if 'property types' in options:
+                print("\nUnique Landuse Types")
+                pprint.pprint(propTypes)                
+            if 'property type counts' in options:
+                print("\nCounts of Relevant Landuse Types")
+                pprint.pprint(propRecords)
     
     
 
@@ -226,10 +275,54 @@ def amenityFinder(elem, amenities=defaultdict(set)):
                 
     return amenities
 
+def propertyType(elem, types=defaultdict(set)):
+    '''
+    Searches through the OSM file's ways and node tags and determines what their landuse/building types are, 
+    cataloging them as it goes. Returns a dict of sets that includes all of the unique landuse/building tag values
+    it's found thus far, associated with either the key 'landuse' or 'building' as appropriate.
+    
+    elem: ET element.
+    types: defaultdict(set). Includes all unique landuse and building types identified.
+    '''
+    
+    if elem.tag == "way" or elem.tag == "node":
+        for tag in elem.iter("tag"):
+            if tag.attrib['k'] == 'landuse':
+                types['landuse'].add(tag.attrib['v'])
+            elif tag.attrib['k'] == 'building':
+                types['building'].add(tag.attrib['v'])
+                
+    return types
+
+def propertyCounter(elem, allowed_property_types, prop_records=defaultdict(int)):
+    '''
+    Counts how many ways and node tags exist that are of the type provided by allowed_property_types and returns
+    an updated dict with the new count after inspecting a new elem.
+    
+    elem: ET element.
+    allowed_property_types: dict of lists of str. Each list value should be equivalent to a landuse/building 
+                            tag value (e.g. 'residential', 'commercial', etc.) and the keys should be "landuse"
+                            and "building"
+    prop_records: defaultdict(int). Each key value should be a str with a landuse/building tag value 
+                    (e.g. 'residential', 'commercial', etc.) and each key's value should be an integer count of
+                    how many times the corresponding landuse/building tag value has been observed.
+    '''
+    
+    if elem.tag == "way" or elem.tag == "node":
+        for tag in elem.iter("tag"):
+            if tag.attrib['k'] == 'landuse' and tag.attrib['v'] in allowed_property_types['landuse']:
+                prop_records["landuse:" + tag.attrib['v']] += 1
+            elif tag.attrib['k'] == 'building' and tag.attrib['v'] in allowed_property_types['building']:
+                prop_records["building:" + tag.attrib['v']] += 1
+    
+    return prop_records
+    
+
 #---------------------------------------------
 #Main code execution space
 
-audit(OSMFILE, options=['counting', 'zips', 'county/state counting', 'lat/long', 'amenities'])
+audit(OSMFILE, options=['counting', 'zips', 'county/state counting', 'lat/long', 'amenities'\
+                        ,'property types'])
 
 '''TODO: for data correction algorithm(s), make something to correct the state and county names/IDs while they're
 being ported over to the SQL database. This correction algorithm will be in a separate Py module from this auditing
