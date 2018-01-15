@@ -9,6 +9,7 @@ Created on Jan 11, 2018
 import xml.etree.cElementTree as ET
 import pprint
 import re
+from collections import defaultdict
 
 OSMFILE = "../data_sample_100_elemsWithTags.osm"
 
@@ -22,6 +23,7 @@ def audit(osmfile, options=None):
                         'counting'
                         'zips'
                         'county/state counting'
+                        'lat/long'
     
     '''
     
@@ -37,6 +39,8 @@ def audit(osmfile, options=None):
             if 'county/state counting' in options:
                 county_tags = {}
                 state_tags = {}
+            if 'lat/long' in options:
+                badNodes = defaultdict(list) #ensures that each new key will automatically have an empty list value
                 
     #----------------------------------------------------------------------
             #Iterating through the XML file
@@ -49,6 +53,9 @@ def audit(osmfile, options=None):
                 
                 if 'county/state counting' in options:
                     county_tags, state_tags = countyStateTypeCounter(elem, county_tags, state_tags)
+                    
+                if 'lat/long' in options:
+                    badNodes = lat_long_checker(elem, badNodes)
     
     #----------------------------------------------------------------------    
             #printing everything once done iterating
@@ -65,6 +72,9 @@ def audit(osmfile, options=None):
                 pprint.pprint(county_tags)
                 print("\nTypes of State Tags")
                 pprint.pprint(state_tags)
+            if 'lat/long' in options:
+                print("\nNodes with Incorrect Latitudes and/or Longitudes")
+                pprint.pprint(badNodes)
     
     
     
@@ -160,6 +170,31 @@ def countyStateTypeCounter(elem, county_types={}, state_types={}):
     return county_types, state_types
 
 
+def lat_long_checker(elem, badNodes, targetLatRange=[37.15,39.10], targetLongRange=[-82.68,-80.20]):
+    '''
+    Checks that the latitude and longitude of all nodes in the OSM file are within the bounds 
+    expected for the region of interest. Returns a dict wherein the keys are node IDs and the value for each key
+    is a list with up to 2 values, "Bad lon" and/or "Bad lat" to indicate what needs to be corrected.
+    
+    elem: ET element.
+    badNodes: dict. Keys are integer node IDs, values are lists of strings indicating if the latitude and/or 
+                    longitude are the problem(s) with the indicated node.
+    targetLatRange: list of 2 double values; first value is the lower end of the range, 
+                    second value is the upper end of the range, exclusive. This defines the allowed range
+                    of values for node latitudes.
+    targetLongRange: list of 2 double values, following the same format as targetLatRange. This defines the allowed
+                        range of values for node longitudes.    
+    '''
+    if elem.tag == "node":
+        if float(elem.attrib['lat']) < targetLatRange[0] or float(elem.attrib['lat']) > targetLatRange[1]:
+            badNodes[elem.attrib['id']].append("Bad lat")
+        
+        if float(elem.attrib['lon']) < targetLongRange[0] or float(elem.attrib['lon']) > targetLongRange[1]:
+            badNodes[elem.attrib['id']].append("Bad lon")
+            
+    return badNodes
+    
+
 def amenityFinder(elem, amenitySet=set()):
     '''
     Checks the element for the presence of an amenity and returns the input set + any new amenity types identified
@@ -168,4 +203,7 @@ def amenityFinder(elem, amenitySet=set()):
 #---------------------------------------------
 #Main code execution space
 
-audit(OSMFILE, options=['counting', 'zips', 'county/state counting'])
+audit(OSMFILE, options=['counting', 'zips', 'county/state counting', 'lat/long'])
+
+'''TODO: for data correction algorithm(s), make something to correct the state and county names/IDs. This 
+correction algorithm will be in a separe Py module from this auditing work'''
