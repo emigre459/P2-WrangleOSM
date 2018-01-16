@@ -11,8 +11,8 @@ import pprint
 import re
 from collections import defaultdict
 
-#OSMFILE = "../data_sample_100_elemsWithTags.osm"
-OSMFILE = "../SW_WestVirginia.osm"
+OSMFILE = "../data_sample_100_elemsWithTags_UTF-8Encoding.osm"
+#OSMFILE = "../SW_WestVirginia.osm"
 
 
 def audit(osmfile, options=None):
@@ -31,7 +31,7 @@ def audit(osmfile, options=None):
     
     '''
     
-    with open(osmfile, "r") as fileIn:
+    with open(osmfile, "rb") as fileIn:
         if options:
             #Setting up the necessary beginning parameters for each function
             if 'counting' in options:

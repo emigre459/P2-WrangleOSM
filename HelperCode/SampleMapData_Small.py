@@ -11,11 +11,11 @@ Created on Nov 12, 2017
 
 import xml.etree.ElementTree as ET  # Use cElementTree or lxml if too slow
 
-k = 1 # Parameter: take every k-th top level element
+k = 100 # Parameter: take every k-th top level element
 
 OSM_FILE = "../SW_WestVirginia.osm"
-#SAMPLE_FILE = "../data_sample_"+ str(k) + "_elemsWithTags.osm"
-SAMPLE_FILE = "../SW_WestVirginia_ASCIIEncoded.osm"
+SAMPLE_FILE = "../data_sample_"+ str(k) + "_elemsWithTags_UTF-8Encoding.osm"
+#SAMPLE_FILE = "../SW_WestVirginia_ASCIIEncoded.osm"
 
 def get_element(osm_file, tags=('node', 'way', 'relation')):
     """Yield element if it is the right type of tag
@@ -33,22 +33,14 @@ def get_element(osm_file, tags=('node', 'way', 'relation')):
             root.clear()
 
 
-with open(SAMPLE_FILE, 'w') as output:
-    output.write('<?xml version="1.0" encoding="us-ascii"?>\n')
-    output.write('<osm>\n  ')
+with open(SAMPLE_FILE, 'wb') as output:
+    output.write(b'<?xml version="1.0" encoding="UTF-8"?>\n')
+    output.write(b'<osm>\n  ')
 
     
     # Write every kth top level element
     for i, element in enumerate(get_element(OSM_FILE)):
-        if i % k == 0:
-            
-            ''''NOTE: I was receiving an encoding error regarding unrecognized symbols when trying to 
-            use the ET.tostring() method, so the only way I could find to fix it is by encoding in ascii
-            and then decoding with the 'ignore' option to ignore any characters that aren't included in the codec
-            This is not ideal, as some information is likely lost in doing so, but it is likely not a big loss as
-            the map data are for the United States, so there should be no meaningful data represented by non-ascii
-            characters'''
-            encoded_str = ET.tostring(element, encoding="us-ascii").decode('ascii', 'ignore')          
-            output.write(encoded_str)
+        if i % k == 0:                              
+            output.write(ET.tostring(element, encoding="utf-8"))
 
-    output.write('</osm>')
+    output.write(b'</osm>')
