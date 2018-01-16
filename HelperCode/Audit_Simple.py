@@ -11,7 +11,8 @@ import pprint
 import re
 from collections import defaultdict
 
-OSMFILE = "../data_sample_100_elemsWithTags.osm"
+#OSMFILE = "../data_sample_100_elemsWithTags.osm"
+OSMFILE = "../SW_WestVirginia.osm"
 
 
 def audit(osmfile, options=None):
@@ -321,9 +322,5 @@ def propertyCounter(elem, allowed_property_types, prop_records=defaultdict(int))
 #---------------------------------------------
 #Main code execution space
 
-audit(OSMFILE, options=['counting', 'zips', 'county/state counting', 'lat/long', 'amenities'\
-                        ,'property types'])
+audit(OSMFILE, options=['counting', 'zips', 'county/state counting', 'lat/long', 'amenities','property types'])
 
-'''TODO: for data correction algorithm(s), make something to correct the state and county names/IDs while they're
-being ported over to the SQL database. This correction algorithm will be in a separate Py module from this auditing
- work'''
