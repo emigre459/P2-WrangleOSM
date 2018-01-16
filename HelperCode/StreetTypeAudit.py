@@ -18,7 +18,8 @@ from collections import defaultdict
 import re
 import pprint
 
-OSMFILE = "../data_sample_100_elemsWithTags.osm"
+#OSMFILE = "../data_sample_100_elemsWithTags.osm"
+OSMFILE = "../SW_WestVirginia.osm"
 #comment code at end of next line needed to ignore false Eclipse Undefined Variable error for re.IGNORECASE
 street_type_re = re.compile(r'\b\S+\.?$', re.IGNORECASE)  # @UndefinedVariable
 
@@ -45,7 +46,7 @@ def mapping_check(to_be_mapped, street_type):
     adds that street type string to to_be_mapped list
     
     to_be_mapped: set(str). String values are non-ideal street types that are not yet keys in mapping
-    street_name: str. Street type whose presence in mapping is to be checked.
+    street_type: str. Street type whose presence in mapping is to be checked.
     
     Returns: set(str). Updated (if appropriate) to_be_mapped variable
     '''
@@ -98,7 +99,7 @@ def audit(osmfile):
                                     'Rd.': set(['Baldwin Rd.']),
                                     'St.': set(['West Lexington St.'])}
     '''
-    osm_file = open(osmfile, "r")
+    osm_file = open(osmfile, "rb")
     street_types = defaultdict(set)
     
     #parses through the XML file provided and pulls out the tags iteratively

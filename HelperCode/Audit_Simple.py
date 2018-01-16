@@ -2,6 +2,10 @@
 Created on Jan 11, 2018
 
 @author: emigre459
+
+The purpose of this Python module is to do a lot of relatively simple auditson the map data. The more involved 
+audits will be contained within their own dedicated modules (which right now is only StreetTypeAudit.py).
+
 '''
 
 
@@ -11,8 +15,8 @@ import pprint
 import re
 from collections import defaultdict
 
-OSMFILE = "../data_sample_100_elemsWithTags_UTF-8Encoding.osm"
-#OSMFILE = "../SW_WestVirginia.osm"
+#OSMFILE = "../data_sample_100_elemsWithTags_UTF-8Encoding.osm"
+OSMFILE = "../SW_WestVirginia.osm"
 
 
 def audit(osmfile, options=None):
@@ -187,7 +191,10 @@ def zipCheck(elem, zip_length_dict={}, knownZips=set(), digits = 5):
                     else:
                         zip_length_dict[len(tempZip)] = 1
                 else:
-                    tempZip = re.sub("\D", "", tempZip) #replaces every non-digit char in tempZip with ""
+                    '''TODO: leave the code below this out from here and include in CSV export code instead.
+                    TODO: Also, need code for picking out only the first 5 digits (after letters are stripped)'''
+                    #tempZip = re.sub("\D", "", tempZip) #replaces every non-digit char in tempZip with ""
+                    
                     print("Found a zip code with more than numbers!")
                     zip_length_dict["Non-number"] += 1
                     knownZips.add(tempZip)
