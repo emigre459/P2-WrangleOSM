@@ -26,7 +26,8 @@ street_type_re = re.compile(r'\b\S+\.?$', re.IGNORECASE)  # @UndefinedVariable
 
 #This is the list of street type words we DO want to end up with everywhere
 expected = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Place", "Square", "Lane", "Road", 
-            "Trail", "Parkway", "Commons", "Circle", "Terrace"]
+            "Trail", "Parkway", "Commons", "Circle", "Terrace", "Way", "Alley", "Ridge", "Turnpike",
+            "Pass", "Pike", "Branch", "Crossing", "Creek", "Highway", "Plaza"]
 
 # This is the list of non-ideal street type words that we want to map to the ideal, expected types,
 # generated iteratively by running this code and updating this list (manually) until no new versions are discovered
@@ -35,7 +36,15 @@ mapping = { "St": "Street",
             "Ave": "Avenue",
             "Ave.": "Avenue",
             "Rd": "Road",
-            "Rd.": "Road"
+            "Rd.": "Road",
+            "Rd,": "Road",
+            "RD": "Road",
+            "Dr.": "Drive",
+            "Dr": "Drive",
+            "Ln": "Lane",
+            "Avevue": "Avenue",
+            "Driver": "Drive",
+            "Hwy": "Highway"
             }
 
 to_be_mapped = set()
@@ -73,7 +82,7 @@ def audit_street_type(street_types, street_name):
         #Look to see if the street type string identified by the regex is non-ideal
         #Basically this just ignores any street names that are already idealized
         if street_type not in expected:
-            print("Found one!")
+            #print("Found one!")
             street_types[street_type].add(street_name)
             mapping_check(to_be_mapped, street_type)
 
@@ -153,7 +162,8 @@ can, using the existing mapping variable'''
 #Building the street_types dict and checking it out
 st_types = audit(OSMFILE)
 pprint.pprint(dict(st_types))
-print("\nNeed to map these: {}\n".format(to_be_mapped))
+print("\nNeed to map these:")
+pprint.pprint(to_be_mapped)
 
 #We'll now go through each set in the st_types dict and update the street names to have idealized street types
 for st_type, st_names in st_types.items():
