@@ -45,6 +45,7 @@ def audit(osmfile, options=None):
                 zipLength = 5
                 zipLengthDict = {zipLength:0, "Non-number": 0}
                 known_zips = set()
+                knownZipTags = set()
             if 'county/state counting' in options:
                 county_tags = {}
                 state_tags = {}
@@ -112,7 +113,8 @@ def audit(osmfile, options=None):
                     tag_counts = count_tags(elem, tag_counts)
                 
                 if 'zips' in options:
-                    zipLengthDict, known_zips = zipCheck(elem, zipLengthDict, known_zips, digits=zipLength)
+                    zipLengthDict, known_zips, knownZipTags = zipCheck(elem, zipLengthDict, known_zips, \
+                                                                       knownZipTags, digits=zipLength)
                 
                 if 'county/state counting' in options:
                     county_tags, state_tags = countyStateTypeCounter(elem, county_tags, state_tags, tags_ignored)
@@ -396,7 +398,6 @@ def propertyCounter(elem, allowed_property_types, prop_records=defaultdict(int))
 #---------------------------------------------
 #Main code execution space
 
-audit(OSMFILE, options=['counting', 'zips', 'county/state reporting',
-                        'amenities','property types'])
+audit(OSMFILE, options=['counting', 'zips', 'county/state reporting', 'amenities','property types'])
 
 #Unused options: ['county/state counting','lat/long']
