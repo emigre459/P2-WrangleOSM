@@ -50,7 +50,7 @@ def audit(osmfile, options=None):
             if 'county/state counting' in options:
                 county_tags = {}
                 state_tags = {}
-                state_tags_ignored = ['state_capital']
+                state_tags_ignored = ['state_capital', 'source:hgv:state_network', 'hgv:state_network']
             if 'county/state reporting' in options:
                 counties_found = set()
                 states_found = set()
@@ -63,9 +63,8 @@ def audit(osmfile, options=None):
                 stateKeys = ['addr:state',
                              'gnis:ST_alpha',
                              'gnis:state_id',
-                             'hgv:state_network',
                              'nist:state_fips',
-                             'source:hgv:state_network']
+                             'ST_num']
             if 'lat/long' in options:
                 badNodes = defaultdict(list) #ensures that each new key will automatically have an empty list value
             if 'amenities' in options:
@@ -254,7 +253,7 @@ def countyStateTypeCounter(elem, county_types={}, state_types={}, tags_to_ignore
     state_types: dict. Keeps track of the different state-related tags identified (keys) and counts how often they
                     appear (value).
     tags_to_ignore: list of str. Identifies those county- or state-related tags that don't seem relevant to our
-                        wrangling activies (e.g. we're interested in identifying all the states recorded in here,
+                        wrangling activities (e.g. we're interested in identifying all the states recorded in here,
                         but the '' key doesn't necessarily provide this info
     '''
     county_re = re.compile('county',re.IGNORECASE)  # @UndefinedVariable
@@ -275,7 +274,7 @@ def countyStateTypeCounter(elem, county_types={}, state_types={}, tags_to_ignore
                 else:
                     state_types[tag.attrib['k']] += 1
             #Special case wherein use of regex is non-obvious
-            elif tag.attrib['k'] == "gnis:ST_alpha":
+            elif tag.attrib['k'] == "gnis:ST_alpha" or tag.attrib['k'] == "gnis:ST_num":
                 if tag.attrib['k'] not in state_types.keys():
                     state_types[tag.attrib['k']] = 1
                 else:
@@ -397,12 +396,13 @@ def propertyCounter(elem, allowed_property_types, prop_records=defaultdict(int))
             elif tag.attrib['k'] == 'building' and tag.attrib['v'] in allowed_property_types['building']:
                 prop_records["building:" + tag.attrib['v']] += 1
     
+    
     return prop_records
     
 
 #---------------------------------------------
 #Main code execution space
 
-audit(OSMFILE, options=['zips', 'county/state reporting', 'amenities','property types'])
+audit(OSMFILE, options=['county/state counting', 'county/state reporting', 'property type counts'])
 
-#Unused options: ['counting', 'county/state counting','lat/long']
+#Unused options: ['counting', 'lat/long', 'amenities', 'zips', 'property types']

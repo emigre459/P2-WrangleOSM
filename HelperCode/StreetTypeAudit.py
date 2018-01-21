@@ -32,7 +32,7 @@ expected = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Place", "Square"
 
 # This is the list of non-ideal street type words that we want to map to the ideal, expected types,
 # generated iteratively by running this code and updating this list (manually) until no new versions are discovered
-end_mapping = { "St": "Street",
+mapping = { "St": "Street",
             "St.": "Street",
             "Ave": "Avenue",
             "Ave.": "Avenue",
@@ -51,17 +51,7 @@ end_mapping = { "St": "Street",
             "hill": "Hill"
             }
 
-'''TODO: make sure the auditing for the starting stuff basically replaces anything in the beginning that isn't a number
-with the value from this dict (e.g. "US--60" should become "US Highway 60")'''
-#These mappings are imperfect, given that "State Route" doesn't specify the state in question
-#TODO: if available, have it pull the value of addr:state and throw that in front of "State Highway"
-start_mapping = {"County Rd": "County Road",
-                 "State Route": "State Highway",
-                 "WV": "West Virginia Highway",
-                 "US": "US Highway",
-                 "KY": "Kentucky Highway",
-                 "US Route": "US Highway"                 
-                 }
+
 
 to_be_mapped = set()
 
