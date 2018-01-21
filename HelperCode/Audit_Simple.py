@@ -258,27 +258,32 @@ def countyStateTypeCounter(elem, county_types={}, state_types={}, tags_to_ignore
     '''
     county_re = re.compile('county',re.IGNORECASE)  # @UndefinedVariable
     state_re = re.compile('state',re.IGNORECASE)  # @UndefinedVariable
+    state_re_2 = re.compile('ST')
     
     if elem.tag == "node" or elem.tag == "way":
         for tag in elem.iter("tag"):
-            cty_match = county_re.search(tag.attrib['k'])
-            state_match = state_re.search(tag.attrib['k'])
-            if cty_match is not None: 
-                if tag.attrib['k'] not in county_types.keys():
-                    county_types[tag.attrib['k']] = 1
-                else:
-                    county_types[tag.attrib['k']] += 1
-            elif state_match is not None:
-                if tag.attrib['k'] not in state_types.keys():
-                    state_types[tag.attrib['k']] = 1
-                else:
-                    state_types[tag.attrib['k']] += 1
-            #Special case wherein use of regex is non-obvious
-            elif tag.attrib['k'] == "gnis:ST_alpha" or tag.attrib['k'] == "gnis:ST_num":
-                if tag.attrib['k'] not in state_types.keys():
-                    state_types[tag.attrib['k']] = 1
-                else:
-                    state_types[tag.attrib['k']] += 1
+            if tag.attrib['k'] in tags_to_ignore:
+                pass
+            else:
+                cty_match = county_re.search(tag.attrib['k'])
+                state_match = state_re.search(tag.attrib['k'])
+                state_match_2 = state_re_2.search(tag.attrib['k'])
+                if cty_match is not None: 
+                    if tag.attrib['k'] not in county_types.keys():
+                        county_types[tag.attrib['k']] = 1
+                    else:
+                        county_types[tag.attrib['k']] += 1
+                elif state_match is not None:
+                    if tag.attrib['k'] not in state_types.keys():
+                        state_types[tag.attrib['k']] = 1
+                    else:
+                        state_types[tag.attrib['k']] += 1
+                #Special case wherein use of regex is non-obvious
+                elif state_match_2 is not None:
+                    if tag.attrib['k'] not in state_types.keys():
+                        state_types[tag.attrib['k']] = 1
+                    else:
+                        state_types[tag.attrib['k']] += 1
                 
                 
     return county_types, state_types
