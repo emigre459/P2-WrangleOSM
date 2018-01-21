@@ -28,6 +28,7 @@ def audit(osmfile, options=None):
                         'counting'
                         'zips'
                         'county/state counting'
+                        'county/state reporting'
                         'lat/long'
                         'amenities'
                         'property types'
@@ -47,6 +48,22 @@ def audit(osmfile, options=None):
             if 'county/state counting' in options:
                 county_tags = {}
                 state_tags = {}
+                tags_ignored = ['state_capital']
+            if 'county/state reporting' in options:
+                counties_found = set()
+                states_found = set()
+                countyKeys = ['gnis:County',
+                              'gnis:County_num',
+                              'gnis:county_id',
+                              'gnis:county_name',
+                              'is_in:county',
+                              'tiger:county']
+                stateKeys = ['addr:state',
+                             'gnis:ST_alpha',
+                             'gnis:state_id',
+                             'hgv:state_network',
+                             'nist:state_fips',
+                             'source:hgv:state_network']
             if 'lat/long' in options:
                 badNodes = defaultdict(list) #ensures that each new key will automatically have an empty list value
             if 'amenities' in options:
@@ -98,7 +115,10 @@ def audit(osmfile, options=None):
                     zipLengthDict, known_zips = zipCheck(elem, zipLengthDict, known_zips, digits=zipLength)
                 
                 if 'county/state counting' in options:
-                    county_tags, state_tags = countyStateTypeCounter(elem, county_tags, state_tags)
+                    county_tags, state_tags = countyStateTypeCounter(elem, county_tags, state_tags, tags_ignored)
+                    
+                if 'county/state reporting' in options:
+                    counties_found, states_found = countyStateReporter(elem, countyKeys, stateKeys, counties_found, states_found)
                     
                 if 'lat/long' in options:
                     badNodes = lat_long_checker(elem, badNodes)
@@ -127,6 +147,11 @@ def audit(osmfile, options=None):
                 pprint.pprint(county_tags)
                 print("\nTypes of State Tags")
                 pprint.pprint(state_tags)
+            if 'county/state reporting' in options:
+                print("\nStates Identified")
+                pprint.pprint(states_found)
+                print("\nCounties Identified")
+                pprint.pprint(counties_found)
             if 'lat/long' in options:
                 print("\nNodes with Incorrect Latitudes and/or Longitudes")
                 pprint.pprint(badNodes)
@@ -163,29 +188,38 @@ def count_tags(elem, tag_dict):
     return tag_dict
 
 
-def zipCheck(elem, zip_length_dict={}, knownZips=set(), digits = 5):
+def zipCheck(elem, zip_length_dict={}, knownZips=set(), known_zip_tags=set(), digits = 5):
     '''
     Checks all of the zip/postal codes contained in an OSM file and counts how many digits are included 
-    in each code and then compares that count to a predefined number of digits. Returns the different lengths
-    of zip codes it finds. NOTE: this assumes that zip codes are only found as the value of the child tag key
-    "addr:postcode"
+    in each code and then compares that count to a predefined number of digits. Returns a tuple:
+    (the different lengths of zip codes it finds as a dict of the same format as zip_length_dict,
+    a set of str that represents all of the unique zip codes it has discovered,
+    a set of the tag keys it has identified through regex that it thinks describe zip codes)
     
     elem: ET element.
+    zip_length_dict: dict containing lengths (keys) of different zip codes discovered and counts how many times
+                        that length is observed (values)
+    knownZips: set of str. Reports the different zip code values observed.
+    known_zip_tags: set of str. Reports the tag keys found that are being observed
     digits: int. Number of digits expected for a zip code
     
     Returns: dict. Keys are zip code type identifiers (primarily digit counts) and values are the number of those
                     type identified.
     '''
+    #makes sure any tag key with the text 'zip' or 'postcode' is accounted for
+    zip_re = re.compile('postcode|zip',re.IGNORECASE)  # @UndefinedVariable
+    
     
     if elem.tag == "node" or elem.tag == "way":
         for tag in elem.iter("tag"):
-            if tag.attrib['k'] == "addr:postcode":
+            zip_match = zip_re.search(tag.attrib['k'])
+            if zip_match is not None:
                 tempZip = tag.attrib['v'].strip()
+                knownZips.add(tempZip)
+                known_zip_tags.add(zip_match.group())
                 
                 #check to see if tempZip only has numbers in it
-                if tempZip.isdigit():
-                    knownZips.add(tempZip)
-                    
+                if tempZip.isdigit():                    
                     if len(tempZip) in zip_length_dict.keys():
                         zip_length_dict[len(tempZip)] += 1                        
                     else:
@@ -197,16 +231,24 @@ def zipCheck(elem, zip_length_dict={}, knownZips=set(), digits = 5):
                     
                     print("Found a zip code with more than numbers!")
                     zip_length_dict["Non-number"] += 1
-                    knownZips.add(tempZip)
+                
+                
 
-    return zip_length_dict, knownZips
+    return zip_length_dict, knownZips, known_zip_tags
 
-def countyStateTypeCounter(elem, county_types={}, state_types={}):
+def countyStateTypeCounter(elem, county_types={}, state_types={}, tags_to_ignore=[]):
     '''
     Checks for the presence of a tag with 'county' included in the key and returns a dict with that tag
     key recorded as a key in the dict, mapped to a value representing the frequency that key is observed
     
     elem: ET element.
+    county_types: dict. Keeps track of the different county-related tags identified (keys) and counts how often they
+                    appear (value).
+    state_types: dict. Keeps track of the different state-related tags identified (keys) and counts how often they
+                    appear (value).
+    tags_to_ignore: list of str. Identifies those county- or state-related tags that don't seem relevant to our
+                        wrangling activies (e.g. we're interested in identifying all the states recorded in here,
+                        but the '' key doesn't necessarily provide this info
     '''
     county_re = re.compile('county',re.IGNORECASE)  # @UndefinedVariable
     state_re = re.compile('state',re.IGNORECASE)  # @UndefinedVariable
@@ -235,6 +277,31 @@ def countyStateTypeCounter(elem, county_types={}, state_types={}):
                 
     return county_types, state_types
 
+def countyStateReporter(elem, county_keys, state_keys, counties=set(), states=set()):
+    '''
+    Returns the list of unique counties and states discovered in the OSM file as a tuple in the
+    form (counties,states).
+    
+    elem: ET element.
+    county_keys: list of str. Indicates what OSM tag keys have values that are of interest for county reporting.
+    state_keys: list of str. Indicates what OSM tag keys have values that are of interest for state reporting.
+    counties: set of str. Unique county names.
+    states: set of str. Unique state names.
+    '''
+    
+    tempState = ""
+    tempCty = ""
+    
+    if elem.tag == "node" or elem.tag == "way":
+        for tag in elem.iter("tag"):
+            if tag.attrib['k'] in state_keys:
+                tempState = tag.attrib['v']
+                states.add(tempState)
+            elif tag.attrib['k'] in county_keys:
+                tempCty = tag.attrib['v']
+                counties.add(tempCty)
+    
+    return counties,states
 
 def lat_long_checker(elem, badNodes=defaultdict(list), targetLatRange=[37.15,39.05], targetLongRange=[-82.67,-80.20]):
     '''
@@ -329,5 +396,7 @@ def propertyCounter(elem, allowed_property_types, prop_records=defaultdict(int))
 #---------------------------------------------
 #Main code execution space
 
-audit(OSMFILE, options=['counting', 'zips', 'county/state counting', 'lat/long', 'amenities','property types'])
+audit(OSMFILE, options=['counting', 'zips', 'county/state reporting',
+                        'amenities','property types'])
 
+#Unused options: ['county/state counting','lat/long']

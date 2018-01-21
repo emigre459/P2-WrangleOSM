@@ -27,11 +27,12 @@ street_type_re = re.compile(r'\b\S+\.?$', re.IGNORECASE)  # @UndefinedVariable
 #This is the list of street type words we DO want to end up with everywhere
 expected = ["Street", "Avenue", "Boulevard", "Drive", "Court", "Place", "Square", "Lane", "Road", 
             "Trail", "Parkway", "Commons", "Circle", "Terrace", "Way", "Alley", "Ridge", "Turnpike",
-            "Pass", "Pike", "Branch", "Crossing", "Creek", "Highway", "Plaza"]
+            "Pass", "Pike", "Branch", "Crossing", "Creek", "Highway", "Plaza", "Center", "Mall", "Run",
+            "Hill", "Village"]
 
 # This is the list of non-ideal street type words that we want to map to the ideal, expected types,
 # generated iteratively by running this code and updating this list (manually) until no new versions are discovered
-mapping = { "St": "Street",
+end_mapping = { "St": "Street",
             "St.": "Street",
             "Ave": "Avenue",
             "Ave.": "Avenue",
@@ -44,8 +45,23 @@ mapping = { "St": "Street",
             "Ln": "Lane",
             "Avevue": "Avenue",
             "Driver": "Drive",
-            "Hwy": "Highway"
+            "Hwy": "Highway",
+            "HWY": "Highway",
+            "Ctr.": "Center",
+            "hill": "Hill"
             }
+
+'''TODO: make sure the auditing for the starting stuff basically replaces anything in the beginning that isn't a number
+with the value from this dict (e.g. "US--60" should become "US Highway 60")'''
+#These mappings are imperfect, given that "State Route" doesn't specify the state in question
+#TODO: if available, have it pull the value of addr:state and throw that in front of "State Highway"
+start_mapping = {"County Rd": "County Road",
+                 "State Route": "State Highway",
+                 "WV": "West Virginia Highway",
+                 "US": "US Highway",
+                 "KY": "Kentucky Highway",
+                 "US Route": "US Highway"                 
+                 }
 
 to_be_mapped = set()
 
