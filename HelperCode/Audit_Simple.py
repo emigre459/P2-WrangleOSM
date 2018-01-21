@@ -46,10 +46,11 @@ def audit(osmfile, options=None):
                 zipLengthDict = {zipLength:0, "Non-number": 0}
                 known_zips = set()
                 knownZipTags = set()
+                zip_tags_ignored = []
             if 'county/state counting' in options:
                 county_tags = {}
                 state_tags = {}
-                tags_ignored = ['state_capital']
+                state_tags_ignored = ['state_capital']
             if 'county/state reporting' in options:
                 counties_found = set()
                 states_found = set()
@@ -114,10 +115,10 @@ def audit(osmfile, options=None):
                 
                 if 'zips' in options:
                     zipLengthDict, known_zips, knownZipTags = zipCheck(elem, zipLengthDict, known_zips, \
-                                                                       knownZipTags, digits=zipLength)
+                                                                       knownZipTags, zip_tags_ignored, digits=zipLength)
                 
                 if 'county/state counting' in options:
-                    county_tags, state_tags = countyStateTypeCounter(elem, county_tags, state_tags, tags_ignored)
+                    county_tags, state_tags = countyStateTypeCounter(elem, county_tags, state_tags, state_tags_ignored)
                     
                 if 'county/state reporting' in options:
                     counties_found, states_found = countyStateReporter(elem, countyKeys, stateKeys, counties_found, states_found)
@@ -144,6 +145,8 @@ def audit(osmfile, options=None):
                 pprint.pprint(zipLengthDict) 
                 print("\nUnique Zip Codes")
                 pprint.pprint(known_zips)
+                print("\nZip Code Tag Keys Found")
+                pprint.pprint(knownZipTags)
             if 'county/state counting' in options:
                 print("\nTypes of County Tags")
                 pprint.pprint(county_tags)
@@ -190,7 +193,7 @@ def count_tags(elem, tag_dict):
     return tag_dict
 
 
-def zipCheck(elem, zip_length_dict={}, knownZips=set(), known_zip_tags=set(), digits = 5):
+def zipCheck(elem, zip_length_dict={}, knownZips=set(), known_zip_tags=set(), tagsToIgnore = [], digits = 5):
     '''
     Checks all of the zip/postal codes contained in an OSM file and counts how many digits are included 
     in each code and then compares that count to a predefined number of digits. Returns a tuple:
@@ -204,6 +207,8 @@ def zipCheck(elem, zip_length_dict={}, knownZips=set(), known_zip_tags=set(), di
     knownZips: set of str. Reports the different zip code values observed.
     known_zip_tags: set of str. Reports the tag keys found that are being observed
     digits: int. Number of digits expected for a zip code
+    tagsToIgnore: list of str. Lists tag keys that are considered not useful for this analysis and thus shouldn't
+                    have their values (nor tag keys) reported
     
     Returns: dict. Keys are zip code type identifiers (primarily digit counts) and values are the number of those
                     type identified.
@@ -215,10 +220,10 @@ def zipCheck(elem, zip_length_dict={}, knownZips=set(), known_zip_tags=set(), di
     if elem.tag == "node" or elem.tag == "way":
         for tag in elem.iter("tag"):
             zip_match = zip_re.search(tag.attrib['k'])
-            if zip_match is not None:
+            if zip_match is not None and tag.attrib['k'] not in tagsToIgnore:
                 tempZip = tag.attrib['v'].strip()
                 knownZips.add(tempZip)
-                known_zip_tags.add(zip_match.group())
+                known_zip_tags.add(tag.attrib['k'])
                 
                 #check to see if tempZip only has numbers in it
                 if tempZip.isdigit():                    
@@ -231,7 +236,7 @@ def zipCheck(elem, zip_length_dict={}, knownZips=set(), known_zip_tags=set(), di
                     TODO: Also, need code for picking out only the first 5 digits (after letters are stripped)'''
                     #tempZip = re.sub("\D", "", tempZip) #replaces every non-digit char in tempZip with ""
                     
-                    print("Found a zip code with more than numbers!")
+                    #print("Found a zip code with more than numbers!")
                     zip_length_dict["Non-number"] += 1
                 
                 
@@ -398,6 +403,6 @@ def propertyCounter(elem, allowed_property_types, prop_records=defaultdict(int))
 #---------------------------------------------
 #Main code execution space
 
-audit(OSMFILE, options=['counting', 'zips', 'county/state reporting', 'amenities','property types'])
+audit(OSMFILE, options=['zips', 'county/state reporting', 'amenities','property types'])
 
-#Unused options: ['county/state counting','lat/long']
+#Unused options: ['counting', 'county/state counting','lat/long']
