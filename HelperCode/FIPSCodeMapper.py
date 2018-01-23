@@ -6,7 +6,6 @@ Created on Jan 21, 2018
 This module uses a CSV data file download from the US Census Bureau for 2010 FIPS codes to take a FIPS code for a
 state or county and return the name of that state or county.
 '''
-import pprint as pp
 import pandas as pd
 
 #CSV columns organized as: StateName (2-letter); State_FIPS (2-digit); County_FIPS (3-digit); County_Name; FIPS_Class
@@ -27,18 +26,11 @@ C7:  identifies an incorporated place that is an independent city; that is, it a
 
 #NOTE: it's possible that there will be a string encoding issue when you pass the names back to the 
 #correction and exporting algorithm. If necessary, use encoding='utf-8' as an arg
-census_df = pd.read_csv('../2010_FIPSCodes.csv', header=None, dtype = 'str', names=['State_Name',
-                                                                                    'State_FIPS',
-                                                                                    'County_FIPS',
-                                                                                    'County_Name',
-                                                                                    'FIPS_Class_Code'])
-
-print(census_df.head())
-
-def FIPS_to_Name(FIPS_code, state_name=None, state_FIPS=None):
+def FIPS_to_Name(census_filepath, FIPS_code, state_name=None, state_FIPS=None):
     '''
     Takes a FIPS code for a state or county and returns a tuple of the form (county_name,state_name)
     
+    census_filepath: str. Filepath, including filename and extension, for Census data file with FIPS codes.
     FIPS_code: str. FIPS code (including leading zeroes) of a state or county. 
                     The true, most unique FIPS code for a county
                     is a 5-digit code in the format SSCCC where S = state digit and C = county digit. However,
@@ -51,6 +43,11 @@ def FIPS_to_Name(FIPS_code, state_name=None, state_FIPS=None):
     state_FIPS: str. This is the two-digit FIPS code for a state. Use this arg if you expect to be providing
                 a 3-digit county code and therefore need to provide the state as a reference.
     '''
+    census_df = pd.read_csv(census_filepath, header=None, dtype = 'str', names=['State_Name',
+                                                                                    'State_FIPS',
+                                                                                    'County_FIPS',
+                                                                                    'County_Name',
+                                                                                    'FIPS_Class_Code'])
     
     digits = len(FIPS_code)
     if digits == 2:
@@ -69,7 +66,6 @@ def FIPS_to_Name(FIPS_code, state_name=None, state_FIPS=None):
         return census_df_oneCounty['County_Name'].values[0]
         
     elif digits == 5:
-        #TODO: just use the approach in the preceding elif statement, but extract state code from first 2 digits first
         census_df_oneState = census_df[census_df['State_FIPS'] == FIPS_code[:2]]
         census_df_oneCounty = census_df_oneState[census_df_oneState['County_FIPS'] == FIPS_code[2:]]
         
@@ -77,7 +73,3 @@ def FIPS_to_Name(FIPS_code, state_name=None, state_FIPS=None):
     
     else:
         return None
-    
-print("\n")
-#should give "Braxton County"
-print(FIPS_to_Name('01009'))
