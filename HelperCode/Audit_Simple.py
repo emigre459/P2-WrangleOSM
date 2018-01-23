@@ -303,14 +303,22 @@ def countyStateReporter(elem, county_keys, state_keys, counties=set(), states=se
     tempState = ""
     tempCty = ""
     
+    
     if elem.tag == "node" or elem.tag == "way":
+        nodeID = elem.attrib['id']
+        
         for tag in elem.iter("tag"):
-            if tag.attrib['k'] in state_keys:
+            if nodeID == '398603731':
+                print("CA tag - k:{}, v:{}".format(tag.attrib['k'],tag.attrib['v'])) 
+                        
+            if tag.attrib['k'] in state_keys:                    
                 tempState = tag.attrib['v']
                 states.add(tempState)
             elif tag.attrib['k'] in county_keys:
                 tempCty = tag.attrib['v']
                 counties.add(tempCty)
+            
+            
     
     return counties,states
 
@@ -408,6 +416,6 @@ def propertyCounter(elem, allowed_property_types, prop_records=defaultdict(int))
 #---------------------------------------------
 #Main code execution space
 
-audit(OSMFILE, options=['county/state counting', 'county/state reporting', 'property type counts'])
+audit(OSMFILE, options=['county/state counting', 'county/state reporting'])
 
-#Unused options: ['counting', 'lat/long', 'amenities', 'zips', 'property types']
+#Unused options: ['counting', 'lat/long', 'amenities', 'zips', 'property types', 'property type counts']
