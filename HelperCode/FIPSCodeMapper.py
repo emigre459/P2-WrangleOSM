@@ -59,9 +59,11 @@ def FIPS_to_Name(census_filepath, FIPS_code, state_name=None, state_FIPS=None):
     elif digits == 3 and (state_name or state_FIPS):
         if state_name:
             census_df_oneState = census_df[census_df['State_Name'] == state_name]
-        else:
-            census_df_oneState = census_df[census_df['State_FIPS'] == FIPS_code]
             
+        else:
+            census_df_oneState = census_df[census_df['State_FIPS'] == state_FIPS]
+            
+        print(census_df_oneState.head())
         census_df_oneCounty = census_df_oneState[census_df_oneState['County_FIPS'] == FIPS_code]
         return census_df_oneCounty['County_Name'].values[0]
         

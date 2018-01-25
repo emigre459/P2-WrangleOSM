@@ -9,4 +9,9 @@ formatted to correspond with the SQL schema described in the file data_wrangling
 of the correcting and formatting process, these updated data will be exported to CSV format for later SQL
 database ingestion.
 '''
+from FIPSCodeMapper import FIPS_to_Name
 
+
+print(FIPS_to_Name("../2010_FIPSCodes.csv", '039', state_name=None, state_FIPS='54'))
+
+#TODO: code here will need to track ALL tags for a given node or way in order to get the context of what state the node/way is in for FIPS code puropses
