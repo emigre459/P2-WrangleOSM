@@ -217,7 +217,10 @@ def zipCheck(elem, zip_length_dict={}, knownZips=set(), known_zip_tags=set(), ta
     
     
     if elem.tag == "node" or elem.tag == "way":
+        nodeID = elem.attrib['id']
         for tag in elem.iter("tag"):
+            if nodeID == '2625119248':
+                print("WV zip - tag key=value is {}={}".format(tag.attrib['k'],tag.attrib['v']))
             zip_match = zip_re.search(tag.attrib['k'])
             if zip_match is not None and tag.attrib['k'] not in tagsToIgnore:
                 tempZip = tag.attrib['v'].strip()
@@ -237,6 +240,8 @@ def zipCheck(elem, zip_length_dict={}, knownZips=set(), known_zip_tags=set(), ta
                     
                     #print("Found a zip code with more than numbers!")
                     zip_length_dict["Non-number"] += 1
+                    
+                    print("Non-standard zip - ID#{}, tag key = {}, zip = {}".format(nodeID, tag.attrib['k'], tempZip))
                 
                 
 
@@ -416,6 +421,6 @@ def propertyCounter(elem, allowed_property_types, prop_records=defaultdict(int))
 #---------------------------------------------
 #Main code execution space
 
-audit(OSMFILE, options=['county/state counting', 'county/state reporting'])
+audit(OSMFILE, options=['zips', 'county/state counting', 'county/state reporting'])
 
-#Unused options: ['counting', 'lat/long', 'amenities', 'zips', 'property types', 'property type counts']
+#Unused options: ['counting', 'lat/long', 'amenities', 'property types', 'property type counts']
