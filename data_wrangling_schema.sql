@@ -21,7 +21,7 @@ CREATE TABLE ways (
     id INTEGER PRIMARY KEY NOT NULL,
     user TEXT,
     uid INTEGER,
-    version TEXT,
+    version INTEGER,
     changeset INTEGER,
     timestamp TEXT
 );
