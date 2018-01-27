@@ -162,6 +162,7 @@ def data_correction(elem, parent_dict, df, state_needed=False):
     '''
     
     k = elem.attrib['k']
+    v = elem.attrib['v']
     tag_dicts = []
     tag_dict = {}
     
@@ -185,31 +186,65 @@ def data_correction(elem, parent_dict, df, state_needed=False):
                     #12345-0000
                     #12345:123400
                     #12345;23456;34567;...
-                v = elem.attrib['v']
                 if not v.isdigit():
                     if "-" in v:
                         zipList = [v.strip()[:5]]                                
-                    elif ":" in v:
-                        unstripped_zipList = v.split(":")
-                        zipList = map(str.strip(), unstripped_zipList)
-                    elif ";" in v:
-                        unstripped_zipList = v.split(";")
-                        zipList = map(str.strip(), unstripped_zipList)
-            
-            for zipCode in zipList:
-                tag_dict['value'] = zipCode
-                #For ease of later analysis, set everything to have tag key = "addr:postcode"
-                tag_dict['key'] = 'postcode'
-                tag_dict['type'] = 'addr'
+                    elif ":" in v or ";" in v:
+                        if ":" in v: delimiter = ":"
+                        elif ";" in v: delimiter = ";"
                 
+                        unstripped_zipList = v.split(delimiter)
+                        for e in unstripped_zipList:
+                            zipList.append(e.strip())
+                    else:
+                        zipList = [v.strip()]
+                else:
+                    zipList = [v.strip()]
+                    
+                print(zipList)
                 
+                #Build the tag_dict
+                for zipCode in zipList:
+                    tag_dict = {}
                 
-        ############ STATES ############
-        
-        
-        
+                    tag_dict['id'] = parent_dict['id']
+                    tag_dict['value'] = zipCode
+                
+                    #For ease of later analysis, set everything to have tag key = "addr:postcode"
+                    tag_dict['key'] = 'postcode'
+                    tag_dict['type'] = 'addr'
+                    tag_dicts.append(tag_dict)
+                
         
         ############ COUNTIES ############
+        
+        #Need lists for counties and states, as some nodes/ways have multiple county,state entries in a list
+        #TODO: if multiple states are listed in this fashion, ignore any explicit state indicators found in next section in favor of those found here
+        elif audit.isCounty(elem):
+            countyList = []
+            stateList = []
+            
+            #Dealing with lists of counties
+            if ":" in v or ";" in v:
+                if ":" in v: delimiter = ":"
+                elif ";" in v: delimiter = ";"
+                
+                unstripped_countyList = v.split(delimiter)
+                print(unstripped_countyList)
+                for county in unstripped_countyList:
+                    countyList.append(county.strip())
+            
+            
+                #Now, if there are states to be pulled out, let's pull them out
+                for i, county in enumerate(countyList):
+                    if "," in county:
+                        countyList[i] = county.split(",")[0].strip()
+                        stateList.append(county.split(",")[1].strip())
+                    else:
+                        pass
+                    
+            #TODO: add state_name_transform def to Audit_Simple.py that standardizes state names as XY
+        
         
         '''TODO: need to return a bool flag that indicates if context was lacking for the state of a way/node
         when the FIPS code for a county was being determined, so that when that whole parent node/way is processed,
@@ -217,6 +252,18 @@ def data_correction(elem, parent_dict, df, state_needed=False):
         This bool will also indicate if I've already extracted a state from a county,state record and skip
         recording the state if the record is already there in df, or throw an error if the states are different
         (making sure to account for different naming possibilities, like Wv or WV)'''
+        
+                
+        ############ STATES ############
+        
+        elif audit.isState(elem):
+            '''No need for a list of states to be maintained, as auditing revealed no multi-state nodes or ways
+            for those using state-based tag keys (unlike the county scenario described later)'''
+            pass
+        
+        
+        
+        
         
         
         ############ AMENITIES/SHOPS ############
