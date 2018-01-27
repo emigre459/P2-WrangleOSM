@@ -84,7 +84,8 @@ def correct_and_record(osm_file):
                         
                 for elem in element.iter('tag'):
                     '''TODO: add data_correction algorithm call here, remembering that you'll need to iterate
-                    through the dict list returned, appending to the df each iteration'''
+                    through the dict list returned, appending to the df each iteration. Don't forget to skip
+                    appending to df if tag_dicts = None (means we had problem chars in tag key'''
                     nodes_tags_df.append(nodes_tags_dict)
                 
                 
@@ -111,7 +112,8 @@ def correct_and_record(osm_file):
                 
                 for elem in element.iter('tag'):
                     '''TODO: add data_correction algorithm call here, remembering that you'll need to iterate
-                    through the dict list returned, appending to the df each iteration'''
+                    through the dict list returned, appending to the df each iteration. Don't forget to skip
+                    appending to df if tag_dicts = None (means we had problem chars in tag key'''
                     ways_tags_df.append(ways_tags_dict)
                 
                 
@@ -160,12 +162,12 @@ def data_correction(elem, parent_dict, df, state_needed=False):
     '''
     
     k = elem.attrib['k']
+    tag_dicts = []
     tag_dict = {}
     
     #Only do anything meaningful with this tag if it isn't problematic
     if not PROBLEMCHARS.search(k):
-        tag_dict['value'] = elem.attrib['v']
-        tag_dict['id'] = parent_dict['id']
+        
         
         ############ ZIP CODES ############
         
@@ -174,7 +176,7 @@ def data_correction(elem, parent_dict, df, state_needed=False):
             zipList = []
             
             
-            if tag_dict['id'] == '2625119248':
+            if tag_dict['id'] == '2625119248' and type == 'node':
                 zipList = ['25314']
                 print("'WV' zip code corrected!")
         
@@ -202,9 +204,19 @@ def data_correction(elem, parent_dict, df, state_needed=False):
                 
                 
                 
-        ############ STATES/COUNTIES ############
+        ############ STATES ############
         
         
+        
+        
+        ############ COUNTIES ############
+        
+        '''TODO: need to return a bool flag that indicates if context was lacking for the state of a way/node
+        when the FIPS code for a county was being determined, so that when that whole parent node/way is processed,
+        a re-run of the FIPS code algorithm can be done (assuming there is sufficient state context at that time...
+        This bool will also indicate if I've already extracted a state from a county,state record and skip
+        recording the state if the record is already there in df, or throw an error if the states are different
+        (making sure to account for different naming possibilities, like Wv or WV)'''
         
         
         ############ AMENITIES/SHOPS ############
@@ -213,7 +225,14 @@ def data_correction(elem, parent_dict, df, state_needed=False):
         
             
             
-    ###Time for sorting the tag keys 
+        ############ ALL OTHER TAG TYPES ############
+    
+        
+    
+        tag_dict['value'] = elem.attrib['v']
+        tag_dict['id'] = parent_dict['id']
+        
+        
         if ":" in k:
             tag_k_labels = k.split(":")
             #Make part before ":" the type, part after the key
@@ -223,9 +242,10 @@ def data_correction(elem, parent_dict, df, state_needed=False):
             nodes_tags_dict['type'] = 'regular'
             nodes_tags_dict['key'] = k
         
+        tag_dicts = [tag_dict]
+        
+    else: #This is scenario wherein tag key had problem characters in it, and we're skipping
+        tag_dicts = None
             
-            
-    '''TODO: need to return a bool flag that indicates if context was lacking for the state of a way/node
-    when the FIPS code for a county was being determined, so that when that whole parent node/way is processed,
-    a re-run of the FIPS code algorithm can be done (assuming there is sufficient state context at that time...'''
+    
     

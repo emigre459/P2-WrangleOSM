@@ -248,7 +248,7 @@ def isZipCode(elem):
     '''
     Returns True if elem is a zip code tag of some kind, otherwise returns False
     
-    elem: ET element that represents a child tag to a node parent tag.
+    elem: ET element that represents a child tag to a node/way parent tag.
     '''
     
     #makes sure any tag key with the text 'zip' or 'postcode' is accounted for
@@ -256,6 +256,36 @@ def isZipCode(elem):
     zip_match = zip_re.search(elem.attrib['k'])
     
     return zip_match is not None
+
+def isState(elem):
+    '''
+    Returns True if elem is a state tag of some kind, otherwise returns False
+    
+    elem: ET element that represents a child tag to a node/way parent tag.
+    '''
+    state_keys = ['addr:state',
+                 'gnis:ST_alpha',
+                 'gnis:state_id',
+                 'nist:state_fips',
+                 'ST_num']
+    
+    return elem.attrib['k'] in state_keys
+
+def isCounty(elem):
+    '''
+    Returns True if elem is a county tag of some kind, otherwise returns False
+    
+    elem: ET element that represents a child tag to a node/way parent tag.
+    '''
+    county_keys = ['gnis:County',
+                  'gnis:County_num',
+                  'gnis:county_id',
+                  'gnis:county_name',
+                  'is_in:county',
+                  'tiger:county']
+    
+    return elem.attrib['k'] in county_keys
+    
 
 def countyStateTypeCounter(elem, county_types={}, state_types={}, tags_to_ignore=[]):
     '''
@@ -320,11 +350,12 @@ def countyStateReporter(elem, county_keys, state_keys, counties=set(), states=se
     
     
     if elem.tag == "node" or elem.tag == "way":
-        nodeID = elem.attrib['id']
+        tagID = elem.attrib['id']
+        elemType = elem.tag
         
         for tag in elem.iter("tag"):
-            if nodeID == '398603731':
-                print("CA tag - k:{}, v:{}".format(tag.attrib['k'],tag.attrib['v'])) 
+            if tagID == '398603731':
+                print("CA tag ({}) - k:{}, v:{}".format(elemType, tag.attrib['k'],tag.attrib['v'])) 
                         
             if tag.attrib['k'] in state_keys:                    
                 tempState = tag.attrib['v']
