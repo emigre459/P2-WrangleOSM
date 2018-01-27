@@ -20,12 +20,11 @@ PROBLEMCHARS = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
 #print(FIPS_to_Name("../2010_FIPSCodes.csv", '039', state_name=None, state_FIPS='54'))
 
-'''TODO: code here will need to track ALL tags for a given node or way in order to get the context of 
-what state the node/way is in for FIPS code purposes'''
+
 
 OSM_file = 'SW_WestVirginia.osm'
 
-def data_correction(osm_file):
+def correct_and_record(osm_file):
     '''
     Churns through the OSM file being investigated, checking different components using results of the
     previous audits and correcting data as needed. Data are then, as corrected, appended to CSV files.
@@ -57,19 +56,20 @@ def data_correction(osm_file):
         
         ways_nodes_df = pd.DataFrame(data=[[0,0,0]],
                                      columns=['id', 'node_id', 'position'])
-        
-        ways_nodes_dict = {}
+
         
         #Iterating through the XML file
         for _, element in ET.iterparse(fileIn):
             
-             ####################    NODES    ######################
+            ####################    NODES    ######################
     
             if element.tag == 'node':
                 #REMEMBER: we need to check to see if the 'k' attrib of each tag is problematic
                     #If it is: ignore it entirely
                     #If it isn't: take only the chars after ":" (if one is present) as key and set 'type' to be
                         #the chars preceding ":"
+                
+                
                 
                 nodes_dict = {'id': int(element.attrib['id']), 
                               'lat': float(element.attrib['lat']), 
@@ -83,27 +83,9 @@ def data_correction(osm_file):
                 nodes_df.append(nodes_dict)
                         
                 for elem in element.iter('tag'):
-                    k = elem.attrib['k']
-                    
-                    #Only do anything meaningful with this tag if it isn't problematic
-                    if not PROBLEMCHARS.search(k):
-                        #TODO: this is where all node tag auditing needs to occur
-                        
-                        if ":" in k:
-                            tag_k_labels = k.split(":")
-                            #Make part before ":" the type, part after the key
-                            nodes_tags_dict['type'] = tag_k_labels[0]
-                            nodes_tags_dict['key'] = ":".join(tag_k_labels[1:])
-                        else:
-                            nodes_tags_dict['type'] = 'regular'
-                            nodes_tags_dict['key'] = k
-                    
-                        nodes_tags_dict['value'] = elem.attrib['v']
-                        nodes_tags_dict['id'] = nodes_dict['id']
-                        
-                        
-                                                
-                        nodes_tags_df.append(nodes_tags_dict)
+                    '''TODO: add data_correction algorithm call here, remembering that you'll need to iterate
+                    through the dict list returned, appending to the df each iteration'''
+                    nodes_tags_df.append(nodes_tags_dict)
                 
                 
                 
@@ -128,26 +110,8 @@ def data_correction(osm_file):
                     #ALSO: I don't think LOWER_COLON regex is needed, will ignore tags without colons
                 
                 for elem in element.iter('tag'):
-                    k = elem.attrib['k']
-                    
-                    #Only do anything meaningful with this tag if it isn't problematic
-                    if not PROBLEMCHARS.search(k):
-                        #TODO: this is where all ways tag auditing should occur
-                        
-                        if ":" in k:
-                            tag_k_labels = k.split(":")
-                            #Make part before ":" the type, part after the key
-                            ways_tags_dict['type'] = tag_k_labels[0]
-                            ways_tags_dict['key'] = ":".join(tag_k_labels[1:])
-                        else:
-                            ways_dict['type'] = 'regular'
-                            ways_tags_dict['key'] = k
-                    
-                        ways_tags_dict['value'] = elem.attrib['v']
-                        ways_tags_dict['id'] = ways_dict['id']
-                        
-                        
-                    
+                    '''TODO: add data_correction algorithm call here, remembering that you'll need to iterate
+                    through the dict list returned, appending to the df each iteration'''
                     ways_tags_df.append(ways_tags_dict)
                 
                 
@@ -159,6 +123,9 @@ def data_correction(osm_file):
                     i += 1
     
     ####################    Writing to CSV    ######################       
+    #TODO: don't forget to remove first row of dummy data from each df before export!
+    
+    
     nodes_df.to_csv('./CSV for SQL Tables/nodes.csv', index=False, encoding='utf-8')
     nodes_tags_df.to_csv('./CSV for SQL Tables/nodes_tags.csv', index=False, encoding='utf-8')
     ways_df.to_csv('./CSV for SQL Tables/ways.csv', index=False, encoding='utf-8')
@@ -166,4 +133,99 @@ def data_correction(osm_file):
     ways_nodes_df.to_csv('./CSV for SQL Tables/ways_nodes.csv', index=False, encoding='utf-8')
     
     
+    
+def data_correction(elem, parent_dict, df, state_needed=False):
+    '''
+    Corrects data in an individual child tag of a node or a way (excluding nd tags) and returns
+    a list of dicts, each of which can be used as the nodes_tags_dict or ways_tags_dict, as appropriate. This is
+    a list because the zip code correction may generate multiple dicts, one for each zip code identified when a list
+    existed in the original data set. 
+    
+    As ways and nodes in my data set appear to have a lot of similar attributes (e.g. both have zip codes, 
+    lists of zip codes at times, etc.), this data correction algorithm is agnostic with respect to its 
+    treatment of nodes vs. ways
+    
+    elem: ET element representing a child tag of a node or way
+    parent_dict: dict that describes the parent node or way.
+    type: str. Allowed values are 'node' or 'way'. Some specific correction steps DO need knowledge about the way/
+                node status of what the data are, although the majority of corrections are agnostic.
+    df: DataFrame. Since some corrections (e.g. county FIPS code translation) require context from other
+                    child tags of the node/way in question (e.g. knowledge of the state for the county FIPS code
+                    translation), this needs knowledge of the current state of the relevant DataFrame to provide
+                    proper context.
+    state_needed: bool. Default False. Indicates if a previous iteration of this algorithm identified that
+                    it lacked knowledge of the state of the node/way in question and still needs that info.
+                    The expectation is that, with the full list of node/way child tags in hand, there will
+                    always be sufficient context for determining what the state is.
+    '''
+    
+    k = elem.attrib['k']
+    tag_dict = {}
+    
+    #Only do anything meaningful with this tag if it isn't problematic
+    if not PROBLEMCHARS.search(k):
+        tag_dict['value'] = elem.attrib['v']
+        tag_dict['id'] = parent_dict['id']
+        
+        ############ ZIP CODES ############
+        
+        #Deal with the zip identified earlier that needs special attention for correction
+        if audit.isZipCode(elem):
+            zipList = []
+            
+            
+            if tag_dict['id'] == '2625119248':
+                zipList = ['25314']
+                print("'WV' zip code corrected!")
+        
+            else:
+                #Expect that anything in this category will be of the following forms (based on audit):
+                    #12345-0000
+                    #12345:123400
+                    #12345;23456;34567;...
+                v = elem.attrib['v']
+                if not v.isdigit():
+                    if "-" in v:
+                        zipList = [v.strip()[:5]]                                
+                    elif ":" in v:
+                        unstripped_zipList = v.split(":")
+                        zipList = map(str.strip(), unstripped_zipList)
+                    elif ";" in v:
+                        unstripped_zipList = v.split(";")
+                        zipList = map(str.strip(), unstripped_zipList)
+            
+            for zipCode in zipList:
+                tag_dict['value'] = zipCode
+                #For ease of later analysis, set everything to have tag key = "addr:postcode"
+                tag_dict['key'] = 'postcode'
+                tag_dict['type'] = 'addr'
+                
+                
+                
+        ############ STATES/COUNTIES ############
+        
+        
+        
+        
+        ############ AMENITIES/SHOPS ############
+        
+        
+        
+            
+            
+    ###Time for sorting the tag keys 
+        if ":" in k:
+            tag_k_labels = k.split(":")
+            #Make part before ":" the type, part after the key
+            nodes_tags_dict['type'] = tag_k_labels[0]
+            nodes_tags_dict['key'] = ":".join(tag_k_labels[1:])
+        else:
+            nodes_tags_dict['type'] = 'regular'
+            nodes_tags_dict['key'] = k
+        
+            
+            
+    '''TODO: need to return a bool flag that indicates if context was lacking for the state of a way/node
+    when the FIPS code for a county was being determined, so that when that whole parent node/way is processed,
+    a re-run of the FIPS code algorithm can be done (assuming there is sufficient state context at that time...'''
     

@@ -224,7 +224,7 @@ def zipCheck(elem, zip_length_dict={}, knownZips=set(), known_zip_tags=set(), ta
             zip_match = zip_re.search(tag.attrib['k'])
             if zip_match is not None and tag.attrib['k'] not in tagsToIgnore:
                 tempZip = tag.attrib['v'].strip()
-                knownZips.add(tempZip)
+                knownZips.add(tempZip + " - {}".format(elem.tag))
                 known_zip_tags.add(tag.attrib['k'])
                 
                 #check to see if tempZip only has numbers in it
@@ -234,18 +234,28 @@ def zipCheck(elem, zip_length_dict={}, knownZips=set(), known_zip_tags=set(), ta
                     else:
                         zip_length_dict[len(tempZip)] = 1
                 else:
-                    '''TODO: leave the code below this out from here and include in CSV export code instead.
-                    TODO: Also, need code for picking out only the first 5 digits (after letters are stripped)'''
-                    #tempZip = re.sub("\D", "", tempZip) #replaces every non-digit char in tempZip with ""
-                    
+                                        
                     #print("Found a zip code with more than numbers!")
                     zip_length_dict["Non-number"] += 1
                     
-                    print("Non-standard zip - ID#{}, tag key = {}, zip = {}".format(nodeID, tag.attrib['k'], tempZip))
+                    #print("Non-standard zip - ID#{}, tag key = {}, zip = {}".format(nodeID, tag.attrib['k'], tempZip))
                 
                 
 
     return zip_length_dict, knownZips, known_zip_tags
+
+def isZipCode(elem):
+    '''
+    Returns True if elem is a zip code tag of some kind, otherwise returns False
+    
+    elem: ET element that represents a child tag to a node parent tag.
+    '''
+    
+    #makes sure any tag key with the text 'zip' or 'postcode' is accounted for
+    zip_re = re.compile('postcode|zip',re.IGNORECASE)  # @UndefinedVariable
+    zip_match = zip_re.search(elem.attrib['k'])
+    
+    return zip_match is not None
 
 def countyStateTypeCounter(elem, county_types={}, state_types={}, tags_to_ignore=[]):
     '''
@@ -421,6 +431,6 @@ def propertyCounter(elem, allowed_property_types, prop_records=defaultdict(int))
 #---------------------------------------------
 #Main code execution space
 
-#audit(OSMFILE, options=['zips', 'county/state counting', 'county/state reporting'])
+audit(OSMFILE, options=['zips', 'county/state counting', 'county/state reporting'])
 
 #Unused options: ['counting', 'lat/long', 'amenities', 'property types', 'property type counts']
