@@ -157,7 +157,13 @@ def data_correction(osm_file):
                     nd_dict = {'id': ways_dict['id'], 'node_id': elem.attrib['ref'], 'position': i}
                     ways_nodes_df.append(nd_dict)
                     i += 1
-                
-                
+    
+    ####################    Writing to CSV    ######################       
+    nodes_df.to_csv('./CSV for SQL Tables/nodes.csv', index=False, encoding='utf-8')
+    nodes_tags_df.to_csv('./CSV for SQL Tables/nodes_tags.csv', index=False, encoding='utf-8')
+    ways_df.to_csv('./CSV for SQL Tables/ways.csv', index=False, encoding='utf-8')
+    ways_tags_df.to_csv('./CSV for SQL Tables/ways_tags.csv', index=False, encoding='utf-8')
+    ways_nodes_df.to_csv('./CSV for SQL Tables/ways_nodes.csv', index=False, encoding='utf-8')
+    
     
     
