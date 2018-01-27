@@ -271,6 +271,30 @@ def isState(elem):
     
     return elem.attrib['k'] in state_keys
 
+def state_name_transform(state_name_text):
+    '''
+    Reads in the name of a state and standardizes it, using the known set of state names variants
+    found during auditing
+    
+    state_name_text: str. The name of the state in question awaiting correction
+    '''
+    
+    state_name_text = state_name_text.upper()
+    
+    name_variants = {'CA': 'WV', #this one corrects for a known problem in the OSM file of interest
+                     'OHIO': 'OH',
+                     'WEST VIRGINIA': 'WV',
+                     'VIRGINIA': 'VA',
+                     'KENTUCKY': 'KY'}
+    
+    if state_name_text in name_variants.keys():
+        return name_variants[state_name_text]
+    elif state_name_text in name_variants.values():
+        return state_name_text
+    else:
+        return None
+
+
 def isCounty(elem):
     '''
     Returns True if elem is a county tag of some kind, otherwise returns False

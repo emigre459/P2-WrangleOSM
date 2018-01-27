@@ -224,7 +224,7 @@ def data_correction(elem, parent_dict, df, state_needed=False):
             countyList = []
             stateList = []
             
-            #Dealing with lists of counties
+            #Dealing with lists of counties here
             if ":" in v or ";" in v:
                 if ":" in v: delimiter = ":"
                 elif ";" in v: delimiter = ";"
