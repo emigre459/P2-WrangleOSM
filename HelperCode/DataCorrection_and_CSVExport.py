@@ -377,29 +377,41 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
         
         
         ############ AMENITIES/SHOPS ############
-        
+        elif audit.isAmenity(elem):
+            if k == 'amenity' and v == 'ATV Trails':
+                parsed_singleTag_data.append([parent_dict['id'],
+                                              'amenity',
+                                              'atv',
+                                              'regular'])
+            elif k == 'shop' and v == 'Tiles':
+                parsed_singleTag_data.append([parent_dict['id'],
+                                              'shop',
+                                              'tiles',
+                                              'regular'])
         
         
             
             
         ############ ALL OTHER TAG TYPES ############
-    
-        
-    
-        tag_dict['value'] = elem.attrib['v']
-        tag_dict['id'] = parent_dict['id']
-        
-        
-        if ":" in k:
-            tag_k_labels = k.split(":")
-            #Make part before ":" the type, part after the key
-            nodes_tags_dict['type'] = tag_k_labels[0]
-            nodes_tags_dict['key'] = ":".join(tag_k_labels[1:])
         else:
-            nodes_tags_dict['type'] = 'regular'
-            nodes_tags_dict['key'] = k
+            tag_dict = {'value': v, 'id': parent_dict['id']}
         
-        tag_dicts = [tag_dict]
+        
+            if ":" in k:
+                tag_k_labels = k.split(":")
+                #Make part before ":" the type, part after ":" the key
+                tag_dict['type'] = tag_k_labels[0]
+                tag_dict['key'] = ":".join(tag_k_labels[1:])
+            else:
+                tag_dict['type'] = 'regular'
+                tag_dict['key'] = k
+            
+            parsed_singleTag_data.append([tag_dict['id'],
+                                          tag_dict['key'],
+                                          tag_dict['value'],
+                                          tag_dict['type']])
+            
+            
         
     else: #This is scenario wherein tag key had problem characters in it, and we're skipping it
         pass
