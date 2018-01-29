@@ -293,6 +293,7 @@ def state_name_transform(state_name_text):
         return state_name_text
     else:
         return None
+    
 
 
 def isCounty(elem):

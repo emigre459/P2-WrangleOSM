@@ -9,7 +9,7 @@ formatted to correspond with the SQL schema described in the file data_wrangling
 of the correcting and formatting process, these updated data will be exported to CSV format for later SQL
 database ingestion.
 '''
-from FIPSCodeMapper import FIPS_to_Name
+import FIPSCodeMapper as fips
 import Audit_Simple as audit
 import xml.etree.cElementTree as ET
 import pandas as pd
@@ -34,32 +34,24 @@ def correct_and_record(osm_file):
     
     with open(osm_file, "rb") as fileIn:
         #Setting up the different DataFrames such that they mirror the SQL data schema
-        #First row is a dummy row to allow pandas to infer column dtypes correctly
-        nodes_df = pd.DataFrame(data = [[0, 0.0, 0.0, '', 0, 0, 0, '']], 
-                                columns=['id', 'lat', 'lon', 'user', 'uid', 'version', 'changeset', 'timestamp'])
+        nodes_df = pd.DataFrame(columns=['id', 'lat', 'lon', 'user', 'uid', 'version', 'changeset', 'timestamp'])
         nodes_dict = {}
         
-        nodes_tags_df = pd.DataFrame(data=[[0, '', '', '']],
-                                     columns=['id', 'key', 'value', 'type'])
-        
+        nodes_tags_df = pd.DataFrame(columns=['id', 'key', 'value', 'type'])        
         nodes_tags_dict = {}
         
-        ways_df = pd.DataFrame(data=[[0,'', 0, 0, 0, '']],
-                               columns=['id', 'user', 'uid', 'version', 'changeset', 'timestamp'])
-        
+        ways_df = pd.DataFrame(columns=['id', 'user', 'uid', 'version', 'changeset', 'timestamp'])        
         ways_dict = {}
         
-        ways_tags_df = pd.DataFrame(data=[[0, '', '', '']],
-                                    columns=['id', 'key', 'value', 'type'])
-        
+        ways_tags_df = pd.DataFrame(columns=['id', 'key', 'value', 'type'])        
         ways_tags_dict = {}
         
-        ways_nodes_df = pd.DataFrame(data=[[0,0,0]],
-                                     columns=['id', 'node_id', 'position'])
+        ways_nodes_df = pd.DataFrame(columns=['id', 'node_id', 'position'])
 
         
         #Iterating through the XML file
         for _, element in ET.iterparse(fileIn):
+            #Each time a new node or way is parsed, create a new temporary
             
             ####################    NODES    ######################
     
@@ -85,7 +77,7 @@ def correct_and_record(osm_file):
                 for elem in element.iter('tag'):
                     '''TODO: add data_correction algorithm call here, remembering that you'll need to iterate
                     through the dict list returned, appending to the df each iteration. Don't forget to skip
-                    appending to df if tag_dicts = None (means we had problem chars in tag key'''
+                    appending to df if tag_dicts = None (means we had problem chars in tag key)'''
                     nodes_tags_df.append(nodes_tags_dict)
                 
                 
@@ -161,8 +153,8 @@ def data_correction(elem, parent_dict, df, state_needed=False):
                     always be sufficient context for determining what the state is.
     '''
     
-    k = elem.attrib['k']
-    v = elem.attrib['v']
+    k = elem.attrib['k'].strip()
+    v = elem.attrib['v'].strip()
     tag_dicts = []
     tag_dict = {}
     
@@ -243,7 +235,31 @@ def data_correction(elem, parent_dict, df, state_needed=False):
                     else:
                         pass
                     
-            #TODO: add state_name_transform def to Audit_Simple.py that standardizes state names as XY
+            #Now to deal with a single county,state combo
+            elif ',' in v:
+                countyList = [county.split(",")[0].strip()]
+                stateList = [county.split(",")[1].strip()]
+                
+            #Now we look at counties that are only given as a FIPS code
+            #Note that there are no lists of FIPS codes expected (only a single one per node/way), as per the audit
+            elif v.isdigit():
+                ''''TODO: here we need to inspect the df to see if it has an addr:state entry already for
+                this node/way. If not, need to change the bool flag. Need to create conditional after this one
+                that looks for the state_needed = True condition'''
+                #No need to worry, county is fully described as 5-digit FIPS code
+                if len(v) == 5:
+                    countyList = [fips.FIPS_to_Name('./2010_FIPSCodes.csv', v, state_name = None)]
+                
+                #Now we need to worry about what the state is so we can get the county
+                else:
+                    '''Does this node/way already have one (or more) entries for the state that will allow us to
+                    determine the proper county to name, given a 3-digit county code?'''
+                    if df 
+                
+                
+                ''''TODO: if multiple states recorded as associated with this node/way, return
+                county = "Unidentifiable (FIPS ambiguity)"'''
+                
         
         
         '''TODO: need to return a bool flag that indicates if context was lacking for the state of a way/node
@@ -257,8 +273,8 @@ def data_correction(elem, parent_dict, df, state_needed=False):
         ############ STATES ############
         
         elif audit.isState(elem):
-            '''No need for a list of states to be maintained, as auditing revealed no multi-state nodes or ways
-            for those using state-based tag keys (unlike the county scenario described later)'''
+            '''TODO: Generate list of states here, based upon previous entries in the node/way (from the df),
+            if present.'''
             pass
         
         
