@@ -34,24 +34,23 @@ def correct_and_record(osm_file):
     
     with open(osm_file, "rb") as fileIn:
         #Setting up the different DataFrames such that they mirror the SQL data schema
-        nodes_df = pd.DataFrame(columns=['id', 'lat', 'lon', 'user', 'uid', 'version', 'changeset', 'timestamp'])
-        nodes_dict = {}
         
-        nodes_tags_df = pd.DataFrame(columns=['id', 'key', 'value', 'type'])        
-        nodes_tags_dict = {}
+        nodes = []
+        nodes_tags = []        
+               
+        ways = []
+        ways_tags = []
+        ways_nodes = []
         
-        ways_df = pd.DataFrame(columns=['id', 'user', 'uid', 'version', 'changeset', 'timestamp'])        
-        ways_dict = {}
         
-        ways_tags_df = pd.DataFrame(columns=['id', 'key', 'value', 'type'])        
-        ways_tags_dict = {}
-        
-        ways_nodes_df = pd.DataFrame(columns=['id', 'node_id', 'position'])
 
         
         #Iterating through the XML file
         for _, element in ET.iterparse(fileIn):
-            #Each time a new node or way is parsed, create a new temporary
+            '''Each time a new node or way is parsed, create a new temporary list of lists
+            to contain only data about that specific node/way'''
+            temp_childTag_data = []
+            need_state = False
             
             ####################    NODES    ######################
     
@@ -61,24 +60,33 @@ def correct_and_record(osm_file):
                     #If it isn't: take only the chars after ":" (if one is present) as key and set 'type' to be
                         #the chars preceding ":"
                 
-                
-                
-                nodes_dict = {'id': int(element.attrib['id']), 
-                              'lat': float(element.attrib['lat']), 
-                              'lon': float(element.attrib['lon']), 
-                              'user': element.attrib['user'], 
-                              'uid': int(element.attrib['uid']), 
-                              'version': int(element.attrib['version']), 
-                              'changeset': int(element.attrib['changeset']), 
+                #dict is needed for clear input into data correction algorithm
+                nodes_dict = {'id': element.attrib['id'],
+                              'lat': element.attrib['lat'],
+                              'lon': element.attrib['lon'],
+                              'user': element.attrib['user'],
+                              'uid': element.attrib['uid'],
+                              'version': element.attrib['version'],
+                              'changeset': element.attrib['changeset'],
                               'timestamp': element.attrib['timestamp']}
                 
-                nodes_df.append(nodes_dict)
+                nodes.append([nodes_dict['id'],
+                              nodes_dict['lat'],
+                              nodes_dict['lon'],
+                              nodes_dict['user'],
+                              nodes_dict['uid'],
+                              nodes_dict['version'],
+                              nodes_dict['changeset'],
+                              nodes_dict['timestamp']])
+
+                
+                
                         
                 for elem in element.iter('tag'):
-                    '''TODO: add data_correction algorithm call here, remembering that you'll need to iterate
-                    through the dict list returned, appending to the df each iteration. Don't forget to skip
-                    appending to df if tag_dicts = None (means we had problem chars in tag key)'''
-                    nodes_tags_df.append(nodes_tags_dict)
+                    '''TODO: add data_correction algorithm call here, appending to nodes_tags and temp_childTag_data
+                    with result. Don't forget to skip appending if tag_dicts = None (means we had problem chars 
+                    in tag key)'''
+                    
                 
                 
                 
@@ -86,40 +94,57 @@ def correct_and_record(osm_file):
                 
             ####################    WAYS    ######################
             elif element.tag == 'way':
-                #[0,'', 0, 0, 0, '']
-                ways_dict = {'id': int(element.attrib['id']), 
-                             'user': element.attrib['user'], 
-                             'uid': int(element.attrib['uid']), 
-                             'version': int(element.attrib['version']), 
-                             'changeset': int(element.attrib['changeset']), 
+                wayID = elem.attrib['id']
+                
+                #dict is needed for clear input into data correction algorithm
+                ways_dict = {'id': wayID,
+                             'user': element.attrib['user'],
+                             'uid': element.attrib['uid'],
+                             'version': element.attrib['version'],
+                             'changeset': element.attrib['changeset'],
                              'timestamp': element.attrib['timestamp']}
                 
-                ways_df.append(ways_dict)
+                ways.append([ways_dict['id'],
+                             ways_dict['user'],
+                             ways_dict['uid'],
+                             ways_dict['version'],
+                             ways_dict['changeset'],
+                             ways_dict['timestamp']])
                 
-                #REMEMBER: we need to check to see if the 'k' attrib of each tag is problematic
-                    #If it is: ignore it entirely
-                    #If it isn't: take only the chars after ":" (if one is present) as key and set 'type' to be
-                        #the chars preceding ":"
-                    #ALSO: I don't think LOWER_COLON regex is needed, will ignore tags without colons
+                
                 
                 for elem in element.iter('tag'):
-                    '''TODO: add data_correction algorithm call here, remembering that you'll need to iterate
-                    through the dict list returned, appending to the df each iteration. Don't forget to skip
-                    appending to df if tag_dicts = None (means we had problem chars in tag key'''
-                    ways_tags_df.append(ways_tags_dict)
+                    '''TODO: add data_correction algorithm call here, appending to ways_tags and temp_childTag_data
+                    with result. Don't forget to skip appending if tag_dicts = None (means we had problem chars 
+                    in tag key)'''
+                    
                 
                 
                 #Now for way_nodes:
                 i = 0
                 for elem in element.iter('nd'):
-                    nd_dict = {'id': ways_dict['id'], 'node_id': elem.attrib['ref'], 'position': i}
-                    ways_nodes_df.append(nd_dict)
+                    ways_nodes.append([wayID,
+                                       elem.attrib['ref'],
+                                       i])
                     i += 1
     
-    ####################    Writing to CSV    ######################       
-    #TODO: don't forget to remove first row of dummy data from each df before export!
+    ####################    Writing to CSV    ######################  
+         
+    #First, let's throw these lists into DataFrames, for ease of writing to CSV and clarity in code
+    nodes_df = pd.DataFrame(data = nodes,
+                            columns=['id', 'lat', 'lon', 'user', 'uid', 'version', 'changeset', 'timestamp'])
+    nodes_tags_df = pd.DataFrame(data = nodes_tags,
+                                 columns=['id', 'key', 'value', 'type'])
+        
+    ways_df = pd.DataFrame(data = ways,
+                           columns=['id', 'user', 'uid', 'version', 'changeset', 'timestamp'])
+    ways_tags_df = pd.DataFrame(data = ways_tags,
+                                columns=['id', 'key', 'value', 'type'])
+    ways_nodes_df = pd.DataFrame(data = ways_nodes,
+                                 columns=['id', 'node_id', 'position'])
     
     
+    #Now let's write the DataFrames to CSV
     nodes_df.to_csv('./CSV for SQL Tables/nodes.csv', index=False, encoding='utf-8')
     nodes_tags_df.to_csv('./CSV for SQL Tables/nodes_tags.csv', index=False, encoding='utf-8')
     ways_df.to_csv('./CSV for SQL Tables/ways.csv', index=False, encoding='utf-8')
@@ -128,7 +153,7 @@ def correct_and_record(osm_file):
     
     
     
-def data_correction(elem, parent_dict, df, state_needed=False):
+def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_find=None):
     '''
     Corrects data in an individual child tag of a node or a way (excluding nd tags) and returns
     a list of dicts, each of which can be used as the nodes_tags_dict or ways_tags_dict, as appropriate. This is
@@ -141,21 +166,20 @@ def data_correction(elem, parent_dict, df, state_needed=False):
     
     elem: ET element representing a child tag of a node or way
     parent_dict: dict that describes the parent node or way.
-    type: str. Allowed values are 'node' or 'way'. Some specific correction steps DO need knowledge about the way/
-                node status of what the data are, although the majority of corrections are agnostic.
-    df: DataFrame. Since some corrections (e.g. county FIPS code translation) require context from other
-                    child tags of the node/way in question (e.g. knowledge of the state for the county FIPS code
-                    translation), this needs knowledge of the current state of the relevant DataFrame to provide
-                    proper context.
-    state_needed: bool. Default False. Indicates if a previous iteration of this algorithm identified that
-                    it lacked knowledge of the state of the node/way in question and still needs that info.
-                    The expectation is that, with the full list of node/way child tags in hand, there will
-                    always be sufficient context for determining what the state is.
+    parsed_singleTag_data: list of lists. Each individual list is a row of data representing a child tag
+                            of the parent singleTag (e.g. a single node or way). Since some corrections 
+                            (e.g. county FIPS code translation) require context from other child tags of the 
+                            node/way in question (e.g. knowledge of the state for the county FIPS code translation),
+                            this def needs knowledge of the current state of the relevant node/way to provide
+                            proper context.
+    county_fips_to_find: str. If not None, indicates that a previous iteration of this algorithm identified that
+                    it lacked knowledge of the state of the node/way in question and still needs that info to identify
+                    the county FIPS in question. The expectation is that, with the full list of node/way child tags
+                    in hand, there will be sufficient context for determining what the state is.
     '''
     
     k = elem.attrib['k'].strip()
     v = elem.attrib['v'].strip()
-    tag_dicts = []
     tag_dict = {}
     
     #Only do anything meaningful with this tag if it isn't problematic
@@ -168,8 +192,8 @@ def data_correction(elem, parent_dict, df, state_needed=False):
         if audit.isZipCode(elem):
             zipList = []
             
-            
-            if tag_dict['id'] == '2625119248' and type == 'node':
+            #latter condition checks if we're looking at a node or a way
+            if tag_dict['id'] == '2625119248' and 'lon' in parent_dict.keys():
                 zipList = ['25314']
                 print("'WV' zip code corrected!")
         
@@ -195,23 +219,27 @@ def data_correction(elem, parent_dict, df, state_needed=False):
                     
                 print(zipList)
                 
-                #Build the tag_dict
-                for zipCode in zipList:
-                    tag_dict = {}
+            #Build the tag_dict
+            for zipCode in zipList:
+                tag_dict = {}
+            
+                tag_dict['id'] = parent_dict['id']
+                tag_dict['value'] = zipCode
+            
+                #For ease of later analysis, set everything to have tag key = "addr:postcode"
+                tag_dict['key'] = 'postcode'
+                tag_dict['type'] = 'addr'
                 
-                    tag_dict['id'] = parent_dict['id']
-                    tag_dict['value'] = zipCode
+                parsed_singleTag_data.append(tag_dict['id'],
+                                tag_dict['key'],
+                                tag_dict['value'],
+                                tag_dict['type'])
                 
-                    #For ease of later analysis, set everything to have tag key = "addr:postcode"
-                    tag_dict['key'] = 'postcode'
-                    tag_dict['type'] = 'addr'
-                    tag_dicts.append(tag_dict)
                 
         
         ############ COUNTIES ############
         
         #Need lists for counties and states, as some nodes/ways have multiple county,state entries in a list
-        #TODO: if multiple states are listed in this fashion, ignore any explicit state indicators found in next section in favor of those found here
         elif audit.isCounty(elem):
             countyList = []
             stateList = []
@@ -243,9 +271,6 @@ def data_correction(elem, parent_dict, df, state_needed=False):
             #Now we look at counties that are only given as a FIPS code
             #Note that there are no lists of FIPS codes expected (only a single one per node/way), as per the audit
             elif v.isdigit():
-                ''''TODO: here we need to inspect the df to see if it has an addr:state entry already for
-                this node/way. If not, need to change the bool flag. Need to create conditional after this one
-                that looks for the state_needed = True condition'''
                 #No need to worry, county is fully described as 5-digit FIPS code
                 if len(v) == 5:
                     countyList = [fips.FIPS_to_Name('./2010_FIPSCodes.csv', v, state_name = None)]
@@ -254,28 +279,70 @@ def data_correction(elem, parent_dict, df, state_needed=False):
                 else:
                     '''Does this node/way already have one (or more) entries for the state that will allow us to
                     determine the proper county to name, given a 3-digit county code?'''
-                    if df 
+                    stateFound = False #tracks identification of a state already recorded for the parent node/way
+                    for row in parsed_singleTag_data:
+                        if 'state' in row and not stateFound:
+                            #row[2] corresponds to 'value' in our schema
+                            countyList = [fips.FIPS_to_Name('./2010_FIPSCodes.csv', v, state_name = row[2])]
+                            stateFound = True
+                        #Is there more than one state associated with this node/way?
+                        elif 'state' in row and stateFound:
+                            countyList = ['Unidentifiable (FIPS ambiguity)']
+                            
+                    #Did we not find anything to put as the county, presumably due to a lack of state presence?
+                    if not countyList:
+                        county_fips_to_find = v
+                        '''TODO: this variable isn't used until isState() returns True, so need to record county
+                        name at that point'''
+            
+            #is there anything in countyList? If so, our work here is done!
+            if countyList:
+                #Build the tag_dict
+                for county in countyList:
+                    tag_dict = {}
                 
+                    tag_dict['id'] = parent_dict['id']
+                    tag_dict['value'] = county
                 
-                ''''TODO: if multiple states recorded as associated with this node/way, return
-                county = "Unidentifiable (FIPS ambiguity)"'''
+                    #For ease of later analysis, set everything to have tag key = "addr:postcode"
+                    tag_dict['key'] = 'county'
+                    tag_dict['type'] = 'addr'
+                    
+                    parsed_singleTag_data.append(tag_dict['id'],
+                                    tag_dict['key'],
+                                    tag_dict['value'],
+                                    tag_dict['type'])
+            
+            #Don't forget about the states we (may have) found!
+            if stateList:
+                for state in stateList:
+                    tag_dict = {}
                 
-        
-        
-        '''TODO: need to return a bool flag that indicates if context was lacking for the state of a way/node
-        when the FIPS code for a county was being determined, so that when that whole parent node/way is processed,
-        a re-run of the FIPS code algorithm can be done (assuming there is sufficient state context at that time...
-        This bool will also indicate if I've already extracted a state from a county,state record and skip
-        recording the state if the record is already there in df, or throw an error if the states are different
-        (making sure to account for different naming possibilities, like Wv or WV)'''
+                    tag_dict['id'] = parent_dict['id']
+                    tag_dict['value'] = state
+                
+                    #For ease of later analysis, set everything to have tag key = "addr:postcode"
+                    tag_dict['key'] = 'state'
+                    tag_dict['type'] = 'addr'
+                    
+                    parsed_singleTag_data.append(tag_dict['id'],
+                                    tag_dict['key'],
+                                    tag_dict['value'],
+                                    tag_dict['type'])
         
                 
         ############ STATES ############
-        
+
         elif audit.isState(elem):
-            '''TODO: Generate list of states here, based upon previous entries in the node/way (from the df),
-            if present.'''
-            pass
+            #TODO: if parentdict ID is 398603731, set state to WV (it's currently CA)
+            
+            #TODO: record the state as addr:state, after passing it through the name transformer
+            
+            
+            #TODO: find the state name using a 2-digit FIPS
+            
+            
+            #TODO: check the county_fips_to_find variable and record county too if needed
         
         
         
@@ -307,8 +374,12 @@ def data_correction(elem, parent_dict, df, state_needed=False):
         
         tag_dicts = [tag_dict]
         
-    else: #This is scenario wherein tag key had problem characters in it, and we're skipping
-        tag_dicts = None
+    else: #This is scenario wherein tag key had problem characters in it, and we're skipping it
+        pass
+        
+        
             
+    ######    RETURN CORRECTED DATA    ######
     
+    return parsed_singleTag_data, county_fips_to_find
     
