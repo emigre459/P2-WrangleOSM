@@ -418,6 +418,17 @@ def lat_long_checker(elem, badNodes=defaultdict(list), targetLatRange=[37.15,39.
             
     return badNodes
     
+def isAmenity(elem):
+    '''
+    Returns boolean indicating if elem is an amenity/shop/healthcare tag type (True) or not (False)
+    
+    elem: ET element that represents a child tag to a node/way parent tag.
+    '''
+    
+    allowed_tag_keys = ['amenity', 'shop', 'healthcare']
+    
+    return elem.attrib['k'] in allowed_tag_keys
+
 
 def amenityFinder(elem, amenities=defaultdict(set)):
     '''

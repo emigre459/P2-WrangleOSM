@@ -230,10 +230,10 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                 tag_dict['key'] = 'postcode'
                 tag_dict['type'] = 'addr'
                 
-                parsed_singleTag_data.append(tag_dict['id'],
+                parsed_singleTag_data.append([tag_dict['id'],
                                 tag_dict['key'],
                                 tag_dict['value'],
-                                tag_dict['type'])
+                                tag_dict['type']])
                 
                 
         
@@ -288,12 +288,12 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                         #Is there more than one state associated with this node/way?
                         elif 'state' in row and stateFound:
                             countyList = ['Unidentifiable (FIPS ambiguity)']
+                            break
                             
                     #Did we not find anything to put as the county, presumably due to a lack of state presence?
                     if not countyList:
                         county_fips_to_find = v
-                        '''TODO: this variable isn't used until isState() returns True, so need to record county
-                        name at that point'''
+                        
             
             #is there anything in countyList? If so, our work here is done!
             if countyList:
@@ -304,14 +304,14 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                     tag_dict['id'] = parent_dict['id']
                     tag_dict['value'] = county
                 
-                    #For ease of later analysis, set everything to have tag key = "addr:postcode"
+                    
                     tag_dict['key'] = 'county'
                     tag_dict['type'] = 'addr'
                     
-                    parsed_singleTag_data.append(tag_dict['id'],
+                    parsed_singleTag_data.append([tag_dict['id'],
                                     tag_dict['key'],
                                     tag_dict['value'],
-                                    tag_dict['type'])
+                                    tag_dict['type']])
             
             #Don't forget about the states we (may have) found!
             if stateList:
@@ -321,32 +321,59 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                     tag_dict['id'] = parent_dict['id']
                     tag_dict['value'] = state
                 
-                    #For ease of later analysis, set everything to have tag key = "addr:postcode"
+                    
                     tag_dict['key'] = 'state'
                     tag_dict['type'] = 'addr'
                     
-                    parsed_singleTag_data.append(tag_dict['id'],
+                    parsed_singleTag_data.append([tag_dict['id'],
                                     tag_dict['key'],
                                     tag_dict['value'],
-                                    tag_dict['type'])
+                                    tag_dict['type']])
         
                 
         ############ STATES ############
 
         elif audit.isState(elem):
-            #TODO: if parentdict ID is 398603731, set state to WV (it's currently CA)
+            stateName = None
+            countyName = None
             
-            #TODO: record the state as addr:state, after passing it through the name transformer
+            #Find the way that incorrectly has CA. Latter condition checks to make sure we're not looking at a node
+            if parent_dict['id'] == '398603731' and 'lon' not in parent_dict.keys():
+                stateName = 'WV'
             
+            #If the state name isn't numerical (therefore not a FIPS) 
+            elif not v.isdigit():
+                stateName = audit.state_name_transform(v)
             
-            #TODO: find the state name using a 2-digit FIPS
+            #If the value is a state FIPS
+            elif v.isdigit():
+                stateName = fips.FIPS_to_Name('./2010_FIPSCodes.csv', v)
             
+            #####
             
-            #TODO: check the county_fips_to_find variable and record county too if needed
-        
-        
-        
-        
+            #Check the county_fips_to_find variable and record county too if needed
+            if county_fips_to_find:
+                for row in parsed_singleTag_data:
+                    #Check to see if another state is recorded and it differs from the state we just found 
+                    if 'state' in row and row[2] == stateName:
+                        countyName = 'Unidentifiable (FIPS ambiguity)'
+                        break
+                
+                if countyName != 'Unidentifiable (FIPS ambiguity)':
+                    countyName = fips.FIPS_to_Name('./2010_FIPSCodes.csv', v, state_name = stateName)
+            
+            ### APPENDING STATE DATA ###
+            if stateName:
+                parsed_singleTag_data.append([parent_dict['id'],
+                                              'state',
+                                              stateName,
+                                              'addr'])
+                
+            if countyName:
+                parsed_singleTag_data.append([parent_dict['id'],
+                                              'county',
+                                              countyName,
+                                              'addr'])
         
         
         ############ AMENITIES/SHOPS ############
