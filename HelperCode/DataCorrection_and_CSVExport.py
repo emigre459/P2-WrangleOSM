@@ -22,7 +22,7 @@ PROBLEMCHARS = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
 
 
-OSM_file = 'SW_WestVirginia.osm'
+OSMFILE = 'data_sample_100000.osm'
 
 def correct_and_record(osm_file):
     '''
@@ -427,4 +427,9 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
     ######    RETURN CORRECTED DATA    ######
     
     return parsed_singleTag_data, county_fips_to_find
+
+
+
+######## MAIN EXECUTION SPACE ########
+correct_and_record(OSMFILE) 
     
