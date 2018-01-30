@@ -50,7 +50,7 @@ def correct_and_record(osm_file):
             '''Each time a new node or way is parsed, create a new temporary list of lists
             to contain only data about that specific node/way'''
             temp_childTag_data = []
-            need_state = False
+            lingering_county_FIPS = None
             
             ####################    NODES    ######################
     
@@ -79,18 +79,17 @@ def correct_and_record(osm_file):
                               nodes_dict['changeset'],
                               nodes_dict['timestamp']])
 
-                
-                
-                        
+                #Iterate through each child tag of the node, running data correction algorithm        
                 for elem in element.iter('tag'):
-                    '''TODO: add data_correction algorithm call here, appending to nodes_tags and temp_childTag_data
-                    with result. Don't forget to skip appending if tag_dicts = None (means we had problem chars 
-                    in tag key)'''
+                    temp_childTag_data, lingering_county_FIPS = data_correction(elem, nodes_dict, 
+                                                                                temp_childTag_data, 
+                                                                                lingering_county_FIPS)
                     
-                
-                
-                
-                
+                '''Need to iterate through tag data again, as no guarantee that each run of data correction algorithm
+                will produce a new tag record, thus risking duplicative entries if we use the preceding FOR loop
+                to append to nodes_tags'''
+                for tagData in temp_childTag_data:
+                    nodes_tags.append(tagData)
                 
             ####################    WAYS    ######################
             elif element.tag == 'way':
@@ -113,10 +112,17 @@ def correct_and_record(osm_file):
                 
                 
                 
+                #Iterate through each child tag of the node, running data correction algorithm        
                 for elem in element.iter('tag'):
-                    '''TODO: add data_correction algorithm call here, appending to ways_tags and temp_childTag_data
-                    with result. Don't forget to skip appending if tag_dicts = None (means we had problem chars 
-                    in tag key)'''
+                    temp_childTag_data, lingering_county_FIPS = data_correction(elem, ways_dict, 
+                                                                                temp_childTag_data, 
+                                                                                lingering_county_FIPS)
+                    
+                '''Need to iterate through tag data again, as no guarantee that each run of data correction algorithm
+                will produce a new tag record, thus risking duplicative entries if we use the preceding FOR loop
+                to append to ways_tags'''
+                for tagData in temp_childTag_data:
+                    ways_tags.append(tagData)
                     
                 
                 
