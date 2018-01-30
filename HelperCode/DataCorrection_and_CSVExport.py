@@ -18,7 +18,7 @@ import re
 PROBLEMCHARS = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
 
-OSMFILE = '../data_sample_100000.osm'
+OSMFILE = '../data_sample_100_elemsWithTags_UTF-8Encoding.osm'
 
 def correct_and_record(osm_file):
     '''
@@ -275,7 +275,7 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
             elif v.isdigit():
                 #No need to worry, county is fully described as 5-digit FIPS code
                 if len(v) == 5:
-                    countyList = [fips.FIPS_to_Name('./2010_FIPSCodes.csv', v, state_name = None)]
+                    countyList = [fips.FIPS_to_Name('../2010_FIPSCodes.csv', v, state_name = None)]
                 
                 #Now we need to worry about what the state is so we can get the county
                 else:
@@ -285,7 +285,7 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                     for row in parsed_singleTag_data:
                         if 'state' in row and not stateFound:
                             #row[2] corresponds to 'value' in our schema
-                            countyList = [fips.FIPS_to_Name('./2010_FIPSCodes.csv', v, state_name = row[2])]
+                            countyList = [fips.FIPS_to_Name('../2010_FIPSCodes.csv', v, state_name = row[2])]
                             stateFound = True
                         #Is there more than one state associated with this node/way?
                         elif 'state' in row and stateFound:
@@ -349,7 +349,7 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
             
             #If the value is a state FIPS
             elif v.isdigit():
-                stateName = fips.FIPS_to_Name('./2010_FIPSCodes.csv', v)
+                stateName = fips.FIPS_to_Name('../2010_FIPSCodes.csv', v)
             
             #####
             
@@ -362,7 +362,7 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                         break
                 
                 if countyName != 'Unidentifiable (FIPS ambiguity)':
-                    countyName = fips.FIPS_to_Name('./2010_FIPSCodes.csv', v, state_name = stateName)
+                    countyName = fips.FIPS_to_Name('../2010_FIPSCodes.csv', v, state_name = stateName)
             
             ### APPENDING STATE DATA ###
             if stateName:
