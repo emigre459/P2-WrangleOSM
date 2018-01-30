@@ -18,11 +18,7 @@ import re
 PROBLEMCHARS = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
 
-#print(FIPS_to_Name("../2010_FIPSCodes.csv", '039', state_name=None, state_FIPS='54'))
-
-
-
-OSMFILE = 'data_sample_100000.osm'
+OSMFILE = '../data_sample_100000.osm'
 
 def correct_and_record(osm_file):
     '''
@@ -93,7 +89,7 @@ def correct_and_record(osm_file):
                 
             ####################    WAYS    ######################
             elif element.tag == 'way':
-                wayID = elem.attrib['id']
+                wayID = element.attrib['id']
                 
                 #dict is needed for clear input into data correction algorithm
                 ways_dict = {'id': wayID,
@@ -151,11 +147,11 @@ def correct_and_record(osm_file):
     
     
     #Now let's write the DataFrames to CSV
-    nodes_df.to_csv('./CSV for SQL Tables/nodes.csv', index=False, encoding='utf-8')
-    nodes_tags_df.to_csv('./CSV for SQL Tables/nodes_tags.csv', index=False, encoding='utf-8')
-    ways_df.to_csv('./CSV for SQL Tables/ways.csv', index=False, encoding='utf-8')
-    ways_tags_df.to_csv('./CSV for SQL Tables/ways_tags.csv', index=False, encoding='utf-8')
-    ways_nodes_df.to_csv('./CSV for SQL Tables/ways_nodes.csv', index=False, encoding='utf-8')
+    nodes_df.to_csv('../CSV for SQL Tables/nodes.csv', index=False, encoding='utf-8')
+    nodes_tags_df.to_csv('../CSV for SQL Tables/nodes_tags.csv', index=False, encoding='utf-8')
+    ways_df.to_csv('../CSV for SQL Tables/ways.csv', index=False, encoding='utf-8')
+    ways_tags_df.to_csv('../CSV for SQL Tables/ways_tags.csv', index=False, encoding='utf-8')
+    ways_nodes_df.to_csv('../CSV for SQL Tables/ways_nodes.csv', index=False, encoding='utf-8')
     
     
     
@@ -271,8 +267,8 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                     
             #Now to deal with a single county,state combo
             elif ',' in v:
-                countyList = [county.split(",")[0].strip()]
-                stateList = [county.split(",")[1].strip()]
+                countyList = [v.split(",")[0].strip()]
+                stateList = [v.split(",")[1].strip()]
                 
             #Now we look at counties that are only given as a FIPS code
             #Note that there are no lists of FIPS codes expected (only a single one per node/way), as per the audit

@@ -1,0 +1,11 @@
+id,key,value,type
+15617177,highway,residential,regular
+15617177,cfcc,A41,tiger
+15617177,tlid,50030184,tiger
+15617177,county,Nicholas,addr
+15617177,state,WV,addr
+15617177,source,tiger_import_dch_v0.6_20070828,tiger
+15617177,reviewed,no,tiger
+15617177,separated,no,tiger
+15617177,upload_uuid,bulk_upload.pl-e0de079b-95e2-44a9-babc-21fee03bafaf,tiger
+376840595,building,yes,regular
