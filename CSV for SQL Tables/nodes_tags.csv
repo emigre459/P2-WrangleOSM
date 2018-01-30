@@ -1,2 +1,1937 @@
 id,key,value,type
 75411942,source,tiger:boundaries,regular
+75414033,source,tiger:boundaries,regular
+75414439,source,tiger:boundaries,regular
+75414989,source,tiger:boundaries,regular
+75415607,source,tiger:boundaries,regular
+75416084,source,tiger:boundaries,regular
+75416515,source,tiger:boundaries,regular
+75416932,source,tiger:boundaries,regular
+75417364,source,tiger:boundaries,regular
+75417779,source,tiger:boundaries,regular
+75418726,source,tiger:boundaries,regular
+75419199,source,tiger:boundaries,regular
+75419707,source,tiger:boundaries,regular
+75421954,source,tiger:boundaries,regular
+153828771,ele,765,regular
+153828771,name,Jetsville,regular
+153828771,is_in,"Nicholas,West Virginia,W.Va.,WV,USA",regular
+153828771,place,hamlet,regular
+153828771,id,1554808,gnis
+153828771,Class,Populated Place,gnis
+153828771,county,Nicholas,addr
+153828771,ST_num,54,gnis
+153828771,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153828771,state,WV,addr
+153828771,county,Nicholas County,addr
+153846870,ele,302,regular
+153846870,Class,Populated Place,gnis
+153846870,county,Boone,addr
+153846870,id,1553807,gnis
+153846870,state,WV,addr
+153846870,county,Boone County,addr
+153846870,ST_num,54,gnis
+153846870,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153846870,is_in,"Boone,West Virginia,W.Va.,WV,USA",regular
+153846870,name,Barrett,regular
+153846870,place,hamlet,regular
+153846870,wikidata,Q4863415,regular
+153867536,ele,232,regular
+153867536,name,Groves,regular
+153867536,is_in,"Clay,West Virginia,W.Va.,WV,USA",regular
+153867536,place,hamlet,regular
+153867536,id,1554619,gnis
+153867536,Class,Populated Place,gnis
+153867536,county,Clay,addr
+153867536,ST_num,54,gnis
+153867536,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153867536,state,WV,addr
+153867536,county,Clay County,addr
+153888255,ele,676,regular
+153888255,Class,Populated Place,gnis
+153888255,county,Monroe,addr
+153888255,id,1550436,gnis
+153888255,state,WV,addr
+153888255,county,Monroe County,addr
+153888255,ST_num,54,gnis
+153888255,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153888255,is_in,"Monroe,West Virginia,W.Va.,WV,USA",regular
+153888255,name,Bozoo,regular
+153888255,place,hamlet,regular
+153888255,wikidata,Q14713978,regular
+153902873,ele,251,regular
+153902873,Class,Populated Place,gnis
+153902873,county,Calhoun,addr
+153902873,id,1555714,gnis
+153902873,state,WV,addr
+153902873,county,Calhoun County,addr
+153902873,ST_num,54,gnis
+153902873,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153902873,is_in,"Calhoun,West Virginia,W.Va.,WV,USA",regular
+153902873,name,Stinson,regular
+153902873,place,hamlet,regular
+153902873,wikidata,Q7617470,regular
+153920289,ele,742,regular
+153920289,Class,Populated Place,gnis
+153920289,county,Mercer,addr
+153920289,id,1554574,gnis
+153920289,state,WV,addr
+153920289,county,Mercer County,addr
+153920289,ST_num,54,gnis
+153920289,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153920289,is_in,"Mercer,West Virginia,W.Va.,WV,USA",regular
+153920289,name,Glenwood,regular
+153920289,place,hamlet,regular
+153920289,wikidata,Q5569433,regular
+153939356,ele,542,regular
+153939356,Class,Populated Place,gnis
+153939356,county,Fayette,addr
+153939356,id,1542662,gnis
+153939356,state,WV,addr
+153939356,county,Fayette County,addr
+153939356,ST_num,54,gnis
+153939356,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153939356,is_in,"Fayette,West Virginia,W.Va.,WV,USA",regular
+153939356,name,Macdonald,regular
+153939356,place,hamlet,regular
+153939356,wikidata,Q6721808,regular
+153956125,ele,277,regular
+153956125,Class,Populated Place,gnis
+153956125,county,Boone,addr
+153956125,id,1560585,gnis
+153956125,state,WV,addr
+153956125,county,Boone County,addr
+153956125,ST_num,54,gnis
+153956125,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153956125,is_in,"Boone,West Virginia,W.Va.,WV,USA",regular
+153956125,name,Bim,regular
+153956125,place,hamlet,regular
+153956125,wikidata,Q4913662,regular
+153970883,ele,662,regular
+153970883,Class,Populated Place,gnis
+153970883,county,Monroe,addr
+153970883,id,1544791,gnis
+153970883,state,WV,addr
+153970883,county,Monroe County,addr
+153970883,ST_num,54,gnis
+153970883,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153970883,is_in,"Monroe,West Virginia,W.Va.,WV,USA",regular
+153970883,name,Pickaway,regular
+153970883,place,hamlet,regular
+153970883,wikidata,Q7190757,regular
+153986057,ele,303,regular
+153986057,Class,Populated Place,gnis
+153986057,county,Roane,addr
+153986057,id,1549972,gnis
+153986057,state,WV,addr
+153986057,county,Roane County,addr
+153986057,ST_num,54,gnis
+153986057,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+153986057,is_in,"Roane,West Virginia,W.Va.,WV,USA",regular
+153986057,name,Vicars,regular
+153986057,place,hamlet,regular
+153986057,wikidata,Q25025446,regular
+154006523,ele,177,regular
+154006523,name,Black Betsey,regular
+154006523,is_in,"Putnam,West Virginia,W.Va.,WV,USA",regular
+154006523,place,hamlet,regular
+154006523,id,1536045,gnis
+154006523,Class,Populated Place,gnis
+154006523,county,Putnam,addr
+154006523,ST_num,54,gnis
+154006523,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154006523,state,WV,addr
+154006523,county,Putnam County,addr
+154021441,ele,516,regular
+154021441,Class,Populated Place,gnis
+154021441,county,Wyoming,addr
+154021441,id,1556004,gnis
+154021441,state,WV,addr
+154021441,county,Wyoming County,addr
+154021441,ST_num,54,gnis
+154021441,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154021441,is_in,"Wyoming,West Virginia,W.Va.,WV,USA",regular
+154021441,name,Windom,regular
+154021441,place,hamlet,regular
+154021441,wikidata,Q8024322,regular
+154039671,ele,184,regular
+154039671,name,Elkview,regular
+154039671,is_in,"Kanawha,West Virginia,W.Va.,WV,USA",regular
+154039671,place,hamlet,regular
+154039671,id,1554387,gnis
+154039671,Class,Populated Place,gnis
+154039671,county,Kanawha,addr
+154039671,ST_num,54,gnis
+154039671,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154039671,state,WV,addr
+154039671,county,Kanawha County,addr
+154059065,ele,199,regular
+154059065,Class,Populated Place,gnis
+154059065,county,Kanawha,addr
+154059065,id,1555584,gnis
+154059065,state,WV,addr
+154059065,county,Kanawha County,addr
+154059065,ST_num,54,gnis
+154059065,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154059065,is_in,"Kanawha,West Virginia,W.Va.,WV,USA",regular
+154059065,name,Schrader,regular
+154059065,place,hamlet,regular
+154059065,wikidata,Q7432788,regular
+154078947,ele,488,regular
+154078947,Class,Populated Place,gnis
+154078947,county,Webster,addr
+154078947,id,1549746,gnis
+154078947,state,WV,addr
+154078947,county,Webster County,addr
+154078947,ST_num,54,gnis
+154078947,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154078947,is_in,"Webster,West Virginia,W.Va.,WV,USA",regular
+154078947,name,Hodam,regular
+154078947,place,hamlet,regular
+154078947,wikidata,Q5875930,regular
+154093269,ele,479,regular
+154093269,Class,Populated Place,gnis
+154093269,county,Raleigh,addr
+154093269,id,1534921,gnis
+154093269,state,WV,addr
+154093269,county,Raleigh County,addr
+154093269,ST_num,54,gnis
+154093269,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154093269,is_in,"Raleigh,West Virginia,W.Va.,WV,USA",regular
+154093269,name,Amigo,regular
+154093269,place,hamlet,regular
+154093269,wikidata,Q4746226,regular
+154113280,ele,193,regular
+154113280,name,East Pea Ridge,regular
+154113280,is_in,"Cabell,West Virginia,W.Va.,WV,USA",regular
+154113280,place,hamlet,regular
+154113280,id,1554354,gnis
+154113280,Class,Populated Place,gnis
+154113280,county,Cabell,addr
+154113280,ST_num,54,gnis
+154113280,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154113280,state,WV,addr
+154113280,county,Cabell County,addr
+154136431,ele,272,regular
+154136431,Class,Populated Place,gnis
+154136431,county,Mason,addr
+154136431,id,1560640,gnis
+154136431,state,WV,addr
+154136431,county,Mason County,addr
+154136431,ST_num,54,gnis
+154136431,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154136431,is_in,"Mason,West Virginia,W.Va.,WV,USA",regular
+154136431,name,Ash,regular
+154136431,place,hamlet,regular
+154136431,wikidata,Q4804330,regular
+154156976,ele,230,regular
+154156976,name,Centerpoint,regular
+154156976,is_in,"Gallia,Ohio,Ohio,OH,USA",regular
+154156976,place,hamlet,regular
+154156976,id,1075556,gnis
+154156976,Class,Populated Place,gnis
+154156976,county,Gallia,addr
+154156976,ST_num,39,gnis
+154156976,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154156976,state,OH,addr
+154156976,county,Gallia County,addr
+154176295,ele,470,regular
+154176295,Class,Populated Place,gnis
+154176295,county,Wyoming,addr
+154176295,id,1549645,gnis
+154176295,state,WV,addr
+154176295,county,Wyoming County,addr
+154176295,ST_num,54,gnis
+154176295,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154176295,is_in,"Wyoming,West Virginia,W.Va.,WV,USA",regular
+154176295,name,Crany,regular
+154176295,place,hamlet,regular
+154176295,wikidata,Q5182277,regular
+154193612,ele,687,regular
+154193612,name,Glade View,regular
+154193612,is_in,"Webster,West Virginia,W.Va.,WV,USA",regular
+154193612,place,hamlet,regular
+154193612,id,1554560,gnis
+154193612,Class,Populated Place,gnis
+154193612,county,Webster,addr
+154193612,ST_num,54,gnis
+154193612,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154193612,state,WV,addr
+154193612,county,Webster County,addr
+154211359,ele,640,regular
+154211359,name,McBryde Village,regular
+154211359,is_in,"Montgomery,Virginia,Va.,VA,USA",regular
+154211359,place,hamlet,regular
+154211359,id,1674618,gnis
+154211359,Class,Populated Place,gnis
+154211359,county,Montgomery,addr
+154211359,ST_num,51,gnis
+154211359,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154211359,state,VA,addr
+154211359,county,Montgomery County,addr
+154289766,ele,341,regular
+154289766,Class,Populated Place,gnis
+154289766,county,Wyoming,addr
+154289766,id,1555707,gnis
+154289766,state,WV,addr
+154289766,county,Wyoming County,addr
+154289766,ST_num,54,gnis
+154289766,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154289766,is_in,"Wyoming,West Virginia,W.Va.,WV,USA",regular
+154289766,name,Steeles,regular
+154289766,place,hamlet,regular
+154289766,wikidata,Q7605816,regular
+154308234,ele,228,regular
+154308234,Class,Populated Place,gnis
+154308234,county,Logan,addr
+154308234,id,1554515,gnis
+154308234,state,WV,addr
+154308234,county,Logan County,addr
+154308234,ST_num,54,gnis
+154308234,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154308234,is_in,"Logan,West Virginia,W.Va.,WV,USA",regular
+154308234,name,Frogtown,regular
+154308234,place,hamlet,regular
+154308234,wikidata,Q5505313,regular
+154322747,ele,473,regular
+154322747,name,Green Sulphur Springs,regular
+154322747,is_in,"Summers,West Virginia,W.Va.,WV,USA",regular
+154322747,place,hamlet,regular
+154322747,id,1554604,gnis
+154322747,Class,Populated Place,gnis
+154322747,county,Summers,addr
+154322747,ST_num,54,gnis
+154322747,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154322747,state,WV,addr
+154322747,county,Summers County,addr
+154335818,ele,300,regular
+154335818,Class,Populated Place,gnis
+154335818,county,Putnam,addr
+154335818,id,1554757,gnis
+154335818,state,WV,addr
+154335818,county,Putnam County,addr
+154335818,ST_num,54,gnis
+154335818,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154335818,is_in,"Putnam,West Virginia,W.Va.,WV,USA",regular
+154335818,name,Hugo,regular
+154335818,place,hamlet,regular
+154335818,wikidata,Q5933675,regular
+154349019,ele,293,regular
+154349019,Class,Populated Place,gnis
+154349019,county,Pike,addr
+154349019,id,508667,gnis
+154349019,state,KY,addr
+154349019,county,Pike County,addr
+154349019,ST_num,21,gnis
+154349019,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154349019,is_in,"Pike,Kentucky,Ky.,KY,USA",regular
+154349019,name,Myra,regular
+154349019,place,hamlet,regular
+154349019,wikidata,Q6948079,regular
+154369485,ele,192,regular
+154369485,Class,Populated Place,gnis
+154369485,county,Kanawha,addr
+154369485,id,1549982,gnis
+154369485,state,WV,addr
+154369485,county,Kanawha County,addr
+154369485,ST_num,54,gnis
+154369485,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154369485,is_in,"Kanawha,West Virginia,W.Va.,WV,USA",regular
+154369485,name,Wellford,regular
+154369485,place,hamlet,regular
+154369485,wikidata,Q25025455,regular
+154384801,ele,915,regular
+154384801,Class,Populated Place,gnis
+154384801,county,Pocahontas,addr
+154384801,id,1555682,gnis
+154384801,state,WV,addr
+154384801,county,Pocahontas County,addr
+154384801,ST_num,54,gnis
+154384801,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154384801,is_in,"Pocahontas,West Virginia,W.Va.,WV,USA",regular
+154384801,name,Spice,regular
+154384801,place,hamlet,regular
+154384801,wikidata,Q7576889,regular
+154399308,ele,263,regular
+154399308,Class,Populated Place,gnis
+154399308,county,Gilmer,addr
+154399308,id,1555212,gnis
+154399308,state,WV,addr
+154399308,county,Gilmer County,addr
+154399308,ST_num,54,gnis
+154399308,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
+154399308,is_in,"Gilmer,West Virginia,W.Va.,WV,USA",regular
+154399308,name,Newberne,regular
+154399308,place,hamlet,regular
+154399308,wikidata,Q7016869,regular
+154576280,power,tower,regular
+154647079,power,tower,regular
+154760942,power,tower,regular
+154770903,power,tower,regular
+154898839,power,tower,regular
+154981827,ref,60,regular
+154981827,exit_to,WV 612; Mossy; Oak Hill,regular
+154981827,highway,motorway_junction,regular
+155164322,power,tower,regular
+155164322,design,guyed_v-frame,regular
+155164322,structure,lattice,regular
+155233598,highway,turning_circle,regular
+155278742,railway,level_crossing,regular
+155313261,highway,turning_circle,regular
+155347648,highway,turning_circle,regular
+155383642,FIXME,Exactly where is the south end of current trackage?,regular
+155400132,power,tower,regular
+155431837,railway,level_crossing,regular
+155515408,power,tower,regular
+155534155,railway,level_crossing,regular
+155579571,highway,traffic_signals,regular
+155657107,railway,level_crossing,regular
+155863233,power,tower,regular
+155893615,railway,level_crossing,regular
+155917532,railway,level_crossing,regular
+156051182,power,tower,regular
+156122593,railway,level_crossing,regular
+156134700,railway,level_crossing,regular
+156182217,power,pole,regular
+162078408,railway,level_crossing,regular
+162140322,highway,traffic_signals,regular
+166746067,railway,level_crossing,regular
+167737265,power,tower,regular
+167805477,highway,turning_circle,regular
+197389271,power,tower,regular
+197871293,power,tower,regular
+198063828,power,tower,regular
+208483893,railway,level_crossing,regular
+216438568,highway,turning_circle,regular
+220884724,railway,level_crossing,regular
+263592548,source,county_import_v0.1,regular
+263592548,attribution,USGS 2001 County Boundary,regular
+263595647,source,county_import_v0.1,regular
+263595647,attribution,USGS 2001 County Boundary,regular
+263598158,source,county_import_v0.1,regular
+263598158,attribution,USGS 2001 County Boundary,regular
+263601298,source,county_import_v0.1,regular
+263601298,attribution,USGS 2001 County Boundary,regular
+263603338,source,county_import_v0.1,regular
+263603338,attribution,USGS 2001 County Boundary,regular
+263605736,source,county_import_v0.1,regular
+263605736,attribution,USGS 2001 County Boundary,regular
+263607991,source,county_import_v0.1,regular
+263607991,attribution,USGS 2001 County Boundary,regular
+263611475,source,county_import_v0.1,regular
+263611475,attribution,USGS 2001 County Boundary,regular
+263613935,source,county_import_v0.1,regular
+263613935,attribution,USGS 2001 County Boundary,regular
+263650654,source,county_import_v0.1,regular
+263650654,attribution,USGS 2001 County Boundary,regular
+263666031,source,county_import_v0.1,regular
+263666031,attribution,USGS 2001 County Boundary,regular
+356514876,ele,887,regular
+356514876,name,Altizer Cemetery,regular
+356514876,created,09/28/1979,gnis
+356514876,state,VA,addr
+356514876,county,Buchanan County,addr
+356514876,feature_id,1462431,gnis
+356515103,ele,210,regular
+356515103,name,Asberry Cemetery,regular
+356515103,created,06/27/1980,gnis
+356515103,state,WV,addr
+356515103,county,Logan County,addr
+356515103,feature_id,1535035,gnis
+356515276,ele,249,regular
+356515276,name,Bear Branch School (historical),regular
+356515276,created,06/27/1980,gnis
+356515276,state,WV,addr
+356515276,county,Lincoln County,addr
+356515276,feature_id,1535352,gnis
+356515482,ele,1014,regular
+356515482,created,06/27/1980,gnis
+356515482,edited,01/30/2007,gnis
+356515482,feature_id,1535763,gnis
+356515482,state,WV,addr
+356515482,county,Monroe County,addr
+356515482,name,Bickett Knob,regular
+356515482,natural,peak,regular
+356515482,wikidata,Q31498518,regular
+356515673,ele,213,regular
+356515673,name,Brier Creek Tabernacle,regular
+356515673,created,06/27/1980,gnis
+356515673,state,WV,addr
+356515673,county,Kanawha County,addr
+356515673,feature_id,1536347,gnis
+356515845,ele,209,regular
+356515845,name,Camp Creek School (historical),regular
+356515845,created,06/27/1980,gnis
+356515845,state,WV,addr
+356515845,county,Wayne County,addr
+356515845,feature_id,1536922,gnis
+356516066,ele,204,regular
+356516066,name,Clark Cemetery,regular
+356516066,created,06/27/1980,gnis
+356516066,state,WV,addr
+356516066,county,Mingo County,addr
+356516066,feature_id,1537352,gnis
+356516221,ele,211,regular
+356516221,name,Core Cemetery,regular
+356516221,created,06/27/1980,gnis
+356516221,state,WV,addr
+356516221,county,Logan County,addr
+356516221,feature_id,1537683,gnis
+356516376,ele,350,regular
+356516376,name,DeHaven Cemetery,regular
+356516376,created,06/27/1980,gnis
+356516376,state,WV,addr
+356516376,county,Lincoln County,addr
+356516376,feature_id,1538083,gnis
+356516595,ele,324,regular
+356516595,name,Egypt School (historical),regular
+356516595,created,06/27/1980,gnis
+356516595,state,WV,addr
+356516595,county,Roane County,addr
+356516595,feature_id,1538576,gnis
+356516760,ele,645,regular
+356516760,name,Farmer Cemetery,regular
+356516760,created,06/27/1980,gnis
+356516760,state,WV,addr
+356516760,county,Raleigh County,addr
+356516760,feature_id,1538902,gnis
+356517073,ele,359,regular
+356517073,name,Gandee Cemetery,regular
+356517073,created,06/27/1980,gnis
+356517073,state,WV,addr
+356517073,county,Roane County,addr
+356517073,feature_id,1539318,gnis
+356517300,ele,328,regular
+356517300,name,Grose Cemetery,regular
+356517300,created,06/27/1980,gnis
+356517300,state,WV,addr
+356517300,county,Clay County,addr
+356517300,feature_id,1539763,gnis
+356517449,ele,334,regular
+356517449,name,Hatfield Cemetery,regular
+356517449,created,06/27/1980,gnis
+356517449,state,WV,addr
+356517449,county,Mingo County,addr
+356517449,feature_id,1540062,gnis
+356517685,ele,503,regular
+356517685,name,Honaker Cemetery,regular
+356517685,created,06/27/1980,gnis
+356517685,state,WV,addr
+356517685,county,Raleigh County,addr
+356517685,feature_id,1540416,gnis
+356517881,ele,230,regular
+356517881,name,Joes Creek Church,regular
+356517881,religion,christian,regular
+356517881,created,06/27/1980,gnis
+356517881,state,WV,addr
+356517881,county,Lincoln County,addr
+356517881,feature_id,1540932,gnis
+356518046,ele,424,regular
+356518046,name,Lackey Cemetery,regular
+356518046,created,06/27/1980,gnis
+356518046,state,WV,addr
+356518046,county,Mingo County,addr
+356518046,feature_id,1541302,gnis
+356518262,ele,341,regular
+356518262,name,Little Huff Creek Church,regular
+356518262,religion,christian,regular
+356518262,created,06/27/1980,gnis
+356518262,state,WV,addr
+356518262,county,Wyoming County,addr
+356518262,feature_id,1542121,gnis
+356518430,ele,330,regular
+356518430,name,Mahon Cemetery,regular
+356518430,created,06/27/1980,gnis
+356518430,state,WV,addr
+356518430,county,Mingo County,addr
+356518430,feature_id,1542695,gnis
+356518715,ele,251,regular
+356518715,name,McDonald Cemetery,regular
+356518715,created,06/27/1980,gnis
+356518715,state,WV,addr
+356518715,county,Logan County,addr
+356518715,feature_id,1542986,gnis
+356518943,ele,240,regular
+356518943,name,Millstone School (historical),regular
+356518943,created,06/27/1980,gnis
+356518943,state,WV,addr
+356518943,county,Roane County,addr
+356518943,feature_id,1543430,gnis
+356519175,ele,358,regular
+356519175,name,Mount Olive Church,regular
+356519175,religion,christian,regular
+356519175,created,06/27/1980,gnis
+356519175,state,WV,addr
+356519175,county,Calhoun County,addr
+356519175,feature_id,1543710,gnis
+356519415,ele,194,regular
+356519415,name,Naomi Church,regular
+356519415,religion,christian,regular
+356519415,created,06/27/1980,gnis
+356519415,state,WV,addr
+356519415,county,Kanawha County,addr
+356519415,feature_id,1544042,gnis
+356519709,ele,225,regular
+356519709,name,Ott Cemetery,regular
+356519709,created,06/27/1980,gnis
+356519709,state,WV,addr
+356519709,county,Wirt County,addr
+356519709,feature_id,1544456,gnis
+356520026,ele,201,regular
+356520026,name,Pine Grove Church,regular
+356520026,religion,christian,regular
+356520026,created,06/27/1980,gnis
+356520026,state,WV,addr
+356520026,county,Roane County,addr
+356520026,feature_id,1544880,gnis
+356520442,ele,309,regular
+356520442,name,Price Cemetery,regular
+356520442,created,06/27/1980,gnis
+356520442,state,WV,addr
+356520442,county,Roane County,addr
+356520442,feature_id,1545255,gnis
+356520778,ele,189,regular
+356520778,name,Robinson Cemetery,regular
+356520778,created,06/27/1980,gnis
+356520778,state,WV,addr
+356520778,county,Lincoln County,addr
+356520778,feature_id,1545861,gnis
+356521231,ele,203,regular
+356521231,name,Salem Church,regular
+356521231,religion,christian,regular
+356521231,created,06/27/1980,gnis
+356521231,state,WV,addr
+356521231,county,Cabell County,addr
+356521231,feature_id,1546286,gnis
+356521523,ele,187,regular
+356521523,name,Siloam Church,regular
+356521523,religion,christian,regular
+356521523,created,06/27/1980,gnis
+356521523,state,WV,addr
+356521523,county,Mason County,addr
+356521523,feature_id,1546780,gnis
+356521856,ele,245,regular
+356521856,name,Spurlockville School (historical),regular
+356521856,created,06/27/1980,gnis
+356521856,state,WV,addr
+356521856,county,Lincoln County,addr
+356521856,feature_id,1547289,gnis
+356522046,ele,214,regular
+356522046,name,Susie Chapel,regular
+356522046,religion,christian,regular
+356522046,created,06/27/1980,gnis
+356522046,state,WV,addr
+356522046,county,Cabell County,addr
+356522046,feature_id,1547779,gnis
+356522217,ele,607,regular
+356522217,name,Turner Cemetery,regular
+356522217,created,06/27/1980,gnis
+356522217,state,WV,addr
+356522217,county,Raleigh County,addr
+356522217,feature_id,1548378,gnis
+356522473,ele,256,regular
+356522473,name,Waldeck Church,regular
+356522473,religion,christian,regular
+356522473,created,06/27/1980,gnis
+356522473,state,WV,addr
+356522473,county,Braxton County,addr
+356522473,feature_id,1548709,gnis
+356522786,ele,222,regular
+356522786,name,White Pine School (historical),regular
+356522786,created,06/27/1980,gnis
+356522786,state,WV,addr
+356522786,county,Jackson County,addr
+356522786,feature_id,1549076,gnis
+356523048,ele,611,regular
+356523048,name,Zion Chapel,regular
+356523048,religion,christian,regular
+356523048,created,06/27/1980,gnis
+356523048,state,WV,addr
+356523048,county,Monroe County,addr
+356523048,feature_id,1549486,gnis
+356523489,ele,837,regular
+356523489,name,Crawford Cemetery,regular
+356523489,created,06/27/1980,gnis
+356523489,state,WV,addr
+356523489,county,Mercer County,addr
+356523489,feature_id,1550830,gnis
+356524016,ele,720,regular
+356524016,name,McMillion Church,regular
+356524016,religion,christian,regular
+356524016,created,06/27/1980,gnis
+356524016,state,WV,addr
+356524016,county,Greenbrier County,addr
+356524016,feature_id,1552040,gnis
+356524431,ele,772,regular
+356524431,name,Shumate Cemetery,regular
+356524431,created,06/27/1980,gnis
+356524431,state,WV,addr
+356524431,county,Mercer County,addr
+356524431,feature_id,1552888,gnis
+356524699,ele,1102,regular
+356524699,created,06/27/1980,gnis
+356524699,feature_id,1553945,gnis
+356524699,state,WV,addr
+356524699,county,Greenbrier County,addr
+356524699,name,Boggs Knob,regular
+356524699,natural,peak,regular
+356524699,wikidata,Q31507818,regular
+356524976,ele,393,regular
+356524976,created,06/27/1980,gnis
+356524976,feature_id,1554791,gnis
+356524976,state,WV,addr
+356524976,county,Roane County,addr
+356524976,name,Jackson Rocks,regular
+356524976,natural,peak,regular
+356524976,wikidata,Q31717436,regular
+356525314,ele,1289,regular
+356525314,created,06/27/1980,gnis
+356525314,feature_id,1555738,gnis
+356525314,state,WV,addr
+356525314,county,Greenbrier County,addr
+356525314,name,Sugartree Bench Mountain,regular
+356525314,natural,peak,regular
+356525314,wikidata,Q31536536,regular
+356525550,ele,515,regular
+356525550,name,Pax Elementary School (historical),regular
+356525550,created,05/01/1993,gnis
+356525550,state,WV,addr
+356525550,county,Fayette County,addr
+356525550,feature_id,1556171,gnis
+356525755,ele,605,regular
+356525755,name,Lower Tuckahoe School (historical),regular
+356525755,created,07/01/1993,gnis
+356525755,state,WV,addr
+356525755,county,Greenbrier County,addr
+356525755,feature_id,1556316,gnis
+356526154,ele,520,regular
+356526154,name,Buckeye School (historical),regular
+356526154,created,07/01/1993,gnis
+356526154,state,WV,addr
+356526154,county,Monroe County,addr
+356526154,feature_id,1556637,gnis
+356526586,ele,723,regular
+356526586,name,Chestnut Grove School (historical),regular
+356526586,created,09/01/1993,gnis
+356526586,state,WV,addr
+356526586,county,Summers County,addr
+356526586,feature_id,1556905,gnis
+356526918,ele,797,regular
+356526918,name,Bird School (historical),regular
+356526918,created,09/01/1993,gnis
+356526918,state,WV,addr
+356526918,county,Mercer County,addr
+356526918,feature_id,1557125,gnis
+356527102,ele,868,regular
+356527102,name,McKenzie School (historical),regular
+356527102,created,09/01/1993,gnis
+356527102,state,WV,addr
+356527102,county,Mercer County,addr
+356527102,feature_id,1557260,gnis
+356527292,ele,440,regular
+356527292,name,Robinhood Impoundment,regular
+356527292,landuse,reservoir,regular
+356527292,created,09/01/1992,gnis
+356527292,state,WV,addr
+356527292,county,Boone County,addr
+356527292,feature_id,1557389,gnis
+356528250,ele,764,regular
+356528250,name,Mount Hermon Missionary Baptist Church,regular
+356528250,religion,christian,regular
+356528250,denomination,baptist,regular
+356528250,created,01/01/1995,gnis
+356528250,state,WV,addr
+356528250,county,Monroe County,addr
+356528250,feature_id,1558744,gnis
+356528646,ele,773,regular
+356528646,name,Daves Fork-Christians Fork Structure One Dam,regular
+356528646,waterway,dam,regular
+356528646,created,09/01/1992,gnis
+356528646,state,WV,addr
+356528646,county,Mercer County,addr
+356528646,feature_id,1559064,gnis
+356529147,ele,597,regular
+356529147,name,Number 50 Earthfill Impoundment,regular
+356529147,landuse,reservoir,regular
+356529147,created,09/01/1992,gnis
+356529147,state,WV,addr
+356529147,county,Wyoming County,addr
+356529147,feature_id,1559360,gnis
+356529354,ele,167,regular
+356529354,name,WHRD-AM (Huntington),regular
+356529354,man_made,tower,regular
+356529354,created,07/01/1994,gnis
+356529354,state,WV,addr
+356529354,county,Cabell County,addr
+356529354,feature_id,1559712,gnis
+356529847,ele,295,regular
+356529847,name,Fairview School (historical),regular
+356529847,created,06/01/1995,gnis
+356529847,state,WV,addr
+356529847,county,Jackson County,addr
+356529847,feature_id,1559932,gnis
+356530944,ele,185,regular
+356530944,name,Lock and Dam Number 4,regular
+356530944,waterway,dam,regular
+356530944,created,03/22/1996,gnis
+356530944,state,WV,addr
+356530944,county,Wirt County,addr
+356530944,feature_id,1678762,gnis
+356531659,ele,284,regular
+356531659,name,Panther Post Office,regular
+356531659,created,05/01/1996,gnis
+356531659,state,WV,addr
+356531659,county,McDowell County,addr
+356531659,feature_id,1689177,gnis
+356532185,ele,364,regular
+356532185,name,Oak Grove School (historical),regular
+356532185,created,05/01/1996,gnis
+356532185,state,WV,addr
+356532185,county,Gilmer County,addr
+356532185,feature_id,1689714,gnis
+356532614,ele,524,regular
+356532614,name,Oak Grove School (historical),regular
+356532614,created,05/09/1996,gnis
+356532614,state,WV,addr
+356532614,county,Upshur County,addr
+356532614,feature_id,1696749,gnis
+356532818,ele,255,regular
+356532818,name,Booher Cemetery,regular
+356532818,created,05/09/1996,gnis
+356532818,state,WV,addr
+356532818,county,Calhoun County,addr
+356532818,feature_id,1696943,gnis
+356535713,ele,540,regular
+356535713,name,Pleasant View School (historical),regular
+356535713,created,03/11/1997,gnis
+356535713,state,WV,addr
+356535713,county,Webster County,addr
+356535713,feature_id,1727897,gnis
+356536316,ele,220,regular
+356536316,name,Myrtle Elementary School (historical),regular
+356536316,created,03/11/1997,gnis
+356536316,state,WV,addr
+356536316,county,Mingo County,addr
+356536316,feature_id,1728819,gnis
+356536452,ele,169,regular
+356536452,name,Fourth Avenue Evangelical United Brethren Church (historical),regular
+356536452,religion,christian,regular
+356536452,created,05/19/1997,gnis
+356536452,state,WV,addr
+356536452,county,Cabell County,addr
+356536452,feature_id,1740435,gnis
+356536596,ele,162,regular
+356536596,name,Pilgrim Holiness Church,regular
+356536596,religion,christian,regular
+356536596,created,05/19/1997,gnis
+356536596,state,WV,addr
+356536596,county,Cabell County,addr
+356536596,feature_id,1740612,gnis
+356536734,ele,234,regular
+356536734,name,Otto Advent Christian Church,regular
+356536734,religion,christian,regular
+356536734,created,05/19/1997,gnis
+356536734,state,WV,addr
+356536734,county,Roane County,addr
+356536734,feature_id,1740963,gnis
+356536933,ele,757,regular
+356536933,name,Spruce Grove Cemetery,regular
+356536933,created,05/19/1997,gnis
+356536933,state,WV,addr
+356536933,county,Nicholas County,addr
+356536933,feature_id,1741227,gnis
+356537100,ele,591,regular
+356537100,name,Saulsville Baptist Church,regular
+356537100,religion,christian,regular
+356537100,denomination,baptist,regular
+356537100,created,05/19/1997,gnis
+356537100,state,WV,addr
+356537100,county,Wyoming County,addr
+356537100,feature_id,1741506,gnis
+356537266,ele,185,regular
+356537266,name,Bangor Cemetery,regular
+356537266,created,05/20/1997,gnis
+356537266,state,WV,addr
+356537266,county,Kanawha County,addr
+356537266,feature_id,1741844,gnis
+356537437,ele,184,regular
+356537437,name,Malden Methodist Episcopal Church,regular
+356537437,religion,christian,regular
+356537437,created,05/20/1997,gnis
+356537437,state,WV,addr
+356537437,county,Kanawha County,addr
+356537437,feature_id,1742122,gnis
+356537917,ele,188,regular
+356537917,name,Midland Trail Elementary School,regular
+356537917,edited,10/16/2008,gnis
+356537917,created,05/20/1997,gnis
+356537917,state,WV,addr
+356537917,county,Kanawha County,addr
+356537917,feature_id,1742418,gnis
+356538088,ele,606,regular
+356538088,name,Bolt Post Office,regular
+356538088,created,05/20/1997,gnis
+356538088,state,WV,addr
+356538088,county,Raleigh County,addr
+356538088,feature_id,1742681,gnis
+356538260,ele,784,regular
+356538260,name,Phillips School (historical),regular
+356538260,created,05/20/1997,gnis
+356538260,state,WV,addr
+356538260,county,Raleigh County,addr
+356538260,feature_id,1742897,gnis
+356538698,ele,321,regular
+356538698,name,Gates Ridge Evangelical United Brethren Church Cemetery,regular
+356538698,created,09/13/1996,gnis
+356538698,state,WV,addr
+356538698,county,Wood County,addr
+356538698,feature_id,1986765,gnis
+356539118,ele,205,regular
+356539118,name,Logan Middle School,regular
+356539118,edited,10/16/2008,gnis
+356539118,created,05/10/2006,gnis
+356539118,state,WV,addr
+356539118,county,Logan County,addr
+356539118,feature_id,2088251,gnis
+356539401,ele,223,regular
+356539401,name,Sycamore Hollow School,regular
+356539401,created,10/16/2008,gnis
+356539401,state,WV,addr
+356539401,county,Mason County,addr
+356539401,feature_id,2489157,gnis
+356563363,ele,627,regular
+356563363,name,Mill Knob,regular
+356563363,natural,peak,regular
+356563363,created,09/28/1979,gnis
+356563363,state,VA,addr
+356563363,county,Montgomery County,addr
+356563363,feature_id,1470523,gnis
+356571082,ele,654,regular
+356571082,name,Clear Fork Church,regular
+356571082,religion,christian,regular
+356571082,created,09/28/1979,gnis
+356571082,state,VA,addr
+356571082,county,Bland County,addr
+356571082,feature_id,1482566,gnis
+356573598,ele,781,regular
+356573598,name,Mountain Mission,regular
+356573598,created,09/28/1979,gnis
+356573598,state,VA,addr
+356573598,county,Montgomery County,addr
+356573598,feature_id,1485680,gnis
+356575610,ele,648,regular
+356575610,name,Whitelock Cemetery,regular
+356575610,created,09/28/1979,gnis
+356575610,state,VA,addr
+356575610,county,Montgomery County,addr
+356575610,feature_id,1488324,gnis
+356583606,ele,679,regular
+356583606,name,Half Acre of Rocks,regular
+356583606,natural,peak,regular
+356583606,created,09/28/1979,gnis
+356583606,state,VA,addr
+356583606,county,Montgomery County,addr
+356583606,feature_id,1495638,gnis
+356585140,ele,725,regular
+356585140,name,Reedy School (historical),regular
+356585140,created,01/01/1995,gnis
+356585140,state,VA,addr
+356585140,county,Tazewell County,addr
+356585140,feature_id,1497715,gnis
+357386712,ele,250,regular
+357386712,name,Antioch Cemetery,regular
+357386712,created,07/12/1979,gnis
+357386712,state,OH,addr
+357386712,county,Jackson County,addr
+357386712,feature_id,1037440,gnis
+357405012,ele,219,regular
+357405012,name,Ottobine Cemetery,regular
+357405012,created,07/12/1979,gnis
+357405012,state,OH,addr
+357405012,county,Meigs County,addr
+357405012,feature_id,1044225,gnis
+357467814,ele,272,regular
+357467814,created,12/01/1991,gnis
+357467814,feature_id,1066447,gnis
+357467814,state,OH,addr
+357467814,county,Lawrence County,addr
+357467814,leisure,park,regular
+357467814,name,Dean State Forest,regular
+357467814,wikidata,Q34825740,regular
+357474209,ele,235,regular
+357474209,name,Mount Olive Baptist Church,regular
+357474209,religion,christian,regular
+357474209,denomination,baptist,regular
+357474209,created,08/17/1992,gnis
+357474209,state,OH,addr
+357474209,county,Gallia County,addr
+357474209,feature_id,1070853,gnis
+357483704,ele,250,regular
+357483704,name,Johnson Cemetery,regular
+357483704,created,07/12/1979,gnis
+357483704,state,OH,addr
+357483704,county,Jackson County,addr
+357483704,feature_id,1076152,gnis
+357484577,ele,226,regular
+357484577,name,Southwestern High School,regular
+357484577,created,07/12/1979,gnis
+357484577,state,OH,addr
+357484577,county,Gallia County,addr
+357484577,feature_id,1076939,gnis
+357492932,ele,228,regular
+357492932,name,Timbre Ridge Lake Dam,regular
+357492932,waterway,dam,regular
+357492932,created,11/01/1991,gnis
+357492932,state,OH,addr
+357492932,county,Lawrence County,addr
+357492932,feature_id,1079367,gnis
+357519856,ele,225,regular
+357519856,name,Buffalo Cemetery,regular
+357519856,created,09/11/2002,gnis
+357519856,state,OH,addr
+357519856,county,Lawrence County,addr
+357519856,feature_id,1961196,gnis
+357526779,ele,172,regular
+357526779,name,Cheshire Post Office,regular
+357526779,created,08/17/1992,gnis
+357526779,state,OH,addr
+357526779,county,Gallia County,addr
+357526779,feature_id,1987887,gnis
+357528885,ele,184,regular
+357528885,name,Greatbend Post Office (historical),regular
+357528885,created,08/17/1992,gnis
+357528885,state,OH,addr
+357528885,county,Meigs County,addr
+357528885,feature_id,2036693,gnis
+358590486,ele,357,regular
+358590486,name,Greasy Creek Church,regular
+358590486,religion,christian,regular
+358590486,created,09/20/1979,gnis
+358590486,state,KY,addr
+358590486,county,Pike County,addr
+358590486,feature_id,493241,gnis
+358601608,ele,212,regular
+358601608,name,Old Pond Church,regular
+358601608,religion,christian,regular
+358601608,created,09/20/1979,gnis
+358601608,state,KY,addr
+358601608,county,Pike County,addr
+358601608,feature_id,499869,gnis
+358609258,ele,253,regular
+358609258,name,Varney Cemetery,regular
+358609258,created,09/20/1979,gnis
+358609258,state,KY,addr
+358609258,county,Pike County,addr
+358609258,feature_id,505986,gnis
+358610917,ele,191,regular
+358610917,name,Vineyard Church,regular
+358610917,religion,christian,regular
+358610917,created,11/01/1992,gnis
+358610917,state,KY,addr
+358610917,county,Martin County,addr
+358610917,feature_id,510011,gnis
+358615616,ele,200,regular
+358615616,name,Clarkson Cemetery,regular
+358615616,created,05/30/2006,gnis
+358615616,state,KY,addr
+358615616,county,Boyd County,addr
+358615616,feature_id,2088948,gnis
+358616581,ele,213,regular
+358616581,name,Hatfield Post Office (historical),regular
+358616581,created,06/25/2007,gnis
+358616581,state,KY,addr
+358616581,county,Pike County,addr
+358616581,feature_id,2120814,gnis
+358617142,ele,201,regular
+358617142,name,Pauley Post Office (historical),regular
+358617142,created,06/25/2007,gnis
+358617142,state,KY,addr
+358617142,county,Pike County,addr
+358617142,feature_id,2336956,gnis
+358618037,ele,277,regular
+358618037,name,Meathouse School (historical),regular
+358618037,created,06/25/2007,gnis
+358618037,state,KY,addr
+358618037,county,Pike County,addr
+358618037,feature_id,2337461,gnis
+358618456,ele,233,regular
+358618456,name,Lawson School,regular
+358618456,created,06/25/2007,gnis
+358618456,state,KY,addr
+358618456,county,Pike County,addr
+358618456,feature_id,2337850,gnis
+367808207,ele,177,regular
+367808207,name,Poca Town Hall,regular
+367808207,source,USGS Geonames,regular
+367808207,state,WV,addr
+367808207,reviewed,no,gnis
+367808207,feature_id,1740767,gnis
+367808207,county,Putnam,addr
+367808207,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+367985728,ele,457,regular
+367985728,name,Haysi Volunteer Rescue Squad,regular
+367985728,source,USGS Geonames,regular
+367985728,state,VA,addr
+367985728,reviewed,no,gnis
+367985728,feature_id,2086312,gnis
+367985728,county,Dickenson,addr
+367985728,import_uuid,57871b70-0100-4405-bb30-88b2e001a944,gnis
+368966879,ele,214,regular
+368966879,historic,yes,regular
+368966879,old_name,Jackson Heliport,regular
+368966879,state,OH,addr
+368966879,created,04/01/1991,gnis
+368966879,feature_id,1082752,gnis
+368966879,historic,helipad,aeroway
+368966879,county,Jackson,addr
+368966879,feature_type,Airport,gnis
+522401247,power,tower,regular
+570170231,city,Blacksburg,addr
+570170231,state,VA,addr
+570170231,street,University City Boulevard,addr
+570170231,country,US,addr
+570170231,postcode,24060,addr
+570170231,housenumber,800,addr
+624732615,highway,crossing,regular
+624732615,crossing,uncontrolled,regular
+624732615,crossing_ref,zebra,regular
+655016424,highway,traffic_signals,regular
+691874572,colour,gray,regular
+691874572,backrest,no,regular
+691874572,material,stone,regular
+698842068,natural,tree,regular
+698842068,operator,Virginia Tech,regular
+709567131,name,The Greeks,regular
+709567131,cuisine,greek,regular
+709567131,city,Blacksburg,addr
+709567131,street,North Main Street,addr
+726762675,highway,crossing,regular
+726762675,crossing,uncontrolled,regular
+734274123,highway,stop,regular
+860709983,entrance,yes,regular
+936980258,access,private,regular
+936980258,recycling_type,container,regular
+936980258,waste,yes,recycling
+936991746,city,Blacksburg,addr
+936991746,country,US,addr
+936991746,housenumber,600,addr
+936991746,state,VA,addr
+936991746,street,Appalachian Drive,addr
+936991746,unit,14,addr
+936993178,city,Blacksburg,addr
+936993178,country,US,addr
+936993178,housenumber,210,addr
+936993178,state,VA,addr
+936993178,street,Prices Fork Road,addr
+936993178,unit,8,addr
+936994241,city,Blacksburg,addr
+936994241,country,US,addr
+936994241,housenumber,12800,addr
+936994241,state,VA,addr
+936994241,street,Foxridge Lane,addr
+936994241,unit,K,addr
+936995325,city,Blacksburg,addr
+936995325,country,US,addr
+936995325,housenumber,410,addr
+936995325,state,VA,addr
+936995325,street,Houston Street,addr
+936995325,unit,A,addr
+936996797,city,Blacksburg,addr
+936996797,country,US,addr
+936996797,housenumber,1234,addr
+936996797,state,VA,addr
+936996797,street,University City Boulevard,addr
+936996797,unit,N151,addr
+936998371,city,Blacksburg,addr
+936998371,country,US,addr
+936998371,flats,2,addr
+936998371,housenumber,402,addr
+936998371,state,VA,addr
+936998371,street,Cedar Hill Drive,addr
+936999541,city,Blacksburg,addr
+936999541,country,US,addr
+936999541,housenumber,139,addr
+936999541,state,VA,addr
+936999541,street,Lucas Drive,addr
+937000703,city,Blacksburg,addr
+937000703,country,US,addr
+937000703,housenumber,1760,addr
+937000703,state,VA,addr
+937000703,street,Autumn Splendor Way,addr
+937002161,city,Blacksburg,addr
+937002161,country,US,addr
+937002161,housenumber,1234,addr
+937002161,state,VA,addr
+937002161,street,University City Boulevard,addr
+937002161,unit,N145,addr
+937003984,city,Blacksburg,addr
+937003984,country,US,addr
+937003984,housenumber,710,addr
+937003984,state,VA,addr
+937003984,street,Appalachian Drive,addr
+937003984,unit,6,addr
+937005640,city,Blacksburg,addr
+937005640,country,US,addr
+937005640,housenumber,209,addr
+937005640,state,VA,addr
+937005640,street,South Knollwood Drive,addr
+937005640,unit,1302,addr
+937007677,city,Blacksburg,addr
+937007677,country,US,addr
+937007677,housenumber,211,addr
+937007677,state,VA,addr
+937007677,street,Landsdowne Street,addr
+937007677,unit,B,addr
+937009448,city,Blacksburg,addr
+937009448,country,US,addr
+937009448,housenumber,207,addr
+937009448,state,VA,addr
+937009448,street,Hampton Court,addr
+937011139,city,Blacksburg,addr
+937011139,country,US,addr
+937011139,housenumber,8300,addr
+937011139,state,VA,addr
+937011139,street,Hunters Mill Road,addr
+937011139,unit,I,addr
+937012482,city,Blacksburg,addr
+937012482,country,US,addr
+937012482,flats,2,addr
+937012482,housenumber,303,addr
+937012482,state,VA,addr
+937012482,street,Washington Street,addr
+937013824,city,Blacksburg,addr
+937013824,country,US,addr
+937013824,housenumber,404,addr
+937013824,state,VA,addr
+937013824,street,Janie Lane,addr
+937016454,city,Blacksburg,addr
+937016454,country,US,addr
+937016454,housenumber,183,addr
+937016454,state,VA,addr
+937016454,street,Clover Valley Circle,addr
+937018937,city,Blacksburg,addr
+937018937,country,US,addr
+937018937,housenumber,860,addr
+937018937,state,VA,addr
+937018937,street,Plantation Road,addr
+937018937,unit,201,addr
+937020649,city,Blacksburg,addr
+937020649,country,US,addr
+937020649,housenumber,305,addr
+937020649,state,VA,addr
+937020649,street,Turner Street,addr
+937020649,unit,3,addr
+937022744,city,Blacksburg,addr
+937022744,country,US,addr
+937022744,housenumber,880,addr
+937022744,state,VA,addr
+937022744,street,Plantation Road,addr
+937022744,unit,304,addr
+937024340,city,Blacksburg,addr
+937024340,country,US,addr
+937024340,housenumber,7000,addr
+937024340,state,VA,addr
+937024340,street,Hunters Mill Road,addr
+937024340,unit,B,addr
+937025124,city,Blacksburg,addr
+937025124,country,US,addr
+937025124,flats,B6,addr
+937025124,housenumber,303,addr
+937025124,state,VA,addr
+937025124,street,Apartment Heights Drive,addr
+937025985,city,Blacksburg,addr
+937025985,country,US,addr
+937025985,housenumber,711,addr
+937025985,state,VA,addr
+937025985,street,Southgate Drive,addr
+937026561,city,Blacksburg,addr
+937026561,country,US,addr
+937026561,housenumber,2722,addr
+937026561,state,VA,addr
+937026561,street,Quincy Court,addr
+937027101,city,Blacksburg,addr
+937027101,country,US,addr
+937027101,housenumber,672,addr
+937027101,state,VA,addr
+937027101,street,Jennelle Road,addr
+937027101,unit,21,addr
+937027598,city,Blacksburg,addr
+937027598,country,US,addr
+937027598,housenumber,126,addr
+937027598,state,VA,addr
+937027598,street,Jackson Street,addr
+937027598,unit,Suite A,addr
+937027598,name,Hair Tec,regular
+937028335,city,Blacksburg,addr
+937028335,country,US,addr
+937028335,flats,4600H,addr
+937028335,housenumber,304,addr
+937028335,state,VA,addr
+937028335,street,Hunt Club Road,addr
+937029626,city,Blacksburg,addr
+937029626,country,US,addr
+937029626,housenumber,1308,addr
+937029626,state,VA,addr
+937029626,street,Henry Lane,addr
+937029626,unit,F,addr
+937030236,city,Blacksburg,addr
+937030236,country,US,addr
+937030236,housenumber,601,addr
+937030236,state,VA,addr
+937030236,street,McConkey Street,addr
+937031016,city,Blacksburg,addr
+937031016,country,US,addr
+937031016,flats,E3,addr
+937031016,housenumber,713,addr
+937031016,state,VA,addr
+937031016,street,South Main Street,addr
+937031404,city,Blacksburg,addr
+937031404,country,US,addr
+937031404,housenumber,212,addr
+937031404,state,VA,addr
+937031404,street,Wilson Avenue,addr
+937031404,unit,1,addr
+937031954,city,Blacksburg,addr
+937031954,country,US,addr
+937031954,housenumber,2715,addr
+937031954,state,VA,addr
+937031954,street,Chelsea Court,addr
+937032569,city,Blacksburg,addr
+937032569,country,US,addr
+937032569,flats,102C,addr
+937032569,housenumber,1202,addr
+937032569,state,VA,addr
+937032569,street,Toms Creek Road,addr
+937033135,city,Blacksburg,addr
+937033135,country,US,addr
+937033135,housenumber,501,addr
+937033135,state,VA,addr
+937033135,street,Givens Lane,addr
+937033836,city,Blacksburg,addr
+937033836,country,US,addr
+937033836,housenumber,910,addr
+937033836,state,VA,addr
+937033836,street,Montgomery Street,addr
+937034262,city,Blacksburg,addr
+937034262,country,US,addr
+937034262,housenumber,225,addr
+937034262,state,VA,addr
+937034262,street,Janie Lane,addr
+937034790,city,Blacksburg,addr
+937034790,country,US,addr
+937034790,housenumber,4400,addr
+937034790,state,VA,addr
+937034790,street,Richmond Lane,addr
+937034790,unit,L,addr
+937035302,city,Blacksburg,addr
+937035302,country,US,addr
+937035302,housenumber,610,addr
+937035302,state,VA,addr
+937035302,street,North Main Street,addr
+937035302,name,E-Z Way Laundry,regular
+937036230,city,Blacksburg,addr
+937036230,country,US,addr
+937036230,flats,1,addr
+937036230,housenumber,506,addr
+937036230,state,VA,addr
+937036230,street,Francis Lane,addr
+937037252,city,Blacksburg,addr
+937037252,country,US,addr
+937037252,housenumber,1809,addr
+937037252,state,VA,addr
+937037252,street,Grayland Street,addr
+937037252,unit,4,addr
+937038991,city,Blacksburg,addr
+937038991,country,US,addr
+937038991,housenumber,415,addr
+937038991,state,VA,addr
+937038991,street,Giles Road,addr
+937038991,unit,A,addr
+937040643,city,Blacksburg,addr
+937040643,country,US,addr
+937040643,housenumber,10000,addr
+937040643,state,VA,addr
+937040643,street,Hunters Mill Road,addr
+937040643,unit,A,addr
+937042068,city,Blacksburg,addr
+937042068,country,US,addr
+937042068,housenumber,10600,addr
+937042068,state,VA,addr
+937042068,street,Blue Ridge Drive,addr
+937042068,unit,J,addr
+937043334,city,Blacksburg,addr
+937043334,country,US,addr
+937043334,housenumber,1509,addr
+937043334,state,VA,addr
+937043334,street,Whipple Drive,addr
+937043334,unit,1,addr
+937044132,city,Blacksburg,addr
+937044132,country,US,addr
+937044132,housenumber,707,addr
+937044132,state,VA,addr
+937044132,street,Appalachian Drive,addr
+937044132,unit,12,addr
+937045662,city,Blacksburg,addr
+937045662,country,US,addr
+937045662,housenumber,100,addr
+937045662,state,VA,addr
+937045662,street,North Main Street,addr
+937045662,unit,108,addr
+937045662,name,"Mary E Harkins, Attorney",regular
+937047337,city,Blacksburg,addr
+937047337,country,US,addr
+937047337,housenumber,14105,addr
+937047337,state,VA,addr
+937047337,street,Stroubles Creek Road,addr
+937049266,city,Blacksburg,addr
+937049266,country,US,addr
+937049266,housenumber,1312,addr
+937049266,state,VA,addr
+937049266,street,Hillcrest Drive,addr
+937051527,city,Blacksburg,addr
+937051527,country,US,addr
+937051527,housenumber,928,addr
+937051527,state,VA,addr
+937051527,street,Kabrich Street,addr
+937053592,city,Blacksburg,addr
+937053592,country,US,addr
+937053592,flats,G,addr
+937053592,housenumber,119,addr
+937053592,state,VA,addr
+937053592,street,Hearthstone Drive,addr
+937056402,city,Blacksburg,addr
+937056402,country,US,addr
+937056402,housenumber,301,addr
+937056402,state,VA,addr
+937056402,street,Givens Lane,addr
+937056402,unit,90,addr
+937057776,city,Blacksburg,addr
+937057776,country,US,addr
+937057776,flats,203,addr
+937057776,housenumber,500,addr
+937057776,state,VA,addr
+937057776,street,Sunridge Drive,addr
+937059489,city,Blacksburg,addr
+937059489,country,US,addr
+937059489,flats,210,addr
+937059489,housenumber,115,addr
+937059489,state,VA,addr
+937059489,street,College Avenue,addr
+937061869,city,Blacksburg,addr
+937061869,country,US,addr
+937061869,housenumber,1224,addr
+937061869,state,VA,addr
+937061869,street,University City Boulevard,addr
+937061869,unit,D38,addr
+937064341,city,Blacksburg,addr
+937064341,country,US,addr
+937064341,housenumber,206,addr
+937064341,state,VA,addr
+937064341,street,Janie Lane,addr
+937066566,city,Blacksburg,addr
+937066566,country,US,addr
+937066566,housenumber,1228,addr
+937066566,state,VA,addr
+937066566,street,University City Boulevard,addr
+937066566,unit,F63,addr
+937067811,city,Blacksburg,addr
+937067811,country,US,addr
+937067811,housenumber,403,addr
+937067811,state,VA,addr
+937067811,street,Marlington Street,addr
+937067811,unit,B,addr
+937069982,city,Blacksburg,addr
+937069982,country,US,addr
+937069982,housenumber,203,addr
+937069982,state,VA,addr
+937069982,street,Buckingham Place,addr
+937072680,city,Blacksburg,addr
+937072680,country,US,addr
+937072680,housenumber,7800,addr
+937072680,state,VA,addr
+937072680,street,Hunters Mill Road,addr
+937072680,unit,J,addr
+937075141,city,Blacksburg,addr
+937075141,country,US,addr
+937075141,housenumber,1207,addr
+937075141,state,VA,addr
+937075141,street,University Terrace,addr
+937075141,unit,K,addr
+937077323,city,Blacksburg,addr
+937077323,country,US,addr
+937077323,housenumber,383,addr
+937077323,state,VA,addr
+937077323,street,Charles Street,addr
+937080215,city,Blacksburg,addr
+937080215,country,US,addr
+937080215,housenumber,510,addr
+937080215,state,VA,addr
+937080215,street,Harrell Street,addr
+937080215,unit,A,addr
+937083156,city,Blacksburg,addr
+937083156,country,US,addr
+937083156,housenumber,909,addr
+937083156,state,VA,addr
+937083156,street,Lora Lane,addr
+937086047,city,Blacksburg,addr
+937086047,country,US,addr
+937086047,housenumber,14010,addr
+937086047,state,VA,addr
+937086047,street,Stroubles Creek Road,addr
+937087768,city,Blacksburg,addr
+937087768,country,US,addr
+937087768,flats,11,addr
+937087768,housenumber,407,addr
+937087768,state,VA,addr
+937087768,street,Webb Street,addr
+937089665,city,Blacksburg,addr
+937089665,country,US,addr
+937089665,housenumber,1732,addr
+937089665,state,VA,addr
+937089665,street,Harvard Road,addr
+937089665,unit,644,addr
+937091296,city,Blacksburg,addr
+937091296,country,US,addr
+937091296,flats,H,addr
+937091296,housenumber,117,addr
+937091296,state,VA,addr
+937091296,street,Hearthstone Drive,addr
+937092893,city,Blacksburg,addr
+937092893,country,US,addr
+937092893,housenumber,1411,addr
+937092893,state,VA,addr
+937092893,street,Seneca Drive,addr
+937092893,unit,G,addr
+937094543,city,Blacksburg,addr
+937094543,country,US,addr
+937094543,housenumber,9400,addr
+937094543,state,VA,addr
+937094543,street,Hunters Mill Road,addr
+937094543,unit,H,addr
+937095975,city,Blacksburg,addr
+937095975,country,US,addr
+937095975,housenumber,1316,addr
+937095975,state,VA,addr
+937095975,street,Henry Lane,addr
+937095975,unit,F,addr
+937097173,city,Blacksburg,addr
+937097173,country,US,addr
+937097173,housenumber,120,addr
+937097173,state,VA,addr
+937097173,street,Professional Park Drive,addr
+937097173,unit,Suite 7,addr
+937097173,name,New River Valley Orthopaedics And Sports Medicine Marc S. Siegal Md,regular
+937099217,city,Blacksburg,addr
+937099217,country,US,addr
+937099217,housenumber,307,addr
+937099217,state,VA,addr
+937099217,street,Shenandoah Circle,addr
+937100235,city,Blacksburg,addr
+937100235,country,US,addr
+937100235,housenumber,313,addr
+937100235,state,VA,addr
+937100235,street,Graves Avenue,addr
+937101671,city,Blacksburg,addr
+937101671,country,US,addr
+937101671,housenumber,1731,addr
+937101671,state,VA,addr
+937101671,street,Liberty Lane,addr
+937101671,unit,78,addr
+937103544,city,Blacksburg,addr
+937103544,country,US,addr
+937103544,housenumber,209,addr
+937103544,state,VA,addr
+937103544,street,Old Cedarfield Drive,addr
+937105206,city,Blacksburg,addr
+937105206,country,US,addr
+937105206,housenumber,1213,addr
+937105206,state,VA,addr
+937105206,street,University Terrace,addr
+937105206,unit,F,addr
+937107099,city,Blacksburg,addr
+937107099,country,US,addr
+937107099,housenumber,301,addr
+937107099,state,VA,addr
+937107099,street,North Knollwood Drive,addr
+937107099,unit,7302,addr
+937108897,city,Blacksburg,addr
+937108897,country,US,addr
+937108897,housenumber,8800,addr
+937108897,state,VA,addr
+937108897,street,Hunters Mill Road,addr
+937108897,unit,A,addr
+937110877,city,Blacksburg,addr
+937110877,country,US,addr
+937110877,housenumber,303,addr
+937110877,state,VA,addr
+937110877,street,North Knollwood Drive,addr
+937110877,unit,6102,addr
+937112741,city,Blacksburg,addr
+937112741,country,US,addr
+937112741,housenumber,890,addr
+937112741,state,VA,addr
+937112741,street,Plantation Road,addr
+937112741,unit,103,addr
+937115132,city,Blacksburg,addr
+937115132,country,US,addr
+937115132,flats,6200J,addr
+937115132,housenumber,313,addr
+937115132,state,VA,addr
+937115132,street,Hunt Club Road,addr
+937117292,city,Blacksburg,addr
+937117292,country,US,addr
+937117292,housenumber,400,addr
+937117292,state,VA,addr
+937117292,street,Fairfax Road,addr
+937117292,unit,M102,addr
+937119139,city,Blacksburg,addr
+937119139,country,US,addr
+937119139,housenumber,917,addr
+937119139,state,VA,addr
+937119139,street,Lora Lane,addr
+937121167,city,Blacksburg,addr
+937121167,country,US,addr
+937121167,housenumber,1309,addr
+937121167,state,VA,addr
+937121167,street,Woodside Terrace,addr
+937123536,city,Blacksburg,addr
+937123536,country,US,addr
+937123536,housenumber,100,addr
+937123536,state,VA,addr
+937123536,street,North Main Street,addr
+937123536,unit,103,addr
+937125665,city,Blacksburg,addr
+937125665,country,US,addr
+937125665,flats,A31,addr
+937125665,housenumber,300,addr
+937125665,state,VA,addr
+937125665,street,McDonald Street,addr
+937128116,city,Blacksburg,addr
+937128116,country,US,addr
+937128116,housenumber,2401,addr
+937128116,state,VA,addr
+937128116,street,South Main Street,addr
+937128116,unit,J,addr
+937128116,name,Akke'S Yoga Place,regular
+937129785,city,Blacksburg,addr
+937129785,country,US,addr
+937129785,housenumber,1421,addr
+937129785,state,VA,addr
+937129785,street,Seneca Drive,addr
+937129785,unit,H,addr
+937132039,city,Blacksburg,addr
+937132039,country,US,addr
+937132039,flats,7,addr
+937132039,housenumber,711,addr
+937132039,state,VA,addr
+937132039,street,Giles Road,addr
+937133710,city,Blacksburg,addr
+937133710,country,US,addr
+937133710,housenumber,401,addr
+937133710,state,VA,addr
+937133710,street,Fairfax Road,addr
+937133710,unit,723,addr
+937134532,city,Blacksburg,addr
+937134532,country,US,addr
+937134532,housenumber,400,addr
+937134532,state,VA,addr
+937134532,street,Fairfax Road,addr
+937134532,unit,K85,addr
+937135316,city,Blacksburg,addr
+937135316,country,US,addr
+937135316,housenumber,801,addr
+937135316,state,VA,addr
+937135316,street,University City Boulevard,addr
+937135316,unit,Suite 2,addr
+937135316,name,"Caribbean Tan, Inc",regular
+937136583,city,Blacksburg,addr
+937136583,country,US,addr
+937136583,housenumber,1250,addr
+937136583,state,VA,addr
+937136583,street,Progress Street,addr
+937136583,unit,5000G,addr
+937137492,city,Blacksburg,addr
+937137492,country,US,addr
+937137492,housenumber,621,addr
+937137492,state,VA,addr
+937137492,street,Progress Street,addr
+937138071,city,Blacksburg,addr
+937138071,country,US,addr
+937138071,housenumber,127,addr
+937138071,state,VA,addr
+937138071,street,Huntington Lane,addr
+937139139,city,Blacksburg,addr
+937139139,country,US,addr
+937139139,housenumber,1917,addr
+937139139,state,VA,addr
+937139139,street,Tabor Village Drive,addr
+937139139,unit,B,addr
+937140073,city,Blacksburg,addr
+937140073,country,US,addr
+937140073,housenumber,1606,addr
+937140073,state,VA,addr
+937140073,street,Whipple Drive,addr
+937140564,city,Blacksburg,addr
+937140564,country,US,addr
+937140564,housenumber,505,addr
+937140564,state,VA,addr
+937140564,street,Sunridge Drive,addr
+937140564,unit,A,addr
+937141038,city,Blacksburg,addr
+937141038,country,US,addr
+937141038,housenumber,109,addr
+937141038,state,VA,addr
+937141038,street,Sherwood Court,addr
+937141650,city,Blacksburg,addr
+937141650,country,US,addr
+937141650,housenumber,401,addr
+937141650,state,VA,addr
+937141650,street,Fairfax Road,addr
+937141650,unit,211,addr
+937141977,city,Blacksburg,addr
+937141977,country,US,addr
+937141977,housenumber,301,addr
+937141977,state,VA,addr
+937141977,street,Givens Lane,addr
+937141977,unit,182,addr
+937142520,city,Blacksburg,addr
+937142520,country,US,addr
+937142520,housenumber,403,addr
+937142520,state,VA,addr
+937142520,street,Marlington Street,addr
+937142520,unit,D,addr
+937143403,city,Blacksburg,addr
+937143403,country,US,addr
+937143403,housenumber,311,addr
+937143403,state,VA,addr
+937143403,street,Loudon Road,addr
+937143403,unit,313,addr
+937143874,city,Blacksburg,addr
+937143874,country,US,addr
+937143874,housenumber,9900,addr
+937143874,state,VA,addr
+937143874,street,Hunters Mill Road,addr
+937143874,unit,H,addr
+937144335,city,Blacksburg,addr
+937144335,country,US,addr
+937144335,flats,24A,addr
+937144335,housenumber,521,addr
+937144335,state,VA,addr
+937144335,street,Hunt Club Road,addr
+937144965,city,Blacksburg,addr
+937144965,country,US,addr
+937144965,housenumber,9300,addr
+937144965,state,VA,addr
+937144965,street,Hunters Mill Road,addr
+937144965,unit,A,addr
+937146136,city,Blacksburg,addr
+937146136,country,US,addr
+937146136,flats,34C,addr
+937146136,housenumber,507,addr
+937146136,state,VA,addr
+937146136,street,Hunt Club Road,addr
+937146507,city,Blacksburg,addr
+937146507,country,US,addr
+937146507,housenumber,11800,addr
+937146507,state,VA,addr
+937146507,street,Cardinal Court,addr
+937146507,unit,H,addr
+937146896,city,Blacksburg,addr
+937146896,country,US,addr
+937146896,flats,K,addr
+937146896,housenumber,506,addr
+937146896,state,VA,addr
+937146896,street,Jackson Street,addr
+937147346,city,Blacksburg,addr
+937147346,country,US,addr
+937147346,housenumber,227,addr
+937147346,state,VA,addr
+937147346,street,Craig Drive,addr
+937148048,city,Blacksburg,addr
+937148048,country,US,addr
+937148048,housenumber,1311,addr
+937148048,state,VA,addr
+937148048,street,University City Boulevard,addr
+937148048,unit,5,addr
+937148568,city,Blacksburg,addr
+937148568,country,US,addr
+937148568,housenumber,1001,addr
+937148568,state,VA,addr
+937148568,street,Patrick Henry Drive,addr
+937148568,unit,B,addr
+937148967,city,Blacksburg,addr
+937148967,country,US,addr
+937148967,flats,I,addr
+937148967,housenumber,501,addr
+937148967,state,VA,addr
+937148967,street,Jackson Street,addr
+937149312,city,Blacksburg,addr
+937149312,country,US,addr
+937149312,flats,1,addr
+937149312,housenumber,313,addr
+937149312,state,VA,addr
+937149312,street,Owens Street,addr
+937150300,city,Blacksburg,addr
+937150300,country,US,addr
+937150300,housenumber,700,addr
+937150300,state,VA,addr
+937150300,street,Hounds Chase Lane,addr
+937150300,unit,A,addr
+937150710,city,Blacksburg,addr
+937150710,country,US,addr
+937150710,housenumber,848,addr
+937150710,state,VA,addr
+937150710,street,Patrick Henry Drive,addr
+945036685,highway,give_way,regular
+972544743,power,tower,regular
+973155673,power,tower,regular
+1035262215,power,tower,regular
+1230376874,power,tower,regular
+1242856580,power,tower,regular
+1256817183,recycling_type,container,regular
+1256817183,waste,yes,recycling
+1277812357,name,C&O Motors Used Cars,regular
+1409131120,highway,crossing,regular
+1409131120,crossing,uncontrolled,regular
+1417483015,bus,yes,regular
+1417483015,ref,1400,regular
+1417483015,name,Main/Montgomery Northbound,regular
+1417483015,highway,bus_stop,regular
+1417483015,operator,Blacksburg Transit,regular
+1417483015,dataset,bt_gtfs_stops,bburg
+1417483015,bt_stopid,dff0255a-843c-4303-bee3-df022f2eafc7,bburg
+1417483015,public_transport,stop_position,regular
+1417483948,bus,yes,regular
+1417483948,ref,1321,regular
+1417483948,name,University City/Falcon Eastbound,regular
+1417483948,highway,bus_stop,regular
+1417483948,operator,Blacksburg Transit,regular
+1417483948,dataset,bt_gtfs_stops,bburg
+1417483948,bt_stopid,2f05cd44-654b-4288-9bd7-97cff0a4fd55,bburg
+1417483948,public_transport,stop_position,regular
+1516244723,power,tower,regular
+1546843748,power,tower,regular
+1556658339,power,pole,regular
+1584801623,barrier,gate,regular
+1592212368,power,tower,regular
+1592212785,power,tower,regular
+1617214858,power,tower,regular
+1638556288,power,tower,regular
+1638556388,power,tower,regular
+1638556488,power,tower,regular
+1638622267,power,tower,regular
+1639223067,power,tower,regular
+1649840949,power,tower,regular
+1649841180,power,tower,regular
+1651056634,power,tower,regular
+1652312370,power,tower,regular
+1666744929,power,tower,regular
+1666745117,power,tower,regular
+1694673194,power,tower,regular
+1756615917,ref,02,regular
+1756615917,name,Marmet Lock and Dam,regular
+1756615917,website,http://www.lrh.usace.army.mil/projects/locks/mar/,regular
+1756615917,waterway,lock_gate,regular
+1916344719,entrance,yes,regular
+1917940046,level,5,regular
+1917940046,man_made,surveillance,regular
+1917940046,operator,Virginia Tech,regular
+1917940046,surveillance,outdoor,regular
+1929337468,source,Virginia Tech GIS,regular
+1929337468,operator,Virginia Tech,regular
+1929337468,emergency,phone,regular
+1929337468,objid,49042,vtgis
+2002206815,power,tower,regular
+2002206815,structure,lattice,regular
+2033438836,power,tower,regular
+2033438836,source,Bing,regular
+2033439066,power,tower,regular
+2033439066,source,Bing,regular
+2068553234,highway,turning_circle,regular
+2193419890,railway,level_crossing,regular
+2317046322,power,generator,regular
+2317046322,power_source,wind,regular
+2372855255,name,Fast Lanes,regular
+2486108267,highway,turning_circle,regular
+2624352326,railway,level_crossing,regular
+2637620238,power,tower,regular
+2639222517,name,Westside Wash and Laundry,regular
+2643033053,name,NAPA Auto Parts,regular
+2682955374,name,Hardee's,regular
+2682955374,cuisine,burger,regular
+3038418580,highway,turning_circle,regular
+3183928456,railway,level_crossing,regular
+3204396718,power,tower,regular
+3204467855,power,tower,regular
+3214743333,highway,turning_circle,regular
+3262059608,highway,street_lamp,regular
+3314796334,highway,turning_circle,regular
+3383904076,railway,level_crossing,regular
+3401345530,source,tiger:boundaries,regular
+3419883608,atm,yes,regular
+3419883608,name,Huntington Bank,regular
+3425896674,name,Medical Clinic,regular
+3425896674,building,office,regular
+3442225924,highway,turning_circle,regular
+3454299637,natural,tree,regular
+3507550214,name,Five Guys,regular
+3507550214,cuisine,burger,regular
+3627430103,highway,turning_circle,regular
+3656880143,power,tower,regular
+3750917956,name,French Creek Post Office,regular
+3750917956,postal_code,26218,regular
+3789206013,name,Bulk Water Sales Point,regular
+3789206013,man_made,water_works,regular
+3789206013,operator,City of Grantsville,regular
+3823681967,highway,traffic_signals,regular
+3938626419,name,Pizza Hut,regular
+3938626419,cuisine,pizza,regular
+3989171661,tourism,camp_site,regular
+4049328188,phone,(304) 442-4467,regular
+4049328188,operator,Super Dollar,regular
+4049328188,city,Montgomery,addr
+4049328188,state,WV,addr
+4049328188,street,3rd Avenue,addr
+4049328188,postcode,25136,addr
+4049328188,housenumber,446,addr
+4108862795,man_made,tower,regular
+4164181356,natural,tree,regular
+4164185390,natural,tree,regular
+4164276809,natural,tree,regular
+4164281334,natural,tree,regular
+4164286034,natural,tree,regular
+4164288308,natural,tree,regular
+4164288308,operator,Virginia Tech,regular
+4164295563,natural,tree,regular
+4164295563,operator,Virginia Tech,regular
+4164321605,natural,tree,regular
+4164532353,natural,tree,regular
+4213252981,natural,tree,regular
+4253825233,highway,turning_circle,regular
+4338752252,tourism,picnic_site,regular
+4388477767,power,tower,regular
+4388597354,power,tower,regular
+4388626991,power,tower,regular
+4391411386,power,tower,regular
+4393064282,power,tower,regular
+4393216391,power,tower,regular
+4393216558,power,tower,regular
+4401524616,name,Fairland High School,regular
+4401524616,office,educational_institution,regular
+4567603889,name,Jan Care Ambulance,regular
+4567603889,emergency,ambulance_station,regular
+4595594312,highway,crossing,regular
+4595594312,crossing,unmarked,regular
+4630900508,name,Proctorville Post Office,regular
+4630900508,city,Proctorville,addr
+4630900508,state,OH,addr
+4630900508,street,County Rd 107,addr
+4630900508,postcode,45669,addr
+4630900508,housenumber,6200,addr
+4683671452,name,Super 8 Huntington WV,regular
+4683671452,tourism,motel,regular
+4728089391,name,Gazebo,regular
+4738179361,power,tower,regular
+4738179361,source,bing,regular
+4792172352,railway,level_crossing,regular
+5171234764,entrance,yes,regular

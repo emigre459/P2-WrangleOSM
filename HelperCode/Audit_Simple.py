@@ -267,7 +267,7 @@ def isState(elem):
                  'gnis:ST_alpha',
                  'gnis:state_id',
                  'nist:state_fips',
-                 'ST_num']
+                 'gnis:ST_num']
     
     return elem.attrib['k'] in state_keys
 
