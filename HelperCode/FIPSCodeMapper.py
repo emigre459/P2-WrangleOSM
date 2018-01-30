@@ -51,6 +51,7 @@ def FIPS_to_Name(census_filepath, FIPS_code, state_name=None, state_FIPS=None):
                                                                                     'FIPS_Class_Code'])
     
     digits = len(FIPS_code)
+    #print("FIPS code value input = {}, state_name = {}, and state_FIPS = {}\n\n".format(FIPS_code, state_name,state_FIPS))
     if digits == 2:
         #need to return row index of the first row wherein FIPS matches the code given
         census_df_oneState = census_df[census_df['State_FIPS'] == FIPS_code]

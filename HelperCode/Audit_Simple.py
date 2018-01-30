@@ -498,6 +498,6 @@ def propertyCounter(elem, allowed_property_types, prop_records=defaultdict(int))
 #---------------------------------------------
 #Main code execution space
 
-audit(OSMFILE, options=['zips', 'county/state counting', 'county/state reporting'])
+#audit(OSMFILE, options=['zips', 'county/state counting', 'county/state reporting'])
 
 #Unused options: ['counting', 'lat/long', 'amenities', 'property types', 'property type counts']

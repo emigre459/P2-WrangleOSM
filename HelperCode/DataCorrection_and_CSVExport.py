@@ -196,7 +196,7 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
             zipList = []
             
             #latter condition checks if we're looking at a node or a way
-            if tag_dict['id'] == '2625119248' and 'lon' in parent_dict.keys():
+            if parent_dict['id'] == '2625119248' and 'lon' in parent_dict.keys():
                 zipList = ['25314']
                 print("'WV' zip code corrected!")
         
@@ -219,24 +219,14 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                         zipList = [v.strip()]
                 else:
                     zipList = [v.strip()]
-                    
-                print(zipList)
                 
-            #Build the tag_dict
+            #Build the tag data
             for zipCode in zipList:
-                tag_dict = {}
-            
-                tag_dict['id'] = parent_dict['id']
-                tag_dict['value'] = zipCode
-            
                 #For ease of later analysis, set everything to have tag key = "addr:postcode"
-                tag_dict['key'] = 'postcode'
-                tag_dict['type'] = 'addr'
-                
-                parsed_singleTag_data.append([tag_dict['id'],
-                                tag_dict['key'],
-                                tag_dict['value'],
-                                tag_dict['type']])
+                parsed_singleTag_data.append([parent_dict['id'],
+                                'postcode',
+                                zipCode,
+                                'addr'])
                 
                 
         
@@ -255,7 +245,7 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
             tempList = []
             tempList_flat = []
             
-            #Dealing with lists of counties here
+            #Dealing with lists of county names here
             if ":" in v or ";" in v:
                 tempList = v.split(":")
                 for i, value in enumerate(tempList):
@@ -278,11 +268,17 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
 
                 countyList = list(countySet)
                 stateList = list(stateSet)
+                
+                #Need to make sure, if we've found the county name on its own, we don't keep trying to map the FIPS
+                county_fips_to_find = None
                     
             #Now to deal with a single county,state combo
             elif ',' in v:
                 countyList = [v.split(",")[0].strip()]
                 stateList = [v.split(",")[1].strip()]
+                
+                #Need to make sure, if we've found the county name on its own, we don't keep trying to map the FIPS
+                county_fips_to_find = None
                 
             #Now we look at counties that are only given as a FIPS code
             #Note that there are no lists of FIPS codes expected (only a single one per node/way), as per the audit
@@ -303,7 +299,7 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                             stateFound = True
                         #Is there more than one state associated with this node/way?
                         elif 'state' in row and stateFound:
-                            countyList = ['Unidentifiable (FIPS ambiguity)']
+                            countyList = ['Unidentifiable (FIPS code ambiguity)']
                             break
                             
                     #Did we not find anything to put as the county, presumably due to a lack of state presence?
@@ -385,7 +381,7 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                         break
                 
                 if countyName != 'Unidentifiable (FIPS ambiguity)':
-                    countyName = fips.FIPS_to_Name('../2010_FIPSCodes.csv', v, state_name = stateName)
+                    countyName = fips.FIPS_to_Name('../2010_FIPSCodes.csv', county_fips_to_find, state_name = stateName)
             
             ### APPENDING STATE DATA ###
             if stateName:
