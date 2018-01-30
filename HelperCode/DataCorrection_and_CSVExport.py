@@ -209,12 +209,31 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                     if "-" in v:
                         zipList = [v.strip()[:5]]                                
                     elif ":" in v or ";" in v:
-                        if ":" in v: delimiter = ":"
+                        '''if ":" in v: delimiter = ":"
                         elif ";" in v: delimiter = ";"
                 
                         unstripped_zipList = v.split(delimiter)
                         for e in unstripped_zipList:
-                            zipList.append(e.strip())
+                            zipList.append(e.strip())'''
+                        
+                        
+                        zipSet = set()
+                        
+                        tempList = v.split(":")
+                        tempList_flat = []
+                        
+                        for i, value in enumerate(tempList):
+                            tempList[i] = value.strip()
+                            tempList_flat.append(value.split(";"))
+                        
+                        #Need to flatten out the list of lists all of this splitting has created!
+                        tempList_flat = list(chain.from_iterable(tempList_flat))
+                            
+                        for zip_code in tempList_flat:
+                            zipSet.add(zip_code.strip())
+                        
+                        zipList = list(zipSet)
+                        
                     else:
                         zipList = [v.strip()]
                 else:
