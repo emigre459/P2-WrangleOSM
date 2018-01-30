@@ -14,6 +14,7 @@ import Audit_Simple as audit
 import xml.etree.cElementTree as ET
 import pandas as pd
 import re
+from itertools import chain
 
 PROBLEMCHARS = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
@@ -241,29 +242,42 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
         
         ############ COUNTIES ############
         
-        #Need lists for counties and states, as some nodes/ways have multiple county,state entries in a list
+        #Need unique lists for counties and states, as some nodes/ways have multiple county,state entries in a list
         elif audit.isCounty(elem):
+            countySet = set()
             countyList = []
+            
+            stateSet = set()
             stateList = []
+            
+            tempSet = set()
+            
+            tempList = []
+            tempList_flat = []
             
             #Dealing with lists of counties here
             if ":" in v or ";" in v:
-                if ":" in v: delimiter = ":"
-                elif ";" in v: delimiter = ";"
+                tempList = v.split(":")
+                for i, value in enumerate(tempList):
+                    tempList[i] = value.strip()
+                    tempList_flat.append(value.split(";"))
                 
-                unstripped_countyList = v.split(delimiter)
-                print(unstripped_countyList)
-                for county in unstripped_countyList:
-                    countyList.append(county.strip())
+                #Need to flatten out the list of lists all of this splitting has created!
+                tempList_flat = list(chain.from_iterable(tempList_flat))
+                    
+                for county in tempList_flat:
+                    tempSet.add(county.strip())
             
-            
-                #Now, if there are states to be pulled out, let's pull them out
-                for i, county in enumerate(countyList):
+                #If there are states to be pulled out, let's pull them out
+                for county in tempSet:
                     if "," in county:
-                        countyList[i] = county.split(",")[0].strip()
-                        stateList.append(county.split(",")[1].strip())
+                        countySet.add(county.split(",")[0].strip())
+                        stateSet.add(county.split(",")[1].strip())
                     else:
-                        pass
+                        countySet.add(county)
+
+                countyList = list(countySet)
+                stateList = list(stateSet)
                     
             #Now to deal with a single county,state combo
             elif ',' in v:
@@ -295,6 +309,15 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                     #Did we not find anything to put as the county, presumably due to a lack of state presence?
                     if not countyList:
                         county_fips_to_find = v
+            
+            #This is the scenario wherein the county is clearly provided as a name, no issues
+            else:
+                #Check to make sure there isn't an identical county already provided
+                for row in parsed_singleTag_data:
+                    if 'county' in row and v.upper() == row[2].upper():
+                        break
+                    else:
+                        countyList = [v]
                         
             
             #is there anything in countyList? If so, our work here is done!
