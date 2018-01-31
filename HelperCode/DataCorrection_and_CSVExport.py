@@ -83,18 +83,6 @@ def correct_and_record(osm_file):
                                                                                 temp_childTag_data, 
                                                                                 lingering_county_FIPS)
                 
-                '''Now that we've built up the list of lists for the child tags' data,
-                let's parse through that and make sure to remove any duplicate records 
-                (e.g. addr:county = Nicholas).'''
-                working_list = []
-
-                unique_working_list = OrderedDict()
-                for value in temp_childTag_data:
-                    unique_working_list.setdefault(frozenset(value),[]).append(value)
-                
-                for value in unique_working_list.keys():
-                    working_list.append(list(value)) 
-                
                 #And now, we add the entirety of the child tags for this parent tag into the nodes_tags list
                 nodes_tags += temp_childTag_data
                 
@@ -124,18 +112,7 @@ def correct_and_record(osm_file):
                     temp_childTag_data, lingering_county_FIPS = data_correction(elem, ways_dict, 
                                                                                 temp_childTag_data, 
                                                                                 lingering_county_FIPS)
-                    
-                '''Now that we've built up the list of lists for the child tags' data,
-                let's parse through that and make sure to remove any duplicate records 
-                (e.g. addr:county = Nicholas).'''
-                working_list = []
-
-                unique_working_list = OrderedDict()
-                for value in temp_childTag_data:
-                    unique_working_list.setdefault(frozenset(value),[]).append(value)
-                
-                for value in unique_working_list.keys():
-                    working_list.append(list(value)) 
+                     
                 
                 #And now, we add the entirety of the child tags for this parent tag into the nodes_tags list
                 ways_tags += temp_childTag_data
@@ -166,6 +143,12 @@ def correct_and_record(osm_file):
     ways_nodes_df = pd.DataFrame(data = ways_nodes,
                                  columns=['id', 'node_id', 'position'])
     
+    #We need to make sure there's not duplicative data (e.g. same addr:state entry for same node/way ID)
+    nodes_df.drop_duplicates(inplace=True)
+    nodes_tags_df.drop_duplicates(inplace=True)
+    ways_df.drop_duplicates(inplace=True)
+    ways_tags_df.drop_duplicates(inplace=True)
+    ways_nodes_df.drop_duplicates(inplace=True)
     
     #Now let's write the DataFrames to CSV
     nodes_df.to_csv('../CSV for SQL Tables/nodes.csv', index=False, encoding='utf-8')
@@ -284,6 +267,8 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
             tempList = []
             tempList_flat = []
             
+            countyFound = False
+            
             #Dealing with lists of county names here
             if ":" in v or ";" in v:
                 tempList = v.split(":")
@@ -333,24 +318,27 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                     #track identification of what states are found as already recorded for node/way
                     statesFound = []
                     
+                    
                     for row in parsed_singleTag_data:
                         #Don't worry about doing this if the county is already known
                         if 'county' in row:
+                            countyFound = True
                             break
                         
                         #if we have a state to use and we haven't found any earlier, great!
                         elif 'state' in row and not statesFound:
                             #row[2] corresponds to 'value' in our schema
-                            countyList = fips.FIPS_to_Name('../2010_FIPSCodes.csv', v, state_name = row[2])
+                            countyList = [fips.FIPS_to_Name('../2010_FIPSCodes.csv', v, state_name = row[2])]
                             statesFound.append(row[2])
                             
                         #Is there more than one unique state associated with this node/way? Not good.
                         elif 'state' in row and row[2] not in statesFound:
-                            countyList = 'Unidentifiable (FIPS code ambiguity)'
+                            countyList = ['Unidentifiable (FIPS code ambiguity)']
                             break
                             
-                    #Did we not find anything to put as the county, presumably due to a lack of state presence?
-                    if not countyList:
+                    '''Did we not find anything to put as the county and no other previously-named county,
+                    presumably due to a lack of state presence?'''
+                    if not countyList and not countyFound:
                         county_fips_to_find = v
             
             #This is the scenario wherein the county is clearly provided as a name, no issues
@@ -363,8 +351,8 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                         countyList = [v]
                         
             
-            #is there anything in countyList? If so, our work here is done!
-            if countyList:
+            #is there anything in countyList, or has the county already been recorded? If so, our work here is done!
+            if countyList and not countyFound:
                 #Build the tag_dict
                 for county in countyList:
                     tag_dict = {}

@@ -419,7 +419,6 @@ id,key,value,type
 15517083,postcode,25705,addr
 15517083,name_base,Orange Bowl Drive,tiger
 15517083,name_type,Ln,tiger
-15517083,postcode,25705,addr
 15517316,name,Kathi Lane,regular
 15517316,highway,residential,regular
 15517316,cfcc,A41,tiger
@@ -437,7 +436,6 @@ id,key,value,type
 15517487,postcode,25705,addr
 15517487,name_base,Brighton,tiger
 15517487,name_type,Way,tiger
-15517487,postcode,25705,addr
 15517628,name,Signal Road,regular
 15517628,access,private,regular
 15517628,highway,service,regular
@@ -464,7 +462,6 @@ id,key,value,type
 15517958,postcode,25703,addr
 15517958,name_base,Ensley,tiger
 15517958,name_type,St,tiger
-15517958,postcode,25703,addr
 15518121,name,North Altamont Road,regular
 15518121,highway,residential,regular
 15518121,cfcc,A41,tiger
@@ -485,7 +482,6 @@ id,key,value,type
 15518294,postcode,25559,addr
 15518294,name_base,Lower Trace Creek,tiger
 15518294,name_type,Rd,tiger
-15518294,postcode,25559,addr
 15518294,name_base_1,County Road 31/4,tiger
 15518437,ref,US 60,regular
 15518437,name,Adams Avenue,regular
@@ -516,8 +512,6 @@ id,key,value,type
 15518663,postcode,25705,addr
 15518663,name_base,Norway,tiger
 15518663,name_type,Ave,tiger
-15518663,postcode,25705,addr
-15518663,postcode,25705,addr
 15518783,access,private,regular
 15518783,highway,service,regular
 15518783,cfcc,A74,tiger
@@ -568,8 +562,6 @@ id,key,value,type
 15519368,postcode,25705,addr
 15519368,name_base,Grand,tiger
 15519368,name_type,Blvd,tiger
-15519368,postcode,25705,addr
-15519368,postcode,25705,addr
 15519484,highway,residential,regular
 15519484,cfcc,A41,tiger
 15519484,tlid,49927956,tiger
@@ -667,7 +659,6 @@ id,key,value,type
 15520428,postcode,25702,addr
 15520428,name_base,Everett,tiger
 15520428,name_type,St,tiger
-15520428,postcode,25702,addr
 15520547,ref,WV 16,regular
 15520547,name,High Street,regular
 15520547,lanes,2,regular
@@ -688,7 +679,6 @@ id,key,value,type
 15520678,postcode,25510,addr
 15520678,name_base,4th,tiger
 15520678,name_type,St,tiger
-15520678,postcode,25510,addr
 15520818,highway,residential,regular
 15520818,cfcc,A41,tiger
 15520818,tlid,49945239,tiger
@@ -716,7 +706,6 @@ id,key,value,type
 15521116,postcode,25504,addr
 15521116,name_base,Long,tiger
 15521116,name_type,St,tiger
-15521116,postcode,25504,addr
 15521249,name,North Englewood Road,regular
 15521249,highway,residential,regular
 15521249,cfcc,A41,tiger
@@ -726,7 +715,6 @@ id,key,value,type
 15521249,postcode,25701,addr
 15521249,name_base,Englewood,tiger
 15521249,name_type,Rd,tiger
-15521249,postcode,25701,addr
 15521249,name_direction_prefix,N,tiger
 15521372,highway,residential,regular
 15521372,cfcc,A41,tiger
@@ -756,7 +744,6 @@ id,key,value,type
 15521715,postcode,25545,addr
 15521715,name_base,Raceview,tiger
 15521715,name_type,Dr,tiger
-15521715,postcode,25545,addr
 15521868,highway,residential,regular
 15521868,cfcc,A41,tiger
 15521868,tlid,49949713,tiger
@@ -793,7 +780,6 @@ id,key,value,type
 15522376,postcode,25701,addr
 15522376,name_base,11th,tiger
 15522376,name_type,Ave,tiger
-15522376,postcode,25701,addr
 15522490,name,Central Drive,regular
 15522490,highway,residential,regular
 15522490,cfcc,A41,tiger
@@ -803,11 +789,6 @@ id,key,value,type
 15522490,postcode,25510,addr
 15522490,name_base,Central,tiger
 15522490,name_type,Dr,tiger
-15522490,postcode,25510,addr
-15522490,postcode,25510,addr
-15522490,postcode,25510,addr
-15522490,postcode,25510,addr
-15522490,postcode,25510,addr
 15522635,name,Sequoia Drive,regular
 15522635,highway,residential,regular
 15522635,cfcc,A41,tiger
@@ -817,7 +798,6 @@ id,key,value,type
 15522635,postcode,25705,addr
 15522635,name_base,Sequoia,tiger
 15522635,name_type,Dr,tiger
-15522635,postcode,25705,addr
 15522748,name,Dava Lane,regular
 15522748,highway,residential,regular
 15522748,cfcc,A41,tiger
@@ -1125,8 +1105,6 @@ id,key,value,type
 15529274,name_base,Pine,tiger
 15529274,name_type,St,tiger
 15529274,postcode,25186,addr
-15529274,postcode,25186,addr
-15529274,postcode,25031,addr
 15529685,name,R.J. Corman Railroad/West Virginia Line,regular
 15529685,gauge,1435,regular
 15529685,usage,branch,regular
@@ -1174,7 +1152,6 @@ id,key,value,type
 15531050,postcode,25880,addr
 15531050,name_base,Kilsyth,tiger
 15531050,name_type,Rd,tiger
-15531050,postcode,25880,addr
 15531318,ref,CR 11/4,regular
 15531318,name,County Route 11/4,regular
 15531318,highway,residential,regular
@@ -1192,7 +1169,6 @@ id,key,value,type
 15531631,postcode,25901,addr
 15531631,name_base,Willow Wood,tiger
 15531631,name_type,Rd,tiger
-15531631,postcode,25901,addr
 15531884,name,County Route 41/7,regular
 15531884,highway,track,regular
 15531884,cfcc,A51,tiger
@@ -1523,7 +1499,6 @@ id,key,value,type
 15541131,postcode,24970,addr
 15541131,name_base,North,tiger
 15541131,name_type,Ave,tiger
-15541131,postcode,24970,addr
 15541419,name,Spring Street,regular
 15541419,highway,residential,regular
 15541419,cfcc,A41,tiger
@@ -1607,7 +1582,6 @@ id,key,value,type
 15543461,reviewed,no,tiger
 15543461,postcode,24901,addr
 15543461,name_base,Ridgeview Estates,tiger
-15543461,postcode,24901,addr
 15543461,upload_uuid,bulk_upload.pl-ee947cd0-539e-4408-9a8e-7e1138448ab6,tiger
 15549724,power,line,regular
 15549724,cfcc,C20,tiger
@@ -1732,7 +1706,6 @@ id,key,value,type
 15554940,postcode,25271,addr
 15554940,name_base,Main,tiger
 15554940,name_type,St,tiger
-15554940,postcode,25271,addr
 15554940,name_base_1,United States Route 33,tiger
 15554940,name_direction_prefix,E,tiger
 15555321,name,Rhodes Street,regular
@@ -2029,7 +2002,6 @@ id,key,value,type
 15567508,postcode,25304,addr
 15567508,name_base,Gunnoe,tiger
 15567508,name_type,Rd,tiger
-15567508,postcode,25304,addr
 15567671,highway,residential,regular
 15567671,cfcc,A41,tiger
 15567671,tlid,49993236,tiger
@@ -2078,7 +2050,6 @@ id,key,value,type
 15568300,postcode,25320,addr
 15568300,name_base,Happy Hollow,tiger
 15568300,name_type,Rd,tiger
-15568300,postcode,25320,addr
 15568300,name_base_1,County Route 21/5,tiger
 15568431,name,Tacket Boulevard,regular
 15568431,highway,service,regular
@@ -2117,7 +2088,6 @@ id,key,value,type
 15569011,postcode,25311,addr
 15569011,name_base,Dudley,tiger
 15569011,name_type,Dr,tiger
-15569011,postcode,25311,addr
 15569169,name,Cedar Lane,regular
 15569169,highway,residential,regular
 15569169,cfcc,A41,tiger
@@ -2127,7 +2097,6 @@ id,key,value,type
 15569169,postcode,25071,addr
 15569169,name_base,Cedar,tiger
 15569169,name_type,Ln,tiger
-15569169,postcode,25071,addr
 15569318,name,Cannady Drive,regular
 15569318,highway,unclassified,regular
 15569318,cfcc,A41,tiger
@@ -2145,7 +2114,6 @@ id,key,value,type
 15569483,postcode,26452,addr
 15569483,name_base,High,tiger
 15569483,name_type,Ave,tiger
-15569483,postcode,26452,addr
 15569628,ref,US 19,regular
 15569628,lanes,2,regular
 15569628,highway,primary,regular
@@ -2163,9 +2131,6 @@ id,key,value,type
 15569773,postcode,25177,addr
 15569773,name_base,Grandview,tiger
 15569773,name_type,Dr,tiger
-15569773,postcode,25177,addr
-15569773,postcode,25177,addr
-15569773,postcode,25177,addr
 15569979,name,Coal River Subdivision,regular
 15569979,gauge,1435,regular
 15569979,usage,branch,regular
@@ -2173,10 +2138,10 @@ id,key,value,type
 15569979,operator,CSX,regular
 15569979,cfcc,B11:B12:B21,tiger
 15569979,electrified,no,regular
-15569979,county,Boone,addr
 15569979,county,Kanawha,addr
-15569979,county,Logan,addr
 15569979,county,Lincoln,addr
+15569979,county,Boone,addr
+15569979,county,Logan,addr
 15569979,state,WV,addr
 15569979,reviewed,no,tiger
 15569979,name_base,Chesapeake and Ohio Railway:Chessie System Railroad,tiger
@@ -2235,7 +2200,6 @@ id,key,value,type
 15570768,postcode,25313,addr
 15570768,name_base,Kingswood,tiger
 15570768,name_type,Ln,tiger
-15570768,postcode,25313,addr
 15570890,name,John Wesley Drive,regular
 15570890,highway,residential,regular
 15570890,cfcc,A41,tiger
@@ -2245,7 +2209,6 @@ id,key,value,type
 15570890,postcode,25302,addr
 15570890,name_base,John Wesley,tiger
 15570890,name_type,Dr,tiger
-15570890,postcode,25302,addr
 15571057,highway,residential,regular
 15571057,cfcc,A41,tiger
 15571057,tlid,78732131:78728171,tiger
@@ -2264,7 +2227,6 @@ id,key,value,type
 15571192,postcode,25143,addr
 15571192,name_base,Bank,tiger
 15571192,name_type,St,tiger
-15571192,postcode,25143,addr
 15571334,highway,track,regular
 15571334,cfcc,A51,tiger
 15571334,tlid,78726988:78727284:78727274,tiger
@@ -2283,7 +2245,6 @@ id,key,value,type
 15571447,postcode,25064,addr
 15571447,name_base,Lincoln,tiger
 15571447,name_type,Ave,tiger
-15571447,postcode,25064,addr
 15571568,name,Forest Edge Drive,regular
 15571568,highway,residential,regular
 15571568,cfcc,A41,tiger
@@ -2310,7 +2271,6 @@ id,key,value,type
 15571819,postcode,25071,addr
 15571819,name_base,Verna,tiger
 15571819,name_type,Dr,tiger
-15571819,postcode,25071,addr
 15571947,access,private,regular
 15571947,highway,service,regular
 15571947,cfcc,A74,tiger
@@ -2329,7 +2289,6 @@ id,key,value,type
 15572065,postcode,25143,addr
 15572065,name_base,27th,tiger
 15572065,name_type,St,tiger
-15572065,postcode,25143,addr
 15572194,highway,residential,regular
 15572194,cfcc,A41,tiger
 15572194,tlid,78735319,tiger
@@ -2348,7 +2307,6 @@ id,key,value,type
 15572328,postcode,25064,addr
 15572328,name_base,28th,tiger
 15572328,name_type,St,tiger
-15572328,postcode,25064,addr
 15572467,name,Russel Road,regular
 15572467,name_1,Browns Creek Road,regular
 15572467,name_2,Cort 1,regular
@@ -2360,7 +2318,6 @@ id,key,value,type
 15572467,postcode,25177,addr
 15572467,name_base,Russel,tiger
 15572467,name_type,Rd,tiger
-15572467,postcode,25177,addr
 15572467,name_base_1,Browns Creek,tiger
 15572467,name_base_2,Cort 1,tiger
 15572467,name_type_1,Rd,tiger
@@ -2396,7 +2353,6 @@ id,key,value,type
 15572983,postcode,25302,addr
 15572983,name_base,Jarvis,tiger
 15572983,name_type,St,tiger
-15572983,postcode,25302,addr
 15573111,name,County Route 19/1,regular
 15573111,name_1,Dog Fork,regular
 15573111,highway,residential,regular
@@ -2429,7 +2385,6 @@ id,key,value,type
 15573356,postcode,25071,addr
 15573356,name_base,Turner,tiger
 15573356,name_type,Rd,tiger
-15573356,postcode,25071,addr
 15573356,name_base_1,County Route 47/9,tiger
 15573356,name_base_2,County Route 47/5,tiger
 15573489,access,private,regular
@@ -2451,8 +2406,6 @@ id,key,value,type
 15573619,reviewed,no,tiger
 15573619,postcode,25504,addr
 15573619,name_base,State Route 10,tiger
-15573619,postcode,25504,addr
-15573619,postcode,25504,addr
 15573749,name,James Street,regular
 15573749,highway,residential,regular
 15573749,cfcc,A41,tiger
@@ -2462,7 +2415,6 @@ id,key,value,type
 15573749,postcode,25312,addr
 15573749,name_base,James,tiger
 15573749,name_type,St,tiger
-15573749,postcode,25312,addr
 15573880,name,Early Street,regular
 15573880,highway,residential,regular
 15573880,cfcc,A41,tiger
@@ -2472,7 +2424,6 @@ id,key,value,type
 15573880,postcode,25136,addr
 15573880,name_base,Early,tiger
 15573880,name_type,St,tiger
-15573880,postcode,25136,addr
 15574002,name,Harless Frk Road,regular
 15574002,name_1,Mug Hollow Road,regular
 15574002,highway,residential,regular
@@ -2496,7 +2447,6 @@ id,key,value,type
 15574127,postcode,25003,addr
 15574127,name_base,Cascade Brooks,tiger
 15574127,name_type,Rd,tiger
-15574127,postcode,25003,addr
 15574127,name_base_1,Cascade,tiger
 15574127,name_base_2,Upper Malus Branch,tiger
 15574127,name_base_3,Mollie Branch,tiger
@@ -2521,7 +2471,6 @@ id,key,value,type
 15574354,postcode,25045,addr
 15574354,name_base,Willow,tiger
 15574354,name_type,St,tiger
-15574354,postcode,25045,addr
 15574476,name,Hareless Road,regular
 15574476,highway,residential,regular
 15574476,cfcc,A41,tiger
@@ -2539,7 +2488,6 @@ id,key,value,type
 15574589,postcode,25303,addr
 15574589,name_base,Thorne,tiger
 15574589,name_type,Rd,tiger
-15574589,postcode,25303,addr
 15574711,name,Atlas Road,regular
 15574711,highway,residential,regular
 15574711,cfcc,A41,tiger
@@ -2605,7 +2553,6 @@ id,key,value,type
 15575460,postcode,25313,addr
 15575460,name_base,Queensbury,tiger
 15575460,name_type,Ln,tiger
-15575460,postcode,25313,addr
 15575580,name,Mount Overest Road,regular
 15575580,highway,residential,regular
 15575580,cfcc,A41,tiger
@@ -2623,7 +2570,6 @@ id,key,value,type
 15575692,postcode,25143,addr
 15575692,name_base,Holley,tiger
 15575692,name_type,Dr,tiger
-15575692,postcode,25143,addr
 15575814,name,County Route 60/6,regular
 15575814,name_1,Malden Drive,regular
 15575814,highway,tertiary,regular
@@ -2646,7 +2592,6 @@ id,key,value,type
 15576063,postcode,25302,addr
 15576063,name_base,Marianna,tiger
 15576063,name_type,St,tiger
-15576063,postcode,25302,addr
 15576189,name,Sheridan Drive,regular
 15576189,highway,residential,regular
 15576189,cfcc,A41,tiger
@@ -2656,7 +2601,6 @@ id,key,value,type
 15576189,postcode,25177,addr
 15576189,name_base,Sheridan,tiger
 15576189,name_type,Dr,tiger
-15576189,postcode,25177,addr
 15576334,name,County Highway 701/47,regular
 15576334,highway,residential,regular
 15576334,cfcc,A41,tiger
@@ -2697,7 +2641,6 @@ id,key,value,type
 15576791,name_base,Monroe,tiger
 15576791,name_type,Ave,tiger
 15576791,separated,no,tiger
-15576791,postcode,25177,addr
 15576791,upload_uuid,bulk_upload.pl-d03d713e-792d-4535-937c-7a8069c06fe5,tiger
 15576945,name,Oakwood Road,regular
 15576945,highway,tertiary,regular
@@ -2708,7 +2651,6 @@ id,key,value,type
 15576945,postcode,25314,addr
 15576945,name_base,Oakwood,tiger
 15576945,name_type,Rd,tiger
-15576945,postcode,25314,addr
 15577103,name,Marmet Hernshaw,regular
 15577103,highway,residential,regular
 15577103,cfcc,A41,tiger
@@ -2752,7 +2694,6 @@ id,key,value,type
 15577735,postcode,25064,addr
 15577735,name_base,Kay,tiger
 15577735,name_type,Dr,tiger
-15577735,postcode,25064,addr
 15577895,name,Thompson Street,regular
 15577895,highway,residential,regular
 15577895,cfcc,A41,tiger
@@ -2762,7 +2703,6 @@ id,key,value,type
 15577895,postcode,25311,addr
 15577895,name_base,Thompson,tiger
 15577895,name_type,St,tiger
-15577895,postcode,25311,addr
 15578058,highway,residential,regular
 15578058,cfcc,A41,tiger
 15578058,county,Logan,addr
@@ -2812,7 +2752,6 @@ id,key,value,type
 15578803,postcode,25302,addr
 15578803,name_base,Red Oak,tiger
 15578803,name_type,St,tiger
-15578803,postcode,25302,addr
 15578963,name,Dotson Road,regular
 15578963,highway,residential,regular
 15578963,cfcc,A41,tiger
@@ -2843,7 +2782,6 @@ id,key,value,type
 15579447,postcode,25177,addr
 15579447,name_base,Riverview,tiger
 15579447,name_type,Dr,tiger
-15579447,postcode,25177,addr
 15579447,name_base_1,Cort 60/14,tiger
 15579447,name_base_2,St Albans Loop Tacketts Creek,tiger
 15579605,highway,residential,regular
@@ -2952,7 +2890,6 @@ id,key,value,type
 15581585,postcode,25635,addr
 15581585,name_base,Smolenski,tiger
 15581585,name_type,St,tiger
-15581585,postcode,25635,addr
 15581721,name,Canoe Bridge,regular
 15581721,highway,residential,regular
 15581721,cfcc,A41,tiger
@@ -2980,7 +2917,6 @@ id,key,value,type
 15581996,postcode,25635,addr
 15581996,name_base,Walnut,tiger
 15581996,name_type,St,tiger
-15581996,postcode,25635,addr
 15582123,highway,residential,regular
 15582123,cfcc,A41,tiger
 15582123,tlid,74258763,tiger
@@ -3102,7 +3038,6 @@ id,key,value,type
 15584001,postcode,25601,addr
 15584001,name_base,Counts,tiger
 15584001,name_type,Ave,tiger
-15584001,postcode,25601,addr
 15584121,name,South E Railroad Avenue,regular
 15584121,highway,residential,regular
 15584121,cfcc,A41,tiger
@@ -3378,8 +3313,6 @@ id,key,value,type
 15595187,postcode,25503,addr
 15595187,name_base,Hughes,tiger
 15595187,name_type,Ln,tiger
-15595187,postcode,25503,addr
-15595187,postcode,25503,addr
 15595313,name,Mill Street,regular
 15595313,highway,residential,regular
 15595313,cfcc,A41,tiger
@@ -3449,7 +3382,6 @@ id,key,value,type
 15596020,postcode,25503,addr
 15596020,name_base,Rocky Fork,tiger
 15596020,name_type,Rd,tiger
-15596020,postcode,25503,addr
 15596020,postcode,25520,addr
 15596020,name_base_1,County Route 80,tiger
 15596127,access,private,regular
@@ -3678,7 +3610,6 @@ id,key,value,type
 15599313,postcode,24701,addr
 15599313,name_base,Groveland,tiger
 15599313,name_type,Dr,tiger
-15599313,postcode,24701,addr
 15599313,name_direction_prefix,S,tiger
 15599580,name,Fairfield Avenue,regular
 15599580,highway,residential,regular
@@ -3689,7 +3620,6 @@ id,key,value,type
 15599580,postcode,24701,addr
 15599580,name_base,Fairfield,tiger
 15599580,name_type,Ave,tiger
-15599580,postcode,24701,addr
 15599868,name,Greenvalley Trail,regular
 15599868,highway,residential,regular
 15599868,cfcc,A41,tiger
@@ -3724,7 +3654,6 @@ id,key,value,type
 15600881,postcode,24740,addr
 15600881,name_base,Olive,tiger
 15600881,name_type,St,tiger
-15600881,postcode,24740,addr
 15601167,name,Inspiration Lane,regular
 15601167,highway,residential,regular
 15601167,cfcc,A41,tiger
@@ -3764,7 +3693,6 @@ id,key,value,type
 15602029,postcode,24740,addr
 15602029,name_base,Bane,tiger
 15602029,name_type,Ave,tiger
-15602029,postcode,24740,addr
 15602346,name,Camp Creek Trail Road,regular
 15602346,name_1,Brammer-Co 19/5 Road,regular
 15602346,name_2,County Highway 1/2,regular
@@ -3823,7 +3751,6 @@ id,key,value,type
 15603438,postcode,24740,addr
 15603438,name_base,Sunflower,tiger
 15603438,name_type,St,tiger
-15603438,postcode,24740,addr
 15603670,name,Maryland Avenue,regular
 15603670,highway,residential,regular
 15603670,cfcc,A41,tiger
@@ -3959,8 +3886,6 @@ id,key,value,type
 15608474,postcode,25661,addr
 15608474,name_base,Vinson,tiger
 15608474,name_type,St,tiger
-15608474,postcode,25661,addr
-15608474,postcode,25661,addr
 15608474,name_base_1,County Highway 119/01,tiger
 15609050,name,Linckous Street,regular
 15609050,highway,residential,regular
@@ -4173,7 +4098,6 @@ id,key,value,type
 15614783,reviewed,no,tiger
 15614783,postcode,24984,addr
 15614783,name_base,Co Rt 15 Fork,tiger
-15614783,postcode,24984,addr
 15614783,name_base_1,Fork,tiger
 15614783,name_base_2,County Route 15,tiger
 15614783,name_base_3,Limestone Hill,tiger
@@ -4349,11 +4273,7 @@ id,key,value,type
 15621304,postcode,26651,addr
 15621304,name_base,McCue,tiger
 15621304,name_type,Rd,tiger
-15621304,postcode,26651,addr
-15621304,postcode,26651,addr
-15621304,postcode,26651,addr
 15621304,name_base_1,Cort 34/1,tiger
-15621304,postcode,26651,addr
 15621620,name,Jacobs Hollow,regular
 15621620,highway,residential,regular
 15621620,cfcc,A41,tiger
@@ -4399,7 +4319,6 @@ id,key,value,type
 15622522,postcode,26651,addr
 15622522,name_base,Joyanne,tiger
 15622522,name_type,Dr,tiger
-15622522,postcode,26651,addr
 15622708,name,Rustic Road,regular
 15622708,highway,residential,regular
 15622708,cfcc,A41,tiger
@@ -4425,7 +4344,6 @@ id,key,value,type
 15623221,postcode,26651,addr
 15623221,name_base,Orchard,tiger
 15623221,name_type,St,tiger
-15623221,postcode,26651,addr
 15623413,name,Heber Street,regular
 15623413,highway,residential,regular
 15623413,cfcc,A41,tiger
@@ -4435,7 +4353,6 @@ id,key,value,type
 15623413,postcode,26651,addr
 15623413,name_base,Heber,tiger
 15623413,name_type,St,tiger
-15623413,postcode,26651,addr
 15625702,highway,residential,regular
 15625702,cfcc,A41,tiger
 15625702,tlid,75136622,tiger
@@ -4560,7 +4477,6 @@ id,key,value,type
 15633373,postcode,25526,addr
 15633373,name_base,Doris,tiger
 15633373,name_type,St,tiger
-15633373,postcode,25526,addr
 15633651,name,County Route 39,regular
 15633651,name_1,Trace Fork Road,regular
 15633651,name_2,Sams Fork Road,regular
@@ -4596,7 +4512,6 @@ id,key,value,type
 15634125,postcode,25526,addr
 15634125,name_base,Lawson,tiger
 15634125,name_type,St,tiger
-15634125,postcode,25526,addr
 15634298,name,3rd Avenue North,regular
 15634298,highway,residential,regular
 15634298,cfcc,A41,tiger
@@ -4688,7 +4603,6 @@ id,key,value,type
 15635491,postcode,25526,addr
 15635491,name_base,Catherine,tiger
 15635491,name_type,Dr,tiger
-15635491,postcode,25526,addr
 15635627,access,private,regular
 15635627,highway,service,regular
 15635627,cfcc,A74,tiger
@@ -4774,9 +4688,6 @@ id,key,value,type
 15636829,reviewed,no,tiger
 15636829,postcode,25082,addr
 15636829,name_base,County Route 30/2,tiger
-15636829,postcode,25082,addr
-15636829,postcode,25082,addr
-15636829,postcode,25082,addr
 15636829,name_base_1,Whitten Ridge,tiger
 15636964,access,private,regular
 15636964,highway,service,regular
@@ -4828,7 +4739,6 @@ id,key,value,type
 15638010,postcode,25801,addr
 15638010,name_base,Thornton,tiger
 15638010,name_type,St,tiger
-15638010,postcode,25801,addr
 15638235,name,White Pine Lane,regular
 15638235,highway,residential,regular
 15638235,cfcc,A41,tiger
@@ -4846,7 +4756,6 @@ id,key,value,type
 15638458,postcode,25801,addr
 15638458,name_base,Russell,tiger
 15638458,name_type,St,tiger
-15638458,postcode,25801,addr
 15638689,name,Garfield Street,regular
 15638689,highway,residential,regular
 15638689,cfcc,A41,tiger
@@ -4856,7 +4765,6 @@ id,key,value,type
 15638689,postcode,25801,addr
 15638689,name_base,Garfield,tiger
 15638689,name_type,St,tiger
-15638689,postcode,25801,addr
 15638888,name,Ford Addition,regular
 15638888,highway,residential,regular
 15638888,cfcc,A41,tiger
@@ -4930,7 +4838,6 @@ id,key,value,type
 15640329,postcode,25813,addr
 15640329,name_base,Scott Ridge,tiger
 15640329,name_type,Rd,tiger
-15640329,postcode,25813,addr
 15640329,name_base_1,State Route 307,tiger
 15640329,name_base_2,Cort 9,tiger
 15640329,name_base_3,Airport,tiger
@@ -4971,7 +4878,6 @@ id,key,value,type
 15641370,postcode,25801,addr
 15641370,name_base,Athey,tiger
 15641370,name_type,Pl,tiger
-15641370,postcode,25801,addr
 15641601,name,Cherry Street,regular
 15641601,highway,residential,regular
 15641601,cfcc,A41,tiger
@@ -4981,7 +4887,6 @@ id,key,value,type
 15641601,postcode,25832,addr
 15641601,name_base,Cherry,tiger
 15641601,name_type,St,tiger
-15641601,postcode,25832,addr
 15641829,name,Riley Loop,regular
 15641829,highway,residential,regular
 15641829,cfcc,A41,tiger
@@ -5040,7 +4945,6 @@ id,key,value,type
 15642683,postcode,25801,addr
 15642683,name_base,Caldwell,tiger
 15642683,name_type,St,tiger
-15642683,postcode,25801,addr
 15642880,name,Guadalcanal Avenue,regular
 15642880,highway,residential,regular
 15642880,cfcc,A41,tiger
@@ -5050,7 +4954,6 @@ id,key,value,type
 15642880,postcode,25801,addr
 15642880,name_base,Guadalcanal,tiger
 15642880,name_type,Ave,tiger
-15642880,postcode,25801,addr
 15643047,name,Allentown Road,regular
 15643047,lanes,2,regular
 15643047,highway,residential,regular
@@ -5061,8 +4964,6 @@ id,key,value,type
 15643047,postcode,25836,addr
 15643047,name_base,Allen Town Road:Sellards:Titan,tiger
 15643047,name_type,Loop:St,tiger
-15643047,postcode,25836,addr
-15643047,postcode,25836,addr
 15643210,name,Quincy Drive,regular
 15643210,highway,residential,regular
 15643210,cfcc,A41,tiger
@@ -5072,7 +4973,6 @@ id,key,value,type
 15643210,postcode,25801,addr
 15643210,name_base,Quincy,tiger
 15643210,name_type,Dr,tiger
-15643210,postcode,25801,addr
 15643407,name,Midway Road,regular
 15643407,highway,residential,regular
 15643407,cfcc,A41,tiger
@@ -5090,7 +4990,6 @@ id,key,value,type
 15643601,postcode,25832,addr
 15643601,name_base,Windsor,tiger
 15643601,name_type,Ct,tiger
-15643601,postcode,25832,addr
 15643840,name,Boggs Court,regular
 15643840,highway,residential,regular
 15643840,cfcc,A41,tiger
@@ -5125,7 +5024,6 @@ id,key,value,type
 15644476,postcode,25801,addr
 15644476,name_base,Hylton,tiger
 15644476,name_type,Ln,tiger
-15644476,postcode,25801,addr
 15644675,name,Burgess Street,regular
 15644675,highway,residential,regular
 15644675,cfcc,A41,tiger
@@ -5135,7 +5033,6 @@ id,key,value,type
 15644675,postcode,25801,addr
 15644675,name_base,Burgess,tiger
 15644675,name_type,St,tiger
-15644675,postcode,25801,addr
 15644891,name,Everman Court,regular
 15644891,name_1,County Route 99/2,regular
 15644891,highway,residential,regular
@@ -5156,7 +5053,6 @@ id,key,value,type
 15645167,postcode,25140,addr
 15645167,name_base,Dickens,tiger
 15645167,name_type,Ct,tiger
-15645167,postcode,25140,addr
 15645520,highway,track,regular
 15645520,cfcc,A51,tiger
 15645520,tlid,79442368,tiger
@@ -5376,7 +5272,6 @@ id,key,value,type
 15649862,reviewed,no,tiger
 15649862,postcode,25244,addr
 15649862,name_base,County Route 8:Zion Ridge,tiger
-15649862,postcode,25244,addr
 15649862,name_base_1,Zion Ridge,tiger
 15649862,name_base_2,County Route 8:Mount Zion,tiger
 15649862,name_base_3,County Route 8,tiger
@@ -5664,7 +5559,6 @@ id,key,value,type
 15659527,postcode,26201,addr
 15659527,name_base,Fayette,tiger
 15659527,name_type,St,tiger
-15659527,postcode,26201,addr
 15659671,access,private,regular
 15659671,highway,service,regular
 15659671,service,driveway,regular
@@ -5744,7 +5638,6 @@ id,key,value,type
 15660886,postcode,25507,addr
 15660886,name_base,3rd,tiger
 15660886,name_type,St,tiger
-15660886,postcode,25507,addr
 15660886,name_direction_prefix,E,tiger
 15661042,ref,CR 11,regular
 15661042,name,Frenchton Road,regular
@@ -5797,7 +5690,6 @@ id,key,value,type
 15661585,postcode,25530,addr
 15661585,name_base,Darling,tiger
 15661585,name_type,Ln,tiger
-15661585,postcode,25530,addr
 15661717,highway,residential,regular
 15661717,cfcc,A41,tiger
 15661717,tlid,50076143,tiger
@@ -6174,7 +6066,6 @@ id,key,value,type
 16098082,postcode,41101,addr
 16098082,name_base,Thomas,tiger
 16098082,name_type,St,tiger
-16098082,postcode,41101,addr
 16099076,name,Garden Court,regular
 16099076,name_1,Cs-1098,regular
 16099076,highway,residential,regular
@@ -6185,7 +6076,6 @@ id,key,value,type
 16099076,postcode,41101,addr
 16099076,name_base,Garden,tiger
 16099076,name_type,Ct,tiger
-16099076,postcode,41101,addr
 16099076,name_base_1,Cs-1098,tiger
 16099646,name,Phelps Avenue,regular
 16099646,highway,residential,regular
@@ -6196,7 +6086,6 @@ id,key,value,type
 16099646,postcode,41101,addr
 16099646,name_base,Phelps,tiger
 16099646,name_type,Ave,tiger
-16099646,postcode,41101,addr
 16100206,name,Ashland Cemetery,regular
 16100206,access,private,regular
 16100206,highway,service,regular
@@ -6217,7 +6106,6 @@ id,key,value,type
 16100874,postcode,41101,addr
 16100874,name_base,Sparks,tiger
 16100874,name_type,St,tiger
-16100874,postcode,41101,addr
 16101647,name,Westview Court,regular
 16101647,highway,residential,regular
 16101647,cfcc,A41,tiger
@@ -6235,7 +6123,6 @@ id,key,value,type
 16102243,postcode,41101,addr
 16102243,name_base,6th,tiger
 16102243,name_type,St,tiger
-16102243,postcode,41101,addr
 16102785,name,Ester Street,regular
 16102785,highway,residential,regular
 16102785,cfcc,A41,tiger
@@ -6245,7 +6132,6 @@ id,key,value,type
 16102785,postcode,41101,addr
 16102785,name_base,Ester,tiger
 16102785,name_type,St,tiger
-16102785,postcode,41101,addr
 16103224,name,Almond Road,regular
 16103224,highway,residential,regular
 16103224,cfcc,A41,tiger
@@ -6423,7 +6309,6 @@ id,key,value,type
 16271153,postcode,41230,addr
 16271153,name_base,Rice,tiger
 16271153,name_type,Ave,tiger
-16271153,postcode,41230,addr
 16273965,ref,KY 3409,regular
 16273965,name,Dunham Road,regular
 16273965,highway,tertiary,regular
@@ -6443,7 +6328,6 @@ id,key,value,type
 16277884,postcode,41537,addr
 16277884,name_base,Lilac,tiger
 16277884,name_type,Dr,tiger
-16277884,postcode,41537,addr
 16303455,highway,residential,regular
 16303455,cfcc,A41,tiger
 16303455,tlid,34885220:34885219,tiger
@@ -6635,7 +6519,6 @@ id,key,value,type
 16337855,postcode,41539,addr
 16337855,name_base,Childers,tiger
 16337855,name_type,St,tiger
-16337855,postcode,41539,addr
 16338048,name,William Hamilton Road,regular
 16338048,highway,residential,regular
 16338048,cfcc,A41,tiger
@@ -6653,7 +6536,6 @@ id,key,value,type
 16338328,postcode,41557,addr
 16338328,name_base,Pinson,tiger
 16338328,name_type,Dr,tiger
-16338328,postcode,41557,addr
 16338565,name,First Hill Road,regular
 16338565,highway,residential,regular
 16338565,cfcc,A41,tiger
@@ -6663,7 +6545,6 @@ id,key,value,type
 16338565,postcode,41562,addr
 16338565,name_base,First Hill,tiger
 16338565,name_type,Rd,tiger
-16338565,postcode,41562,addr
 16338927,name,Old Hardy Road,regular
 16338927,highway,residential,regular
 16338927,cfcc,A41,tiger
@@ -6683,7 +6564,6 @@ id,key,value,type
 16339179,postcode,41560,addr
 16339179,name_base,Town House Fork,tiger
 16339179,separated,no,tiger
-16339179,postcode,41560,addr
 16339179,upload_uuid,bulk_upload.pl-816eff81-42e7-415b-9e5b-7fbb406eef98,tiger
 16339424,name,Old Wagner Station Road,regular
 16339424,highway,residential,regular
@@ -6702,7 +6582,6 @@ id,key,value,type
 16339674,postcode,41571,addr
 16339674,name_base,Panther,tiger
 16339674,name_type,Br,tiger
-16339674,postcode,41571,addr
 16339991,name,Big Hackneys Creek,regular
 16339991,highway,residential,regular
 16339991,cfcc,A41,tiger
@@ -6723,7 +6602,6 @@ id,key,value,type
 16340315,postcode,41501,addr
 16340315,name_base,Hillcrest,tiger
 16340315,name_type,Dr,tiger
-16340315,postcode,41501,addr
 16340726,name,Right Fork of Lick Fork,regular
 16340726,highway,residential,regular
 16340726,cfcc,A41,tiger
@@ -6735,7 +6613,6 @@ id,key,value,type
 16340726,postcode,41537,addr
 16340726,name_base,Right Fork of Lick Fork,tiger
 16340726,separated,no,tiger
-16340726,postcode,41537,addr
 16340726,upload_uuid,bulk_upload.pl-816eff81-42e7-415b-9e5b-7fbb406eef98,tiger
 16341069,name,Left Fork Blue Pond Fork,regular
 16341069,highway,residential,regular
@@ -6748,7 +6625,6 @@ id,key,value,type
 16341069,postcode,41513,addr
 16341069,name_base,Left Fork Blue Pond Fork,tiger
 16341069,separated,no,tiger
-16341069,postcode,41513,addr
 16341069,upload_uuid,bulk_upload.pl-816eff81-42e7-415b-9e5b-7fbb406eef98,tiger
 16341369,name,Garred Street,regular
 16341369,highway,residential,regular
@@ -6759,7 +6635,6 @@ id,key,value,type
 16341369,postcode,41501,addr
 16341369,name_base,Garred,tiger
 16341369,name_type,St,tiger
-16341369,postcode,41501,addr
 16341724,name,Lynn Lane,regular
 16341724,highway,residential,regular
 16341724,cfcc,A41,tiger
@@ -6779,7 +6654,6 @@ id,key,value,type
 16342044,postcode,41564,addr
 16342044,name_base,Reed Hollow,tiger
 16342044,separated,no,tiger
-16342044,postcode,41564,addr
 16342044,upload_uuid,bulk_upload.pl-816eff81-42e7-415b-9e5b-7fbb406eef98,tiger
 16342293,name,Phillip Bridge,regular
 16342293,name_1,Phillips Branch Road,regular
@@ -6791,7 +6665,6 @@ id,key,value,type
 16342293,postcode,41537,addr
 16342293,name_base,Phillip,tiger
 16342293,name_type,Br,tiger
-16342293,postcode,41537,addr
 16342293,name_base_1,Phillips Branch,tiger
 16342293,name_type_1,Rd,tiger
 16342523,name,Grapevine Road,regular
@@ -6812,7 +6685,6 @@ id,key,value,type
 16342813,postcode,41519,addr
 16342813,name_base,Daggs,tiger
 16342813,name_type,Br,tiger
-16342813,postcode,41519,addr
 16343074,name,High Street,regular
 16343074,highway,residential,regular
 16343074,surface,paved,regular
@@ -6870,7 +6742,6 @@ id,key,value,type
 19049893,postcode,45658,addr
 19049893,name_base,Smokey Row,tiger
 19049893,name_type,Rd,tiger
-19049893,postcode,45658,addr
 19049893,name_base_1,Township Highway 690,tiger
 19050074,access,private,regular
 19050074,highway,service,regular
@@ -6926,7 +6797,6 @@ id,key,value,type
 19051088,postcode,45631,addr
 19051088,name_base,West,tiger
 19051088,name_type,Dr,tiger
-19051088,postcode,45631,addr
 19051784,name,Cedar Street,regular
 19051784,highway,residential,regular
 19051784,cfcc,A41,tiger
@@ -6939,7 +6809,6 @@ id,key,value,type
 19051784,name_base,Cedar,tiger
 19051784,name_type,St,tiger
 19051784,separated,no,tiger
-19051784,postcode,45631,addr
 19051784,upload_uuid,bulk_upload.pl-30dfd7e4-4d28-444e-85bc-53aaf0e37879,tiger
 19052463,name,Marabel Road,regular
 19052463,name_1,Township Highway 654,regular
@@ -6951,7 +6820,6 @@ id,key,value,type
 19052463,postcode,45623,addr
 19052463,name_base,Marabel,tiger
 19052463,name_type,Rd,tiger
-19052463,postcode,45623,addr
 19052463,name_base_1,Township Highway 654,tiger
 19052874,name,Mercerville Cemetery Road,regular
 19052874,name_1,Township Road 892,regular
@@ -6973,10 +6841,8 @@ id,key,value,type
 19053338,postcode,45614,addr
 19053338,name_base,Kent,tiger
 19053338,name_type,Dr,tiger
-19053338,postcode,45614,addr
 19053338,postcode,45686,addr
 19053338,name_base_1,Township Highway T 481,tiger
-19053338,postcode,45686,addr
 19053881,name,Ewington Cemetery Road,regular
 19053881,access,private,regular
 19053881,highway,service,regular
@@ -7007,7 +6873,6 @@ id,key,value,type
 19054891,name_base,White,tiger
 19054891,name_type,Rd,tiger
 19054891,postcode,45631,addr
-19054891,postcode,45614,addr
 19054891,name_base_1,County Road 29,tiger
 19055292,name,Wray Road,regular
 19055292,name_1,Township Highway 402,regular
@@ -7033,7 +6898,6 @@ id,key,value,type
 19055811,name_base,1st,tiger
 19055811,name_type,Ave,tiger
 19055811,separated,no,tiger
-19055811,postcode,45631,addr
 19055811,upload_uuid,bulk_upload.pl-30dfd7e4-4d28-444e-85bc-53aaf0e37879,tiger
 19056295,name,Valley Drive,regular
 19056295,name_1,Township Highway 249,regular
@@ -7045,7 +6909,6 @@ id,key,value,type
 19056295,postcode,45631,addr
 19056295,name_base,Valley,tiger
 19056295,name_type,Dr,tiger
-19056295,postcode,45631,addr
 19056295,name_base_1,Township Highway 249,tiger
 19056743,name,Chambers Road,regular
 19056743,name_1,Township Highway 668,regular
@@ -7057,7 +6920,6 @@ id,key,value,type
 19056743,postcode,45623,addr
 19056743,name_base,Chambers,tiger
 19056743,name_type,Rd,tiger
-19056743,postcode,45623,addr
 19056743,name_base_1,Township Highway 668,tiger
 19089154,highway,residential,regular
 19089154,cfcc,A41,tiger
@@ -7120,7 +6982,6 @@ id,key,value,type
 19095026,postcode,45656,addr
 19095026,name_base,Jackson,tiger
 19095026,name_type,St,tiger
-19095026,postcode,45656,addr
 19095026,name_base_1,State Route 93,tiger
 19095026,old_ref:fap,ODOT http://www.dot.state.oh.us/Divisions/Planning/TechServ/prod_services/Pages/RI06.aspx http://www.dot.state.oh.us/Divisions/ContractAdmin/Contracts/Pages/NHS-FAP.aspx,source
 19095026,national_network,yes,hgv
@@ -7226,7 +7087,6 @@ id,key,value,type
 19106146,postcode,45678,addr
 19106146,name_base,Lecta-Buck Creek,tiger
 19106146,name_type,Rd,tiger
-19106146,postcode,45678,addr
 19106146,name_base_1,Township Road 216,tiger
 19106538,name,Private Drive 10657,regular
 19106538,access,private,regular
@@ -7239,7 +7099,6 @@ id,key,value,type
 19106538,reviewed,no,tiger
 19106538,postcode,45619,addr
 19106538,name_base,Private Drive 10657,tiger
-19106538,postcode,45619,addr
 19106538,upload_uuid,bulk_upload.pl-b3ca7872-ef7e-4a0c-af20-ef30e972751b,tiger
 19107130,name,Private Drive 581,regular
 19107130,access,private,regular
@@ -7252,7 +7111,6 @@ id,key,value,type
 19107130,reviewed,no,tiger
 19107130,postcode,45638,addr
 19107130,name_base,Private Drive 581,tiger
-19107130,postcode,45638,addr
 19107130,upload_uuid,bulk_upload.pl-b3ca7872-ef7e-4a0c-af20-ef30e972751b,tiger
 19107599,name,7th Street,regular
 19107599,highway,residential,regular
@@ -7273,7 +7131,6 @@ id,key,value,type
 19107966,postcode,45619,addr
 19107966,name_base,Honey Suckle,tiger
 19107966,name_type,Ln,tiger
-19107966,postcode,45619,addr
 19107966,name_base_1,Honeysuckle,tiger
 19107966,name_base_2,Township Road 187,tiger
 19107966,name_type_1,Ln,tiger
@@ -7290,7 +7147,6 @@ id,key,value,type
 19108403,postcode,45680,addr
 19108403,name_base,Gary Malone,tiger
 19108403,separated,no,tiger
-19108403,postcode,45680,addr
 19108403,upload_uuid,bulk_upload.pl-b3ca7872-ef7e-4a0c-af20-ef30e972751b,tiger
 19108971,name,2nd Street,regular
 19108971,highway,residential,regular
@@ -7332,7 +7188,6 @@ id,key,value,type
 19110410,reviewed,no,tiger
 19110410,postcode,45680,addr
 19110410,name_base,Township Road 1034,tiger
-19110410,postcode,45680,addr
 19110410,name_base_1,Washington,tiger
 19110410,name_type_1,Ave,tiger
 19110871,ref,SR 243,regular
@@ -7347,7 +7202,6 @@ id,key,value,type
 19110871,postcode,45638,addr
 19110871,name_base,Marion Pk,tiger
 19110871,separated,no,tiger
-19110871,postcode,45638,addr
 19110871,name_base_1,State Route 243,tiger
 19110871,upload_uuid,bulk_upload.pl-b3ca7872-ef7e-4a0c-af20-ef30e972751b,tiger
 19111470,ref,TR 1224,regular
@@ -7361,7 +7215,6 @@ id,key,value,type
 19111470,postcode,45669,addr
 19111470,name_base,Dale,tiger
 19111470,name_type,St,tiger
-19111470,postcode,45669,addr
 19111470,name_base_1,Township Road 1224,tiger
 19111925,name,Perkins Branch Road,regular
 19111925,name_1,Town Hwy 212 South,regular
@@ -7395,7 +7248,6 @@ id,key,value,type
 19113132,reviewed,no,tiger
 19113132,postcode,45669,addr
 19113132,name_base,Township Road 1087,tiger
-19113132,postcode,45669,addr
 19113132,name_base_1,Gardner,tiger
 19113132,name_type_1,Ln,tiger
 19113621,name,Pr Rd 155,regular
@@ -7430,7 +7282,6 @@ id,key,value,type
 19114672,reviewed,no,tiger
 19114672,postcode,45645,addr
 19114672,name_base,Town Hwy 147,tiger
-19114672,postcode,45645,addr
 19114672,name_base_1,Bald Knob-Yellow Creek,tiger
 19114672,name_base_2,Township Highway 147,tiger
 19114672,name_type_1,Rd,tiger
@@ -7462,7 +7313,6 @@ id,key,value,type
 19115671,postcode,45680,addr
 19115671,name_base,Orchard,tiger
 19115671,name_type,Dr,tiger
-19115671,postcode,45680,addr
 19115926,name,Private Drive 258,regular
 19115926,access,private,regular
 19115926,highway,service,regular
@@ -7474,7 +7324,6 @@ id,key,value,type
 19115926,reviewed,no,tiger
 19115926,postcode,45638,addr
 19115926,name_base,Private Drive 258,tiger
-19115926,postcode,45638,addr
 19115926,upload_uuid,bulk_upload.pl-b3ca7872-ef7e-4a0c-af20-ef30e972751b,tiger
 19116167,name,Township Road 606,regular
 19116167,name_1,Polecat Road,regular
@@ -7485,7 +7334,6 @@ id,key,value,type
 19116167,reviewed,no,tiger
 19116167,postcode,45638,addr
 19116167,name_base,Township Road 606,tiger
-19116167,postcode,45638,addr
 19116167,name_base_1,Polecat,tiger
 19116167,name_type_1,Rd,tiger
 19154050,access,private,regular
@@ -7533,7 +7381,6 @@ id,key,value,type
 19156049,postcode,45760,addr
 19156049,name_base,Peach Circle,tiger
 19156049,name_type,Dr,tiger
-19156049,postcode,45760,addr
 19156579,name,Yellowbush Road,regular
 19156579,name_1,Township Road 100,regular
 19156579,highway,residential,regular
@@ -7544,7 +7391,6 @@ id,key,value,type
 19156579,postcode,45771,addr
 19156579,name_base,Yellowbush,tiger
 19156579,name_type,Rd,tiger
-19156579,postcode,45771,addr
 19156579,name_base_1,Township Road 100,tiger
 19157014,name,Ripley Hollow Road,regular
 19157014,name_1,Township Highway 188,regular
@@ -7573,7 +7419,6 @@ id,key,value,type
 19158108,postcode,45770,addr
 19158108,name_base,Lovett,tiger
 19158108,name_type,Rd,tiger
-19158108,postcode,45770,addr
 19158108,name_base_1,Township Highway 139,tiger
 19158764,ref,T-77,regular
 19158764,name,Naylors Run Road,regular
@@ -7585,7 +7430,6 @@ id,key,value,type
 19158764,postcode,45769,addr
 19158764,name_base,Naylors Run,tiger
 19158764,name_type,Rd,tiger
-19158764,postcode,45769,addr
 19158764,name_base_1,T-77,tiger
 19766053,access,private,regular
 19766053,highway,service,regular
@@ -8329,7 +8173,6 @@ id,key,value,type
 20224667,postcode,24134,addr
 20224667,name_base,Woodrum,tiger
 20224667,name_type,St,tiger
-20224667,postcode,24134,addr
 20224667,name_direction_prefix,S,tiger
 20225727,name,Windmill Hill Drive,regular
 20225727,highway,residential,regular
@@ -8340,7 +8183,6 @@ id,key,value,type
 20225727,postcode,24124,addr
 20225727,name_base,Windmill Hill,tiger
 20225727,name_type,Dr,tiger
-20225727,postcode,24124,addr
 20227101,name,High Street,regular
 20227101,highway,residential,regular
 20227101,cfcc,A41,tiger
@@ -8350,7 +8192,6 @@ id,key,value,type
 20227101,postcode,24134,addr
 20227101,name_base,High,tiger
 20227101,name_type,St,tiger
-20227101,postcode,24134,addr
 20228182,name,Bridge Road,regular
 20228182,highway,residential,regular
 20228182,cfcc,A41,tiger
@@ -8360,8 +8201,6 @@ id,key,value,type
 20228182,postcode,24094,addr
 20228182,name_base,Bridge,tiger
 20228182,name_type,Rd,tiger
-20228182,postcode,24150,addr
-20228182,postcode,24150,addr
 20228182,postcode,24150,addr
 20229395,name,Knob Street,regular
 20229395,highway,residential,regular
@@ -8380,7 +8219,6 @@ id,key,value,type
 20230485,postcode,24124,addr
 20230485,name_base,Hope,tiger
 20230485,name_type,Ln,tiger
-20230485,postcode,24124,addr
 20231854,name,Tranquil Lane,regular
 20231854,highway,residential,regular
 20231854,cfcc,A41,tiger
@@ -8390,7 +8228,6 @@ id,key,value,type
 20231854,postcode,24128,addr
 20231854,name_base,Tranquil,tiger
 20231854,name_type,Ln,tiger
-20231854,postcode,24128,addr
 20233614,name,Richards Street,regular
 20233614,name_1,State Route 812,regular
 20233614,highway,residential,regular
@@ -8401,7 +8238,6 @@ id,key,value,type
 20233614,postcode,24128,addr
 20233614,name_base,Richards,tiger
 20233614,name_type,St,tiger
-20233614,postcode,24128,addr
 20233614,name_base_1,State Route 812,tiger
 20234781,name,Robinhood Drive,regular
 20234781,highway,residential,regular
@@ -8412,7 +8248,6 @@ id,key,value,type
 20234781,postcode,24134,addr
 20234781,name_base,Robinhood,tiger
 20234781,name_type,Dr,tiger
-20234781,postcode,24134,addr
 20235765,name,Mill Road,regular
 20235765,highway,residential,regular
 20235765,cfcc,A41,tiger
@@ -8468,7 +8303,6 @@ id,key,value,type
 20362005,postcode,24060,addr
 20362005,name_base,Sylvan,tiger
 20362005,name_type,Ln,tiger
-20362005,postcode,24060,addr
 20363814,name,Pedlar Road,regular
 20363814,name_1,State Route 635,regular
 20363814,highway,residential,regular
@@ -8482,7 +8316,6 @@ id,key,value,type
 20363814,name_base,Pedlar,tiger
 20363814,name_type,Rd,tiger
 20363814,separated,no,tiger
-20363814,postcode,24087,addr
 20363814,name_base_1,State Route 635,tiger
 20363814,upload_uuid,bulk_upload.pl-5c3c4605-1fee-4372-8e30-17456b233ad5,tiger
 20365380,name,Surface View Circle,regular
@@ -8729,7 +8562,6 @@ id,key,value,type
 28406863,postcode,45771,addr
 28406863,name_base,Flatwoods,tiger
 28406863,name_type,Rd,tiger
-28406863,postcode,45771,addr
 28406863,name_base_1,Wells,tiger
 28406863,name_base_2,County Road 26,tiger
 28406863,name_type_1,Ln,tiger
@@ -8965,7 +8797,6 @@ id,key,value,type
 49324317,postcode,25661,addr
 49324317,name_base,Prichard,tiger
 49324317,name_type,St,tiger
-49324317,postcode,25661,addr
 50164624,NHS,yes,regular
 50164624,hgv,designated,regular
 50164624,ref,US 23;US 119,regular
@@ -8984,7 +8815,6 @@ id,key,value,type
 50235724,postcode,41129,addr
 50235724,name_base,Broadway,tiger
 50235724,name_type,St,tiger
-50235724,postcode,41129,addr
 50287818,name,29th Street,regular
 50287818,highway,secondary,regular
 50287818,old_ref,US 60,regular
@@ -9021,7 +8851,6 @@ id,key,value,type
 51246800,postcode,24970,addr
 51246800,name_base,Frankford,tiger
 51246800,name_type,Rd,tiger
-51246800,postcode,24970,addr
 51246800,name_base_1,Maple,tiger
 51246800,name_type_1,St,tiger
 51459812,lanes,2,regular
@@ -9658,7 +9487,6 @@ id,key,value,type
 110348442,postcode,41562,addr
 110348442,name_base,Fishtrap,tiger
 110348442,name_type,Rd,tiger
-110348442,postcode,41562,addr
 110348442,name_base_1,State Highway 1789,tiger
 114133186,highway,construction,regular
 114133186,construction,trunk_link,regular
@@ -9744,7 +9572,6 @@ id,key,value,type
 143346750,postcode,25504,addr
 143346750,name_base,Big Bend,tiger
 143346750,name_type,Rd,tiger
-143346750,postcode,25504,addr
 145218265,highway,service,regular
 148395208,name,Glade Road,regular
 148395208,lanes,2,regular
@@ -9780,7 +9607,6 @@ id,key,value,type
 161573055,postcode,26452,addr
 161573055,name_base,2nd,tiger
 161573055,name_type,St,tiger
-161573055,postcode,26452,addr
 161573055,name_base_1,United States Route 33,tiger
 161573055,name_base_2,United States Route 119,tiger
 161573055,name_base_3,United States Highway 119,tiger
@@ -9875,7 +9701,6 @@ id,key,value,type
 180210509,postcode,25303,addr
 180210509,name_base,2nd,tiger
 180210509,name_type,Ave,tiger
-180210509,postcode,25303,addr
 180210509,name_direction_suffix,SW,tiger
 181310890,foot,yes,regular
 181310890,highway,footway,regular
@@ -9924,7 +9749,6 @@ id,key,value,type
 191979188,postcode,24124,addr
 191979188,name_base,Shute Hollow,tiger
 191979188,name_type,Rd,tiger
-191979188,postcode,24124,addr
 191979188,name_base_1,State Route 711,tiger
 192619999,source,BingSat,regular
 192619999,highway,service,regular
@@ -9939,10 +9763,10 @@ id,key,value,type
 206772543,operator,NS,regular
 206772543,cfcc,B11:B13:B21,tiger
 206772543,electrified,no,regular
-206772543,county,Giles,addr
 206772543,county,Mercer,addr
-206772543,state,WV,addr
+206772543,county,Giles,addr
 206772543,state,VA,addr
+206772543,state,WV,addr
 206772543,reviewed,no,tiger
 206772543,name_base,Norfolk Southern Railway:Norfolk and Western Railway,tiger
 206772543,old_railway_operator,N&W,regular
@@ -9967,7 +9791,6 @@ id,key,value,type
 209673214,postcode,24740,addr
 209673214,name_base,Oliver,tiger
 209673214,name_type,Ave,tiger
-209673214,postcode,24740,addr
 209840576,highway,service,regular
 209877895,highway,residential,regular
 209937489,sport,baseball,regular
@@ -9981,7 +9804,6 @@ id,key,value,type
 210026093,postcode,25560,addr
 210026093,name_base,McClure,tiger
 210026093,name_type,Dr,tiger
-210026093,postcode,25560,addr
 210040401,highway,service,regular
 210040401,service,alley,regular
 213881706,ref,CR 60/7,regular
@@ -10038,7 +9860,6 @@ id,key,value,type
 227260625,postcode,25303,addr
 227260625,name_base,Maccorkle,tiger
 227260625,name_type,Ave,tiger
-227260625,postcode,25303,addr
 227260625,name_base_2,State Route 61,tiger
 227260625,name_direction_suffix,SE,tiger
 230571943,name,Princeton-Deepwater District,regular
@@ -10049,10 +9870,10 @@ id,key,value,type
 230571943,operator,NS,regular
 230571943,cfcc,B11:B12:B13:B21,tiger
 230571943,electrified,no,regular
-230571943,county,Fayette,addr
 230571943,county,Raleigh,addr
-230571943,county,Wyoming,addr
 230571943,county,Mercer,addr
+230571943,county,Fayette,addr
+230571943,county,Wyoming,addr
 230571943,state,WV,addr
 230571943,reviewed,no,tiger
 230571943,name_base,Norfolk and Southern Railway:Norfolk and Western Railway:Railroad,tiger
@@ -10073,7 +9894,6 @@ id,key,value,type
 236292213,postcode,25813,addr
 236292213,name_base,Grandview,tiger
 236292213,name_type,Rd,tiger
-236292213,postcode,25813,addr
 236292213,name_base_1,Cort 9,tiger
 241206968,name,Marlin Drive,regular
 241206968,highway,residential,regular
@@ -10128,7 +9948,6 @@ id,key,value,type
 257708772,postcode,24701,addr
 257708772,name_base,Farmer,tiger
 257708772,name_type,St,tiger
-257708772,postcode,24701,addr
 257713900,highway,service,regular
 257713900,service,driveway,regular
 257731698,highway,residential,regular
@@ -10189,7 +10008,6 @@ id,key,value,type
 259530988,postcode,25177,addr
 259530988,name_base,Mary,tiger
 259530988,name_type,St,tiger
-259530988,postcode,25177,addr
 261331591,lanes,2,regular
 261331591,highway,service,regular
 262627899,name,Pineview Lane,regular
@@ -10227,10 +10045,10 @@ id,key,value,type
 277290065,operator,NS,regular
 277290065,cfcc,B11:B21,tiger
 277290065,electrified,no,regular
-277290065,county,McDowell,addr
 277290065,county,Tazewell,addr
-277290065,state,WV,addr
+277290065,county,McDowell,addr
 277290065,state,VA,addr
+277290065,state,WV,addr
 277290065,name_base,Norfolk Southern Railway:Norfolk and Western Railway,tiger
 277290065,old_railway_operator,N&W,regular
 278470011,NHS,yes,regular
@@ -10305,7 +10123,6 @@ id,key,value,type
 300384207,postcode,25312,addr
 300384207,name_base,5th,tiger
 300384207,name_type,Ave,tiger
-300384207,postcode,25312,addr
 304588232,name,School Road,regular
 304588232,highway,residential,regular
 304588232,cfcc,A41,tiger
@@ -10351,10 +10168,10 @@ id,key,value,type
 316153799,operator,NS,regular
 316153799,cfcc,B11:B12:B13:B21,tiger
 316153799,electrified,no,regular
-316153799,county,Fayette,addr
 316153799,county,Raleigh,addr
-316153799,county,Wyoming,addr
 316153799,county,Mercer,addr
+316153799,county,Fayette,addr
+316153799,county,Wyoming,addr
 316153799,state,WV,addr
 316153799,reviewed,no,tiger
 316153799,name_base,Norfolk and Southern Railway:Norfolk and Western Railway:Railroad,tiger
@@ -10375,9 +10192,9 @@ id,key,value,type
 318129499,cfcc,B11,tiger
 318129499,electrified,no,regular
 318129499,county,Jackson,addr
-318129499,county,Pleasants,addr
 318129499,county,Mason,addr
 318129499,county,Wood,addr
+318129499,county,Pleasants,addr
 318129499,state,WV,addr
 318129499,reviewed,no,tiger
 318129499,name_base,B & O Railroad:Baltimore and Ohio Railroad:Chessie System Railroad:Railroad,tiger
@@ -10401,7 +10218,6 @@ id,key,value,type
 321852847,postcode,25813,addr
 321852847,name_base,Skyline,tiger
 321852847,name_type,Dr,tiger
-321852847,postcode,25813,addr
 321852989,building,yes,regular
 321853118,building,yes,regular
 321853257,building,house,regular
@@ -10439,7 +10255,6 @@ id,key,value,type
 331465856,postcode,25071,addr
 331465856,name_base,Willow,tiger
 331465856,name_type,St,tiger
-331465856,postcode,25071,addr
 332078664,name,Nitro Boulevard,regular
 332078664,lanes,4,regular
 332078664,highway,unclassified,regular
@@ -10550,7 +10365,6 @@ id,key,value,type
 344761344,postcode,25801,addr
 344761344,name_base,Dixieland,tiger
 344761344,name_type,Rd,tiger
-344761344,postcode,25801,addr
 344761445,building,roof,regular
 344761547,highway,service,regular
 346571416,highway,residential,regular
@@ -10573,7 +10387,6 @@ id,key,value,type
 353280669,postcode,24740,addr
 353280669,name_base,Circle,tiger
 353280669,name_type,Dr,tiger
-353280669,postcode,24740,addr
 353280669,name_base_1,County Highway 219/22,tiger
 353280669,name_direction_prefix,E,tiger
 357511075,name,Garking Drive,regular
@@ -10726,7 +10539,6 @@ id,key,value,type
 379029301,postcode,25303,addr
 379029301,name_base,C,tiger
 379029301,name_type,St,tiger
-379029301,postcode,25303,addr
 379029431,highway,footway,regular
 379036660,building,yes,regular
 379036764,highway,service,regular
@@ -11084,10 +10896,10 @@ id,key,value,type
 464211342,operator,NS,regular
 464211342,cfcc,B11:B12:B13:B21,tiger
 464211342,electrified,no,regular
-464211342,county,Fayette,addr
 464211342,county,Raleigh,addr
-464211342,county,Wyoming,addr
 464211342,county,Mercer,addr
+464211342,county,Fayette,addr
+464211342,county,Wyoming,addr
 464211342,state,WV,addr
 464211342,reviewed,no,tiger
 464211342,name_base,Norfolk and Southern Railway:Norfolk and Western Railway:Railroad,tiger
@@ -11174,13 +10986,13 @@ id,key,value,type
 473411062,operator,CSX,regular
 473411062,cfcc,B11:B13,tiger
 473411062,electrified,no,regular
-473411062,county,Kanawha,addr
-473411062,county,Boyd,addr
-473411062,county,Wayne,addr
 473411062,county,Putnam,addr
+473411062,county,Wayne,addr
+473411062,county,Boyd,addr
+473411062,county,Kanawha,addr
 473411062,county,Cabell,addr
-473411062,state,WV,addr
 473411062,state,KY,addr
+473411062,state,WV,addr
 473411062,reviewed,no,tiger
 473411062,name_base,Baltimore and Ohio Railroad:Chesapeake and Ohio Railroad:Chesapeake and Ohio Railway:Chessie System Railroad:Csx Railroad:Csx Railway:Railroad,tiger
 473411062,old_railway_operator,C&O,regular
@@ -11210,7 +11022,6 @@ id,key,value,type
 475668601,postcode,25813,addr
 475668601,name_base,Sullivan,tiger
 475668601,name_type,Rd,tiger
-475668601,postcode,25813,addr
 475668601,name_base_1,County Route 25,tiger
 476542356,ele,195,regular
 476542356,name,Elmwood Cemetery,regular
@@ -11316,10 +11127,10 @@ id,key,value,type
 491231800,lanes,2,regular
 491231800,highway,primary,regular
 491231800,cfcc,A31:A41,tiger
-491231800,county,McDowell,addr
 491231800,county,Buchanan,addr
-491231800,state,WV,addr
+491231800,county,McDowell,addr
 491231800,state,VA,addr
+491231800,state,WV,addr
 491231800,name_base,Keen Ridge-Panther:State Route 83,tiger
 491231800,name_type,Rd,tiger
 491231800,name_base_1,County Highway 83/08:State Route 83,tiger

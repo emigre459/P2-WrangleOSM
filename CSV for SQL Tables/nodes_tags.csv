@@ -22,16 +22,11 @@ id,key,value,type
 153828771,county,Nicholas,addr
 153828771,state,WV,addr
 153828771,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
-153828771,state,WV,addr
-153828771,county,Unidentifiable (FIPS code ambiguity),addr
 153846870,ele,302,regular
 153846870,Class,Populated Place,gnis
 153846870,county,Boone,addr
 153846870,id,1553807,gnis
 153846870,state,WV,addr
-153846870,county,Boone,addr
-153846870,state,WV,addr
-153846870,county,Unidentifiable (FIPS ambiguity),addr
 153846870,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 153846870,is_in,"Boone,West Virginia,W.Va.,WV,USA",regular
 153846870,name,Barrett,regular
@@ -46,16 +41,11 @@ id,key,value,type
 153867536,county,Clay,addr
 153867536,state,WV,addr
 153867536,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
-153867536,state,WV,addr
-153867536,county,Unidentifiable (FIPS code ambiguity),addr
 153888255,ele,676,regular
 153888255,Class,Populated Place,gnis
 153888255,county,Monroe,addr
 153888255,id,1550436,gnis
 153888255,state,WV,addr
-153888255,county,Monroe,addr
-153888255,state,WV,addr
-153888255,county,Unidentifiable (FIPS ambiguity),addr
 153888255,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 153888255,is_in,"Monroe,West Virginia,W.Va.,WV,USA",regular
 153888255,name,Bozoo,regular
@@ -66,9 +56,6 @@ id,key,value,type
 153902873,county,Calhoun,addr
 153902873,id,1555714,gnis
 153902873,state,WV,addr
-153902873,county,Calhoun,addr
-153902873,state,WV,addr
-153902873,county,Unidentifiable (FIPS ambiguity),addr
 153902873,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 153902873,is_in,"Calhoun,West Virginia,W.Va.,WV,USA",regular
 153902873,name,Stinson,regular
@@ -79,9 +66,6 @@ id,key,value,type
 153920289,county,Mercer,addr
 153920289,id,1554574,gnis
 153920289,state,WV,addr
-153920289,county,Mercer,addr
-153920289,state,WV,addr
-153920289,county,Unidentifiable (FIPS ambiguity),addr
 153920289,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 153920289,is_in,"Mercer,West Virginia,W.Va.,WV,USA",regular
 153920289,name,Glenwood,regular
@@ -92,9 +76,6 @@ id,key,value,type
 153939356,county,Fayette,addr
 153939356,id,1542662,gnis
 153939356,state,WV,addr
-153939356,county,Fayette,addr
-153939356,state,WV,addr
-153939356,county,Unidentifiable (FIPS ambiguity),addr
 153939356,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 153939356,is_in,"Fayette,West Virginia,W.Va.,WV,USA",regular
 153939356,name,Macdonald,regular
@@ -105,9 +86,6 @@ id,key,value,type
 153956125,county,Boone,addr
 153956125,id,1560585,gnis
 153956125,state,WV,addr
-153956125,county,Boone,addr
-153956125,state,WV,addr
-153956125,county,Unidentifiable (FIPS ambiguity),addr
 153956125,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 153956125,is_in,"Boone,West Virginia,W.Va.,WV,USA",regular
 153956125,name,Bim,regular
@@ -118,9 +96,6 @@ id,key,value,type
 153970883,county,Monroe,addr
 153970883,id,1544791,gnis
 153970883,state,WV,addr
-153970883,county,Monroe,addr
-153970883,state,WV,addr
-153970883,county,Unidentifiable (FIPS ambiguity),addr
 153970883,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 153970883,is_in,"Monroe,West Virginia,W.Va.,WV,USA",regular
 153970883,name,Pickaway,regular
@@ -131,9 +106,6 @@ id,key,value,type
 153986057,county,Roane,addr
 153986057,id,1549972,gnis
 153986057,state,WV,addr
-153986057,county,Roane,addr
-153986057,state,WV,addr
-153986057,county,Unidentifiable (FIPS ambiguity),addr
 153986057,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 153986057,is_in,"Roane,West Virginia,W.Va.,WV,USA",regular
 153986057,name,Vicars,regular
@@ -148,16 +120,11 @@ id,key,value,type
 154006523,county,Putnam,addr
 154006523,state,WV,addr
 154006523,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
-154006523,state,WV,addr
-154006523,county,Unidentifiable (FIPS code ambiguity),addr
 154021441,ele,516,regular
 154021441,Class,Populated Place,gnis
 154021441,county,Wyoming,addr
 154021441,id,1556004,gnis
 154021441,state,WV,addr
-154021441,county,Wyoming,addr
-154021441,state,WV,addr
-154021441,county,Unidentifiable (FIPS ambiguity),addr
 154021441,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154021441,is_in,"Wyoming,West Virginia,W.Va.,WV,USA",regular
 154021441,name,Windom,regular
@@ -172,16 +139,11 @@ id,key,value,type
 154039671,county,Kanawha,addr
 154039671,state,WV,addr
 154039671,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
-154039671,state,WV,addr
-154039671,county,Unidentifiable (FIPS code ambiguity),addr
 154059065,ele,199,regular
 154059065,Class,Populated Place,gnis
 154059065,county,Kanawha,addr
 154059065,id,1555584,gnis
 154059065,state,WV,addr
-154059065,county,Kanawha,addr
-154059065,state,WV,addr
-154059065,county,Unidentifiable (FIPS ambiguity),addr
 154059065,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154059065,is_in,"Kanawha,West Virginia,W.Va.,WV,USA",regular
 154059065,name,Schrader,regular
@@ -192,9 +154,6 @@ id,key,value,type
 154078947,county,Webster,addr
 154078947,id,1549746,gnis
 154078947,state,WV,addr
-154078947,county,Webster,addr
-154078947,state,WV,addr
-154078947,county,Unidentifiable (FIPS ambiguity),addr
 154078947,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154078947,is_in,"Webster,West Virginia,W.Va.,WV,USA",regular
 154078947,name,Hodam,regular
@@ -205,9 +164,6 @@ id,key,value,type
 154093269,county,Raleigh,addr
 154093269,id,1534921,gnis
 154093269,state,WV,addr
-154093269,county,Raleigh,addr
-154093269,state,WV,addr
-154093269,county,Unidentifiable (FIPS ambiguity),addr
 154093269,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154093269,is_in,"Raleigh,West Virginia,W.Va.,WV,USA",regular
 154093269,name,Amigo,regular
@@ -222,16 +178,11 @@ id,key,value,type
 154113280,county,Cabell,addr
 154113280,state,WV,addr
 154113280,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
-154113280,state,WV,addr
-154113280,county,Unidentifiable (FIPS code ambiguity),addr
 154136431,ele,272,regular
 154136431,Class,Populated Place,gnis
 154136431,county,Mason,addr
 154136431,id,1560640,gnis
 154136431,state,WV,addr
-154136431,county,Mason,addr
-154136431,state,WV,addr
-154136431,county,Unidentifiable (FIPS ambiguity),addr
 154136431,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154136431,is_in,"Mason,West Virginia,W.Va.,WV,USA",regular
 154136431,name,Ash,regular
@@ -246,16 +197,11 @@ id,key,value,type
 154156976,county,Gallia,addr
 154156976,state,OH,addr
 154156976,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
-154156976,state,OH,addr
-154156976,county,Unidentifiable (FIPS code ambiguity),addr
 154176295,ele,470,regular
 154176295,Class,Populated Place,gnis
 154176295,county,Wyoming,addr
 154176295,id,1549645,gnis
 154176295,state,WV,addr
-154176295,county,Wyoming,addr
-154176295,state,WV,addr
-154176295,county,Unidentifiable (FIPS ambiguity),addr
 154176295,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154176295,is_in,"Wyoming,West Virginia,W.Va.,WV,USA",regular
 154176295,name,Crany,regular
@@ -270,8 +216,6 @@ id,key,value,type
 154193612,county,Webster,addr
 154193612,state,WV,addr
 154193612,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
-154193612,state,WV,addr
-154193612,county,Unidentifiable (FIPS code ambiguity),addr
 154211359,ele,640,regular
 154211359,name,McBryde Village,regular
 154211359,is_in,"Montgomery,Virginia,Va.,VA,USA",regular
@@ -281,16 +225,11 @@ id,key,value,type
 154211359,county,Montgomery,addr
 154211359,state,VA,addr
 154211359,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
-154211359,state,VA,addr
-154211359,county,Unidentifiable (FIPS code ambiguity),addr
 154289766,ele,341,regular
 154289766,Class,Populated Place,gnis
 154289766,county,Wyoming,addr
 154289766,id,1555707,gnis
 154289766,state,WV,addr
-154289766,county,Wyoming,addr
-154289766,state,WV,addr
-154289766,county,Unidentifiable (FIPS ambiguity),addr
 154289766,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154289766,is_in,"Wyoming,West Virginia,W.Va.,WV,USA",regular
 154289766,name,Steeles,regular
@@ -301,9 +240,6 @@ id,key,value,type
 154308234,county,Logan,addr
 154308234,id,1554515,gnis
 154308234,state,WV,addr
-154308234,county,Logan,addr
-154308234,state,WV,addr
-154308234,county,Unidentifiable (FIPS ambiguity),addr
 154308234,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154308234,is_in,"Logan,West Virginia,W.Va.,WV,USA",regular
 154308234,name,Frogtown,regular
@@ -318,16 +254,11 @@ id,key,value,type
 154322747,county,Summers,addr
 154322747,state,WV,addr
 154322747,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
-154322747,state,WV,addr
-154322747,county,Unidentifiable (FIPS code ambiguity),addr
 154335818,ele,300,regular
 154335818,Class,Populated Place,gnis
 154335818,county,Putnam,addr
 154335818,id,1554757,gnis
 154335818,state,WV,addr
-154335818,county,Putnam,addr
-154335818,state,WV,addr
-154335818,county,Unidentifiable (FIPS ambiguity),addr
 154335818,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154335818,is_in,"Putnam,West Virginia,W.Va.,WV,USA",regular
 154335818,name,Hugo,regular
@@ -338,9 +269,6 @@ id,key,value,type
 154349019,county,Pike,addr
 154349019,id,508667,gnis
 154349019,state,KY,addr
-154349019,county,Pike,addr
-154349019,state,KY,addr
-154349019,county,Unidentifiable (FIPS ambiguity),addr
 154349019,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154349019,is_in,"Pike,Kentucky,Ky.,KY,USA",regular
 154349019,name,Myra,regular
@@ -351,9 +279,6 @@ id,key,value,type
 154369485,county,Kanawha,addr
 154369485,id,1549982,gnis
 154369485,state,WV,addr
-154369485,county,Kanawha,addr
-154369485,state,WV,addr
-154369485,county,Unidentifiable (FIPS ambiguity),addr
 154369485,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154369485,is_in,"Kanawha,West Virginia,W.Va.,WV,USA",regular
 154369485,name,Wellford,regular
@@ -364,9 +289,6 @@ id,key,value,type
 154384801,county,Pocahontas,addr
 154384801,id,1555682,gnis
 154384801,state,WV,addr
-154384801,county,Pocahontas,addr
-154384801,state,WV,addr
-154384801,county,Unidentifiable (FIPS ambiguity),addr
 154384801,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154384801,is_in,"Pocahontas,West Virginia,W.Va.,WV,USA",regular
 154384801,name,Spice,regular
@@ -377,9 +299,6 @@ id,key,value,type
 154399308,county,Gilmer,addr
 154399308,id,1555212,gnis
 154399308,state,WV,addr
-154399308,county,Gilmer,addr
-154399308,state,WV,addr
-154399308,county,Unidentifiable (FIPS ambiguity),addr
 154399308,import_uuid,bb7269ee-502a-5391-8056-e3ce0e66489c,regular
 154399308,is_in,"Gilmer,West Virginia,W.Va.,WV,USA",regular
 154399308,name,Newberne,regular
