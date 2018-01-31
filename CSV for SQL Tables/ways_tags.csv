@@ -2173,10 +2173,10 @@ id,key,value,type
 15569979,operator,CSX,regular
 15569979,cfcc,B11:B12:B21,tiger
 15569979,electrified,no,regular
-15569979,county,Lincoln,addr
-15569979,county,Logan,addr
-15569979,county,Kanawha,addr
 15569979,county,Boone,addr
+15569979,county,Kanawha,addr
+15569979,county,Logan,addr
+15569979,county,Lincoln,addr
 15569979,state,WV,addr
 15569979,reviewed,no,tiger
 15569979,name_base,Chesapeake and Ohio Railway:Chessie System Railroad,tiger
@@ -2445,8 +2445,8 @@ id,key,value,type
 15573619,lanes,2,regular
 15573619,highway,primary,regular
 15573619,cfcc,A31,tiger
-15573619,county,Lincoln,addr
 15573619,county,Cabell,addr
+15573619,county,Lincoln,addr
 15573619,state,WV,addr
 15573619,reviewed,no,tiger
 15573619,postcode,25504,addr
@@ -3449,8 +3449,8 @@ id,key,value,type
 15596020,postcode,25503,addr
 15596020,name_base,Rocky Fork,tiger
 15596020,name_type,Rd,tiger
-15596020,postcode,25520,addr
 15596020,postcode,25503,addr
+15596020,postcode,25520,addr
 15596020,name_base_1,County Route 80,tiger
 15596127,access,private,regular
 15596127,highway,service,regular
@@ -9906,10 +9906,10 @@ id,key,value,type
 190045799,operator,NS,regular
 190045799,cfcc,B11:B21,tiger
 190045799,electrified,no,regular
-190045799,county,Buchanan,addr
 190045799,county,Pike,addr
-190045799,state,KY,addr
+190045799,county,Buchanan,addr
 190045799,state,VA,addr
+190045799,state,KY,addr
 190045799,reviewed,no,tiger
 190045799,name_base,Norfolk Southern Railway:Norfolk and Western Railway,tiger
 190045799,old_railway_operator,N&W,regular
@@ -9941,8 +9941,8 @@ id,key,value,type
 206772543,electrified,no,regular
 206772543,county,Giles,addr
 206772543,county,Mercer,addr
-206772543,state,VA,addr
 206772543,state,WV,addr
+206772543,state,VA,addr
 206772543,reviewed,no,tiger
 206772543,name_base,Norfolk Southern Railway:Norfolk and Western Railway,tiger
 206772543,old_railway_operator,N&W,regular
@@ -10049,10 +10049,10 @@ id,key,value,type
 230571943,operator,NS,regular
 230571943,cfcc,B11:B12:B13:B21,tiger
 230571943,electrified,no,regular
-230571943,county,Wyoming,addr
 230571943,county,Fayette,addr
-230571943,county,Mercer,addr
 230571943,county,Raleigh,addr
+230571943,county,Wyoming,addr
+230571943,county,Mercer,addr
 230571943,state,WV,addr
 230571943,reviewed,no,tiger
 230571943,name_base,Norfolk and Southern Railway:Norfolk and Western Railway:Railroad,tiger
@@ -10227,10 +10227,10 @@ id,key,value,type
 277290065,operator,NS,regular
 277290065,cfcc,B11:B21,tiger
 277290065,electrified,no,regular
-277290065,county,Tazewell,addr
 277290065,county,McDowell,addr
-277290065,state,VA,addr
+277290065,county,Tazewell,addr
 277290065,state,WV,addr
+277290065,state,VA,addr
 277290065,name_base,Norfolk Southern Railway:Norfolk and Western Railway,tiger
 277290065,old_railway_operator,N&W,regular
 278470011,NHS,yes,regular
@@ -10351,10 +10351,10 @@ id,key,value,type
 316153799,operator,NS,regular
 316153799,cfcc,B11:B12:B13:B21,tiger
 316153799,electrified,no,regular
-316153799,county,Wyoming,addr
 316153799,county,Fayette,addr
-316153799,county,Mercer,addr
 316153799,county,Raleigh,addr
+316153799,county,Wyoming,addr
+316153799,county,Mercer,addr
 316153799,state,WV,addr
 316153799,reviewed,no,tiger
 316153799,name_base,Norfolk and Southern Railway:Norfolk and Western Railway:Railroad,tiger
@@ -10374,10 +10374,10 @@ id,key,value,type
 318129499,operator,CSX,regular
 318129499,cfcc,B11,tiger
 318129499,electrified,no,regular
-318129499,county,Wood,addr
-318129499,county,Mason,addr
 318129499,county,Jackson,addr
 318129499,county,Pleasants,addr
+318129499,county,Mason,addr
+318129499,county,Wood,addr
 318129499,state,WV,addr
 318129499,reviewed,no,tiger
 318129499,name_base,B & O Railroad:Baltimore and Ohio Railroad:Chessie System Railroad:Railroad,tiger
@@ -10843,7 +10843,7 @@ id,key,value,type
 392864634,edited,10/16/2008,gnis
 392864634,feature_id,1560287,gnis
 392864634,state,WV,addr
-392864634,county,Mason County,addr
+392864634,county,Mason,addr
 392864634,name,Point Pleasant High School,regular
 392864634,wikidata,Q7208130,regular
 392889589,highway,service,regular
@@ -10876,7 +10876,7 @@ id,key,value,type
 401148064,building,yes,regular
 401148064,created,05/01/1996,gnis
 401148064,state,WV,addr
-401148064,county,McDowell County,addr
+401148064,county,McDowell,addr
 401148064,feature_id,1689198,gnis
 401148181,building,yes,regular
 401150470,building,yes,regular
@@ -11043,7 +11043,7 @@ id,key,value,type
 454947581,landuse,cemetery,regular
 454947581,created,06/27/1980,gnis
 454947581,state,WV,addr
-454947581,county,Randolph County,addr
+454947581,county,Randolph,addr
 454947581,feature_id,1544794,gnis
 457037880,name,Twin Towers West,regular
 457037880,note,"Coordinates: 38°25'21.3""N 82°25'32.0""W",regular
@@ -11084,10 +11084,10 @@ id,key,value,type
 464211342,operator,NS,regular
 464211342,cfcc,B11:B12:B13:B21,tiger
 464211342,electrified,no,regular
-464211342,county,Wyoming,addr
 464211342,county,Fayette,addr
-464211342,county,Mercer,addr
 464211342,county,Raleigh,addr
+464211342,county,Wyoming,addr
+464211342,county,Mercer,addr
 464211342,state,WV,addr
 464211342,reviewed,no,tiger
 464211342,name_base,Norfolk and Southern Railway:Norfolk and Western Railway:Railroad,tiger
@@ -11174,13 +11174,13 @@ id,key,value,type
 473411062,operator,CSX,regular
 473411062,cfcc,B11:B13,tiger
 473411062,electrified,no,regular
+473411062,county,Kanawha,addr
+473411062,county,Boyd,addr
+473411062,county,Wayne,addr
 473411062,county,Putnam,addr
 473411062,county,Cabell,addr
-473411062,county,Wayne,addr
-473411062,county,Boyd,addr
-473411062,county,Kanawha,addr
-473411062,state,KY,addr
 473411062,state,WV,addr
+473411062,state,KY,addr
 473411062,reviewed,no,tiger
 473411062,name_base,Baltimore and Ohio Railroad:Chesapeake and Ohio Railroad:Chesapeake and Ohio Railway:Chessie System Railroad:Csx Railroad:Csx Railway:Railroad,tiger
 473411062,old_railway_operator,C&O,regular
@@ -11217,7 +11217,7 @@ id,key,value,type
 476542356,landuse,cemetery,regular
 476542356,created,06/27/1980,gnis
 476542356,state,WV,addr
-476542356,county,Wayne County,addr
+476542356,county,Wayne,addr
 476542356,feature_id,1538693,gnis
 477283909,foot,yes,regular
 477283909,highway,path,regular
@@ -11254,8 +11254,8 @@ id,key,value,type
 479075565,operator,Elk River Railroad,regular
 479075565,cfcc,A41:B11,tiger
 479075565,electrified,no,regular
-479075565,county,Braxton,addr
 479075565,county,Gilmer,addr
+479075565,county,Braxton,addr
 479075565,state,WV,addr
 479075565,reviewed,no,tiger
 479075565,name_base,Baltimore and Ohio Railroad:Route 2/4,tiger
@@ -11316,10 +11316,10 @@ id,key,value,type
 491231800,lanes,2,regular
 491231800,highway,primary,regular
 491231800,cfcc,A31:A41,tiger
-491231800,county,Buchanan,addr
 491231800,county,McDowell,addr
-491231800,state,VA,addr
+491231800,county,Buchanan,addr
 491231800,state,WV,addr
+491231800,state,VA,addr
 491231800,name_base,Keen Ridge-Panther:State Route 83,tiger
 491231800,name_type,Rd,tiger
 491231800,name_base_1,County Highway 83/08:State Route 83,tiger
@@ -11335,7 +11335,7 @@ id,key,value,type
 498960897,building,yes,regular
 498960897,created,05/19/1997,gnis
 498960897,state,WV,addr
-498960897,county,Roane County,addr
+498960897,county,Roane,addr
 498960897,feature_id,1741035,gnis
 501875996,name,Mining Road,regular
 501875996,highway,residential,regular

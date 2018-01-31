@@ -66,13 +66,32 @@ def FIPS_to_Name(census_filepath, FIPS_code, state_name=None, state_FIPS=None):
             census_df_oneState = census_df[census_df['State_FIPS'] == state_FIPS]
             
         census_df_oneCounty = census_df_oneState[census_df_oneState['County_FIPS'] == FIPS_code]
-        return census_df_oneCounty['County_Name'].values[0]
+        return removeCountySuffix(census_df_oneCounty['County_Name'].values[0])
         
     elif digits == 5:
         census_df_oneState = census_df[census_df['State_FIPS'] == FIPS_code[:2]]
         census_df_oneCounty = census_df_oneState[census_df_oneState['County_FIPS'] == FIPS_code[2:]]
         
-        return census_df_oneCounty['County_Name'].values[0]
+        return removeCountySuffix(census_df_oneCounty['County_Name'].values[0])
     
     else:
         return None
+    
+    
+
+def removeCountySuffix(county_name):
+    '''
+    Removes the word "County" from county_name and returns the portion of the name preceding "County".
+    Will return county_name unmodified if 'County' or 'county' are not found
+    
+    county_name: str.
+    '''
+    
+    if 'County' in county_name:
+        return county_name.split('County')[0].strip()
+    
+    elif 'county' in county_name:
+        return county_name.split('county')[0].strip()
+    
+    else:
+        return county_name

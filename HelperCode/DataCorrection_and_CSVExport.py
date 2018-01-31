@@ -15,6 +15,7 @@ import xml.etree.cElementTree as ET
 import pandas as pd
 import re
 from itertools import chain
+from collections import OrderedDict
 
 PROBLEMCHARS = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
@@ -81,12 +82,21 @@ def correct_and_record(osm_file):
                     temp_childTag_data, lingering_county_FIPS = data_correction(elem, nodes_dict, 
                                                                                 temp_childTag_data, 
                                                                                 lingering_county_FIPS)
-                    
-                '''Need to iterate through tag data again, as no guarantee that each run of data correction algorithm
-                will produce a new tag record, thus risking duplicative entries if we use the preceding FOR loop
-                to append to nodes_tags'''
-                for tagData in temp_childTag_data:
-                    nodes_tags.append(tagData)
+                
+                '''Now that we've built up the list of lists for the child tags' data,
+                let's parse through that and make sure to remove any duplicate records 
+                (e.g. addr:county = Nicholas).'''
+                working_list = []
+
+                unique_working_list = OrderedDict()
+                for value in temp_childTag_data:
+                    unique_working_list.setdefault(frozenset(value),[]).append(value)
+                
+                for value in unique_working_list.keys():
+                    working_list.append(list(value)) 
+                
+                #And now, we add the entirety of the child tags for this parent tag into the nodes_tags list
+                nodes_tags += temp_childTag_data
                 
             ####################    WAYS    ######################
             elif element.tag == 'way':
@@ -115,11 +125,21 @@ def correct_and_record(osm_file):
                                                                                 temp_childTag_data, 
                                                                                 lingering_county_FIPS)
                     
-                '''Need to iterate through tag data again, as no guarantee that each run of data correction algorithm
-                will produce a new tag record, thus risking duplicative entries if we use the preceding FOR loop
-                to append to ways_tags'''
-                for tagData in temp_childTag_data:
-                    ways_tags.append(tagData)
+                '''Now that we've built up the list of lists for the child tags' data,
+                let's parse through that and make sure to remove any duplicate records 
+                (e.g. addr:county = Nicholas).'''
+                working_list = []
+
+                unique_working_list = OrderedDict()
+                for value in temp_childTag_data:
+                    unique_working_list.setdefault(frozenset(value),[]).append(value)
+                
+                for value in unique_working_list.keys():
+                    working_list.append(list(value)) 
+                
+                #And now, we add the entirety of the child tags for this parent tag into the nodes_tags list
+                ways_tags += temp_childTag_data
+                
                     
                 
                 
@@ -310,15 +330,23 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                 else:
                     '''Does this node/way already have one (or more) entries for the state that will allow us to
                     determine the proper county to name, given a 3-digit county code?'''
-                    stateFound = False #tracks identification of a state already recorded for the parent node/way
+                    #track identification of what states are found as already recorded for node/way
+                    statesFound = []
+                    
                     for row in parsed_singleTag_data:
-                        if 'state' in row and not stateFound:
+                        #Don't worry about doing this if the county is already known
+                        if 'county' in row:
+                            break
+                        
+                        #if we have a state to use and we haven't found any earlier, great!
+                        elif 'state' in row and not statesFound:
                             #row[2] corresponds to 'value' in our schema
-                            countyList = [fips.FIPS_to_Name('../2010_FIPSCodes.csv', v, state_name = row[2])]
-                            stateFound = True
-                        #Is there more than one state associated with this node/way?
-                        elif 'state' in row and stateFound:
-                            countyList = ['Unidentifiable (FIPS code ambiguity)']
+                            countyList = fips.FIPS_to_Name('../2010_FIPSCodes.csv', v, state_name = row[2])
+                            statesFound.append(row[2])
+                            
+                        #Is there more than one unique state associated with this node/way? Not good.
+                        elif 'state' in row and row[2] not in statesFound:
+                            countyList = 'Unidentifiable (FIPS code ambiguity)'
                             break
                             
                     #Did we not find anything to put as the county, presumably due to a lack of state presence?
