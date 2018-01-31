@@ -15,12 +15,11 @@ import xml.etree.cElementTree as ET
 import pandas as pd
 import re
 from itertools import chain
-from collections import OrderedDict
 
 PROBLEMCHARS = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
 
 
-OSMFILE = '../data_sample_100_elemsWithTags_UTF-8Encoding.osm'
+OSMFILE = '../SW_WestVirginia.osm'
 
 def correct_and_record(osm_file):
     '''
