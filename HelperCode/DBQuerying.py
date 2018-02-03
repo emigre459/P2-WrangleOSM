@@ -23,6 +23,7 @@ def run_query(query_text, db_name):
     conn = sqlite3.connect(db_name) # @UndefinedVariable
     
     results_df = pd.read_sql_query(query_text, conn)    
+    print("**** QUERY RESULTS ****\n")
     print(results_df)
     
     conn.close()
@@ -31,8 +32,10 @@ def run_query(query_text, db_name):
 ###########     MAIN CODE EXECUTION SPACE       ###########
 base_query = ["SELECT *",
          "FROM nodes_tags",
+         "WHERE key = 'postcode' and LENGTH(value) > 5",
          "LIMIT 10"]
 
 query = "\n".join(base_query) + ";"
+print("**** QUERY TEXT ****\n\n{}\n\n".format(query))
 
 df = run_query(query, DATABASE)
