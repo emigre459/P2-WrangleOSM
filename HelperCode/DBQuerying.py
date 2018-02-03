@@ -12,7 +12,7 @@ import pandas as pd
 
 DATABASE = "../SW_WV_OSM.db"
 
-def run_query(query_text, db_name):
+def run_query(query_list, db_name):
     '''
     Runs the query specified on the database specified, printing the results to the console
     
@@ -20,22 +20,26 @@ def run_query(query_text, db_name):
                 separating the SELECT statement from the FROM statement) should be separated with the \n newline
     db_name: str. Name of the database located one directory above this code's working directory.    
     '''
+    
+    query = "\n".join(query_list) + ";"
+    
     conn = sqlite3.connect(db_name) # @UndefinedVariable
     
-    results_df = pd.read_sql_query(query_text, conn)    
-    print("**** QUERY RESULTS ****\n")
-    print(results_df)
+    #print("Single-line query text: {};\n\n".format(" ".join(query_list)))
+    #print("**** QUERY TEXT ****\n\n{}\n\n".format(query))
+    
+    results_df = pd.read_sql_query(query, conn)    
+    #print("**** QUERY RESULTS ****\n")
+    #print(results_df)
+    #print("RESULTS PRINT SUPPRESSED")
     
     conn.close()
     return results_df
     
 ###########     MAIN CODE EXECUTION SPACE       ###########
-base_query = ["SELECT *",
+'''base_query = ["SELECT COUNT(value)",
          "FROM nodes_tags",
-         "WHERE key = 'postcode' and LENGTH(value) > 5",
-         "LIMIT 10"]
+         "WHERE (key = 'amenity' or key = 'shope') and (value = 'ATV Trails' or value = 'Tiles')"]
+        #"LIMIT 10"]
 
-query = "\n".join(base_query) + ";"
-print("**** QUERY TEXT ****\n\n{}\n\n".format(query))
-
-df = run_query(query, DATABASE)
+df = run_query(base_query, DATABASE)'''
