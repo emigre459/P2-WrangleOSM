@@ -443,8 +443,12 @@ def data_correction(elem, parent_dict, parsed_singleTag_data, county_fips_to_fin
                                               'shop',
                                               'tiles',
                                               'regular'])
-        
-        
+            
+            else:
+                parsed_singleTag_data.append([parent_dict['id'],
+                                              k,
+                                              v,
+                                              'regular'])
             
             
         ############ ALL OTHER TAG TYPES ############
